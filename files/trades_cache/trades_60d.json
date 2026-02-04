@@ -1,0 +1,2532 @@
+{
+  "metrics": {
+    "total_pnl": -16.659166000000006,
+    "num_trades": 103,
+    "wins": 51,
+    "losses": 52,
+    "win_rate_pct": 49.51456310679612,
+    "gross_profit": 17.456923999999994,
+    "gross_loss": -34.11609000000001,
+    "profit_factor": 0.511691814624712,
+    "avg_win": 0.34229262745098027,
+    "avg_loss": -0.6689429411764707,
+    "payoff_ratio": 0.511691814624712,
+    "expectancy_per_trade": -0.1682340673900629,
+    "trade_sharpe": -1.5121583679035417,
+    "daily_sharpe_pnl_based": -5.289913572482998,
+    "max_drawdown_dollars": -18.863399999999995,
+    "peak_cum_pnl": 0.04292399999999663,
+    "drawdown_duration_steps": 98,
+    "avg_holding_minutes": 216.257928802589,
+    "median_holding_minutes": 1.55
+  },
+  "trades": [
+    {
+      "symbol": "FOXX",
+      "direction": "long",
+      "qty": 3.0,
+      "entry_time": "2025-11-21T19:50:13+00:00",
+      "exit_time": "2025-11-21T19:52:29+00:00",
+      "entry_price": 4.5765,
+      "exit_price": 4.580108,
+      "pnl": 0.0108239999999995,
+      "return_pct": 0.0007883753960449269,
+      "holding_minutes": 2.2666666666666666,
+      "date": "2025-11-21",
+      "win": true
+    },
+    {
+      "symbol": "FOXX",
+      "direction": "long",
+      "qty": 3.0,
+      "entry_time": "2025-11-21T19:51:12+00:00",
+      "exit_time": "2025-11-21T19:53:31+00:00",
+      "entry_price": 4.4591,
+      "exit_price": 4.39,
+      "pnl": -0.20730000000000182,
+      "return_pct": -0.015496400618959072,
+      "holding_minutes": 2.316666666666667,
+      "date": "2025-11-21",
+      "win": false
+    },
+    {
+      "symbol": "MIGI",
+      "direction": "long",
+      "qty": 3.0,
+      "entry_time": "2025-11-24T22:01:16+00:00",
+      "exit_time": "2025-11-24T22:03:22+00:00",
+      "entry_price": 6.37,
+      "exit_price": 6.27,
+      "pnl": -0.3000000000000016,
+      "return_pct": -0.01569858712715866,
+      "holding_minutes": 2.1,
+      "date": "2025-11-24",
+      "win": false
+    },
+    {
+      "symbol": "MIGI",
+      "direction": "long",
+      "qty": 3.0,
+      "entry_time": "2025-11-25T00:40:13+00:00",
+      "exit_time": "2025-11-25T00:40:17+00:00",
+      "entry_price": 7.49,
+      "exit_price": 7.48,
+      "pnl": -0.02999999999999936,
+      "return_pct": -0.001335113484646211,
+      "holding_minutes": 0.06666666666666667,
+      "date": "2025-11-25",
+      "win": false
+    },
+    {
+      "symbol": "BNED",
+      "direction": "long",
+      "qty": 3.0,
+      "entry_time": "2025-11-25T14:58:08+00:00",
+      "exit_time": "2025-11-25T15:01:11+00:00",
+      "entry_price": 9.3369,
+      "exit_price": 9.5267,
+      "pnl": 0.5693999999999999,
+      "return_pct": 0.02032794610630928,
+      "holding_minutes": 3.05,
+      "date": "2025-11-25",
+      "win": true
+    },
+    {
+      "symbol": "SMX",
+      "direction": "long",
+      "qty": 3.0,
+      "entry_time": "2025-11-26T15:56:08+00:00",
+      "exit_time": "2025-11-26T16:00:40+00:00",
+      "entry_price": 10.28,
+      "exit_price": 9.44,
+      "pnl": -2.5199999999999996,
+      "return_pct": -0.08171206225680938,
+      "holding_minutes": 4.533333333333333,
+      "date": "2025-11-26",
+      "win": false
+    },
+    {
+      "symbol": "SMX",
+      "direction": "long",
+      "qty": 3.0,
+      "entry_time": "2025-11-26T17:38:09+00:00",
+      "exit_time": "2025-11-26T17:39:08+00:00",
+      "entry_price": 8.85,
+      "exit_price": 8.7511,
+      "pnl": -0.2967000000000013,
+      "return_pct": -0.011175141242937947,
+      "holding_minutes": 0.9833333333333333,
+      "date": "2025-11-26",
+      "win": false
+    },
+    {
+      "symbol": "SMX",
+      "direction": "long",
+      "qty": 3.0,
+      "entry_time": "2025-11-26T17:43:09+00:00",
+      "exit_time": "2025-11-26T17:44:09+00:00",
+      "entry_price": 9.3799,
+      "exit_price": 9.1501,
+      "pnl": -0.6893999999999973,
+      "return_pct": -0.02449919508736753,
+      "holding_minutes": 1.0,
+      "date": "2025-11-26",
+      "win": false
+    },
+    {
+      "symbol": "SMX",
+      "direction": "long",
+      "qty": 1.0,
+      "entry_time": "2025-11-26T18:20:09+00:00",
+      "exit_time": "2025-11-26T18:23:39+00:00",
+      "entry_price": 9.39,
+      "exit_price": 9.55,
+      "pnl": 0.16000000000000014,
+      "return_pct": 0.017039403620873195,
+      "holding_minutes": 3.5,
+      "date": "2025-11-26",
+      "win": true
+    },
+    {
+      "symbol": "SMX",
+      "direction": "long",
+      "qty": 1.0,
+      "entry_time": "2025-11-28T13:54:18+00:00",
+      "exit_time": "2025-11-28T13:56:12+00:00",
+      "entry_price": 37.84,
+      "exit_price": 37.13,
+      "pnl": -0.7100000000000009,
+      "return_pct": -0.018763213530655465,
+      "holding_minutes": 1.9,
+      "date": "2025-11-28",
+      "win": false
+    },
+    {
+      "symbol": "SMX",
+      "direction": "long",
+      "qty": 1.0,
+      "entry_time": "2025-11-28T14:00:09+00:00",
+      "exit_time": "2025-11-28T14:01:27+00:00",
+      "entry_price": 40.49,
+      "exit_price": 36.87,
+      "pnl": -3.6200000000000045,
+      "return_pct": -0.08940479130649559,
+      "holding_minutes": 1.3,
+      "date": "2025-11-28",
+      "win": false
+    },
+    {
+      "symbol": "VRCA",
+      "direction": "long",
+      "qty": 1.0,
+      "entry_time": "2025-11-28T14:43:09+00:00",
+      "exit_time": "2025-11-28T14:45:46+00:00",
+      "entry_price": 8.0625,
+      "exit_price": 8.01,
+      "pnl": -0.05250000000000021,
+      "return_pct": -0.006511627906976791,
+      "holding_minutes": 2.6166666666666667,
+      "date": "2025-11-28",
+      "win": false
+    },
+    {
+      "symbol": "AHMA",
+      "direction": "long",
+      "qty": 3.0,
+      "entry_time": "2025-12-01T16:12:07+00:00",
+      "exit_time": "2025-12-01T16:12:25+00:00",
+      "entry_price": 15.162,
+      "exit_price": 14.72,
+      "pnl": -1.3260000000000005,
+      "return_pct": -0.02915182693576046,
+      "holding_minutes": 0.3,
+      "date": "2025-12-01",
+      "win": false
+    },
+    {
+      "symbol": "AHMA",
+      "direction": "long",
+      "qty": 1.0,
+      "entry_time": "2025-12-01T16:17:07+00:00",
+      "exit_time": "2025-12-01T16:17:37+00:00",
+      "entry_price": 15.9,
+      "exit_price": 14.73,
+      "pnl": -1.17,
+      "return_pct": -0.07358490566037734,
+      "holding_minutes": 0.5,
+      "date": "2025-12-01",
+      "win": false
+    },
+    {
+      "symbol": "AHMA",
+      "direction": "long",
+      "qty": 1.0,
+      "entry_time": "2025-12-01T18:27:09+00:00",
+      "exit_time": "2025-12-01T18:38:25+00:00",
+      "entry_price": 12.62,
+      "exit_price": 12.55,
+      "pnl": -0.06999999999999851,
+      "return_pct": -0.005546751188589383,
+      "holding_minutes": 11.266666666666667,
+      "date": "2025-12-01",
+      "win": false
+    },
+    {
+      "symbol": "AHMA",
+      "direction": "long",
+      "qty": 1.0,
+      "entry_time": "2025-12-01T18:37:12+00:00",
+      "exit_time": "2025-12-01T18:44:24+00:00",
+      "entry_price": 12.92,
+      "exit_price": 12.0,
+      "pnl": -0.9199999999999999,
+      "return_pct": -0.07120743034055732,
+      "holding_minutes": 7.2,
+      "date": "2025-12-01",
+      "win": false
+    },
+    {
+      "symbol": "PLRZ",
+      "direction": "long",
+      "qty": 3.0,
+      "entry_time": "2025-12-02T13:54:08+00:00",
+      "exit_time": "2025-12-02T13:54:12+00:00",
+      "entry_price": 7.55,
+      "exit_price": 7.5301,
+      "pnl": -0.05969999999999942,
+      "return_pct": -0.002635761589403929,
+      "holding_minutes": 0.06666666666666667,
+      "date": "2025-12-02",
+      "win": false
+    },
+    {
+      "symbol": "BQ",
+      "direction": "long",
+      "qty": 3.0,
+      "entry_time": "2025-12-02T15:17:11+00:00",
+      "exit_time": "2025-12-02T15:20:16+00:00",
+      "entry_price": 3.3413,
+      "exit_price": 3.0601,
+      "pnl": -0.8436000000000003,
+      "return_pct": -0.08415886032382613,
+      "holding_minutes": 3.0833333333333335,
+      "date": "2025-12-02",
+      "win": false
+    },
+    {
+      "symbol": "PLRZ",
+      "direction": "long",
+      "qty": 3.0,
+      "entry_time": "2025-12-02T16:42:11+00:00",
+      "exit_time": "2025-12-02T16:46:43+00:00",
+      "entry_price": 6.9399,
+      "exit_price": 6.68,
+      "pnl": -0.7797000000000001,
+      "return_pct": -0.037450107350250006,
+      "holding_minutes": 4.533333333333333,
+      "date": "2025-12-02",
+      "win": false
+    },
+    {
+      "symbol": "PLRZ",
+      "direction": "long",
+      "qty": 3.0,
+      "entry_time": "2025-12-02T16:43:10+00:00",
+      "exit_time": "2025-12-02T17:01:57+00:00",
+      "entry_price": 6.7601,
+      "exit_price": 6.45,
+      "pnl": -0.9303000000000008,
+      "return_pct": -0.04587210248369111,
+      "holding_minutes": 18.783333333333335,
+      "date": "2025-12-02",
+      "win": false
+    },
+    {
+      "symbol": "PLRZ",
+      "direction": "long",
+      "qty": 1.0,
+      "entry_time": "2025-12-02T17:28:12+00:00",
+      "exit_time": "2025-12-02T17:31:46+00:00",
+      "entry_price": 7.6899,
+      "exit_price": 7.45,
+      "pnl": -0.23989999999999956,
+      "return_pct": -0.031196764587315795,
+      "holding_minutes": 3.566666666666667,
+      "date": "2025-12-02",
+      "win": false
+    },
+    {
+      "symbol": "AHMA",
+      "direction": "long",
+      "qty": 3.0,
+      "entry_time": "2025-12-03T14:12:08+00:00",
+      "exit_time": "2025-12-03T14:12:12+00:00",
+      "entry_price": 15.7333,
+      "exit_price": 15.83,
+      "pnl": 0.2901000000000007,
+      "return_pct": 0.006146199462287116,
+      "holding_minutes": 0.06666666666666667,
+      "date": "2025-12-03",
+      "win": true
+    },
+    {
+      "symbol": "AHMA",
+      "direction": "long",
+      "qty": 1.0,
+      "entry_time": "2025-12-03T14:33:09+00:00",
+      "exit_time": "2025-12-03T14:35:24+00:00",
+      "entry_price": 15.27,
+      "exit_price": 15.4337,
+      "pnl": 0.1637000000000004,
+      "return_pct": 0.010720366732154485,
+      "holding_minutes": 2.25,
+      "date": "2025-12-03",
+      "win": true
+    },
+    {
+      "symbol": "QCLS",
+      "direction": "long",
+      "qty": 2.0,
+      "entry_time": "2025-12-03T14:38:37+00:00",
+      "exit_time": "2025-12-03T14:42:54+00:00",
+      "entry_price": 5.2667,
+      "exit_price": 4.88,
+      "pnl": -0.7734000000000005,
+      "return_pct": -0.07342358592667142,
+      "holding_minutes": 4.283333333333333,
+      "date": "2025-12-03",
+      "win": false
+    },
+    {
+      "symbol": "CAPR",
+      "direction": "long",
+      "qty": 1.0,
+      "entry_time": "2025-12-03T16:41:11+00:00",
+      "exit_time": "2025-12-03T16:41:46+00:00",
+      "entry_price": 27.8695,
+      "exit_price": 27.51,
+      "pnl": -0.35949999999999704,
+      "return_pct": -0.012899406160856719,
+      "holding_minutes": 0.5833333333333334,
+      "date": "2025-12-03",
+      "win": false
+    },
+    {
+      "symbol": "PLRZ",
+      "direction": "long",
+      "qty": 3.0,
+      "entry_time": "2025-12-04T13:33:07+00:00",
+      "exit_time": "2025-12-04T13:34:06+00:00",
+      "entry_price": 15.91,
+      "exit_price": 15.4316,
+      "pnl": -1.4352000000000018,
+      "return_pct": -0.030069138906348214,
+      "holding_minutes": 0.9833333333333333,
+      "date": "2025-12-04",
+      "win": false
+    },
+    {
+      "symbol": "PLRZ",
+      "direction": "long",
+      "qty": 3.0,
+      "entry_time": "2025-12-04T13:52:09+00:00",
+      "exit_time": "2025-12-04T13:56:13+00:00",
+      "entry_price": 16.4288,
+      "exit_price": 16.57,
+      "pnl": 0.423600000000004,
+      "return_pct": 0.008594663030775385,
+      "holding_minutes": 4.066666666666666,
+      "date": "2025-12-04",
+      "win": true
+    },
+    {
+      "symbol": "QCLS",
+      "direction": "long",
+      "qty": 3.0,
+      "entry_time": "2025-12-05T12:03:07+00:00",
+      "exit_time": "2025-12-05T12:19:50+00:00",
+      "entry_price": 8.8788,
+      "exit_price": 8.1464,
+      "pnl": -2.1972000000000005,
+      "return_pct": -0.08248862458890838,
+      "holding_minutes": 16.716666666666665,
+      "date": "2025-12-05",
+      "win": false
+    },
+    {
+      "symbol": "WHLR",
+      "direction": "long",
+      "qty": 3.0,
+      "entry_time": "2025-12-05T13:36:05+00:00",
+      "exit_time": "2025-12-05T13:38:00+00:00",
+      "entry_price": 7.2368,
+      "exit_price": 7.03,
+      "pnl": -0.6203999999999983,
+      "return_pct": -0.02857616626133086,
+      "holding_minutes": 1.9166666666666667,
+      "date": "2025-12-05",
+      "win": false
+    },
+    {
+      "symbol": "WHLR",
+      "direction": "long",
+      "qty": 3.0,
+      "entry_time": "2025-12-05T13:37:06+00:00",
+      "exit_time": "2025-12-05T13:39:01+00:00",
+      "entry_price": 6.9168,
+      "exit_price": 7.68,
+      "pnl": 2.2895999999999983,
+      "return_pct": 0.11034004163775157,
+      "holding_minutes": 1.9166666666666667,
+      "date": "2025-12-05",
+      "win": true
+    },
+    {
+      "symbol": "WHLR",
+      "direction": "long",
+      "qty": 3.0,
+      "entry_time": "2025-12-05T13:40:07+00:00",
+      "exit_time": "2025-12-05T13:40:18+00:00",
+      "entry_price": 7.3872,
+      "exit_price": 6.96,
+      "pnl": -1.2816,
+      "return_pct": -0.0578297595841456,
+      "holding_minutes": 0.18333333333333332,
+      "date": "2025-12-05",
+      "win": false
+    },
+    {
+      "symbol": "JFBR",
+      "direction": "long",
+      "qty": 1.0,
+      "entry_time": "2025-12-05T13:48:06+00:00",
+      "exit_time": "2025-12-05T13:49:13+00:00",
+      "entry_price": 3.4997,
+      "exit_price": 3.5216,
+      "pnl": 0.02190000000000003,
+      "return_pct": 0.006257679229648261,
+      "holding_minutes": 1.1166666666666667,
+      "date": "2025-12-05",
+      "win": true
+    },
+    {
+      "symbol": "JFBR",
+      "direction": "long",
+      "qty": 1.0,
+      "entry_time": "2025-12-05T13:55:07+00:00",
+      "exit_time": "2025-12-05T13:55:53+00:00",
+      "entry_price": 3.84,
+      "exit_price": 3.6816,
+      "pnl": -0.15839999999999987,
+      "return_pct": -0.04125000000000001,
+      "holding_minutes": 0.7666666666666667,
+      "date": "2025-12-05",
+      "win": false
+    },
+    {
+      "symbol": "CETX",
+      "direction": "long",
+      "qty": 3.0,
+      "entry_time": "2025-12-08T12:02:36+00:00",
+      "exit_time": "2025-12-08T12:02:44+00:00",
+      "entry_price": 12.13,
+      "exit_price": 12.2305,
+      "pnl": 0.30149999999999544,
+      "return_pct": 0.008285243198680847,
+      "holding_minutes": 0.13333333333333333,
+      "date": "2025-12-08",
+      "win": true
+    },
+    {
+      "symbol": "CETX",
+      "direction": "long",
+      "qty": 3.0,
+      "entry_time": "2025-12-08T12:03:35+00:00",
+      "exit_time": "2025-12-08T12:03:40+00:00",
+      "entry_price": 12.08,
+      "exit_price": 11.945,
+      "pnl": -0.40499999999999936,
+      "return_pct": -0.011175496688741737,
+      "holding_minutes": 0.08333333333333333,
+      "date": "2025-12-08",
+      "win": false
+    },
+    {
+      "symbol": "WVE",
+      "direction": "long",
+      "qty": 3.0,
+      "entry_time": "2025-12-08T13:35:27+00:00",
+      "exit_time": "2025-12-08T14:32:24+00:00",
+      "entry_price": 12.56,
+      "exit_price": 13.9145,
+      "pnl": 4.0634999999999994,
+      "return_pct": 0.1078423566878981,
+      "holding_minutes": 56.95,
+      "date": "2025-12-08",
+      "win": true
+    },
+    {
+      "symbol": "AMCI",
+      "direction": "long",
+      "qty": 3.0,
+      "entry_time": "2025-12-09T13:22:10+00:00",
+      "exit_time": "2025-12-09T13:24:41+00:00",
+      "entry_price": 14.8984,
+      "exit_price": 13.82,
+      "pnl": -3.2352000000000007,
+      "return_pct": -0.07238361166299734,
+      "holding_minutes": 2.5166666666666666,
+      "date": "2025-12-09",
+      "win": false
+    },
+    {
+      "symbol": "XCUR",
+      "direction": "long",
+      "qty": 3.0,
+      "entry_time": "2025-12-09T14:16:10+00:00",
+      "exit_time": "2025-12-09T14:16:13+00:00",
+      "entry_price": 9.1085,
+      "exit_price": 9.1064,
+      "pnl": -0.0062999999999959755,
+      "return_pct": -0.00023055387824544304,
+      "holding_minutes": 0.05,
+      "date": "2025-12-09",
+      "win": false
+    },
+    {
+      "symbol": "AFJK",
+      "direction": "long",
+      "qty": 1.0,
+      "entry_time": "2025-12-09T14:41:11+00:00",
+      "exit_time": "2025-12-09T14:46:57+00:00",
+      "entry_price": 11.595,
+      "exit_price": 10.325,
+      "pnl": -1.2700000000000014,
+      "return_pct": -0.10952996981457541,
+      "holding_minutes": 5.766666666666667,
+      "date": "2025-12-09",
+      "win": false
+    },
+    {
+      "symbol": "AMCI",
+      "direction": "long",
+      "qty": 1.0,
+      "entry_time": "2025-12-09T14:40:12+00:00",
+      "exit_time": "2025-12-09T14:47:23+00:00",
+      "entry_price": 12.9505,
+      "exit_price": 13.868,
+      "pnl": 0.9175000000000004,
+      "return_pct": 0.07084668545616002,
+      "holding_minutes": 7.183333333333334,
+      "date": "2025-12-09",
+      "win": true
+    },
+    {
+      "symbol": "MIGI",
+      "direction": "long",
+      "qty": 3.0,
+      "entry_time": "2025-12-10T18:39:14+00:00",
+      "exit_time": "2025-12-10T18:40:45+00:00",
+      "entry_price": 7.5799,
+      "exit_price": 7.34,
+      "pnl": -0.7197000000000013,
+      "return_pct": -0.03164949405664985,
+      "holding_minutes": 1.5166666666666666,
+      "date": "2025-12-10",
+      "win": false
+    },
+    {
+      "symbol": "ENVB",
+      "direction": "long",
+      "qty": 3.0,
+      "entry_time": "2025-12-10T18:39:21+00:00",
+      "exit_time": "2025-12-10T18:46:05+00:00",
+      "entry_price": 9.895,
+      "exit_price": 10.35,
+      "pnl": 1.3650000000000002,
+      "return_pct": 0.04598281960586159,
+      "holding_minutes": 6.733333333333333,
+      "date": "2025-12-10",
+      "win": true
+    },
+    {
+      "symbol": "ENVB",
+      "direction": "long",
+      "qty": 1.0,
+      "entry_time": "2025-12-10T18:47:15+00:00",
+      "exit_time": "2025-12-10T18:53:03+00:00",
+      "entry_price": 10.25,
+      "exit_price": 10.35,
+      "pnl": 0.09999999999999964,
+      "return_pct": 0.009756097560975618,
+      "holding_minutes": 5.8,
+      "date": "2025-12-10",
+      "win": true
+    },
+    {
+      "symbol": "BBGI",
+      "direction": "long",
+      "qty": 1.0,
+      "entry_time": "2025-12-10T20:40:10+00:00",
+      "exit_time": "2025-12-10T20:41:03+00:00",
+      "entry_price": 22.279,
+      "exit_price": 20.07,
+      "pnl": -2.2089999999999996,
+      "return_pct": -0.09915166748956417,
+      "holding_minutes": 0.8833333333333333,
+      "date": "2025-12-10",
+      "win": false
+    },
+    {
+      "symbol": "ENVB",
+      "direction": "long",
+      "qty": 1.0,
+      "entry_time": "2025-12-10T20:45:11+00:00",
+      "exit_time": "2025-12-10T20:46:10+00:00",
+      "entry_price": 10.1612,
+      "exit_price": 10.1001,
+      "pnl": -0.06109999999999971,
+      "return_pct": -0.006013069322520881,
+      "holding_minutes": 0.9833333333333333,
+      "date": "2025-12-10",
+      "win": false
+    },
+    {
+      "symbol": "AMCI",
+      "direction": "long",
+      "qty": 1.0,
+      "entry_time": "2025-12-16T15:38:49+00:00",
+      "exit_time": "2025-12-16T17:01:30+00:00",
+      "entry_price": 13.26,
+      "exit_price": 14.0,
+      "pnl": 0.7400000000000002,
+      "return_pct": 0.05580693815987936,
+      "holding_minutes": 82.68333333333334,
+      "date": "2025-12-16",
+      "win": true
+    },
+    {
+      "symbol": "PCSA",
+      "direction": "long",
+      "qty": 1.0,
+      "entry_time": "2025-12-17T15:30:54+00:00",
+      "exit_time": "2025-12-17T15:33:53+00:00",
+      "entry_price": 7.61,
+      "exit_price": 7.9,
+      "pnl": 0.29000000000000004,
+      "return_pct": 0.03810775295663604,
+      "holding_minutes": 2.9833333333333334,
+      "date": "2025-12-17",
+      "win": true
+    },
+    {
+      "symbol": "DJT",
+      "direction": "long",
+      "qty": 3.0,
+      "entry_time": "2025-12-18T12:02:10+00:00",
+      "exit_time": "2025-12-18T12:20:05+00:00",
+      "entry_price": 12.4038,
+      "exit_price": 12.4401,
+      "pnl": 0.10889999999999667,
+      "return_pct": 0.002926522517292973,
+      "holding_minutes": 17.916666666666668,
+      "date": "2025-12-18",
+      "win": true
+    },
+    {
+      "symbol": "FCEL",
+      "direction": "long",
+      "qty": 3.0,
+      "entry_time": "2025-12-18T14:34:07+00:00",
+      "exit_time": "2025-12-18T14:36:02+00:00",
+      "entry_price": 10.373,
+      "exit_price": 10.4,
+      "pnl": 0.08100000000000307,
+      "return_pct": 0.0026029114046082213,
+      "holding_minutes": 1.9166666666666667,
+      "date": "2025-12-18",
+      "win": true
+    },
+    {
+      "symbol": "LONA",
+      "direction": "long",
+      "qty": 3.0,
+      "entry_time": "2025-12-18T14:33:08+00:00",
+      "exit_time": "2025-12-18T14:36:11+00:00",
+      "entry_price": 7.7199,
+      "exit_price": 7.6,
+      "pnl": -0.359700000000001,
+      "return_pct": -0.015531289265405035,
+      "holding_minutes": 3.05,
+      "date": "2025-12-18",
+      "win": false
+    },
+    {
+      "symbol": "SOC",
+      "direction": "long",
+      "qty": 1.0,
+      "entry_time": "2025-12-18T14:36:12+00:00",
+      "exit_time": "2025-12-18T15:11:18+00:00",
+      "entry_price": 8.35,
+      "exit_price": 8.72,
+      "pnl": 0.370000000000001,
+      "return_pct": 0.04431137724550904,
+      "holding_minutes": 35.1,
+      "date": "2025-12-18",
+      "win": true
+    },
+    {
+      "symbol": "FJET",
+      "direction": "long",
+      "qty": 1.0,
+      "entry_time": "2025-12-19T14:37:10+00:00",
+      "exit_time": "2025-12-19T14:37:18+00:00",
+      "entry_price": 9.0,
+      "exit_price": 9.21,
+      "pnl": 0.21000000000000085,
+      "return_pct": 0.023333333333333428,
+      "holding_minutes": 0.13333333333333333,
+      "date": "2025-12-19",
+      "win": true
+    },
+    {
+      "symbol": "FJET",
+      "direction": "long",
+      "qty": 1.0,
+      "entry_time": "2025-12-19T14:37:10+00:00",
+      "exit_time": "2025-12-19T14:38:30+00:00",
+      "entry_price": 9.0,
+      "exit_price": 8.98,
+      "pnl": -0.019999999999999574,
+      "return_pct": -0.0022222222222221255,
+      "holding_minutes": 1.3333333333333333,
+      "date": "2025-12-19",
+      "win": false
+    },
+    {
+      "symbol": "FJET",
+      "direction": "long",
+      "qty": 1.0,
+      "entry_time": "2025-12-19T14:37:10+00:00",
+      "exit_time": "2025-12-19T14:44:55+00:00",
+      "entry_price": 9.0,
+      "exit_price": 9.2,
+      "pnl": 0.1999999999999993,
+      "return_pct": 0.022222222222222143,
+      "holding_minutes": 7.75,
+      "date": "2025-12-19",
+      "win": true
+    },
+    {
+      "symbol": "FJET",
+      "direction": "long",
+      "qty": 1.0,
+      "entry_time": "2025-12-19T14:37:10+00:00",
+      "exit_time": "2025-12-19T14:44:55+00:00",
+      "entry_price": 9.0,
+      "exit_price": 9.2,
+      "pnl": 0.1999999999999993,
+      "return_pct": 0.022222222222222143,
+      "holding_minutes": 7.75,
+      "date": "2025-12-19",
+      "win": true
+    },
+    {
+      "symbol": "FJET",
+      "direction": "long",
+      "qty": 1.0,
+      "entry_time": "2025-12-19T14:37:10+00:00",
+      "exit_time": "2025-12-19T14:44:55+00:00",
+      "entry_price": 9.0,
+      "exit_price": 9.2,
+      "pnl": 0.1999999999999993,
+      "return_pct": 0.022222222222222143,
+      "holding_minutes": 7.75,
+      "date": "2025-12-19",
+      "win": true
+    },
+    {
+      "symbol": "FJET",
+      "direction": "long",
+      "qty": 1.0,
+      "entry_time": "2025-12-19T14:37:10+00:00",
+      "exit_time": "2025-12-19T14:44:55+00:00",
+      "entry_price": 9.0,
+      "exit_price": 9.2,
+      "pnl": 0.1999999999999993,
+      "return_pct": 0.022222222222222143,
+      "holding_minutes": 7.75,
+      "date": "2025-12-19",
+      "win": true
+    },
+    {
+      "symbol": "SIDU",
+      "direction": "long",
+      "qty": 2.0,
+      "entry_time": "2025-12-22T14:35:13+00:00",
+      "exit_time": "2025-12-22T15:11:34+00:00",
+      "entry_price": 2.0164,
+      "exit_price": 2.14,
+      "pnl": 0.2472000000000003,
+      "return_pct": 0.061297361634596426,
+      "holding_minutes": 36.35,
+      "date": "2025-12-22",
+      "win": true
+    },
+    {
+      "symbol": "TRIB",
+      "direction": "long",
+      "qty": 2.0,
+      "entry_time": "2025-12-23T14:37:49+00:00",
+      "exit_time": "2025-12-23T14:51:29+00:00",
+      "entry_price": 1.54,
+      "exit_price": 1.4144,
+      "pnl": -0.25119999999999987,
+      "return_pct": -0.0815584415584415,
+      "holding_minutes": 13.666666666666666,
+      "date": "2025-12-23",
+      "win": false
+    },
+    {
+      "symbol": "ASTI",
+      "direction": "long",
+      "qty": 1.0,
+      "entry_time": "2025-12-23T15:54:10+00:00",
+      "exit_time": "2025-12-23T15:56:49+00:00",
+      "entry_price": 6.215,
+      "exit_price": 6.0401,
+      "pnl": -0.17490000000000006,
+      "return_pct": -0.02814159292035401,
+      "holding_minutes": 2.65,
+      "date": "2025-12-23",
+      "win": false
+    },
+    {
+      "symbol": "ASTI",
+      "direction": "long",
+      "qty": 1.0,
+      "entry_time": "2025-12-23T18:59:10+00:00",
+      "exit_time": "2025-12-23T19:00:02+00:00",
+      "entry_price": 5.335,
+      "exit_price": 5.3473,
+      "pnl": 0.012299999999999756,
+      "return_pct": 0.00230552952202423,
+      "holding_minutes": 0.8666666666666667,
+      "date": "2025-12-23",
+      "win": true
+    },
+    {
+      "symbol": "ASTI",
+      "direction": "long",
+      "qty": 1.0,
+      "entry_time": "2025-12-23T19:08:11+00:00",
+      "exit_time": "2025-12-23T19:09:10+00:00",
+      "entry_price": 5.7227,
+      "exit_price": 5.785,
+      "pnl": 0.062300000000000466,
+      "return_pct": 0.010886469673405896,
+      "holding_minutes": 0.9833333333333333,
+      "date": "2025-12-23",
+      "win": true
+    },
+    {
+      "symbol": "SOPA",
+      "direction": "long",
+      "qty": 4.0,
+      "entry_time": "2025-12-29T15:07:31+00:00",
+      "exit_time": "2025-12-29T15:09:11+00:00",
+      "entry_price": 3.16,
+      "exit_price": 3.35,
+      "pnl": 0.7599999999999998,
+      "return_pct": 0.06012658227848089,
+      "holding_minutes": 1.6666666666666667,
+      "date": "2025-12-29",
+      "win": true
+    },
+    {
+      "symbol": "CETX",
+      "direction": "long",
+      "qty": 2.0,
+      "entry_time": "2025-12-30T14:32:26+00:00",
+      "exit_time": "2025-12-30T14:34:53+00:00",
+      "entry_price": 3.085,
+      "exit_price": 3.23,
+      "pnl": 0.29000000000000004,
+      "return_pct": 0.04700162074554304,
+      "holding_minutes": 2.45,
+      "date": "2025-12-30",
+      "win": true
+    },
+    {
+      "symbol": "VRME",
+      "direction": "long",
+      "qty": 1.0,
+      "entry_time": "2026-01-05T15:09:07+00:00",
+      "exit_time": "2026-01-05T15:09:10+00:00",
+      "entry_price": 1.3165,
+      "exit_price": 1.3132,
+      "pnl": -0.0033000000000000806,
+      "return_pct": -0.002506646410938118,
+      "holding_minutes": 0.05,
+      "date": "2026-01-05",
+      "win": false
+    },
+    {
+      "symbol": "INBS",
+      "direction": "long",
+      "qty": 1.0,
+      "entry_time": "2026-01-05T15:11:07+00:00",
+      "exit_time": "2026-01-05T15:11:18+00:00",
+      "entry_price": 12.17,
+      "exit_price": 12.1568,
+      "pnl": -0.013199999999999434,
+      "return_pct": -0.0010846343467543207,
+      "holding_minutes": 0.18333333333333332,
+      "date": "2026-01-05",
+      "win": false
+    },
+    {
+      "symbol": "AGIG",
+      "direction": "long",
+      "qty": 1.0,
+      "entry_time": "2026-01-05T15:42:07+00:00",
+      "exit_time": "2026-01-05T15:42:11+00:00",
+      "entry_price": 2.2196,
+      "exit_price": 2.1859,
+      "pnl": -0.03369999999999962,
+      "return_pct": -0.015182915840691869,
+      "holding_minutes": 0.06666666666666667,
+      "date": "2026-01-05",
+      "win": false
+    },
+    {
+      "symbol": "MNTS",
+      "direction": "long",
+      "qty": 1.0,
+      "entry_time": "2026-01-05T15:43:06+00:00",
+      "exit_time": "2026-01-05T15:43:10+00:00",
+      "entry_price": 10.015,
+      "exit_price": 9.94,
+      "pnl": -0.07500000000000107,
+      "return_pct": -0.007488766849725548,
+      "holding_minutes": 0.06666666666666667,
+      "date": "2026-01-05",
+      "win": false
+    },
+    {
+      "symbol": "HYPD",
+      "direction": "long",
+      "qty": 1.0,
+      "entry_time": "2026-01-05T15:48:06+00:00",
+      "exit_time": "2026-01-05T15:48:10+00:00",
+      "entry_price": 4.05,
+      "exit_price": 4.05,
+      "pnl": 0.0,
+      "return_pct": 0.0,
+      "holding_minutes": 0.06666666666666667,
+      "date": "2026-01-05",
+      "win": false
+    },
+    {
+      "symbol": "ASST",
+      "direction": "long",
+      "qty": 1.0,
+      "entry_time": "2026-01-05T15:49:07+00:00",
+      "exit_time": "2026-01-05T15:49:10+00:00",
+      "entry_price": 0.9979,
+      "exit_price": 0.99561,
+      "pnl": -0.0022900000000000142,
+      "return_pct": -0.0022948191201522805,
+      "holding_minutes": 0.05,
+      "date": "2026-01-05",
+      "win": false
+    },
+    {
+      "symbol": "ELAB",
+      "direction": "long",
+      "qty": 1.0,
+      "entry_time": "2026-01-07T15:15:04+00:00",
+      "exit_time": "2026-01-07T15:15:08+00:00",
+      "entry_price": 5.82,
+      "exit_price": 5.8398,
+      "pnl": 0.01980000000000004,
+      "return_pct": 0.0034020618556700466,
+      "holding_minutes": 0.06666666666666667,
+      "date": "2026-01-07",
+      "win": true
+    },
+    {
+      "symbol": "TGL",
+      "direction": "long",
+      "qty": 1.0,
+      "entry_time": "2026-01-07T18:51:12+00:00",
+      "exit_time": "2026-01-07T18:51:15+00:00",
+      "entry_price": 8.89,
+      "exit_price": 8.8659,
+      "pnl": -0.024100000000000676,
+      "return_pct": -0.0027109111361081073,
+      "holding_minutes": 0.05,
+      "date": "2026-01-07",
+      "win": false
+    },
+    {
+      "symbol": "NVVE",
+      "direction": "long",
+      "qty": 1.0,
+      "entry_time": "2026-01-07T19:20:09+00:00",
+      "exit_time": "2026-01-07T19:20:13+00:00",
+      "entry_price": 3.936,
+      "exit_price": 3.955,
+      "pnl": 0.019000000000000128,
+      "return_pct": 0.004827235772357774,
+      "holding_minutes": 0.06666666666666667,
+      "date": "2026-01-07",
+      "win": true
+    },
+    {
+      "symbol": "OSS",
+      "direction": "long",
+      "qty": 1.0,
+      "entry_time": "2026-01-08T14:32:03+00:00",
+      "exit_time": "2026-01-08T14:32:07+00:00",
+      "entry_price": 9.075,
+      "exit_price": 9.0321,
+      "pnl": -0.042899999999999494,
+      "return_pct": -0.004727272727272691,
+      "holding_minutes": 0.06666666666666667,
+      "date": "2026-01-08",
+      "win": false
+    },
+    {
+      "symbol": "OSS",
+      "direction": "long",
+      "qty": 1.0,
+      "entry_time": "2026-01-08T14:34:03+00:00",
+      "exit_time": "2026-01-08T14:34:07+00:00",
+      "entry_price": 9.3599,
+      "exit_price": 9.315,
+      "pnl": -0.04490000000000016,
+      "return_pct": -0.0047970597976474405,
+      "holding_minutes": 0.06666666666666667,
+      "date": "2026-01-08",
+      "win": false
+    },
+    {
+      "symbol": "ACON",
+      "direction": "long",
+      "qty": 1.0,
+      "entry_time": "2026-01-08T14:39:04+00:00",
+      "exit_time": "2026-01-08T14:39:07+00:00",
+      "entry_price": 8.5588,
+      "exit_price": 8.525,
+      "pnl": -0.033799999999999386,
+      "return_pct": -0.003949151750245239,
+      "holding_minutes": 0.05,
+      "date": "2026-01-08",
+      "win": false
+    },
+    {
+      "symbol": "FLYX",
+      "direction": "long",
+      "qty": 1.0,
+      "entry_time": "2026-01-08T16:19:05+00:00",
+      "exit_time": "2026-01-08T16:19:08+00:00",
+      "entry_price": 6.8399,
+      "exit_price": 6.86,
+      "pnl": 0.02010000000000023,
+      "return_pct": 0.002938639453793135,
+      "holding_minutes": 0.05,
+      "date": "2026-01-08",
+      "win": true
+    },
+    {
+      "symbol": "FLYX",
+      "direction": "long",
+      "qty": 1.0,
+      "entry_time": "2026-01-08T16:58:05+00:00",
+      "exit_time": "2026-01-08T16:58:09+00:00",
+      "entry_price": 7.2099,
+      "exit_price": 7.215,
+      "pnl": 0.00509999999999966,
+      "return_pct": 0.0007073607123537773,
+      "holding_minutes": 0.06666666666666667,
+      "date": "2026-01-08",
+      "win": true
+    },
+    {
+      "symbol": "FLYX",
+      "direction": "long",
+      "qty": 1.0,
+      "entry_time": "2026-01-08T18:19:07+00:00",
+      "exit_time": "2026-01-08T18:19:11+00:00",
+      "entry_price": 6.7256,
+      "exit_price": 6.7701,
+      "pnl": 0.044500000000000206,
+      "return_pct": 0.006616510051147939,
+      "holding_minutes": 0.06666666666666667,
+      "date": "2026-01-08",
+      "win": true
+    },
+    {
+      "symbol": "FLYX",
+      "direction": "long",
+      "qty": 1.0,
+      "entry_time": "2026-01-08T18:47:06+00:00",
+      "exit_time": "2026-01-08T18:47:10+00:00",
+      "entry_price": 6.7799,
+      "exit_price": 6.7501,
+      "pnl": -0.029799999999999827,
+      "return_pct": -0.004395345064086453,
+      "holding_minutes": 0.06666666666666667,
+      "date": "2026-01-08",
+      "win": false
+    },
+    {
+      "symbol": "OPAD",
+      "direction": "long",
+      "qty": 1.0,
+      "entry_time": "2026-01-09T14:34:04+00:00",
+      "exit_time": "2026-01-09T14:35:02+00:00",
+      "entry_price": 2.4799,
+      "exit_price": 2.53,
+      "pnl": 0.05009999999999959,
+      "return_pct": 0.02020242751723833,
+      "holding_minutes": 0.9666666666666667,
+      "date": "2026-01-09",
+      "win": true
+    },
+    {
+      "symbol": "RVMDW",
+      "direction": "long",
+      "qty": 1.0,
+      "entry_time": "2026-01-09T20:30:08+00:00",
+      "exit_time": "2026-01-09T20:30:38+00:00",
+      "entry_price": 3.2999,
+      "exit_price": 3.38,
+      "pnl": 0.08009999999999984,
+      "return_pct": 0.024273462832206993,
+      "holding_minutes": 0.5,
+      "date": "2026-01-09",
+      "win": true
+    },
+    {
+      "symbol": "BDSX",
+      "direction": "long",
+      "qty": 1.0,
+      "entry_time": "2026-01-12T14:34:06+00:00",
+      "exit_time": "2026-01-12T14:34:35+00:00",
+      "entry_price": 7.2394,
+      "exit_price": 7.3,
+      "pnl": 0.06059999999999999,
+      "return_pct": 0.008370859463491476,
+      "holding_minutes": 0.48333333333333334,
+      "date": "2026-01-12",
+      "win": true
+    },
+    {
+      "symbol": "BDSX",
+      "direction": "long",
+      "qty": 1.0,
+      "entry_time": "2026-01-12T14:49:08+00:00",
+      "exit_time": "2026-01-12T14:50:54+00:00",
+      "entry_price": 8.19,
+      "exit_price": 8.37,
+      "pnl": 0.17999999999999972,
+      "return_pct": 0.0219780219780219,
+      "holding_minutes": 1.7666666666666666,
+      "date": "2026-01-12",
+      "win": true
+    },
+    {
+      "symbol": "VWAV",
+      "direction": "long",
+      "qty": 1.0,
+      "entry_time": "2026-01-12T16:00:09+00:00",
+      "exit_time": "2026-01-12T16:00:13+00:00",
+      "entry_price": 14.89,
+      "exit_price": 14.94,
+      "pnl": 0.049999999999998934,
+      "return_pct": 0.003357958361316138,
+      "holding_minutes": 0.06666666666666667,
+      "date": "2026-01-12",
+      "win": true
+    },
+    {
+      "symbol": "VWAV",
+      "direction": "long",
+      "qty": 1.0,
+      "entry_time": "2026-01-12T16:06:07+00:00",
+      "exit_time": "2026-01-12T16:06:27+00:00",
+      "entry_price": 15.19,
+      "exit_price": 15.27,
+      "pnl": 0.08000000000000007,
+      "return_pct": 0.005266622778143493,
+      "holding_minutes": 0.3333333333333333,
+      "date": "2026-01-12",
+      "win": true
+    },
+    {
+      "symbol": "BDSX",
+      "direction": "long",
+      "qty": 1.0,
+      "entry_time": "2026-01-12T17:04:08+00:00",
+      "exit_time": "2026-01-12T19:28:09+00:00",
+      "entry_price": 9.66,
+      "exit_price": 8.055,
+      "pnl": -1.6050000000000004,
+      "return_pct": -0.16614906832298137,
+      "holding_minutes": 144.01666666666668,
+      "date": "2026-01-12",
+      "win": false
+    },
+    {
+      "symbol": "WATT",
+      "direction": "long",
+      "qty": 1.0,
+      "entry_time": "2026-01-13T14:32:16+00:00",
+      "exit_time": "2026-01-13T14:32:36+00:00",
+      "entry_price": 7.389,
+      "exit_price": 7.53,
+      "pnl": 0.14100000000000001,
+      "return_pct": 0.019082419813235996,
+      "holding_minutes": 0.3333333333333333,
+      "date": "2026-01-13",
+      "win": true
+    },
+    {
+      "symbol": "OSS",
+      "direction": "long",
+      "qty": 1.0,
+      "entry_time": "2026-01-13T14:32:38+00:00",
+      "exit_time": "2026-01-13T14:32:42+00:00",
+      "entry_price": 12.1999,
+      "exit_price": 12.29,
+      "pnl": 0.09009999999999962,
+      "return_pct": 0.007385306436938022,
+      "holding_minutes": 0.06666666666666667,
+      "date": "2026-01-13",
+      "win": true
+    },
+    {
+      "symbol": "EVTV",
+      "direction": "long",
+      "qty": 1.0,
+      "entry_time": "2026-01-13T15:15:11+00:00",
+      "exit_time": "2026-01-13T15:15:24+00:00",
+      "entry_price": 3.2299,
+      "exit_price": 3.31,
+      "pnl": 0.08009999999999984,
+      "return_pct": 0.024799529397194986,
+      "holding_minutes": 0.21666666666666667,
+      "date": "2026-01-13",
+      "win": true
+    },
+    {
+      "symbol": "EVTV",
+      "direction": "long",
+      "qty": 1.0,
+      "entry_time": "2026-01-13T15:24:10+00:00",
+      "exit_time": "2026-01-13T15:27:52+00:00",
+      "entry_price": 3.9899,
+      "exit_price": 3.725,
+      "pnl": -0.2648999999999999,
+      "return_pct": -0.06639264141958445,
+      "holding_minutes": 3.7,
+      "date": "2026-01-13",
+      "win": false
+    },
+    {
+      "symbol": "MVO",
+      "direction": "long",
+      "qty": 1.0,
+      "entry_time": "2026-01-13T15:32:09+00:00",
+      "exit_time": "2026-01-13T15:56:53+00:00",
+      "entry_price": 2.165,
+      "exit_price": 2.19,
+      "pnl": 0.02499999999999991,
+      "return_pct": 0.011547344110854452,
+      "holding_minutes": 24.733333333333334,
+      "date": "2026-01-13",
+      "win": true
+    },
+    {
+      "symbol": "OSS",
+      "direction": "long",
+      "qty": 1.0,
+      "entry_time": "2026-01-13T16:24:12+00:00",
+      "exit_time": "2026-01-13T16:32:59+00:00",
+      "entry_price": 11.5472,
+      "exit_price": 11.62,
+      "pnl": 0.07279999999999909,
+      "return_pct": 0.006304558680892303,
+      "holding_minutes": 8.783333333333333,
+      "date": "2026-01-13",
+      "win": true
+    },
+    {
+      "symbol": "EVTV",
+      "direction": "long",
+      "qty": 1.0,
+      "entry_time": "2026-01-13T16:33:10+00:00",
+      "exit_time": "2026-01-13T16:43:36+00:00",
+      "entry_price": 3.485,
+      "exit_price": 3.3803,
+      "pnl": -0.1046999999999998,
+      "return_pct": -0.030043041606886645,
+      "holding_minutes": 10.433333333333334,
+      "date": "2026-01-13",
+      "win": false
+    },
+    {
+      "symbol": "RVYL",
+      "direction": "long",
+      "qty": 1.0,
+      "entry_time": "2026-01-13T16:42:10+00:00",
+      "exit_time": "2026-01-13T16:51:03+00:00",
+      "entry_price": 6.86,
+      "exit_price": 6.6844,
+      "pnl": -0.1756000000000002,
+      "return_pct": -0.025597667638484034,
+      "holding_minutes": 8.883333333333333,
+      "date": "2026-01-13",
+      "win": false
+    },
+    {
+      "symbol": "BNAI",
+      "direction": "long",
+      "qty": 1.0,
+      "entry_time": "2026-01-14T14:33:04+00:00",
+      "exit_time": "2026-01-14T14:33:16+00:00",
+      "entry_price": 4.14,
+      "exit_price": 4.2,
+      "pnl": 0.0600000000000005,
+      "return_pct": 0.01449275362318847,
+      "holding_minutes": 0.2,
+      "date": "2026-01-14",
+      "win": true
+    },
+    {
+      "symbol": "ROLR",
+      "direction": "long",
+      "qty": 1.0,
+      "entry_time": "2026-01-14T14:32:05+00:00",
+      "exit_time": "2026-01-14T14:38:32+00:00",
+      "entry_price": 16.3,
+      "exit_price": 14.94,
+      "pnl": -1.3600000000000012,
+      "return_pct": -0.08343558282208596,
+      "holding_minutes": 6.45,
+      "date": "2026-01-14",
+      "win": false
+    },
+    {
+      "symbol": "AGIG",
+      "direction": "long",
+      "qty": 1.0,
+      "entry_time": "2026-01-14T14:42:08+00:00",
+      "exit_time": "2026-01-14T14:43:41+00:00",
+      "entry_price": 3.9611,
+      "exit_price": 4.03,
+      "pnl": 0.06890000000000018,
+      "return_pct": 0.01739415818838208,
+      "holding_minutes": 1.55,
+      "date": "2026-01-14",
+      "win": true
+    },
+    {
+      "symbol": "BNAI",
+      "direction": "long",
+      "qty": 1.0,
+      "entry_time": "2026-01-14T14:47:06+00:00",
+      "exit_time": "2026-01-14T14:47:13+00:00",
+      "entry_price": 5.0999,
+      "exit_price": 5.22,
+      "pnl": 0.12009999999999987,
+      "return_pct": 0.023549481362379554,
+      "holding_minutes": 0.11666666666666667,
+      "date": "2026-01-14",
+      "win": true
+    },
+    {
+      "symbol": "BNAI",
+      "direction": "long",
+      "qty": 1.0,
+      "entry_time": "2026-01-14T14:52:06+00:00",
+      "exit_time": "2026-01-14T14:53:26+00:00",
+      "entry_price": 5.6543,
+      "exit_price": 5.82,
+      "pnl": 0.16570000000000018,
+      "return_pct": 0.029305130608563434,
+      "holding_minutes": 1.3333333333333333,
+      "date": "2026-01-14",
+      "win": true
+    },
+    {
+      "symbol": "ROLR",
+      "direction": "long",
+      "qty": 1.0,
+      "entry_time": "2026-01-14T16:28:06+00:00",
+      "exit_time": "2026-01-14T16:28:22+00:00",
+      "entry_price": 17.6244,
+      "exit_price": 17.98,
+      "pnl": 0.35559999999999903,
+      "return_pct": 0.02017657338689549,
+      "holding_minutes": 0.26666666666666666,
+      "date": "2026-01-14",
+      "win": true
+    },
+    {
+      "symbol": "CJMB",
+      "direction": "long",
+      "qty": 2.0,
+      "entry_time": "2026-01-15T15:20:54+00:00",
+      "exit_time": "2026-01-15T15:25:32+00:00",
+      "entry_price": 3.19,
+      "exit_price": 3.3,
+      "pnl": 0.21999999999999975,
+      "return_pct": 0.034482758620689724,
+      "holding_minutes": 4.633333333333334,
+      "date": "2026-01-15",
+      "win": true
+    },
+    {
+      "symbol": "XPOF",
+      "direction": "long",
+      "qty": 5.0,
+      "entry_time": "2025-12-31T15:36:58+00:00",
+      "exit_time": "2026-01-15T15:57:28+00:00",
+      "entry_price": 8.24,
+      "exit_price": 8.4,
+      "pnl": 0.8000000000000007,
+      "return_pct": 0.01941747572815533,
+      "holding_minutes": 21620.5,
+      "date": "2026-01-15",
+      "win": true
+    }
+  ],
+  "per_symbol": [
+    {
+      "symbol": "WVE",
+      "trades": 1,
+      "pnl": 4.0634999999999994,
+      "win_rate": 100.0,
+      "avg_return_pct": 0.1078423566878981,
+      "avg_holding_min": 56.95
+    },
+    {
+      "symbol": "ENVB",
+      "trades": 3,
+      "pnl": 1.4039000000000001,
+      "win_rate": 66.66666666666666,
+      "avg_return_pct": 0.01657528261477211,
+      "avg_holding_min": 4.5055555555555555
+    },
+    {
+      "symbol": "FJET",
+      "trades": 6,
+      "pnl": 0.9899999999999984,
+      "win_rate": 83.33333333333334,
+      "avg_return_pct": 0.018333333333333313,
+      "avg_holding_min": 5.411111111111111
+    },
+    {
+      "symbol": "XPOF",
+      "trades": 1,
+      "pnl": 0.8000000000000007,
+      "win_rate": 100.0,
+      "avg_return_pct": 0.01941747572815533,
+      "avg_holding_min": 21620.5
+    },
+    {
+      "symbol": "SOPA",
+      "trades": 1,
+      "pnl": 0.7599999999999998,
+      "win_rate": 100.0,
+      "avg_return_pct": 0.06012658227848089,
+      "avg_holding_min": 1.6666666666666667
+    },
+    {
+      "symbol": "BNED",
+      "trades": 1,
+      "pnl": 0.5693999999999999,
+      "win_rate": 100.0,
+      "avg_return_pct": 0.02032794610630928,
+      "avg_holding_min": 3.05
+    },
+    {
+      "symbol": "WHLR",
+      "trades": 3,
+      "pnl": 0.38759999999999994,
+      "win_rate": 33.33333333333333,
+      "avg_return_pct": 0.007978038597425038,
+      "avg_holding_min": 1.3388888888888888
+    },
+    {
+      "symbol": "SOC",
+      "trades": 1,
+      "pnl": 0.370000000000001,
+      "win_rate": 100.0,
+      "avg_return_pct": 0.04431137724550904,
+      "avg_holding_min": 35.1
+    },
+    {
+      "symbol": "BNAI",
+      "trades": 3,
+      "pnl": 0.34580000000000055,
+      "win_rate": 100.0,
+      "avg_return_pct": 0.022449121864710486,
+      "avg_holding_min": 0.5499999999999999
+    },
+    {
+      "symbol": "PCSA",
+      "trades": 1,
+      "pnl": 0.29000000000000004,
+      "win_rate": 100.0,
+      "avg_return_pct": 0.03810775295663604,
+      "avg_holding_min": 2.9833333333333334
+    },
+    {
+      "symbol": "SIDU",
+      "trades": 1,
+      "pnl": 0.2472000000000003,
+      "win_rate": 100.0,
+      "avg_return_pct": 0.061297361634596426,
+      "avg_holding_min": 36.35
+    },
+    {
+      "symbol": "CJMB",
+      "trades": 1,
+      "pnl": 0.21999999999999975,
+      "win_rate": 100.0,
+      "avg_return_pct": 0.034482758620689724,
+      "avg_holding_min": 4.633333333333334
+    },
+    {
+      "symbol": "CETX",
+      "trades": 3,
+      "pnl": 0.1864999999999961,
+      "win_rate": 66.66666666666666,
+      "avg_return_pct": 0.014703789085160715,
+      "avg_holding_min": 0.888888888888889
+    },
+    {
+      "symbol": "WATT",
+      "trades": 1,
+      "pnl": 0.14100000000000001,
+      "win_rate": 100.0,
+      "avg_return_pct": 0.019082419813235996,
+      "avg_holding_min": 0.3333333333333333
+    },
+    {
+      "symbol": "VWAV",
+      "trades": 2,
+      "pnl": 0.129999999999999,
+      "win_rate": 100.0,
+      "avg_return_pct": 0.004312290569729815,
+      "avg_holding_min": 0.19999999999999998
+    },
+    {
+      "symbol": "DJT",
+      "trades": 1,
+      "pnl": 0.10889999999999667,
+      "win_rate": 100.0,
+      "avg_return_pct": 0.002926522517292973,
+      "avg_holding_min": 17.916666666666668
+    },
+    {
+      "symbol": "FCEL",
+      "trades": 1,
+      "pnl": 0.08100000000000307,
+      "win_rate": 100.0,
+      "avg_return_pct": 0.0026029114046082213,
+      "avg_holding_min": 1.9166666666666667
+    },
+    {
+      "symbol": "RVMDW",
+      "trades": 1,
+      "pnl": 0.08009999999999984,
+      "win_rate": 100.0,
+      "avg_return_pct": 0.024273462832206993,
+      "avg_holding_min": 0.5
+    },
+    {
+      "symbol": "OSS",
+      "trades": 4,
+      "pnl": 0.07509999999999906,
+      "win_rate": 50.0,
+      "avg_return_pct": 0.0010413831482275482,
+      "avg_holding_min": 2.245833333333333
+    },
+    {
+      "symbol": "OPAD",
+      "trades": 1,
+      "pnl": 0.05009999999999959,
+      "win_rate": 100.0,
+      "avg_return_pct": 0.02020242751723833,
+      "avg_holding_min": 0.9666666666666667
+    },
+    {
+      "symbol": "FLYX",
+      "trades": 4,
+      "pnl": 0.03990000000000027,
+      "win_rate": 75.0,
+      "avg_return_pct": 0.0014667912883020995,
+      "avg_holding_min": 0.0625
+    },
+    {
+      "symbol": "AGIG",
+      "trades": 2,
+      "pnl": 0.035200000000000564,
+      "win_rate": 50.0,
+      "avg_return_pct": 0.001105621173845106,
+      "avg_holding_min": 0.8083333333333333
+    },
+    {
+      "symbol": "MVO",
+      "trades": 1,
+      "pnl": 0.02499999999999991,
+      "win_rate": 100.0,
+      "avg_return_pct": 0.011547344110854452,
+      "avg_holding_min": 24.733333333333334
+    },
+    {
+      "symbol": "ELAB",
+      "trades": 1,
+      "pnl": 0.01980000000000004,
+      "win_rate": 100.0,
+      "avg_return_pct": 0.0034020618556700466,
+      "avg_holding_min": 0.06666666666666667
+    },
+    {
+      "symbol": "NVVE",
+      "trades": 1,
+      "pnl": 0.019000000000000128,
+      "win_rate": 100.0,
+      "avg_return_pct": 0.004827235772357774,
+      "avg_holding_min": 0.06666666666666667
+    },
+    {
+      "symbol": "HYPD",
+      "trades": 1,
+      "pnl": 0.0,
+      "win_rate": 0.0,
+      "avg_return_pct": 0.0,
+      "avg_holding_min": 0.06666666666666667
+    },
+    {
+      "symbol": "ASST",
+      "trades": 1,
+      "pnl": -0.0022900000000000142,
+      "win_rate": 0.0,
+      "avg_return_pct": -0.0022948191201522805,
+      "avg_holding_min": 0.05
+    },
+    {
+      "symbol": "VRME",
+      "trades": 1,
+      "pnl": -0.0033000000000000806,
+      "win_rate": 0.0,
+      "avg_return_pct": -0.002506646410938118,
+      "avg_holding_min": 0.05
+    },
+    {
+      "symbol": "XCUR",
+      "trades": 1,
+      "pnl": -0.0062999999999959755,
+      "win_rate": 0.0,
+      "avg_return_pct": -0.00023055387824544304,
+      "avg_holding_min": 0.05
+    },
+    {
+      "symbol": "INBS",
+      "trades": 1,
+      "pnl": -0.013199999999999434,
+      "win_rate": 0.0,
+      "avg_return_pct": -0.0010846343467543207,
+      "avg_holding_min": 0.18333333333333332
+    },
+    {
+      "symbol": "TGL",
+      "trades": 1,
+      "pnl": -0.024100000000000676,
+      "win_rate": 0.0,
+      "avg_return_pct": -0.0027109111361081073,
+      "avg_holding_min": 0.05
+    },
+    {
+      "symbol": "ACON",
+      "trades": 1,
+      "pnl": -0.033799999999999386,
+      "win_rate": 0.0,
+      "avg_return_pct": -0.003949151750245239,
+      "avg_holding_min": 0.05
+    },
+    {
+      "symbol": "VRCA",
+      "trades": 1,
+      "pnl": -0.05250000000000021,
+      "win_rate": 0.0,
+      "avg_return_pct": -0.006511627906976791,
+      "avg_holding_min": 2.6166666666666667
+    },
+    {
+      "symbol": "MNTS",
+      "trades": 1,
+      "pnl": -0.07500000000000107,
+      "win_rate": 0.0,
+      "avg_return_pct": -0.007488766849725548,
+      "avg_holding_min": 0.06666666666666667
+    },
+    {
+      "symbol": "ASTI",
+      "trades": 3,
+      "pnl": -0.10029999999999983,
+      "win_rate": 66.66666666666666,
+      "avg_return_pct": -0.004983197908307961,
+      "avg_holding_min": 1.5
+    },
+    {
+      "symbol": "JFBR",
+      "trades": 2,
+      "pnl": -0.13649999999999984,
+      "win_rate": 50.0,
+      "avg_return_pct": -0.017496160385175874,
+      "avg_holding_min": 0.9416666666666667
+    },
+    {
+      "symbol": "RVYL",
+      "trades": 1,
+      "pnl": -0.1756000000000002,
+      "win_rate": 0.0,
+      "avg_return_pct": -0.025597667638484034,
+      "avg_holding_min": 8.883333333333333
+    },
+    {
+      "symbol": "FOXX",
+      "trades": 2,
+      "pnl": -0.19647600000000232,
+      "win_rate": 50.0,
+      "avg_return_pct": -0.0073540126114570725,
+      "avg_holding_min": 2.291666666666667
+    },
+    {
+      "symbol": "TRIB",
+      "trades": 1,
+      "pnl": -0.25119999999999987,
+      "win_rate": 0.0,
+      "avg_return_pct": -0.0815584415584415,
+      "avg_holding_min": 13.666666666666666
+    },
+    {
+      "symbol": "EVTV",
+      "trades": 3,
+      "pnl": -0.28949999999999987,
+      "win_rate": 33.33333333333333,
+      "avg_return_pct": -0.02387871787642537,
+      "avg_holding_min": 4.783333333333334
+    },
+    {
+      "symbol": "CAPR",
+      "trades": 1,
+      "pnl": -0.35949999999999704,
+      "win_rate": 0.0,
+      "avg_return_pct": -0.012899406160856719,
+      "avg_holding_min": 0.5833333333333334
+    },
+    {
+      "symbol": "LONA",
+      "trades": 1,
+      "pnl": -0.359700000000001,
+      "win_rate": 0.0,
+      "avg_return_pct": -0.015531289265405035,
+      "avg_holding_min": 3.05
+    },
+    {
+      "symbol": "BQ",
+      "trades": 1,
+      "pnl": -0.8436000000000003,
+      "win_rate": 0.0,
+      "avg_return_pct": -0.08415886032382613,
+      "avg_holding_min": 3.0833333333333335
+    },
+    {
+      "symbol": "ROLR",
+      "trades": 2,
+      "pnl": -1.0044000000000022,
+      "win_rate": 50.0,
+      "avg_return_pct": -0.031629504717595236,
+      "avg_holding_min": 3.3583333333333334
+    },
+    {
+      "symbol": "MIGI",
+      "trades": 3,
+      "pnl": -1.0497000000000023,
+      "win_rate": 0.0,
+      "avg_return_pct": -0.016227731556151575,
+      "avg_holding_min": 1.2277777777777779
+    },
+    {
+      "symbol": "AFJK",
+      "trades": 1,
+      "pnl": -1.2700000000000014,
+      "win_rate": 0.0,
+      "avg_return_pct": -0.10952996981457541,
+      "avg_holding_min": 5.766666666666667
+    },
+    {
+      "symbol": "BDSX",
+      "trades": 3,
+      "pnl": -1.3644000000000007,
+      "win_rate": 66.66666666666666,
+      "avg_return_pct": -0.04526672896048933,
+      "avg_holding_min": 48.75555555555556
+    },
+    {
+      "symbol": "AMCI",
+      "trades": 3,
+      "pnl": -1.5777,
+      "win_rate": 66.66666666666666,
+      "avg_return_pct": 0.018090003984347347,
+      "avg_holding_min": 30.794444444444448
+    },
+    {
+      "symbol": "BBGI",
+      "trades": 1,
+      "pnl": -2.2089999999999996,
+      "win_rate": 0.0,
+      "avg_return_pct": -0.09915166748956417,
+      "avg_holding_min": 0.8833333333333333
+    },
+    {
+      "symbol": "QCLS",
+      "trades": 2,
+      "pnl": -2.970600000000001,
+      "win_rate": 0.0,
+      "avg_return_pct": -0.0779561052577899,
+      "avg_holding_min": 10.5
+    },
+    {
+      "symbol": "PLRZ",
+      "trades": 6,
+      "pnl": -3.0211999999999977,
+      "win_rate": 16.666666666666664,
+      "avg_return_pct": -0.023104868647705612,
+      "avg_holding_min": 5.333333333333333
+    },
+    {
+      "symbol": "AHMA",
+      "trades": 6,
+      "pnl": -3.032199999999998,
+      "win_rate": 33.33333333333333,
+      "avg_return_pct": -0.027104057988473818,
+      "avg_holding_min": 3.5972222222222228
+    },
+    {
+      "symbol": "SMX",
+      "trades": 6,
+      "pnl": -7.6761000000000035,
+      "win_rate": 16.666666666666664,
+      "avg_return_pct": -0.03475249996723212,
+      "avg_holding_min": 2.202777777777778
+    }
+  ],
+  "equity_curve": [
+    {
+      "exit_time": "2025-11-21T19:52:29+00:00",
+      "pnl": 0.0108239999999995,
+      "cum_pnl": 0.0108239999999995
+    },
+    {
+      "exit_time": "2025-11-21T19:53:31+00:00",
+      "pnl": -0.20730000000000182,
+      "cum_pnl": -0.19647600000000232
+    },
+    {
+      "exit_time": "2025-11-24T22:03:22+00:00",
+      "pnl": -0.3000000000000016,
+      "cum_pnl": -0.4964760000000039
+    },
+    {
+      "exit_time": "2025-11-25T00:40:17+00:00",
+      "pnl": -0.02999999999999936,
+      "cum_pnl": -0.5264760000000033
+    },
+    {
+      "exit_time": "2025-11-25T15:01:11+00:00",
+      "pnl": 0.5693999999999999,
+      "cum_pnl": 0.04292399999999663
+    },
+    {
+      "exit_time": "2025-11-26T16:00:40+00:00",
+      "pnl": -2.5199999999999996,
+      "cum_pnl": -2.477076000000003
+    },
+    {
+      "exit_time": "2025-11-26T17:39:08+00:00",
+      "pnl": -0.2967000000000013,
+      "cum_pnl": -2.7737760000000042
+    },
+    {
+      "exit_time": "2025-11-26T17:44:09+00:00",
+      "pnl": -0.6893999999999973,
+      "cum_pnl": -3.4631760000000016
+    },
+    {
+      "exit_time": "2025-11-26T18:23:39+00:00",
+      "pnl": 0.16000000000000014,
+      "cum_pnl": -3.3031760000000014
+    },
+    {
+      "exit_time": "2025-11-28T13:56:12+00:00",
+      "pnl": -0.7100000000000009,
+      "cum_pnl": -4.013176000000002
+    },
+    {
+      "exit_time": "2025-11-28T14:01:27+00:00",
+      "pnl": -3.6200000000000045,
+      "cum_pnl": -7.633176000000007
+    },
+    {
+      "exit_time": "2025-11-28T14:45:46+00:00",
+      "pnl": -0.05250000000000021,
+      "cum_pnl": -7.685676000000007
+    },
+    {
+      "exit_time": "2025-12-01T16:12:25+00:00",
+      "pnl": -1.3260000000000005,
+      "cum_pnl": -9.011676000000008
+    },
+    {
+      "exit_time": "2025-12-01T16:17:37+00:00",
+      "pnl": -1.17,
+      "cum_pnl": -10.181676000000008
+    },
+    {
+      "exit_time": "2025-12-01T18:38:25+00:00",
+      "pnl": -0.06999999999999851,
+      "cum_pnl": -10.251676000000007
+    },
+    {
+      "exit_time": "2025-12-01T18:44:24+00:00",
+      "pnl": -0.9199999999999999,
+      "cum_pnl": -11.171676000000007
+    },
+    {
+      "exit_time": "2025-12-02T13:54:12+00:00",
+      "pnl": -0.05969999999999942,
+      "cum_pnl": -11.231376000000006
+    },
+    {
+      "exit_time": "2025-12-02T15:20:16+00:00",
+      "pnl": -0.8436000000000003,
+      "cum_pnl": -12.074976000000007
+    },
+    {
+      "exit_time": "2025-12-02T16:46:43+00:00",
+      "pnl": -0.7797000000000001,
+      "cum_pnl": -12.854676000000007
+    },
+    {
+      "exit_time": "2025-12-02T17:01:57+00:00",
+      "pnl": -0.9303000000000008,
+      "cum_pnl": -13.784976000000007
+    },
+    {
+      "exit_time": "2025-12-02T17:31:46+00:00",
+      "pnl": -0.23989999999999956,
+      "cum_pnl": -14.024876000000006
+    },
+    {
+      "exit_time": "2025-12-03T14:12:12+00:00",
+      "pnl": 0.2901000000000007,
+      "cum_pnl": -13.734776000000005
+    },
+    {
+      "exit_time": "2025-12-03T14:35:24+00:00",
+      "pnl": 0.1637000000000004,
+      "cum_pnl": -13.571076000000005
+    },
+    {
+      "exit_time": "2025-12-03T14:42:54+00:00",
+      "pnl": -0.7734000000000005,
+      "cum_pnl": -14.344476000000006
+    },
+    {
+      "exit_time": "2025-12-03T16:41:46+00:00",
+      "pnl": -0.35949999999999704,
+      "cum_pnl": -14.703976000000003
+    },
+    {
+      "exit_time": "2025-12-04T13:34:06+00:00",
+      "pnl": -1.4352000000000018,
+      "cum_pnl": -16.139176000000006
+    },
+    {
+      "exit_time": "2025-12-04T13:56:13+00:00",
+      "pnl": 0.423600000000004,
+      "cum_pnl": -15.715576000000002
+    },
+    {
+      "exit_time": "2025-12-05T12:19:50+00:00",
+      "pnl": -2.1972000000000005,
+      "cum_pnl": -17.912776
+    },
+    {
+      "exit_time": "2025-12-05T13:38:00+00:00",
+      "pnl": -0.6203999999999983,
+      "cum_pnl": -18.533175999999997
+    },
+    {
+      "exit_time": "2025-12-05T13:39:01+00:00",
+      "pnl": 2.2895999999999983,
+      "cum_pnl": -16.243575999999997
+    },
+    {
+      "exit_time": "2025-12-05T13:40:18+00:00",
+      "pnl": -1.2816,
+      "cum_pnl": -17.525176
+    },
+    {
+      "exit_time": "2025-12-05T13:49:13+00:00",
+      "pnl": 0.02190000000000003,
+      "cum_pnl": -17.503276
+    },
+    {
+      "exit_time": "2025-12-05T13:55:53+00:00",
+      "pnl": -0.15839999999999987,
+      "cum_pnl": -17.661676
+    },
+    {
+      "exit_time": "2025-12-08T12:02:44+00:00",
+      "pnl": 0.30149999999999544,
+      "cum_pnl": -17.360176000000003
+    },
+    {
+      "exit_time": "2025-12-08T12:03:40+00:00",
+      "pnl": -0.40499999999999936,
+      "cum_pnl": -17.765176000000004
+    },
+    {
+      "exit_time": "2025-12-08T14:32:24+00:00",
+      "pnl": 4.0634999999999994,
+      "cum_pnl": -13.701676000000004
+    },
+    {
+      "exit_time": "2025-12-09T13:24:41+00:00",
+      "pnl": -3.2352000000000007,
+      "cum_pnl": -16.936876000000005
+    },
+    {
+      "exit_time": "2025-12-09T14:16:13+00:00",
+      "pnl": -0.0062999999999959755,
+      "cum_pnl": -16.943176
+    },
+    {
+      "exit_time": "2025-12-09T14:46:57+00:00",
+      "pnl": -1.2700000000000014,
+      "cum_pnl": -18.213176000000004
+    },
+    {
+      "exit_time": "2025-12-09T14:47:23+00:00",
+      "pnl": 0.9175000000000004,
+      "cum_pnl": -17.295676000000004
+    },
+    {
+      "exit_time": "2025-12-10T18:40:45+00:00",
+      "pnl": -0.7197000000000013,
+      "cum_pnl": -18.015376000000003
+    },
+    {
+      "exit_time": "2025-12-10T18:46:05+00:00",
+      "pnl": 1.3650000000000002,
+      "cum_pnl": -16.650376
+    },
+    {
+      "exit_time": "2025-12-10T18:53:03+00:00",
+      "pnl": 0.09999999999999964,
+      "cum_pnl": -16.550376
+    },
+    {
+      "exit_time": "2025-12-10T20:41:03+00:00",
+      "pnl": -2.2089999999999996,
+      "cum_pnl": -18.759376
+    },
+    {
+      "exit_time": "2025-12-10T20:46:10+00:00",
+      "pnl": -0.06109999999999971,
+      "cum_pnl": -18.820476
+    },
+    {
+      "exit_time": "2025-12-16T17:01:30+00:00",
+      "pnl": 0.7400000000000002,
+      "cum_pnl": -18.080475999999997
+    },
+    {
+      "exit_time": "2025-12-17T15:33:53+00:00",
+      "pnl": 0.29000000000000004,
+      "cum_pnl": -17.790475999999998
+    },
+    {
+      "exit_time": "2025-12-18T12:20:05+00:00",
+      "pnl": 0.10889999999999667,
+      "cum_pnl": -17.681576
+    },
+    {
+      "exit_time": "2025-12-18T14:36:02+00:00",
+      "pnl": 0.08100000000000307,
+      "cum_pnl": -17.600575999999997
+    },
+    {
+      "exit_time": "2025-12-18T14:36:11+00:00",
+      "pnl": -0.359700000000001,
+      "cum_pnl": -17.960275999999997
+    },
+    {
+      "exit_time": "2025-12-18T15:11:18+00:00",
+      "pnl": 0.370000000000001,
+      "cum_pnl": -17.590275999999996
+    },
+    {
+      "exit_time": "2025-12-19T14:37:18+00:00",
+      "pnl": 0.21000000000000085,
+      "cum_pnl": -17.380275999999995
+    },
+    {
+      "exit_time": "2025-12-19T14:38:30+00:00",
+      "pnl": -0.019999999999999574,
+      "cum_pnl": -17.400275999999995
+    },
+    {
+      "exit_time": "2025-12-19T14:44:55+00:00",
+      "pnl": 0.1999999999999993,
+      "cum_pnl": -17.200275999999995
+    },
+    {
+      "exit_time": "2025-12-19T14:44:55+00:00",
+      "pnl": 0.1999999999999993,
+      "cum_pnl": -17.000275999999996
+    },
+    {
+      "exit_time": "2025-12-19T14:44:55+00:00",
+      "pnl": 0.1999999999999993,
+      "cum_pnl": -16.800275999999997
+    },
+    {
+      "exit_time": "2025-12-19T14:44:55+00:00",
+      "pnl": 0.1999999999999993,
+      "cum_pnl": -16.600275999999997
+    },
+    {
+      "exit_time": "2025-12-22T15:11:34+00:00",
+      "pnl": 0.2472000000000003,
+      "cum_pnl": -16.353075999999998
+    },
+    {
+      "exit_time": "2025-12-23T14:51:29+00:00",
+      "pnl": -0.25119999999999987,
+      "cum_pnl": -16.604276
+    },
+    {
+      "exit_time": "2025-12-23T15:56:49+00:00",
+      "pnl": -0.17490000000000006,
+      "cum_pnl": -16.779176
+    },
+    {
+      "exit_time": "2025-12-23T19:00:02+00:00",
+      "pnl": 0.012299999999999756,
+      "cum_pnl": -16.766876
+    },
+    {
+      "exit_time": "2025-12-23T19:09:10+00:00",
+      "pnl": 0.062300000000000466,
+      "cum_pnl": -16.704576
+    },
+    {
+      "exit_time": "2025-12-29T15:09:11+00:00",
+      "pnl": 0.7599999999999998,
+      "cum_pnl": -15.944576
+    },
+    {
+      "exit_time": "2025-12-30T14:34:53+00:00",
+      "pnl": 0.29000000000000004,
+      "cum_pnl": -15.654575999999999
+    },
+    {
+      "exit_time": "2026-01-05T15:09:10+00:00",
+      "pnl": -0.0033000000000000806,
+      "cum_pnl": -15.657875999999998
+    },
+    {
+      "exit_time": "2026-01-05T15:11:18+00:00",
+      "pnl": -0.013199999999999434,
+      "cum_pnl": -15.671075999999998
+    },
+    {
+      "exit_time": "2026-01-05T15:42:11+00:00",
+      "pnl": -0.03369999999999962,
+      "cum_pnl": -15.704775999999997
+    },
+    {
+      "exit_time": "2026-01-05T15:43:10+00:00",
+      "pnl": -0.07500000000000107,
+      "cum_pnl": -15.779775999999998
+    },
+    {
+      "exit_time": "2026-01-05T15:48:10+00:00",
+      "pnl": 0.0,
+      "cum_pnl": -15.779775999999998
+    },
+    {
+      "exit_time": "2026-01-05T15:49:10+00:00",
+      "pnl": -0.0022900000000000142,
+      "cum_pnl": -15.782065999999999
+    },
+    {
+      "exit_time": "2026-01-07T15:15:08+00:00",
+      "pnl": 0.01980000000000004,
+      "cum_pnl": -15.762265999999999
+    },
+    {
+      "exit_time": "2026-01-07T18:51:15+00:00",
+      "pnl": -0.024100000000000676,
+      "cum_pnl": -15.786366
+    },
+    {
+      "exit_time": "2026-01-07T19:20:13+00:00",
+      "pnl": 0.019000000000000128,
+      "cum_pnl": -15.767365999999999
+    },
+    {
+      "exit_time": "2026-01-08T14:32:07+00:00",
+      "pnl": -0.042899999999999494,
+      "cum_pnl": -15.810265999999999
+    },
+    {
+      "exit_time": "2026-01-08T14:34:07+00:00",
+      "pnl": -0.04490000000000016,
+      "cum_pnl": -15.855165999999999
+    },
+    {
+      "exit_time": "2026-01-08T14:39:07+00:00",
+      "pnl": -0.033799999999999386,
+      "cum_pnl": -15.888965999999998
+    },
+    {
+      "exit_time": "2026-01-08T16:19:08+00:00",
+      "pnl": 0.02010000000000023,
+      "cum_pnl": -15.868865999999997
+    },
+    {
+      "exit_time": "2026-01-08T16:58:09+00:00",
+      "pnl": 0.00509999999999966,
+      "cum_pnl": -15.863765999999998
+    },
+    {
+      "exit_time": "2026-01-08T18:19:11+00:00",
+      "pnl": 0.044500000000000206,
+      "cum_pnl": -15.819265999999999
+    },
+    {
+      "exit_time": "2026-01-08T18:47:10+00:00",
+      "pnl": -0.029799999999999827,
+      "cum_pnl": -15.849065999999999
+    },
+    {
+      "exit_time": "2026-01-09T14:35:02+00:00",
+      "pnl": 0.05009999999999959,
+      "cum_pnl": -15.798966
+    },
+    {
+      "exit_time": "2026-01-09T20:30:38+00:00",
+      "pnl": 0.08009999999999984,
+      "cum_pnl": -15.718866
+    },
+    {
+      "exit_time": "2026-01-12T14:34:35+00:00",
+      "pnl": 0.06059999999999999,
+      "cum_pnl": -15.658266000000001
+    },
+    {
+      "exit_time": "2026-01-12T14:50:54+00:00",
+      "pnl": 0.17999999999999972,
+      "cum_pnl": -15.478266000000001
+    },
+    {
+      "exit_time": "2026-01-12T16:00:13+00:00",
+      "pnl": 0.049999999999998934,
+      "cum_pnl": -15.428266000000002
+    },
+    {
+      "exit_time": "2026-01-12T16:06:27+00:00",
+      "pnl": 0.08000000000000007,
+      "cum_pnl": -15.348266000000002
+    },
+    {
+      "exit_time": "2026-01-12T19:28:09+00:00",
+      "pnl": -1.6050000000000004,
+      "cum_pnl": -16.953266000000003
+    },
+    {
+      "exit_time": "2026-01-13T14:32:36+00:00",
+      "pnl": 0.14100000000000001,
+      "cum_pnl": -16.812266
+    },
+    {
+      "exit_time": "2026-01-13T14:32:42+00:00",
+      "pnl": 0.09009999999999962,
+      "cum_pnl": -16.722166
+    },
+    {
+      "exit_time": "2026-01-13T15:15:24+00:00",
+      "pnl": 0.08009999999999984,
+      "cum_pnl": -16.642066
+    },
+    {
+      "exit_time": "2026-01-13T15:27:52+00:00",
+      "pnl": -0.2648999999999999,
+      "cum_pnl": -16.906966
+    },
+    {
+      "exit_time": "2026-01-13T15:56:53+00:00",
+      "pnl": 0.02499999999999991,
+      "cum_pnl": -16.881966000000002
+    },
+    {
+      "exit_time": "2026-01-13T16:32:59+00:00",
+      "pnl": 0.07279999999999909,
+      "cum_pnl": -16.809166000000005
+    },
+    {
+      "exit_time": "2026-01-13T16:43:36+00:00",
+      "pnl": -0.1046999999999998,
+      "cum_pnl": -16.913866000000006
+    },
+    {
+      "exit_time": "2026-01-13T16:51:03+00:00",
+      "pnl": -0.1756000000000002,
+      "cum_pnl": -17.089466000000005
+    },
+    {
+      "exit_time": "2026-01-14T14:33:16+00:00",
+      "pnl": 0.0600000000000005,
+      "cum_pnl": -17.029466000000006
+    },
+    {
+      "exit_time": "2026-01-14T14:38:32+00:00",
+      "pnl": -1.3600000000000012,
+      "cum_pnl": -18.389466000000006
+    },
+    {
+      "exit_time": "2026-01-14T14:43:41+00:00",
+      "pnl": 0.06890000000000018,
+      "cum_pnl": -18.320566000000007
+    },
+    {
+      "exit_time": "2026-01-14T14:47:13+00:00",
+      "pnl": 0.12009999999999987,
+      "cum_pnl": -18.200466000000006
+    },
+    {
+      "exit_time": "2026-01-14T14:53:26+00:00",
+      "pnl": 0.16570000000000018,
+      "cum_pnl": -18.034766000000005
+    },
+    {
+      "exit_time": "2026-01-14T16:28:22+00:00",
+      "pnl": 0.35559999999999903,
+      "cum_pnl": -17.679166000000006
+    },
+    {
+      "exit_time": "2026-01-15T15:25:32+00:00",
+      "pnl": 0.21999999999999975,
+      "cum_pnl": -17.459166000000007
+    },
+    {
+      "exit_time": "2026-01-15T15:57:28+00:00",
+      "pnl": 0.8000000000000007,
+      "cum_pnl": -16.659166000000006
+    }
+  ],
+  "daily_pnl": [
+    {
+      "date": "2025-11-21",
+      "pnl": -0.19647600000000232
+    },
+    {
+      "date": "2025-11-24",
+      "pnl": -0.3000000000000016
+    },
+    {
+      "date": "2025-11-25",
+      "pnl": 0.5394000000000005
+    },
+    {
+      "date": "2025-11-26",
+      "pnl": -3.346099999999998
+    },
+    {
+      "date": "2025-11-28",
+      "pnl": -4.382500000000006
+    },
+    {
+      "date": "2025-12-01",
+      "pnl": -3.485999999999999
+    },
+    {
+      "date": "2025-12-02",
+      "pnl": -2.8532
+    },
+    {
+      "date": "2025-12-03",
+      "pnl": -0.6790999999999965
+    },
+    {
+      "date": "2025-12-04",
+      "pnl": -1.0115999999999978
+    },
+    {
+      "date": "2025-12-05",
+      "pnl": -1.9461000000000004
+    },
+    {
+      "date": "2025-12-08",
+      "pnl": 3.9599999999999955
+    },
+    {
+      "date": "2025-12-09",
+      "pnl": -3.5939999999999976
+    },
+    {
+      "date": "2025-12-10",
+      "pnl": -1.5248000000000008
+    },
+    {
+      "date": "2025-12-16",
+      "pnl": 0.7400000000000002
+    },
+    {
+      "date": "2025-12-17",
+      "pnl": 0.29000000000000004
+    },
+    {
+      "date": "2025-12-18",
+      "pnl": 0.2001999999999997
+    },
+    {
+      "date": "2025-12-19",
+      "pnl": 0.9899999999999984
+    },
+    {
+      "date": "2025-12-22",
+      "pnl": 0.2472000000000003
+    },
+    {
+      "date": "2025-12-23",
+      "pnl": -0.3514999999999997
+    },
+    {
+      "date": "2025-12-29",
+      "pnl": 0.7599999999999998
+    },
+    {
+      "date": "2025-12-30",
+      "pnl": 0.29000000000000004
+    },
+    {
+      "date": "2026-01-05",
+      "pnl": -0.12749000000000021
+    },
+    {
+      "date": "2026-01-07",
+      "pnl": 0.014699999999999491
+    },
+    {
+      "date": "2026-01-08",
+      "pnl": -0.08169999999999877
+    },
+    {
+      "date": "2026-01-09",
+      "pnl": 0.13019999999999943
+    },
+    {
+      "date": "2026-01-12",
+      "pnl": -1.2344000000000017
+    },
+    {
+      "date": "2026-01-13",
+      "pnl": -0.13620000000000143
+    },
+    {
+      "date": "2026-01-14",
+      "pnl": -0.5897000000000014
+    },
+    {
+      "date": "2026-01-15",
+      "pnl": 1.0200000000000005
+    }
+  ],
+  "order_count": 424,
+  "fetched_at": "2026-01-20T19:48:42.929551+00:00",
+  "source": "cache:2025-10-22_to_2026-01-20_order_history.csv",
+  "cache_file": "2025-10-22_to_2026-01-20_order_history.csv"
+}

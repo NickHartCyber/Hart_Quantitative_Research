@@ -1,0 +1,13 @@
+node_modules
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+build
+.cache
+dist
+coverage
+.git
+Dockerfile
+.dockerignore
+.env
+.env.*

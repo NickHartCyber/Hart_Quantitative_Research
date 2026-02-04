@@ -1,0 +1,302 @@
+{
+  "metrics": {
+    "total_pnl": 8.941800000000011,
+    "num_trades": 9,
+    "wins": 4,
+    "losses": 5,
+    "win_rate_pct": 44.44444444444444,
+    "gross_profit": 20.358000000000015,
+    "gross_loss": -11.416200000000007,
+    "profit_factor": 1.7832553739422927,
+    "avg_win": 5.089500000000004,
+    "avg_loss": -2.2832400000000015,
+    "payoff_ratio": 2.229069217427866,
+    "expectancy_per_trade": 0.9935333333333338,
+    "trade_sharpe": 0.41731458381893727,
+    "daily_sharpe_pnl_based": 7.034062878608645,
+    "max_drawdown_dollars": -10.786600000000007,
+    "peak_cum_pnl": 19.728400000000015,
+    "drawdown_duration_steps": 5,
+    "avg_holding_minutes": 4147.622222222223,
+    "median_holding_minutes": 3.4
+  },
+  "trades": [
+    {
+      "symbol": "FSLY",
+      "direction": "long",
+      "qty": 2.0,
+      "entry_time": "2025-11-06T17:37:21+00:00",
+      "exit_time": "2025-11-06T17:40:01+00:00",
+      "entry_price": 10.6599,
+      "exit_price": 10.6301,
+      "pnl": -0.05959999999999965,
+      "return_pct": -0.002795523410163314,
+      "holding_minutes": 2.6666666666666665,
+      "date": "2025-11-06",
+      "win": false
+    },
+    {
+      "symbol": "GLTO",
+      "direction": "long",
+      "qty": 1.0,
+      "entry_time": "2025-11-10T15:28:03+00:00",
+      "exit_time": "2025-11-10T15:28:19+00:00",
+      "entry_price": 18.9301,
+      "exit_price": 19.6172,
+      "pnl": 0.6871000000000009,
+      "return_pct": 0.036296691512458956,
+      "holding_minutes": 0.26666666666666666,
+      "date": "2025-11-10",
+      "win": true
+    },
+    {
+      "symbol": "MOVE",
+      "direction": "long",
+      "qty": 2.0,
+      "entry_time": "2025-11-10T15:24:31+00:00",
+      "exit_time": "2025-11-10T15:29:35+00:00",
+      "entry_price": 13.4,
+      "exit_price": 13.33,
+      "pnl": -0.14000000000000057,
+      "return_pct": -0.0052238805970149516,
+      "holding_minutes": 5.066666666666666,
+      "date": "2025-11-10",
+      "win": false
+    },
+    {
+      "symbol": "QNRX",
+      "direction": "long",
+      "qty": 1.0,
+      "entry_time": "2025-11-11T14:33:13+00:00",
+      "exit_time": "2025-11-11T14:36:36+00:00",
+      "entry_price": 13.01,
+      "exit_price": 12.62,
+      "pnl": -0.39000000000000057,
+      "return_pct": -0.02997694081475788,
+      "holding_minutes": 3.3833333333333333,
+      "date": "2025-11-11",
+      "win": false
+    },
+    {
+      "symbol": "OLOX",
+      "direction": "long",
+      "qty": 2.0,
+      "entry_time": "2025-11-13T14:31:09+00:00",
+      "exit_time": "2025-11-13T14:31:44+00:00",
+      "entry_price": 3.3554,
+      "exit_price": 3.5501,
+      "pnl": 0.3894000000000002,
+      "return_pct": 0.05802586874888238,
+      "holding_minutes": 0.5833333333333334,
+      "date": "2025-11-13",
+      "win": true
+    },
+    {
+      "symbol": "MGRX",
+      "direction": "long",
+      "qty": 4.0,
+      "entry_time": "2025-11-13T14:29:57+00:00",
+      "exit_time": "2025-11-13T14:33:21+00:00",
+      "entry_price": 2.17,
+      "exit_price": 2.16,
+      "pnl": -0.03999999999999915,
+      "return_pct": -0.004608294930875445,
+      "holding_minutes": 3.4,
+      "date": "2025-11-13",
+      "win": false
+    },
+    {
+      "symbol": "FOXX",
+      "direction": "long",
+      "qty": 1.0,
+      "entry_time": "2025-11-21T16:00:13+00:00",
+      "exit_time": "2025-11-21T17:24:13+00:00",
+      "entry_price": 3.3985,
+      "exit_price": 3.57,
+      "pnl": 0.17149999999999999,
+      "return_pct": 0.05046343975283207,
+      "holding_minutes": 84.0,
+      "date": "2025-11-21",
+      "win": true
+    },
+    {
+      "symbol": "MTSI",
+      "direction": "long",
+      "qty": 1.0,
+      "entry_time": "2026-01-14T18:35:08+00:00",
+      "exit_time": "2026-02-03T14:43:46+00:00",
+      "entry_price": 210.19,
+      "exit_price": 229.3,
+      "pnl": 19.110000000000014,
+      "return_pct": 0.0909177410913935,
+      "holding_minutes": 28568.633333333335,
+      "date": "2026-02-03",
+      "win": true
+    },
+    {
+      "symbol": "GFS",
+      "direction": "long",
+      "qty": 2.0,
+      "entry_time": "2026-01-28T15:30:41+00:00",
+      "exit_time": "2026-02-03T15:51:17+00:00",
+      "entry_price": 46.0733,
+      "exit_price": 40.68,
+      "pnl": -10.786600000000007,
+      "return_pct": -0.11705912100934823,
+      "holding_minutes": 8660.6,
+      "date": "2026-02-03",
+      "win": false
+    }
+  ],
+  "per_symbol": [
+    {
+      "symbol": "MTSI",
+      "trades": 1,
+      "pnl": 19.110000000000014,
+      "win_rate": 100.0,
+      "avg_return_pct": 0.0909177410913935,
+      "avg_holding_min": 28568.633333333335
+    },
+    {
+      "symbol": "GLTO",
+      "trades": 1,
+      "pnl": 0.6871000000000009,
+      "win_rate": 100.0,
+      "avg_return_pct": 0.036296691512458956,
+      "avg_holding_min": 0.26666666666666666
+    },
+    {
+      "symbol": "OLOX",
+      "trades": 1,
+      "pnl": 0.3894000000000002,
+      "win_rate": 100.0,
+      "avg_return_pct": 0.05802586874888238,
+      "avg_holding_min": 0.5833333333333334
+    },
+    {
+      "symbol": "FOXX",
+      "trades": 1,
+      "pnl": 0.17149999999999999,
+      "win_rate": 100.0,
+      "avg_return_pct": 0.05046343975283207,
+      "avg_holding_min": 84.0
+    },
+    {
+      "symbol": "MGRX",
+      "trades": 1,
+      "pnl": -0.03999999999999915,
+      "win_rate": 0.0,
+      "avg_return_pct": -0.004608294930875445,
+      "avg_holding_min": 3.4
+    },
+    {
+      "symbol": "FSLY",
+      "trades": 1,
+      "pnl": -0.05959999999999965,
+      "win_rate": 0.0,
+      "avg_return_pct": -0.002795523410163314,
+      "avg_holding_min": 2.6666666666666665
+    },
+    {
+      "symbol": "MOVE",
+      "trades": 1,
+      "pnl": -0.14000000000000057,
+      "win_rate": 0.0,
+      "avg_return_pct": -0.0052238805970149516,
+      "avg_holding_min": 5.066666666666666
+    },
+    {
+      "symbol": "QNRX",
+      "trades": 1,
+      "pnl": -0.39000000000000057,
+      "win_rate": 0.0,
+      "avg_return_pct": -0.02997694081475788,
+      "avg_holding_min": 3.3833333333333333
+    },
+    {
+      "symbol": "GFS",
+      "trades": 1,
+      "pnl": -10.786600000000007,
+      "win_rate": 0.0,
+      "avg_return_pct": -0.11705912100934823,
+      "avg_holding_min": 8660.6
+    }
+  ],
+  "equity_curve": [
+    {
+      "exit_time": "2025-11-06T17:40:01+00:00",
+      "pnl": -0.05959999999999965,
+      "cum_pnl": -0.05959999999999965
+    },
+    {
+      "exit_time": "2025-11-10T15:28:19+00:00",
+      "pnl": 0.6871000000000009,
+      "cum_pnl": 0.6275000000000013
+    },
+    {
+      "exit_time": "2025-11-10T15:29:35+00:00",
+      "pnl": -0.14000000000000057,
+      "cum_pnl": 0.4875000000000007
+    },
+    {
+      "exit_time": "2025-11-11T14:36:36+00:00",
+      "pnl": -0.39000000000000057,
+      "cum_pnl": 0.09750000000000014
+    },
+    {
+      "exit_time": "2025-11-13T14:31:44+00:00",
+      "pnl": 0.3894000000000002,
+      "cum_pnl": 0.48690000000000033
+    },
+    {
+      "exit_time": "2025-11-13T14:33:21+00:00",
+      "pnl": -0.03999999999999915,
+      "cum_pnl": 0.4469000000000012
+    },
+    {
+      "exit_time": "2025-11-21T17:24:13+00:00",
+      "pnl": 0.17149999999999999,
+      "cum_pnl": 0.6184000000000012
+    },
+    {
+      "exit_time": "2026-02-03T14:43:46+00:00",
+      "pnl": 19.110000000000014,
+      "cum_pnl": 19.728400000000015
+    },
+    {
+      "exit_time": "2026-02-03T15:51:17+00:00",
+      "pnl": -10.786600000000007,
+      "cum_pnl": 8.941800000000008
+    }
+  ],
+  "daily_pnl": [
+    {
+      "date": "2025-11-06",
+      "pnl": -0.05959999999999965
+    },
+    {
+      "date": "2025-11-10",
+      "pnl": 0.5471000000000004
+    },
+    {
+      "date": "2025-11-11",
+      "pnl": -0.39000000000000057
+    },
+    {
+      "date": "2025-11-13",
+      "pnl": 0.34940000000000104
+    },
+    {
+      "date": "2025-11-21",
+      "pnl": 0.17149999999999999
+    },
+    {
+      "date": "2026-02-03",
+      "pnl": 8.323400000000007
+    }
+  ],
+  "order_count": 33,
+  "fetched_at": "2026-02-03T21:59:07.503185+00:00",
+  "source": "live",
+  "cache_file": null
+}

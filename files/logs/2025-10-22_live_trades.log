@@ -1,0 +1,1770 @@
+2025-10-22T12:27:11.624184-0600 DEBUG Loaded secrets from schwab_auth_token.json
+2025-10-22T12:27:16.063366-0600 DEBUG orders:
+      session          duration orderType  ...                            orderActivityCollection  price  statusDescription
+0      NORMAL               DAY      STOP  ...  [{'activityType': 'EXECUTION', 'activityId': 1...    NaN                NaN
+1      NORMAL               DAY      STOP  ...  [{'activityType': 'EXECUTION', 'activityId': 1...    NaN                NaN
+2      NORMAL               DAY    MARKET  ...  [{'activityType': 'EXECUTION', 'activityId': 1...    NaN                NaN
+3    SEAMLESS               DAY     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...   9.00                NaN
+4    SEAMLESS               DAY     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  10.00                NaN
+..        ...               ...       ...  ...                                                ...    ...                ...
+488  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  12.15                NaN
+489  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  11.12                NaN
+490  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  11.48                NaN
+491  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  11.66                NaN
+492  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  12.06                NaN
+
+[493 rows x 25 columns]
+2025-10-22T12:27:16.096403-0600 INFO Writing orders to: C:\Users\Nick\Documents\MoneyGame\MoneyGame\logs\2025-10-12_to_2025-10-22_order_history.csv
+2025-10-22T12:27:16.114779-0600 INFO Detected Schwab order-level schema; flattening to fills...
+2025-10-22T12:27:16.309863-0600 INFO Schwab flatten: 493 orders -> 389 activities scanned, 287 execution-like, 287 legs -> 287 fill rows
+2025-10-22T12:27:16.366852-0600 DEBUG live_trades.tail(5):
+    symbol direction  qty                entry_time                 exit_time  ...     pnl  return_pct  holding_minutes        date    win
+139   RYOJ      long  3.0 2025-10-21 18:43:28+00:00 2025-10-21 18:47:43+00:00  ... -0.5697   -0.025802         4.250000  2025-10-21  False
+140   RYOJ      long  3.0 2025-10-21 18:44:30+00:00 2025-10-21 18:48:39+00:00  ... -1.1778   -0.051036         4.150000  2025-10-21  False
+141   RYOJ      long  3.0 2025-10-21 19:25:29+00:00 2025-10-21 19:27:42+00:00  ...  0.2103    0.008896         2.216667  2025-10-21   True
+142   RYOJ      long  2.0 2025-10-21 20:00:36+00:00 2025-10-21 20:02:38+00:00  ... -1.7084   -0.086684         2.033333  2025-10-21  False
+143   BYND      long  3.0 2025-10-22 14:20:24+00:00 2025-10-22 14:22:20+00:00  ... -0.7968   -0.037537         1.933333  2025-10-22  False
+
+[5 rows x 12 columns]
+2025-10-22T12:27:48.231817-0600 DEBUG Loaded secrets from schwab_auth_token.json
+2025-10-22T12:27:52.068269-0600 DEBUG orders:
+      session          duration orderType  ...                            orderActivityCollection  price  statusDescription
+0      NORMAL               DAY      STOP  ...  [{'activityType': 'EXECUTION', 'activityId': 1...    NaN                NaN
+1      NORMAL               DAY      STOP  ...  [{'activityType': 'EXECUTION', 'activityId': 1...    NaN                NaN
+2      NORMAL               DAY    MARKET  ...  [{'activityType': 'EXECUTION', 'activityId': 1...    NaN                NaN
+3    SEAMLESS               DAY     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...   9.00                NaN
+4    SEAMLESS               DAY     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  10.00                NaN
+..        ...               ...       ...  ...                                                ...    ...                ...
+488  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  12.15                NaN
+489  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  11.12                NaN
+490  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  11.48                NaN
+491  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  11.66                NaN
+492  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  12.06                NaN
+
+[493 rows x 25 columns]
+2025-10-22T12:27:52.090925-0600 INFO Writing orders to: C:\Users\Nick\Documents\MoneyGame\MoneyGame\logs\2025-10-12_to_2025-10-22_order_history.csv
+2025-10-22T12:27:52.124110-0600 INFO Detected Schwab order-level schema; flattening to fills...
+2025-10-22T12:27:52.353719-0600 INFO Schwab flatten: 493 orders -> 389 activities scanned, 287 execution-like, 287 legs -> 287 fill rows
+2025-10-22T12:27:52.391275-0600 DEBUG live_trades.tail(5):
+    symbol direction  qty                entry_time                 exit_time  ...     pnl  return_pct  holding_minutes        date    win
+139   RYOJ      long  3.0 2025-10-21 18:43:28+00:00 2025-10-21 18:47:43+00:00  ... -0.5697   -0.025802         4.250000  2025-10-21  False
+140   RYOJ      long  3.0 2025-10-21 18:44:30+00:00 2025-10-21 18:48:39+00:00  ... -1.1778   -0.051036         4.150000  2025-10-21  False
+141   RYOJ      long  3.0 2025-10-21 19:25:29+00:00 2025-10-21 19:27:42+00:00  ...  0.2103    0.008896         2.216667  2025-10-21   True
+142   RYOJ      long  2.0 2025-10-21 20:00:36+00:00 2025-10-21 20:02:38+00:00  ... -1.7084   -0.086684         2.033333  2025-10-21  False
+143   BYND      long  3.0 2025-10-22 14:20:24+00:00 2025-10-22 14:22:20+00:00  ... -0.7968   -0.037537         1.933333  2025-10-22  False
+
+[5 rows x 12 columns]
+2025-10-22T12:27:52.407688-0600 DEBUG data_folder_path: C:\Users\Nick\Documents\MoneyGame\MoneyGame\moneygame\core\../../../data/
+2025-10-22T12:29:07.997648-0600 DEBUG Loaded secrets from schwab_auth_token.json
+2025-10-22T12:29:10.371747-0600 DEBUG orders:
+      session          duration orderType  ...                            orderActivityCollection  price  statusDescription
+0      NORMAL               DAY      STOP  ...  [{'activityType': 'EXECUTION', 'activityId': 1...    NaN                NaN
+1      NORMAL               DAY      STOP  ...  [{'activityType': 'EXECUTION', 'activityId': 1...    NaN                NaN
+2      NORMAL               DAY    MARKET  ...  [{'activityType': 'EXECUTION', 'activityId': 1...    NaN                NaN
+3    SEAMLESS               DAY     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...   9.00                NaN
+4    SEAMLESS               DAY     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  10.00                NaN
+..        ...               ...       ...  ...                                                ...    ...                ...
+488  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  12.15                NaN
+489  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  11.12                NaN
+490  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  11.48                NaN
+491  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  11.66                NaN
+492  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  12.06                NaN
+
+[493 rows x 25 columns]
+2025-10-22T12:29:10.403017-0600 INFO Writing orders to: C:\Users\Nick\Documents\MoneyGame\MoneyGame\logs\2025-10-12_to_2025-10-22_order_history.csv
+2025-10-22T12:29:10.434737-0600 INFO Detected Schwab order-level schema; flattening to fills...
+2025-10-22T12:29:10.622482-0600 INFO Schwab flatten: 493 orders -> 389 activities scanned, 287 execution-like, 287 legs -> 287 fill rows
+2025-10-22T12:29:10.688774-0600 DEBUG live_trades.tail(5):
+    symbol direction  qty                entry_time                 exit_time  ...     pnl  return_pct  holding_minutes        date    win
+139   RYOJ      long  3.0 2025-10-21 18:43:28+00:00 2025-10-21 18:47:43+00:00  ... -0.5697   -0.025802         4.250000  2025-10-21  False
+140   RYOJ      long  3.0 2025-10-21 18:44:30+00:00 2025-10-21 18:48:39+00:00  ... -1.1778   -0.051036         4.150000  2025-10-21  False
+141   RYOJ      long  3.0 2025-10-21 19:25:29+00:00 2025-10-21 19:27:42+00:00  ...  0.2103    0.008896         2.216667  2025-10-21   True
+142   RYOJ      long  2.0 2025-10-21 20:00:36+00:00 2025-10-21 20:02:38+00:00  ... -1.7084   -0.086684         2.033333  2025-10-21  False
+143   BYND      long  3.0 2025-10-22 14:20:24+00:00 2025-10-22 14:22:20+00:00  ... -0.7968   -0.037537         1.933333  2025-10-22  False
+
+[5 rows x 12 columns]
+2025-10-22T12:29:10.690757-0600 DEBUG data_folder_path: C:\Users\Nick\Documents\MoneyGame\MoneyGame\moneygame\core\../../data/
+2025-10-22T12:30:08.699640-0600 DEBUG Loaded secrets from schwab_auth_token.json
+2025-10-22T12:30:12.352706-0600 DEBUG orders:
+      session          duration orderType  ...                            orderActivityCollection  price  statusDescription
+0      NORMAL               DAY      STOP  ...  [{'activityType': 'EXECUTION', 'activityId': 1...    NaN                NaN
+1      NORMAL               DAY      STOP  ...  [{'activityType': 'EXECUTION', 'activityId': 1...    NaN                NaN
+2      NORMAL               DAY    MARKET  ...  [{'activityType': 'EXECUTION', 'activityId': 1...    NaN                NaN
+3    SEAMLESS               DAY     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...   9.00                NaN
+4    SEAMLESS               DAY     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  10.00                NaN
+..        ...               ...       ...  ...                                                ...    ...                ...
+488  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  12.15                NaN
+489  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  11.12                NaN
+490  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  11.48                NaN
+491  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  11.66                NaN
+492  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  12.06                NaN
+
+[493 rows x 25 columns]
+2025-10-22T12:30:12.390068-0600 INFO Writing orders to: C:\Users\Nick\Documents\MoneyGame\MoneyGame\logs\2025-10-12_to_2025-10-22_order_history.csv
+2025-10-22T12:30:12.411068-0600 INFO Detected Schwab order-level schema; flattening to fills...
+2025-10-22T12:30:12.606877-0600 INFO Schwab flatten: 493 orders -> 389 activities scanned, 287 execution-like, 287 legs -> 287 fill rows
+2025-10-22T12:30:12.665870-0600 DEBUG live_trades.tail(5):
+    symbol direction  qty                entry_time                 exit_time  ...     pnl  return_pct  holding_minutes        date    win
+139   RYOJ      long  3.0 2025-10-21 18:43:28+00:00 2025-10-21 18:47:43+00:00  ... -0.5697   -0.025802         4.250000  2025-10-21  False
+140   RYOJ      long  3.0 2025-10-21 18:44:30+00:00 2025-10-21 18:48:39+00:00  ... -1.1778   -0.051036         4.150000  2025-10-21  False
+141   RYOJ      long  3.0 2025-10-21 19:25:29+00:00 2025-10-21 19:27:42+00:00  ...  0.2103    0.008896         2.216667  2025-10-21   True
+142   RYOJ      long  2.0 2025-10-21 20:00:36+00:00 2025-10-21 20:02:38+00:00  ... -1.7084   -0.086684         2.033333  2025-10-21  False
+143   BYND      long  3.0 2025-10-22 14:20:24+00:00 2025-10-22 14:22:20+00:00  ... -0.7968   -0.037537         1.933333  2025-10-22  False
+
+[5 rows x 12 columns]
+2025-10-22T12:30:12.667874-0600 DEBUG data_folder_path: C:\Users\Nick\Documents\MoneyGame\MoneyGame\moneygame\core\../../data/
+2025-10-22T12:30:13.926673-0600 DEBUG 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+139    False
+140    False
+141    False
+142    False
+143    False
+Name: symbol, Length: 144, dtype: bool
+2025-10-22T12:31:15.871270-0600 DEBUG Loaded secrets from schwab_auth_token.json
+2025-10-22T12:31:18.553293-0600 DEBUG orders:
+      session          duration orderType  ...                            orderActivityCollection  price  statusDescription
+0      NORMAL               DAY      STOP  ...  [{'activityType': 'EXECUTION', 'activityId': 1...    NaN                NaN
+1      NORMAL               DAY      STOP  ...  [{'activityType': 'EXECUTION', 'activityId': 1...    NaN                NaN
+2      NORMAL               DAY    MARKET  ...  [{'activityType': 'EXECUTION', 'activityId': 1...    NaN                NaN
+3    SEAMLESS               DAY     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...   9.00                NaN
+4    SEAMLESS               DAY     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  10.00                NaN
+..        ...               ...       ...  ...                                                ...    ...                ...
+488  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  12.15                NaN
+489  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  11.12                NaN
+490  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  11.48                NaN
+491  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  11.66                NaN
+492  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  12.06                NaN
+
+[493 rows x 25 columns]
+2025-10-22T12:31:18.587665-0600 INFO Writing orders to: C:\Users\Nick\Documents\MoneyGame\MoneyGame\logs\2025-10-12_to_2025-10-22_order_history.csv
+2025-10-22T12:31:18.608092-0600 INFO Detected Schwab order-level schema; flattening to fills...
+2025-10-22T12:31:18.819328-0600 INFO Schwab flatten: 493 orders -> 389 activities scanned, 287 execution-like, 287 legs -> 287 fill rows
+2025-10-22T12:31:18.884108-0600 DEBUG live_trades.tail(5):
+    symbol direction  qty                entry_time                 exit_time  ...     pnl  return_pct  holding_minutes        date    win
+139   RYOJ      long  3.0 2025-10-21 18:43:28+00:00 2025-10-21 18:47:43+00:00  ... -0.5697   -0.025802         4.250000  2025-10-21  False
+140   RYOJ      long  3.0 2025-10-21 18:44:30+00:00 2025-10-21 18:48:39+00:00  ... -1.1778   -0.051036         4.150000  2025-10-21  False
+141   RYOJ      long  3.0 2025-10-21 19:25:29+00:00 2025-10-21 19:27:42+00:00  ...  0.2103    0.008896         2.216667  2025-10-21   True
+142   RYOJ      long  2.0 2025-10-21 20:00:36+00:00 2025-10-21 20:02:38+00:00  ... -1.7084   -0.086684         2.033333  2025-10-21  False
+143   BYND      long  3.0 2025-10-22 14:20:24+00:00 2025-10-22 14:22:20+00:00  ... -0.7968   -0.037537         1.933333  2025-10-22  False
+
+[5 rows x 12 columns]
+2025-10-22T12:31:18.886110-0600 DEBUG data_folder_path: C:\Users\Nick\Documents\MoneyGame\MoneyGame\moneygame\core\../../data/
+2025-10-22T12:31:20.184197-0600 DEBUG 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+139    False
+140    False
+141    False
+142    False
+143    False
+Name: symbol, Length: 144, dtype: bool
+2025-10-22T12:32:02.028089-0600 DEBUG Loaded secrets from schwab_auth_token.json
+2025-10-22T12:32:04.568837-0600 DEBUG orders:
+      session          duration orderType  ...                            orderActivityCollection  price  statusDescription
+0      NORMAL               DAY      STOP  ...  [{'activityType': 'EXECUTION', 'activityId': 1...    NaN                NaN
+1      NORMAL               DAY      STOP  ...  [{'activityType': 'EXECUTION', 'activityId': 1...    NaN                NaN
+2      NORMAL               DAY    MARKET  ...  [{'activityType': 'EXECUTION', 'activityId': 1...    NaN                NaN
+3    SEAMLESS               DAY     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...   9.00                NaN
+4    SEAMLESS               DAY     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  10.00                NaN
+..        ...               ...       ...  ...                                                ...    ...                ...
+488  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  12.15                NaN
+489  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  11.12                NaN
+490  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  11.48                NaN
+491  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  11.66                NaN
+492  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  12.06                NaN
+
+[493 rows x 25 columns]
+2025-10-22T12:32:04.597054-0600 INFO Writing orders to: C:\Users\Nick\Documents\MoneyGame\MoneyGame\logs\2025-10-12_to_2025-10-22_order_history.csv
+2025-10-22T12:32:04.622852-0600 INFO Detected Schwab order-level schema; flattening to fills...
+2025-10-22T12:32:04.847332-0600 INFO Schwab flatten: 493 orders -> 389 activities scanned, 287 execution-like, 287 legs -> 287 fill rows
+2025-10-22T12:32:04.917532-0600 DEBUG live_trades.tail(5):
+    symbol direction  qty                entry_time                 exit_time  ...     pnl  return_pct  holding_minutes        date    win
+139   RYOJ      long  3.0 2025-10-21 18:43:28+00:00 2025-10-21 18:47:43+00:00  ... -0.5697   -0.025802         4.250000  2025-10-21  False
+140   RYOJ      long  3.0 2025-10-21 18:44:30+00:00 2025-10-21 18:48:39+00:00  ... -1.1778   -0.051036         4.150000  2025-10-21  False
+141   RYOJ      long  3.0 2025-10-21 19:25:29+00:00 2025-10-21 19:27:42+00:00  ...  0.2103    0.008896         2.216667  2025-10-21   True
+142   RYOJ      long  2.0 2025-10-21 20:00:36+00:00 2025-10-21 20:02:38+00:00  ... -1.7084   -0.086684         2.033333  2025-10-21  False
+143   BYND      long  3.0 2025-10-22 14:20:24+00:00 2025-10-22 14:22:20+00:00  ... -0.7968   -0.037537         1.933333  2025-10-22  False
+
+[5 rows x 12 columns]
+2025-10-22T12:32:04.919515-0600 DEBUG data_folder_path: C:\Users\Nick\Documents\MoneyGame\MoneyGame\moneygame\core\../../data/
+2025-10-22T12:32:06.245147-0600 DEBUG 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+139    False
+140    False
+141    False
+142    False
+143    False
+Name: symbol, Length: 144, dtype: bool
+2025-10-22T12:33:37.011879-0600 DEBUG Loaded secrets from schwab_auth_token.json
+2025-10-22T12:33:39.623730-0600 DEBUG orders:
+      session          duration orderType  ...                            orderActivityCollection  price  statusDescription
+0      NORMAL               DAY      STOP  ...  [{'activityType': 'EXECUTION', 'activityId': 1...    NaN                NaN
+1      NORMAL               DAY      STOP  ...  [{'activityType': 'EXECUTION', 'activityId': 1...    NaN                NaN
+2      NORMAL               DAY    MARKET  ...  [{'activityType': 'EXECUTION', 'activityId': 1...    NaN                NaN
+3    SEAMLESS               DAY     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...   9.00                NaN
+4    SEAMLESS               DAY     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  10.00                NaN
+..        ...               ...       ...  ...                                                ...    ...                ...
+488  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  12.15                NaN
+489  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  11.12                NaN
+490  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  11.48                NaN
+491  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  11.66                NaN
+492  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  12.06                NaN
+
+[493 rows x 25 columns]
+2025-10-22T12:33:39.656535-0600 INFO Writing orders to: C:\Users\Nick\Documents\MoneyGame\MoneyGame\logs\2025-10-12_to_2025-10-22_order_history.csv
+2025-10-22T12:33:39.676537-0600 INFO Detected Schwab order-level schema; flattening to fills...
+2025-10-22T12:33:39.855811-0600 INFO Schwab flatten: 493 orders -> 389 activities scanned, 287 execution-like, 287 legs -> 287 fill rows
+2025-10-22T12:33:39.905680-0600 DEBUG live_trades.tail(5):
+    symbol direction  qty                entry_time                 exit_time  ...     pnl  return_pct  holding_minutes        date    win
+139   RYOJ      long  3.0 2025-10-21 18:43:28+00:00 2025-10-21 18:47:43+00:00  ... -0.5697   -0.025802         4.250000  2025-10-21  False
+140   RYOJ      long  3.0 2025-10-21 18:44:30+00:00 2025-10-21 18:48:39+00:00  ... -1.1778   -0.051036         4.150000  2025-10-21  False
+141   RYOJ      long  3.0 2025-10-21 19:25:29+00:00 2025-10-21 19:27:42+00:00  ...  0.2103    0.008896         2.216667  2025-10-21   True
+142   RYOJ      long  2.0 2025-10-21 20:00:36+00:00 2025-10-21 20:02:38+00:00  ... -1.7084   -0.086684         2.033333  2025-10-21  False
+143   BYND      long  3.0 2025-10-22 14:20:24+00:00 2025-10-22 14:22:20+00:00  ... -0.7968   -0.037537         1.933333  2025-10-22  False
+
+[5 rows x 12 columns]
+2025-10-22T12:33:39.905680-0600 DEBUG data_folder_path: C:\Users\Nick\Documents\MoneyGame\MoneyGame\moneygame\core\../../data/
+2025-10-22T12:33:41.145822-0600 DEBUG 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+139    False
+140    False
+141    False
+142    False
+143    False
+Name: symbol, Length: 144, dtype: bool
+2025-10-22T12:34:45.981745-0600 DEBUG Loaded secrets from schwab_auth_token.json
+2025-10-22T12:34:49.778233-0600 DEBUG orders:
+      session          duration orderType  ...                            orderActivityCollection  price  statusDescription
+0      NORMAL               DAY      STOP  ...  [{'activityType': 'EXECUTION', 'activityId': 1...    NaN                NaN
+1      NORMAL               DAY      STOP  ...  [{'activityType': 'EXECUTION', 'activityId': 1...    NaN                NaN
+2      NORMAL               DAY    MARKET  ...  [{'activityType': 'EXECUTION', 'activityId': 1...    NaN                NaN
+3    SEAMLESS               DAY     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...   9.00                NaN
+4    SEAMLESS               DAY     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  10.00                NaN
+..        ...               ...       ...  ...                                                ...    ...                ...
+488  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  12.15                NaN
+489  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  11.12                NaN
+490  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  11.48                NaN
+491  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  11.66                NaN
+492  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  12.06                NaN
+
+[493 rows x 25 columns]
+2025-10-22T12:34:49.809481-0600 INFO Writing orders to: C:\Users\Nick\Documents\MoneyGame\MoneyGame\logs\2025-10-12_to_2025-10-22_order_history.csv
+2025-10-22T12:34:49.825105-0600 INFO Detected Schwab order-level schema; flattening to fills...
+2025-10-22T12:34:50.023880-0600 INFO Schwab flatten: 493 orders -> 389 activities scanned, 287 execution-like, 287 legs -> 287 fill rows
+2025-10-22T12:34:50.081217-0600 DEBUG live_trades.tail(5):
+    symbol direction  qty                entry_time                 exit_time  ...     pnl  return_pct  holding_minutes        date    win
+139   RYOJ      long  3.0 2025-10-21 18:43:28+00:00 2025-10-21 18:47:43+00:00  ... -0.5697   -0.025802         4.250000  2025-10-21  False
+140   RYOJ      long  3.0 2025-10-21 18:44:30+00:00 2025-10-21 18:48:39+00:00  ... -1.1778   -0.051036         4.150000  2025-10-21  False
+141   RYOJ      long  3.0 2025-10-21 19:25:29+00:00 2025-10-21 19:27:42+00:00  ...  0.2103    0.008896         2.216667  2025-10-21   True
+142   RYOJ      long  2.0 2025-10-21 20:00:36+00:00 2025-10-21 20:02:38+00:00  ... -1.7084   -0.086684         2.033333  2025-10-21  False
+143   BYND      long  3.0 2025-10-22 14:20:24+00:00 2025-10-22 14:22:20+00:00  ... -0.7968   -0.037537         1.933333  2025-10-22  False
+
+[5 rows x 12 columns]
+2025-10-22T12:34:50.083228-0600 DEBUG data_folder_path: C:\Users\Nick\Documents\MoneyGame\MoneyGame\moneygame\core\../../data/
+2025-10-22T12:34:51.296735-0600 DEBUG 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+139    False
+140    False
+141    False
+142    False
+143    False
+Name: symbol, Length: 144, dtype: bool
+2025-10-22T12:35:32.969639-0600 DEBUG Loaded secrets from schwab_auth_token.json
+2025-10-22T12:35:35.650465-0600 DEBUG orders:
+      session          duration orderType  ...                            orderActivityCollection  price  statusDescription
+0      NORMAL               DAY      STOP  ...  [{'activityType': 'EXECUTION', 'activityId': 1...    NaN                NaN
+1      NORMAL               DAY      STOP  ...  [{'activityType': 'EXECUTION', 'activityId': 1...    NaN                NaN
+2      NORMAL               DAY    MARKET  ...  [{'activityType': 'EXECUTION', 'activityId': 1...    NaN                NaN
+3    SEAMLESS               DAY     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...   9.00                NaN
+4    SEAMLESS               DAY     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  10.00                NaN
+..        ...               ...       ...  ...                                                ...    ...                ...
+488  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  12.15                NaN
+489  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  11.12                NaN
+490  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  11.48                NaN
+491  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  11.66                NaN
+492  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  12.06                NaN
+
+[493 rows x 25 columns]
+2025-10-22T12:35:35.698703-0600 INFO Writing orders to: C:\Users\Nick\Documents\MoneyGame\MoneyGame\logs\2025-10-12_to_2025-10-22_order_history.csv
+2025-10-22T12:35:35.722682-0600 INFO Detected Schwab order-level schema; flattening to fills...
+2025-10-22T12:35:35.914355-0600 INFO Schwab flatten: 493 orders -> 389 activities scanned, 287 execution-like, 287 legs -> 287 fill rows
+2025-10-22T12:35:35.964520-0600 DEBUG live_trades.tail(5):
+    symbol direction  qty                entry_time                 exit_time  ...     pnl  return_pct  holding_minutes        date    win
+139   RYOJ      long  3.0 2025-10-21 18:43:28+00:00 2025-10-21 18:47:43+00:00  ... -0.5697   -0.025802         4.250000  2025-10-21  False
+140   RYOJ      long  3.0 2025-10-21 18:44:30+00:00 2025-10-21 18:48:39+00:00  ... -1.1778   -0.051036         4.150000  2025-10-21  False
+141   RYOJ      long  3.0 2025-10-21 19:25:29+00:00 2025-10-21 19:27:42+00:00  ...  0.2103    0.008896         2.216667  2025-10-21   True
+142   RYOJ      long  2.0 2025-10-21 20:00:36+00:00 2025-10-21 20:02:38+00:00  ... -1.7084   -0.086684         2.033333  2025-10-21  False
+143   BYND      long  3.0 2025-10-22 14:20:24+00:00 2025-10-22 14:22:20+00:00  ... -0.7968   -0.037537         1.933333  2025-10-22  False
+
+[5 rows x 12 columns]
+2025-10-22T12:35:35.965505-0600 DEBUG data_folder_path: C:\Users\Nick\Documents\MoneyGame\MoneyGame\moneygame\core\../../data/
+2025-10-22T12:35:37.245485-0600 DEBUG 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+139    False
+140    False
+141    False
+142    False
+143    False
+Name: symbol, Length: 144, dtype: bool
+2025-10-22T12:35:37.245485-0600 DEBUG 0     2025-10-13 12:56:02+00:00
+1     2025-10-13 12:59:02+00:00
+2     2025-10-13 13:20:02+00:00
+3     2025-10-13 13:32:02+00:00
+4     2025-10-13 13:47:02+00:00
+                 ...           
+139   2025-10-21 18:43:28+00:00
+140   2025-10-21 18:44:30+00:00
+141   2025-10-21 19:25:29+00:00
+142   2025-10-21 20:00:36+00:00
+143   2025-10-22 14:20:24+00:00
+Name: entry_time, Length: 144, dtype: datetime64[ns, UTC]
+2025-10-22T12:35:37.245485-0600 DEBUG 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+139    False
+140    False
+141    False
+142    False
+143    False
+Name: entry_time, Length: 144, dtype: bool
+2025-10-22T12:36:56.508315-0600 DEBUG Loaded secrets from schwab_auth_token.json
+2025-10-22T12:36:59.196734-0600 DEBUG orders:
+      session          duration orderType  ...                            orderActivityCollection  price  statusDescription
+0      NORMAL               DAY      STOP  ...  [{'activityType': 'EXECUTION', 'activityId': 1...    NaN                NaN
+1      NORMAL               DAY      STOP  ...  [{'activityType': 'EXECUTION', 'activityId': 1...    NaN                NaN
+2      NORMAL               DAY    MARKET  ...  [{'activityType': 'EXECUTION', 'activityId': 1...    NaN                NaN
+3    SEAMLESS               DAY     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...   9.00                NaN
+4    SEAMLESS               DAY     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  10.00                NaN
+..        ...               ...       ...  ...                                                ...    ...                ...
+488  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  12.15                NaN
+489  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  11.12                NaN
+490  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  11.48                NaN
+491  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  11.66                NaN
+492  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  12.06                NaN
+
+[493 rows x 25 columns]
+2025-10-22T12:36:59.232731-0600 INFO Writing orders to: C:\Users\Nick\Documents\MoneyGame\MoneyGame\logs\2025-10-12_to_2025-10-22_order_history.csv
+2025-10-22T12:36:59.253012-0600 INFO Detected Schwab order-level schema; flattening to fills...
+2025-10-22T12:36:59.473543-0600 INFO Schwab flatten: 493 orders -> 389 activities scanned, 287 execution-like, 287 legs -> 287 fill rows
+2025-10-22T12:36:59.536367-0600 DEBUG live_trades.tail(5):
+    symbol direction  qty                entry_time                 exit_time  ...     pnl  return_pct  holding_minutes        date    win
+139   RYOJ      long  3.0 2025-10-21 18:43:28+00:00 2025-10-21 18:47:43+00:00  ... -0.5697   -0.025802         4.250000  2025-10-21  False
+140   RYOJ      long  3.0 2025-10-21 18:44:30+00:00 2025-10-21 18:48:39+00:00  ... -1.1778   -0.051036         4.150000  2025-10-21  False
+141   RYOJ      long  3.0 2025-10-21 19:25:29+00:00 2025-10-21 19:27:42+00:00  ...  0.2103    0.008896         2.216667  2025-10-21   True
+142   RYOJ      long  2.0 2025-10-21 20:00:36+00:00 2025-10-21 20:02:38+00:00  ... -1.7084   -0.086684         2.033333  2025-10-21  False
+143   BYND      long  3.0 2025-10-22 14:20:24+00:00 2025-10-22 14:22:20+00:00  ... -0.7968   -0.037537         1.933333  2025-10-22  False
+
+[5 rows x 12 columns]
+2025-10-22T12:36:59.537476-0600 DEBUG data_folder_path: C:\Users\Nick\Documents\MoneyGame\MoneyGame\moneygame\core\../../data/
+2025-10-22T12:37:00.839216-0600 DEBUG 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+139    False
+140    False
+141    False
+142    False
+143    False
+Name: symbol, Length: 144, dtype: bool
+2025-10-22T12:37:00.839216-0600 DEBUG 0     2025-10-13 12:56:02+00:00
+1     2025-10-13 12:59:02+00:00
+2     2025-10-13 13:20:02+00:00
+3     2025-10-13 13:32:02+00:00
+4     2025-10-13 13:47:02+00:00
+                 ...           
+139   2025-10-21 18:43:28+00:00
+140   2025-10-21 18:44:30+00:00
+141   2025-10-21 19:25:29+00:00
+142   2025-10-21 20:00:36+00:00
+143   2025-10-22 14:20:24+00:00
+Name: entry_time, Length: 144, dtype: datetime64[ns, UTC]
+2025-10-22T12:37:00.854829-0600 DEBUG 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+139    False
+140    False
+141    False
+142    False
+143    False
+Name: entry_time, Length: 144, dtype: bool
+2025-10-22T12:37:00.854829-0600 DEBUG single_day_ticker_trades:
+    symbol direction  qty                entry_time                 exit_time  ...     pnl  return_pct  holding_minutes        date    win
+112   ANRO      long  1.0 2025-10-20 14:04:08+00:00 2025-10-20 14:16:45+00:00  ...  0.9028    0.088491        12.616667  2025-10-20   True
+113   ANRO      long  1.0 2025-10-20 14:10:09+00:00 2025-10-20 14:16:59+00:00  ...  0.1201    0.010839         6.833333  2025-10-20   True
+114   ANRO      long  1.0 2025-10-20 14:11:08+00:00 2025-10-20 14:17:44+00:00  ...  0.1416    0.012922         6.600000  2025-10-20   True
+115   ANRO      long  1.0 2025-10-20 15:16:10+00:00 2025-10-20 15:18:11+00:00  ... -0.4265   -0.037293         2.016667  2025-10-20  False
+119   ANRO      long  1.0 2025-10-20 16:02:22+00:00 2025-10-20 16:04:50+00:00  ... -0.1050   -0.009263         2.466667  2025-10-20  False
+
+[5 rows x 12 columns]
+2025-10-22T12:47:26.759324-0600 DEBUG Loaded secrets from schwab_auth_token.json
+2025-10-22T12:47:29.274998-0600 DEBUG orders:
+      session          duration orderType  ...                            orderActivityCollection  price  statusDescription
+0      NORMAL               DAY      STOP  ...  [{'activityType': 'EXECUTION', 'activityId': 1...    NaN                NaN
+1      NORMAL               DAY      STOP  ...  [{'activityType': 'EXECUTION', 'activityId': 1...    NaN                NaN
+2      NORMAL               DAY    MARKET  ...  [{'activityType': 'EXECUTION', 'activityId': 1...    NaN                NaN
+3    SEAMLESS               DAY     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...   9.00                NaN
+4    SEAMLESS               DAY     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  10.00                NaN
+..        ...               ...       ...  ...                                                ...    ...                ...
+488  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  12.15                NaN
+489  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  11.12                NaN
+490  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  11.48                NaN
+491  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  11.66                NaN
+492  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  12.06                NaN
+
+[493 rows x 25 columns]
+2025-10-22T12:47:29.305772-0600 INFO Writing orders to: C:\Users\Nick\Documents\MoneyGame\MoneyGame\logs\2025-10-12_to_2025-10-22_order_history.csv
+2025-10-22T12:47:29.330802-0600 INFO Detected Schwab order-level schema; flattening to fills...
+2025-10-22T12:47:29.534197-0600 INFO Schwab flatten: 493 orders -> 389 activities scanned, 287 execution-like, 287 legs -> 287 fill rows
+2025-10-22T12:47:29.585939-0600 DEBUG live_trades.tail(5):
+    symbol direction  qty                entry_time                 exit_time  ...     pnl  return_pct  holding_minutes        date    win
+139   RYOJ      long  3.0 2025-10-21 18:43:28+00:00 2025-10-21 18:47:43+00:00  ... -0.5697   -0.025802         4.250000  2025-10-21  False
+140   RYOJ      long  3.0 2025-10-21 18:44:30+00:00 2025-10-21 18:48:39+00:00  ... -1.1778   -0.051036         4.150000  2025-10-21  False
+141   RYOJ      long  3.0 2025-10-21 19:25:29+00:00 2025-10-21 19:27:42+00:00  ...  0.2103    0.008896         2.216667  2025-10-21   True
+142   RYOJ      long  2.0 2025-10-21 20:00:36+00:00 2025-10-21 20:02:38+00:00  ... -1.7084   -0.086684         2.033333  2025-10-21  False
+143   BYND      long  3.0 2025-10-22 14:20:24+00:00 2025-10-22 14:22:20+00:00  ... -0.7968   -0.037537         1.933333  2025-10-22  False
+
+[5 rows x 12 columns]
+2025-10-22T12:47:29.586930-0600 DEBUG data_folder_path: C:\Users\Nick\Documents\MoneyGame\MoneyGame\moneygame\core\../../data/
+2025-10-22T12:47:30.930833-0600 DEBUG single_day_ticker_trades:
+    symbol direction  qty                entry_time                 exit_time  ...     pnl  return_pct  holding_minutes        date    win
+112   ANRO      long  1.0 2025-10-20 14:04:08+00:00 2025-10-20 14:16:45+00:00  ...  0.9028    0.088491        12.616667  2025-10-20   True
+113   ANRO      long  1.0 2025-10-20 14:10:09+00:00 2025-10-20 14:16:59+00:00  ...  0.1201    0.010839         6.833333  2025-10-20   True
+114   ANRO      long  1.0 2025-10-20 14:11:08+00:00 2025-10-20 14:17:44+00:00  ...  0.1416    0.012922         6.600000  2025-10-20   True
+115   ANRO      long  1.0 2025-10-20 15:16:10+00:00 2025-10-20 15:18:11+00:00  ... -0.4265   -0.037293         2.016667  2025-10-20  False
+119   ANRO      long  1.0 2025-10-20 16:02:22+00:00 2025-10-20 16:04:50+00:00  ... -0.1050   -0.009263         2.466667  2025-10-20  False
+
+[5 rows x 12 columns]
+2025-10-22T12:55:33.768191-0600 DEBUG Loaded secrets from schwab_auth_token.json
+2025-10-22T12:55:36.226824-0600 DEBUG orders:
+      session          duration orderType  ...                            orderActivityCollection  price  statusDescription
+0      NORMAL               DAY      STOP  ...  [{'activityType': 'EXECUTION', 'activityId': 1...    NaN                NaN
+1      NORMAL               DAY      STOP  ...  [{'activityType': 'EXECUTION', 'activityId': 1...    NaN                NaN
+2      NORMAL               DAY    MARKET  ...  [{'activityType': 'EXECUTION', 'activityId': 1...    NaN                NaN
+3    SEAMLESS               DAY     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...   9.00                NaN
+4    SEAMLESS               DAY     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  10.00                NaN
+..        ...               ...       ...  ...                                                ...    ...                ...
+488  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  12.15                NaN
+489  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  11.12                NaN
+490  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  11.48                NaN
+491  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  11.66                NaN
+492  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  12.06                NaN
+
+[493 rows x 25 columns]
+2025-10-22T12:55:36.277222-0600 INFO Writing orders to: C:\Users\Nick\Documents\MoneyGame\MoneyGame\logs\2025-10-12_to_2025-10-22_order_history.csv
+2025-10-22T12:55:36.305902-0600 INFO Detected Schwab order-level schema; flattening to fills...
+2025-10-22T12:55:36.565312-0600 INFO Schwab flatten: 493 orders -> 389 activities scanned, 287 execution-like, 287 legs -> 287 fill rows
+2025-10-22T12:55:36.652629-0600 DEBUG live_trades.tail(5):
+    symbol direction  qty                entry_time                 exit_time  ...     pnl  return_pct  holding_minutes        date    win
+139   RYOJ      long  3.0 2025-10-21 18:43:28+00:00 2025-10-21 18:47:43+00:00  ... -0.5697   -0.025802         4.250000  2025-10-21  False
+140   RYOJ      long  3.0 2025-10-21 18:44:30+00:00 2025-10-21 18:48:39+00:00  ... -1.1778   -0.051036         4.150000  2025-10-21  False
+141   RYOJ      long  3.0 2025-10-21 19:25:29+00:00 2025-10-21 19:27:42+00:00  ...  0.2103    0.008896         2.216667  2025-10-21   True
+142   RYOJ      long  2.0 2025-10-21 20:00:36+00:00 2025-10-21 20:02:38+00:00  ... -1.7084   -0.086684         2.033333  2025-10-21  False
+143   BYND      long  3.0 2025-10-22 14:20:24+00:00 2025-10-22 14:22:20+00:00  ... -0.7968   -0.037537         1.933333  2025-10-22  False
+
+[5 rows x 12 columns]
+2025-10-22T12:55:36.654628-0600 DEBUG data_folder_path: C:\Users\Nick\Documents\MoneyGame\MoneyGame\moneygame\core\../../data/
+2025-10-22T12:55:41.439350-0600 DEBUG single_day_ticker_trades:
+    symbol direction  qty                entry_time                 exit_time  ...     pnl  return_pct  holding_minutes        date    win
+112   ANRO      long  1.0 2025-10-20 14:04:08+00:00 2025-10-20 14:16:45+00:00  ...  0.9028    0.088491        12.616667  2025-10-20   True
+113   ANRO      long  1.0 2025-10-20 14:10:09+00:00 2025-10-20 14:16:59+00:00  ...  0.1201    0.010839         6.833333  2025-10-20   True
+114   ANRO      long  1.0 2025-10-20 14:11:08+00:00 2025-10-20 14:17:44+00:00  ...  0.1416    0.012922         6.600000  2025-10-20   True
+115   ANRO      long  1.0 2025-10-20 15:16:10+00:00 2025-10-20 15:18:11+00:00  ... -0.4265   -0.037293         2.016667  2025-10-20  False
+119   ANRO      long  1.0 2025-10-20 16:02:22+00:00 2025-10-20 16:04:50+00:00  ... -0.1050   -0.009263         2.466667  2025-10-20  False
+
+[5 rows x 12 columns]
+2025-10-22T12:57:05.365328-0600 DEBUG Loaded secrets from schwab_auth_token.json
+2025-10-22T12:57:08.174004-0600 DEBUG orders:
+      session          duration orderType  ...                            orderActivityCollection  price  statusDescription
+0      NORMAL               DAY      STOP  ...  [{'activityType': 'EXECUTION', 'activityId': 1...    NaN                NaN
+1      NORMAL               DAY      STOP  ...  [{'activityType': 'EXECUTION', 'activityId': 1...    NaN                NaN
+2      NORMAL               DAY    MARKET  ...  [{'activityType': 'EXECUTION', 'activityId': 1...    NaN                NaN
+3    SEAMLESS               DAY     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...   9.00                NaN
+4    SEAMLESS               DAY     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  10.00                NaN
+..        ...               ...       ...  ...                                                ...    ...                ...
+488  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  12.15                NaN
+489  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  11.12                NaN
+490  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  11.48                NaN
+491  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  11.66                NaN
+492  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  12.06                NaN
+
+[493 rows x 25 columns]
+2025-10-22T12:57:08.208365-0600 INFO Writing orders to: C:\Users\Nick\Documents\MoneyGame\MoneyGame\logs\2025-10-12_to_2025-10-22_order_history.csv
+2025-10-22T12:57:08.228366-0600 INFO Detected Schwab order-level schema; flattening to fills...
+2025-10-22T12:57:08.424985-0600 INFO Schwab flatten: 493 orders -> 389 activities scanned, 287 execution-like, 287 legs -> 287 fill rows
+2025-10-22T12:57:08.482526-0600 DEBUG live_trades.tail(5):
+    symbol direction  qty                entry_time                 exit_time  ...     pnl  return_pct  holding_minutes        date    win
+139   RYOJ      long  3.0 2025-10-21 18:43:28+00:00 2025-10-21 18:47:43+00:00  ... -0.5697   -0.025802         4.250000  2025-10-21  False
+140   RYOJ      long  3.0 2025-10-21 18:44:30+00:00 2025-10-21 18:48:39+00:00  ... -1.1778   -0.051036         4.150000  2025-10-21  False
+141   RYOJ      long  3.0 2025-10-21 19:25:29+00:00 2025-10-21 19:27:42+00:00  ...  0.2103    0.008896         2.216667  2025-10-21   True
+142   RYOJ      long  2.0 2025-10-21 20:00:36+00:00 2025-10-21 20:02:38+00:00  ... -1.7084   -0.086684         2.033333  2025-10-21  False
+143   BYND      long  3.0 2025-10-22 14:20:24+00:00 2025-10-22 14:22:20+00:00  ... -0.7968   -0.037537         1.933333  2025-10-22  False
+
+[5 rows x 12 columns]
+2025-10-22T12:57:08.484509-0600 DEBUG data_folder_path: C:\Users\Nick\Documents\MoneyGame\MoneyGame\moneygame\core\../../data/
+2025-10-22T12:57:09.725268-0600 DEBUG 2025-10-20_ANRO_1day1minute_price_history.csv
+2025-10-22T12:57:09.775382-0600 DEBUG ticker_symbol: ANRO
+2025-10-22T12:57:09.794402-0600 DEBUG single_day_ticker_trades:
+    symbol direction  qty                entry_time                 exit_time  ...     pnl  return_pct  holding_minutes        date    win
+112   ANRO      long  1.0 2025-10-20 14:04:08+00:00 2025-10-20 14:16:45+00:00  ...  0.9028    0.088491        12.616667  2025-10-20   True
+113   ANRO      long  1.0 2025-10-20 14:10:09+00:00 2025-10-20 14:16:59+00:00  ...  0.1201    0.010839         6.833333  2025-10-20   True
+114   ANRO      long  1.0 2025-10-20 14:11:08+00:00 2025-10-20 14:17:44+00:00  ...  0.1416    0.012922         6.600000  2025-10-20   True
+115   ANRO      long  1.0 2025-10-20 15:16:10+00:00 2025-10-20 15:18:11+00:00  ... -0.4265   -0.037293         2.016667  2025-10-20  False
+119   ANRO      long  1.0 2025-10-20 16:02:22+00:00 2025-10-20 16:04:50+00:00  ... -0.1050   -0.009263         2.466667  2025-10-20  False
+
+[5 rows x 12 columns]
+2025-10-22T12:57:09.801663-0600 DEBUG ohlcv.tail(5):      open   high    low  close  volume       datetime
+532  11.40  11.40  11.40  11.40     160  1761004020000
+533  11.46  11.46  11.46  11.46     100  1761004560000
+534  11.39  11.39  11.39  11.39     300  1761004620000
+535  11.45  11.45  11.45  11.45    2098  1761004680000
+536  11.40  11.40  11.40  11.40     213  1761004740000
+2025-10-22T12:58:16.015858-0600 DEBUG Loaded secrets from schwab_auth_token.json
+2025-10-22T12:58:18.558085-0600 DEBUG orders:
+      session          duration orderType  ...                            orderActivityCollection  price  statusDescription
+0      NORMAL               DAY      STOP  ...  [{'activityType': 'EXECUTION', 'activityId': 1...    NaN                NaN
+1      NORMAL               DAY      STOP  ...  [{'activityType': 'EXECUTION', 'activityId': 1...    NaN                NaN
+2      NORMAL               DAY    MARKET  ...  [{'activityType': 'EXECUTION', 'activityId': 1...    NaN                NaN
+3    SEAMLESS               DAY     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...   9.00                NaN
+4    SEAMLESS               DAY     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  10.00                NaN
+..        ...               ...       ...  ...                                                ...    ...                ...
+488  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  12.15                NaN
+489  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  11.12                NaN
+490  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  11.48                NaN
+491  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  11.66                NaN
+492  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  12.06                NaN
+
+[493 rows x 25 columns]
+2025-10-22T12:58:18.596817-0600 INFO Writing orders to: C:\Users\Nick\Documents\MoneyGame\MoneyGame\logs\2025-10-12_to_2025-10-22_order_history.csv
+2025-10-22T12:58:18.629232-0600 INFO Detected Schwab order-level schema; flattening to fills...
+2025-10-22T12:58:18.875753-0600 INFO Schwab flatten: 493 orders -> 389 activities scanned, 287 execution-like, 287 legs -> 287 fill rows
+2025-10-22T12:58:18.928738-0600 DEBUG live_trades.tail(5):
+    symbol direction  qty                entry_time                 exit_time  ...     pnl  return_pct  holding_minutes        date    win
+139   RYOJ      long  3.0 2025-10-21 18:43:28+00:00 2025-10-21 18:47:43+00:00  ... -0.5697   -0.025802         4.250000  2025-10-21  False
+140   RYOJ      long  3.0 2025-10-21 18:44:30+00:00 2025-10-21 18:48:39+00:00  ... -1.1778   -0.051036         4.150000  2025-10-21  False
+141   RYOJ      long  3.0 2025-10-21 19:25:29+00:00 2025-10-21 19:27:42+00:00  ...  0.2103    0.008896         2.216667  2025-10-21   True
+142   RYOJ      long  2.0 2025-10-21 20:00:36+00:00 2025-10-21 20:02:38+00:00  ... -1.7084   -0.086684         2.033333  2025-10-21  False
+143   BYND      long  3.0 2025-10-22 14:20:24+00:00 2025-10-22 14:22:20+00:00  ... -0.7968   -0.037537         1.933333  2025-10-22  False
+
+[5 rows x 12 columns]
+2025-10-22T12:58:18.929738-0600 DEBUG data_folder_path: C:\Users\Nick\Documents\MoneyGame\MoneyGame\moneygame\core\../../data/
+2025-10-22T12:58:20.398781-0600 DEBUG 2025-10-20_ANRO_1day1minute_price_history.csv
+2025-10-22T12:58:20.460504-0600 DEBUG ticker_symbol: ANRO
+2025-10-22T12:58:20.475925-0600 DEBUG single_day_ticker_trades:
+    symbol direction  qty                entry_time                 exit_time  ...     pnl  return_pct  holding_minutes        date    win
+112   ANRO      long  1.0 2025-10-20 14:04:08+00:00 2025-10-20 14:16:45+00:00  ...  0.9028    0.088491        12.616667  2025-10-20   True
+113   ANRO      long  1.0 2025-10-20 14:10:09+00:00 2025-10-20 14:16:59+00:00  ...  0.1201    0.010839         6.833333  2025-10-20   True
+114   ANRO      long  1.0 2025-10-20 14:11:08+00:00 2025-10-20 14:17:44+00:00  ...  0.1416    0.012922         6.600000  2025-10-20   True
+115   ANRO      long  1.0 2025-10-20 15:16:10+00:00 2025-10-20 15:18:11+00:00  ... -0.4265   -0.037293         2.016667  2025-10-20  False
+119   ANRO      long  1.0 2025-10-20 16:02:22+00:00 2025-10-20 16:04:50+00:00  ... -0.1050   -0.009263         2.466667  2025-10-20  False
+
+[5 rows x 12 columns]
+2025-10-22T12:58:20.481608-0600 DEBUG ohlcv.tail(5):
+      open   high    low  close  volume       datetime
+532  11.40  11.40  11.40  11.40     160  1761004020000
+533  11.46  11.46  11.46  11.46     100  1761004560000
+534  11.39  11.39  11.39  11.39     300  1761004620000
+535  11.45  11.45  11.45  11.45    2098  1761004680000
+536  11.40  11.40  11.40  11.40     213  1761004740000
+2025-10-22T12:58:39.164997-0600 DEBUG Loaded secrets from schwab_auth_token.json
+2025-10-22T12:58:41.553974-0600 DEBUG orders:
+      session          duration orderType  ...                            orderActivityCollection  price  statusDescription
+0      NORMAL               DAY      STOP  ...  [{'activityType': 'EXECUTION', 'activityId': 1...    NaN                NaN
+1      NORMAL               DAY      STOP  ...  [{'activityType': 'EXECUTION', 'activityId': 1...    NaN                NaN
+2      NORMAL               DAY    MARKET  ...  [{'activityType': 'EXECUTION', 'activityId': 1...    NaN                NaN
+3    SEAMLESS               DAY     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...   9.00                NaN
+4    SEAMLESS               DAY     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  10.00                NaN
+..        ...               ...       ...  ...                                                ...    ...                ...
+488  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  12.15                NaN
+489  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  11.12                NaN
+490  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  11.48                NaN
+491  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  11.66                NaN
+492  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  12.06                NaN
+
+[493 rows x 25 columns]
+2025-10-22T12:58:41.574767-0600 INFO Writing orders to: C:\Users\Nick\Documents\MoneyGame\MoneyGame\logs\2025-10-12_to_2025-10-22_order_history.csv
+2025-10-22T12:58:41.600583-0600 INFO Detected Schwab order-level schema; flattening to fills...
+2025-10-22T12:58:41.804298-0600 INFO Schwab flatten: 493 orders -> 389 activities scanned, 287 execution-like, 287 legs -> 287 fill rows
+2025-10-22T12:58:41.855220-0600 DEBUG live_trades.tail(5):
+    symbol direction  qty                entry_time                 exit_time  ...     pnl  return_pct  holding_minutes        date    win
+139   RYOJ      long  3.0 2025-10-21 18:43:28+00:00 2025-10-21 18:47:43+00:00  ... -0.5697   -0.025802         4.250000  2025-10-21  False
+140   RYOJ      long  3.0 2025-10-21 18:44:30+00:00 2025-10-21 18:48:39+00:00  ... -1.1778   -0.051036         4.150000  2025-10-21  False
+141   RYOJ      long  3.0 2025-10-21 19:25:29+00:00 2025-10-21 19:27:42+00:00  ...  0.2103    0.008896         2.216667  2025-10-21   True
+142   RYOJ      long  2.0 2025-10-21 20:00:36+00:00 2025-10-21 20:02:38+00:00  ... -1.7084   -0.086684         2.033333  2025-10-21  False
+143   BYND      long  3.0 2025-10-22 14:20:24+00:00 2025-10-22 14:22:20+00:00  ... -0.7968   -0.037537         1.933333  2025-10-22  False
+
+[5 rows x 12 columns]
+2025-10-22T12:58:41.856220-0600 DEBUG data_folder_path: C:\Users\Nick\Documents\MoneyGame\MoneyGame\moneygame\core\../../data/
+2025-10-22T12:58:43.038187-0600 DEBUG 2025-10-20_ANRO_1day1minute_price_history.csv
+2025-10-22T12:58:43.087106-0600 DEBUG ticker_symbol: ANRO
+2025-10-22T12:58:43.104774-0600 DEBUG single_day_ticker_trades:
+    symbol direction  qty                entry_time                 exit_time  ...     pnl  return_pct  holding_minutes        date    win
+112   ANRO      long  1.0 2025-10-20 14:04:08+00:00 2025-10-20 14:16:45+00:00  ...  0.9028    0.088491        12.616667  2025-10-20   True
+113   ANRO      long  1.0 2025-10-20 14:10:09+00:00 2025-10-20 14:16:59+00:00  ...  0.1201    0.010839         6.833333  2025-10-20   True
+114   ANRO      long  1.0 2025-10-20 14:11:08+00:00 2025-10-20 14:17:44+00:00  ...  0.1416    0.012922         6.600000  2025-10-20   True
+115   ANRO      long  1.0 2025-10-20 15:16:10+00:00 2025-10-20 15:18:11+00:00  ... -0.4265   -0.037293         2.016667  2025-10-20  False
+119   ANRO      long  1.0 2025-10-20 16:02:22+00:00 2025-10-20 16:04:50+00:00  ... -0.1050   -0.009263         2.466667  2025-10-20  False
+
+[5 rows x 12 columns]
+2025-10-22T12:58:43.106810-0600 DEBUG ohlcv.tail(5):
+      open   high    low  close  volume       datetime
+532  11.40  11.40  11.40  11.40     160  1761004020000
+533  11.46  11.46  11.46  11.46     100  1761004560000
+534  11.39  11.39  11.39  11.39     300  1761004620000
+535  11.45  11.45  11.45  11.45    2098  1761004680000
+536  11.40  11.40  11.40  11.40     213  1761004740000
+2025-10-22T12:58:55.241639-0600 DEBUG Loaded secrets from schwab_auth_token.json
+2025-10-22T12:58:57.874276-0600 DEBUG orders:
+      session          duration orderType  ...                            orderActivityCollection  price  statusDescription
+0      NORMAL               DAY      STOP  ...  [{'activityType': 'EXECUTION', 'activityId': 1...    NaN                NaN
+1      NORMAL               DAY      STOP  ...  [{'activityType': 'EXECUTION', 'activityId': 1...    NaN                NaN
+2      NORMAL               DAY    MARKET  ...  [{'activityType': 'EXECUTION', 'activityId': 1...    NaN                NaN
+3    SEAMLESS               DAY     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...   9.00                NaN
+4    SEAMLESS               DAY     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  10.00                NaN
+..        ...               ...       ...  ...                                                ...    ...                ...
+488  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  12.15                NaN
+489  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  11.12                NaN
+490  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  11.48                NaN
+491  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  11.66                NaN
+492  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  12.06                NaN
+
+[493 rows x 25 columns]
+2025-10-22T12:58:57.909299-0600 INFO Writing orders to: C:\Users\Nick\Documents\MoneyGame\MoneyGame\logs\2025-10-12_to_2025-10-22_order_history.csv
+2025-10-22T12:58:57.928304-0600 INFO Detected Schwab order-level schema; flattening to fills...
+2025-10-22T12:58:58.142371-0600 INFO Schwab flatten: 493 orders -> 389 activities scanned, 287 execution-like, 287 legs -> 287 fill rows
+2025-10-22T12:58:58.205806-0600 DEBUG live_trades.tail(5):
+    symbol direction  qty                entry_time                 exit_time  ...     pnl  return_pct  holding_minutes        date    win
+139   RYOJ      long  3.0 2025-10-21 18:43:28+00:00 2025-10-21 18:47:43+00:00  ... -0.5697   -0.025802         4.250000  2025-10-21  False
+140   RYOJ      long  3.0 2025-10-21 18:44:30+00:00 2025-10-21 18:48:39+00:00  ... -1.1778   -0.051036         4.150000  2025-10-21  False
+141   RYOJ      long  3.0 2025-10-21 19:25:29+00:00 2025-10-21 19:27:42+00:00  ...  0.2103    0.008896         2.216667  2025-10-21   True
+142   RYOJ      long  2.0 2025-10-21 20:00:36+00:00 2025-10-21 20:02:38+00:00  ... -1.7084   -0.086684         2.033333  2025-10-21  False
+143   BYND      long  3.0 2025-10-22 14:20:24+00:00 2025-10-22 14:22:20+00:00  ... -0.7968   -0.037537         1.933333  2025-10-22  False
+
+[5 rows x 12 columns]
+2025-10-22T12:58:58.207410-0600 DEBUG data_folder_path: C:\Users\Nick\Documents\MoneyGame\MoneyGame\moneygame\core\../../data/
+2025-10-22T12:58:59.416641-0600 DEBUG 2025-10-20_ANRO_1day1minute_price_history.csv
+2025-10-22T12:58:59.447751-0600 DEBUG ticker_symbol: ANRO
+2025-10-22T12:58:59.478550-0600 DEBUG single_day_ticker_trades:
+    symbol direction  qty                entry_time                 exit_time  ...     pnl  return_pct  holding_minutes        date    win
+112   ANRO      long  1.0 2025-10-20 14:04:08+00:00 2025-10-20 14:16:45+00:00  ...  0.9028    0.088491        12.616667  2025-10-20   True
+113   ANRO      long  1.0 2025-10-20 14:10:09+00:00 2025-10-20 14:16:59+00:00  ...  0.1201    0.010839         6.833333  2025-10-20   True
+114   ANRO      long  1.0 2025-10-20 14:11:08+00:00 2025-10-20 14:17:44+00:00  ...  0.1416    0.012922         6.600000  2025-10-20   True
+115   ANRO      long  1.0 2025-10-20 15:16:10+00:00 2025-10-20 15:18:11+00:00  ... -0.4265   -0.037293         2.016667  2025-10-20  False
+119   ANRO      long  1.0 2025-10-20 16:02:22+00:00 2025-10-20 16:04:50+00:00  ... -0.1050   -0.009263         2.466667  2025-10-20  False
+
+[5 rows x 12 columns]
+2025-10-22T12:58:59.486489-0600 DEBUG ohlcv.tail(5):
+      open   high    low  close  volume       datetime
+532  11.40  11.40  11.40  11.40     160  1761004020000
+533  11.46  11.46  11.46  11.46     100  1761004560000
+534  11.39  11.39  11.39  11.39     300  1761004620000
+535  11.45  11.45  11.45  11.45    2098  1761004680000
+536  11.40  11.40  11.40  11.40     213  1761004740000
+2025-10-22T12:59:44.756102-0600 DEBUG Loaded secrets from schwab_auth_token.json
+2025-10-22T12:59:47.441315-0600 DEBUG orders:
+      session          duration orderType  ...                            orderActivityCollection  price  statusDescription
+0      NORMAL               DAY      STOP  ...  [{'activityType': 'EXECUTION', 'activityId': 1...    NaN                NaN
+1      NORMAL               DAY      STOP  ...  [{'activityType': 'EXECUTION', 'activityId': 1...    NaN                NaN
+2      NORMAL               DAY    MARKET  ...  [{'activityType': 'EXECUTION', 'activityId': 1...    NaN                NaN
+3    SEAMLESS               DAY     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...   9.00                NaN
+4    SEAMLESS               DAY     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  10.00                NaN
+..        ...               ...       ...  ...                                                ...    ...                ...
+488  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  12.15                NaN
+489  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  11.12                NaN
+490  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  11.48                NaN
+491  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  11.66                NaN
+492  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  12.06                NaN
+
+[493 rows x 25 columns]
+2025-10-22T12:59:47.475505-0600 INFO Writing orders to: C:\Users\Nick\Documents\MoneyGame\MoneyGame\logs\2025-10-12_to_2025-10-22_order_history.csv
+2025-10-22T12:59:47.499568-0600 INFO Detected Schwab order-level schema; flattening to fills...
+2025-10-22T12:59:47.690938-0600 INFO Schwab flatten: 493 orders -> 389 activities scanned, 287 execution-like, 287 legs -> 287 fill rows
+2025-10-22T12:59:47.741244-0600 DEBUG live_trades.tail(5):
+    symbol direction  qty                entry_time                 exit_time  ...     pnl  return_pct  holding_minutes        date    win
+139   RYOJ      long  3.0 2025-10-21 18:43:28+00:00 2025-10-21 18:47:43+00:00  ... -0.5697   -0.025802         4.250000  2025-10-21  False
+140   RYOJ      long  3.0 2025-10-21 18:44:30+00:00 2025-10-21 18:48:39+00:00  ... -1.1778   -0.051036         4.150000  2025-10-21  False
+141   RYOJ      long  3.0 2025-10-21 19:25:29+00:00 2025-10-21 19:27:42+00:00  ...  0.2103    0.008896         2.216667  2025-10-21   True
+142   RYOJ      long  2.0 2025-10-21 20:00:36+00:00 2025-10-21 20:02:38+00:00  ... -1.7084   -0.086684         2.033333  2025-10-21  False
+143   BYND      long  3.0 2025-10-22 14:20:24+00:00 2025-10-22 14:22:20+00:00  ... -0.7968   -0.037537         1.933333  2025-10-22  False
+
+[5 rows x 12 columns]
+2025-10-22T12:59:47.743243-0600 DEBUG data_folder_path: C:\Users\Nick\Documents\MoneyGame\MoneyGame\moneygame\core\../../data/
+2025-10-22T12:59:48.912369-0600 DEBUG 2025-10-20_ANRO_1day1minute_price_history.csv
+2025-10-22T12:59:48.968049-0600 DEBUG ticker_symbol: ANRO
+2025-10-22T12:59:48.984631-0600 DEBUG single_day_ticker_trades:
+    symbol direction  qty                entry_time                 exit_time  ...     pnl  return_pct  holding_minutes        date    win
+112   ANRO      long  1.0 2025-10-20 14:04:08+00:00 2025-10-20 14:16:45+00:00  ...  0.9028    0.088491        12.616667  2025-10-20   True
+113   ANRO      long  1.0 2025-10-20 14:10:09+00:00 2025-10-20 14:16:59+00:00  ...  0.1201    0.010839         6.833333  2025-10-20   True
+114   ANRO      long  1.0 2025-10-20 14:11:08+00:00 2025-10-20 14:17:44+00:00  ...  0.1416    0.012922         6.600000  2025-10-20   True
+115   ANRO      long  1.0 2025-10-20 15:16:10+00:00 2025-10-20 15:18:11+00:00  ... -0.4265   -0.037293         2.016667  2025-10-20  False
+119   ANRO      long  1.0 2025-10-20 16:02:22+00:00 2025-10-20 16:04:50+00:00  ... -0.1050   -0.009263         2.466667  2025-10-20  False
+
+[5 rows x 12 columns]
+2025-10-22T12:59:48.993722-0600 DEBUG ohlcv.tail(5):
+      open   high    low  close  volume       datetime
+532  11.40  11.40  11.40  11.40     160  1761004020000
+533  11.46  11.46  11.46  11.46     100  1761004560000
+534  11.39  11.39  11.39  11.39     300  1761004620000
+535  11.45  11.45  11.45  11.45    2098  1761004680000
+536  11.40  11.40  11.40  11.40     213  1761004740000
+2025-10-22T12:59:48.993722-0600 DEBUG pnl_sum = $0.6329999999999991
+2025-10-22T13:11:17.958381-0600 DEBUG Loaded secrets from schwab_auth_token.json
+2025-10-22T13:11:20.488322-0600 DEBUG orders:
+      session          duration orderType  ...                            orderActivityCollection  price  statusDescription
+0      NORMAL               DAY      STOP  ...  [{'activityType': 'EXECUTION', 'activityId': 1...    NaN                NaN
+1      NORMAL               DAY      STOP  ...  [{'activityType': 'EXECUTION', 'activityId': 1...    NaN                NaN
+2      NORMAL               DAY    MARKET  ...  [{'activityType': 'EXECUTION', 'activityId': 1...    NaN                NaN
+3    SEAMLESS               DAY     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...   9.00                NaN
+4    SEAMLESS               DAY     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  10.00                NaN
+..        ...               ...       ...  ...                                                ...    ...                ...
+488  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  12.15                NaN
+489  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  11.12                NaN
+490  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  11.48                NaN
+491  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  11.66                NaN
+492  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  12.06                NaN
+
+[493 rows x 25 columns]
+2025-10-22T13:11:20.520528-0600 INFO Writing orders to: C:\Users\Nick\Documents\MoneyGame\MoneyGame\logs\2025-10-12_to_2025-10-22_order_history.csv
+2025-10-22T13:11:20.540262-0600 INFO Detected Schwab order-level schema; flattening to fills...
+2025-10-22T13:11:20.750113-0600 INFO Schwab flatten: 493 orders -> 389 activities scanned, 287 execution-like, 287 legs -> 287 fill rows
+2025-10-22T13:11:20.803709-0600 DEBUG live_trades.tail(5):
+    symbol direction  qty                entry_time                 exit_time  ...     pnl  return_pct  holding_minutes        date    win
+139   RYOJ      long  3.0 2025-10-21 18:43:28+00:00 2025-10-21 18:47:43+00:00  ... -0.5697   -0.025802         4.250000  2025-10-21  False
+140   RYOJ      long  3.0 2025-10-21 18:44:30+00:00 2025-10-21 18:48:39+00:00  ... -1.1778   -0.051036         4.150000  2025-10-21  False
+141   RYOJ      long  3.0 2025-10-21 19:25:29+00:00 2025-10-21 19:27:42+00:00  ...  0.2103    0.008896         2.216667  2025-10-21   True
+142   RYOJ      long  2.0 2025-10-21 20:00:36+00:00 2025-10-21 20:02:38+00:00  ... -1.7084   -0.086684         2.033333  2025-10-21  False
+143   BYND      long  3.0 2025-10-22 14:20:24+00:00 2025-10-22 14:22:20+00:00  ... -0.7968   -0.037537         1.933333  2025-10-22  False
+
+[5 rows x 12 columns]
+2025-10-22T13:11:20.805705-0600 DEBUG data_folder_path: C:\Users\Nick\Documents\MoneyGame\MoneyGame\moneygame\core\../../data/
+2025-10-22T13:11:22.048556-0600 DEBUG 2025-10-20_ANRO_1day1minute_price_history.csv
+2025-10-22T13:11:22.088678-0600 DEBUG ticker_symbol: ANRO
+2025-10-22T13:11:22.110939-0600 DEBUG single_day_ticker_trades:
+    symbol direction  qty                entry_time                 exit_time  ...     pnl  return_pct  holding_minutes        date    win
+112   ANRO      long  1.0 2025-10-20 14:04:08+00:00 2025-10-20 14:16:45+00:00  ...  0.9028    0.088491        12.616667  2025-10-20   True
+113   ANRO      long  1.0 2025-10-20 14:10:09+00:00 2025-10-20 14:16:59+00:00  ...  0.1201    0.010839         6.833333  2025-10-20   True
+114   ANRO      long  1.0 2025-10-20 14:11:08+00:00 2025-10-20 14:17:44+00:00  ...  0.1416    0.012922         6.600000  2025-10-20   True
+115   ANRO      long  1.0 2025-10-20 15:16:10+00:00 2025-10-20 15:18:11+00:00  ... -0.4265   -0.037293         2.016667  2025-10-20  False
+119   ANRO      long  1.0 2025-10-20 16:02:22+00:00 2025-10-20 16:04:50+00:00  ... -0.1050   -0.009263         2.466667  2025-10-20  False
+
+[5 rows x 12 columns]
+2025-10-22T13:11:22.112997-0600 DEBUG ohlcv.tail(5):
+      open   high    low  close  volume       datetime
+532  11.40  11.40  11.40  11.40     160  1761004020000
+533  11.46  11.46  11.46  11.46     100  1761004560000
+534  11.39  11.39  11.39  11.39     300  1761004620000
+535  11.45  11.45  11.45  11.45    2098  1761004680000
+536  11.40  11.40  11.40  11.40     213  1761004740000
+2025-10-22T13:11:22.122223-0600 DEBUG pnl_sum = $0.6329999999999991
+2025-10-22T13:19:49.064691-0600 DEBUG Loaded secrets from schwab_auth_token.json
+2025-10-22T13:19:51.820060-0600 DEBUG orders:
+      session          duration orderType  ...                            orderActivityCollection  price  statusDescription
+0      NORMAL               DAY      STOP  ...  [{'activityType': 'EXECUTION', 'activityId': 1...    NaN                NaN
+1      NORMAL               DAY      STOP  ...  [{'activityType': 'EXECUTION', 'activityId': 1...    NaN                NaN
+2      NORMAL               DAY    MARKET  ...  [{'activityType': 'EXECUTION', 'activityId': 1...    NaN                NaN
+3    SEAMLESS               DAY     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...   9.00                NaN
+4    SEAMLESS               DAY     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  10.00                NaN
+..        ...               ...       ...  ...                                                ...    ...                ...
+488  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  12.15                NaN
+489  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  11.12                NaN
+490  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  11.48                NaN
+491  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  11.66                NaN
+492  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  12.06                NaN
+
+[493 rows x 25 columns]
+2025-10-22T13:19:51.860176-0600 INFO Writing orders to: C:\Users\Nick\Documents\MoneyGame\MoneyGame\logs\2025-10-12_to_2025-10-22_order_history.csv
+2025-10-22T13:19:51.879279-0600 INFO Detected Schwab order-level schema; flattening to fills...
+2025-10-22T13:19:52.079259-0600 INFO Schwab flatten: 493 orders -> 389 activities scanned, 287 execution-like, 287 legs -> 287 fill rows
+2025-10-22T13:19:52.136706-0600 DEBUG live_trades.tail(5):
+    symbol direction  qty                entry_time                 exit_time  ...     pnl  return_pct  holding_minutes        date    win
+139   RYOJ      long  3.0 2025-10-21 18:43:28+00:00 2025-10-21 18:47:43+00:00  ... -0.5697   -0.025802         4.250000  2025-10-21  False
+140   RYOJ      long  3.0 2025-10-21 18:44:30+00:00 2025-10-21 18:48:39+00:00  ... -1.1778   -0.051036         4.150000  2025-10-21  False
+141   RYOJ      long  3.0 2025-10-21 19:25:29+00:00 2025-10-21 19:27:42+00:00  ...  0.2103    0.008896         2.216667  2025-10-21   True
+142   RYOJ      long  2.0 2025-10-21 20:00:36+00:00 2025-10-21 20:02:38+00:00  ... -1.7084   -0.086684         2.033333  2025-10-21  False
+143   BYND      long  3.0 2025-10-22 14:20:24+00:00 2025-10-22 14:22:20+00:00  ... -0.7968   -0.037537         1.933333  2025-10-22  False
+
+[5 rows x 12 columns]
+2025-10-22T13:19:52.137694-0600 DEBUG data_folder_path: C:\Users\Nick\Documents\MoneyGame\MoneyGame\moneygame\core\../../data/
+2025-10-22T13:19:53.310694-0600 DEBUG 2025-10-20_ANRO_1day1minute_price_history.csv
+2025-10-22T13:19:53.347240-0600 DEBUG ticker_symbol: ANRO
+2025-10-22T13:19:53.375659-0600 DEBUG single_day_ticker_trades:
+    symbol direction  qty                entry_time                 exit_time  ...     pnl  return_pct  holding_minutes        date    win
+112   ANRO      long  1.0 2025-10-20 14:04:08+00:00 2025-10-20 14:16:45+00:00  ...  0.9028    0.088491        12.616667  2025-10-20   True
+113   ANRO      long  1.0 2025-10-20 14:10:09+00:00 2025-10-20 14:16:59+00:00  ...  0.1201    0.010839         6.833333  2025-10-20   True
+114   ANRO      long  1.0 2025-10-20 14:11:08+00:00 2025-10-20 14:17:44+00:00  ...  0.1416    0.012922         6.600000  2025-10-20   True
+115   ANRO      long  1.0 2025-10-20 15:16:10+00:00 2025-10-20 15:18:11+00:00  ... -0.4265   -0.037293         2.016667  2025-10-20  False
+119   ANRO      long  1.0 2025-10-20 16:02:22+00:00 2025-10-20 16:04:50+00:00  ... -0.1050   -0.009263         2.466667  2025-10-20  False
+
+[5 rows x 12 columns]
+2025-10-22T13:19:53.381305-0600 DEBUG ohlcv.tail(5):
+      open   high    low  close  volume       datetime
+532  11.40  11.40  11.40  11.40     160  1761004020000
+533  11.46  11.46  11.46  11.46     100  1761004560000
+534  11.39  11.39  11.39  11.39     300  1761004620000
+535  11.45  11.45  11.45  11.45    2098  1761004680000
+536  11.40  11.40  11.40  11.40     213  1761004740000
+2025-10-22T13:19:53.381305-0600 DEBUG pnl_sum = $0.6329999999999991
+2025-10-22T13:20:13.493331-0600 DEBUG Loaded secrets from schwab_auth_token.json
+2025-10-22T13:20:16.220384-0600 DEBUG orders:
+      session          duration orderType  ...                            orderActivityCollection  price  statusDescription
+0      NORMAL               DAY      STOP  ...  [{'activityType': 'EXECUTION', 'activityId': 1...    NaN                NaN
+1      NORMAL               DAY      STOP  ...  [{'activityType': 'EXECUTION', 'activityId': 1...    NaN                NaN
+2      NORMAL               DAY    MARKET  ...  [{'activityType': 'EXECUTION', 'activityId': 1...    NaN                NaN
+3    SEAMLESS               DAY     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...   9.00                NaN
+4    SEAMLESS               DAY     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  10.00                NaN
+..        ...               ...       ...  ...                                                ...    ...                ...
+488  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  12.15                NaN
+489  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  11.12                NaN
+490  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  11.48                NaN
+491  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  11.66                NaN
+492  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  12.06                NaN
+
+[493 rows x 25 columns]
+2025-10-22T13:20:16.286763-0600 INFO Writing orders to: C:\Users\Nick\Documents\MoneyGame\MoneyGame\logs\2025-10-12_to_2025-10-22_order_history.csv
+2025-10-22T13:20:16.318869-0600 INFO Detected Schwab order-level schema; flattening to fills...
+2025-10-22T13:20:16.571380-0600 INFO Schwab flatten: 493 orders -> 389 activities scanned, 287 execution-like, 287 legs -> 287 fill rows
+2025-10-22T13:20:16.642117-0600 DEBUG live_trades.tail(5):
+    symbol direction  qty                entry_time                 exit_time  ...     pnl  return_pct  holding_minutes        date    win
+139   RYOJ      long  3.0 2025-10-21 18:43:28+00:00 2025-10-21 18:47:43+00:00  ... -0.5697   -0.025802         4.250000  2025-10-21  False
+140   RYOJ      long  3.0 2025-10-21 18:44:30+00:00 2025-10-21 18:48:39+00:00  ... -1.1778   -0.051036         4.150000  2025-10-21  False
+141   RYOJ      long  3.0 2025-10-21 19:25:29+00:00 2025-10-21 19:27:42+00:00  ...  0.2103    0.008896         2.216667  2025-10-21   True
+142   RYOJ      long  2.0 2025-10-21 20:00:36+00:00 2025-10-21 20:02:38+00:00  ... -1.7084   -0.086684         2.033333  2025-10-21  False
+143   BYND      long  3.0 2025-10-22 14:20:24+00:00 2025-10-22 14:22:20+00:00  ... -0.7968   -0.037537         1.933333  2025-10-22  False
+
+[5 rows x 12 columns]
+2025-10-22T13:20:16.643099-0600 DEBUG data_folder_path: C:\Users\Nick\Documents\MoneyGame\MoneyGame\moneygame\core\../../data/
+2025-10-22T13:20:17.988508-0600 DEBUG 2025-10-20_ANRO_1day1minute_price_history.csv
+2025-10-22T13:20:18.040117-0600 DEBUG ticker_symbol: ANRO
+2025-10-22T13:20:18.057232-0600 DEBUG single_day_ticker_trades:
+    symbol direction  qty                entry_time                 exit_time  ...     pnl  return_pct  holding_minutes        date    win
+112   ANRO      long  1.0 2025-10-20 14:04:08+00:00 2025-10-20 14:16:45+00:00  ...  0.9028    0.088491        12.616667  2025-10-20   True
+113   ANRO      long  1.0 2025-10-20 14:10:09+00:00 2025-10-20 14:16:59+00:00  ...  0.1201    0.010839         6.833333  2025-10-20   True
+114   ANRO      long  1.0 2025-10-20 14:11:08+00:00 2025-10-20 14:17:44+00:00  ...  0.1416    0.012922         6.600000  2025-10-20   True
+115   ANRO      long  1.0 2025-10-20 15:16:10+00:00 2025-10-20 15:18:11+00:00  ... -0.4265   -0.037293         2.016667  2025-10-20  False
+119   ANRO      long  1.0 2025-10-20 16:02:22+00:00 2025-10-20 16:04:50+00:00  ... -0.1050   -0.009263         2.466667  2025-10-20  False
+
+[5 rows x 12 columns]
+2025-10-22T13:20:18.057232-0600 DEBUG ohlcv.tail(5):
+      open   high    low  close  volume       datetime
+532  11.40  11.40  11.40  11.40     160  1761004020000
+533  11.46  11.46  11.46  11.46     100  1761004560000
+534  11.39  11.39  11.39  11.39     300  1761004620000
+535  11.45  11.45  11.45  11.45    2098  1761004680000
+536  11.40  11.40  11.40  11.40     213  1761004740000
+2025-10-22T13:20:18.071466-0600 DEBUG pnl_sum = $0.6329999999999991
+2025-10-22T13:25:56.590544-0600 DEBUG 2025-10-20_AZTR_1day1minute_price_history.csv
+2025-10-22T13:25:56.655883-0600 DEBUG ticker_symbol: AZTR
+2025-10-22T13:25:56.664998-0600 DEBUG single_day_ticker_trades:
+Empty DataFrame
+Columns: [symbol, direction, qty, entry_time, exit_time, entry_price, exit_price, pnl, return_pct, holding_minutes, date, win]
+Index: []
+2025-10-22T13:25:56.671998-0600 DEBUG ohlcv.tail(5):
+        open    high      low     close  volume       datetime
+678  0.62810  0.6281  0.62810  0.628100    1000  1761004500000
+679  0.62990  0.6299  0.62810  0.628205     500  1761004560000
+680  0.62810  0.6300  0.62810  0.629900   32178  1761004620000
+681  0.62995  0.6520  0.62995  0.639000   13572  1761004680000
+682  0.63010  0.6301  0.63000  0.630000    9275  1761004740000
+2025-10-22T13:26:02.257058-0600 DEBUG 2025-10-20_BBAI_1day1minute_price_history.csv
+2025-10-22T13:26:02.343081-0600 DEBUG ticker_symbol: BBAI
+2025-10-22T13:26:02.353899-0600 DEBUG single_day_ticker_trades:
+Empty DataFrame
+Columns: [symbol, direction, qty, entry_time, exit_time, entry_price, exit_price, pnl, return_pct, holding_minutes, date, win]
+Index: []
+2025-10-22T13:26:02.366327-0600 DEBUG ohlcv.tail(5):
+       open    high     low   close  volume       datetime
+723  7.5700  7.5800  7.5700  7.5800    7250  1761004500000
+724  7.5702  7.5800  7.5701  7.5800    5749  1761004560000
+725  7.5600  7.5800  7.5600  7.5793    1991  1761004620000
+726  7.5700  7.5700  7.5700  7.5700     200  1761004680000
+727  7.5600  7.5795  7.5600  7.5700    1300  1761004740000
+2025-10-22T13:26:07.732708-0600 DEBUG 2025-10-20_BGLC_1day1minute_price_history.csv
+2025-10-22T13:26:07.775014-0600 DEBUG ticker_symbol: BGLC
+2025-10-22T13:26:07.785016-0600 DEBUG single_day_ticker_trades:
+Empty DataFrame
+Columns: [symbol, direction, qty, entry_time, exit_time, entry_price, exit_price, pnl, return_pct, holding_minutes, date, win]
+Index: []
+2025-10-22T13:26:07.791997-0600 DEBUG ohlcv.tail(5):
+       open    high     low   close  volume       datetime
+265  5.1000  5.1000  5.1000  5.1000     300  1760996100000
+266  5.0762  5.0762  5.0762  5.0762     130  1760997180000
+267  5.1900  5.1900  5.1900  5.1900     100  1760998980000
+268  5.1800  5.1800  5.1800  5.1800     503  1761000300000
+269  5.2500  5.2500  5.2500  5.2500     571  1761001200000
+2025-10-22T13:27:00.699518-0600 DEBUG 2025-10-20_BITF_1day1minute_price_history.csv
+2025-10-22T13:27:00.821395-0600 DEBUG ticker_symbol: BITF
+2025-10-22T13:27:00.835879-0600 DEBUG single_day_ticker_trades:
+Empty DataFrame
+Columns: [symbol, direction, qty, entry_time, exit_time, entry_price, exit_price, pnl, return_pct, holding_minutes, date, win]
+Index: []
+2025-10-22T13:27:00.838067-0600 DEBUG ohlcv.tail(5):
+       open    high     low   close  volume       datetime
+770  4.9099  4.9099  4.9000  4.9095   16500  1761004500000
+771  4.9100  4.9100  4.9003  4.9099   13200  1761004560000
+772  4.9100  4.9100  4.9000  4.9100   12250  1761004620000
+773  4.9050  4.9100  4.9000  4.9099    1300  1761004680000
+774  4.9000  4.9200  4.9000  4.9200   34118  1761004740000
+2025-10-22T13:27:06.907220-0600 DEBUG Loaded secrets from schwab_auth_token.json
+2025-10-22T13:27:09.500318-0600 DEBUG orders:
+      session          duration orderType  ...                            orderActivityCollection  price  statusDescription
+0      NORMAL               DAY      STOP  ...  [{'activityType': 'EXECUTION', 'activityId': 1...    NaN                NaN
+1      NORMAL               DAY      STOP  ...  [{'activityType': 'EXECUTION', 'activityId': 1...    NaN                NaN
+2      NORMAL               DAY    MARKET  ...  [{'activityType': 'EXECUTION', 'activityId': 1...    NaN                NaN
+3    SEAMLESS               DAY     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...   9.00                NaN
+4    SEAMLESS               DAY     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  10.00                NaN
+..        ...               ...       ...  ...                                                ...    ...                ...
+488  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  12.15                NaN
+489  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  11.12                NaN
+490  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  11.48                NaN
+491  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  11.66                NaN
+492  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  12.06                NaN
+
+[493 rows x 25 columns]
+2025-10-22T13:27:09.531556-0600 INFO Writing orders to: C:\Users\Nick\Documents\MoneyGame\MoneyGame\logs\2025-10-12_to_2025-10-22_order_history.csv
+2025-10-22T13:27:09.558894-0600 INFO Detected Schwab order-level schema; flattening to fills...
+2025-10-22T13:27:09.773077-0600 INFO Schwab flatten: 493 orders -> 389 activities scanned, 287 execution-like, 287 legs -> 287 fill rows
+2025-10-22T13:27:09.814125-0600 DEBUG live_trades.tail(5):
+    symbol direction  qty                entry_time                 exit_time  ...     pnl  return_pct  holding_minutes        date    win
+139   RYOJ      long  3.0 2025-10-21 18:43:28+00:00 2025-10-21 18:47:43+00:00  ... -0.5697   -0.025802         4.250000  2025-10-21  False
+140   RYOJ      long  3.0 2025-10-21 18:44:30+00:00 2025-10-21 18:48:39+00:00  ... -1.1778   -0.051036         4.150000  2025-10-21  False
+141   RYOJ      long  3.0 2025-10-21 19:25:29+00:00 2025-10-21 19:27:42+00:00  ...  0.2103    0.008896         2.216667  2025-10-21   True
+142   RYOJ      long  2.0 2025-10-21 20:00:36+00:00 2025-10-21 20:02:38+00:00  ... -1.7084   -0.086684         2.033333  2025-10-21  False
+143   BYND      long  3.0 2025-10-22 14:20:24+00:00 2025-10-22 14:22:20+00:00  ... -0.7968   -0.037537         1.933333  2025-10-22  False
+
+[5 rows x 12 columns]
+2025-10-22T13:27:09.825066-0600 DEBUG data_folder_path: C:\Users\Nick\Documents\MoneyGame\MoneyGame\moneygame\core\../../data/
+2025-10-22T13:27:10.938868-0600 DEBUG 2025-10-13_ACON_1day1minute_price_history.csv
+2025-10-22T13:27:10.991503-0600 DEBUG ticker_symbol: ACON
+2025-10-22T13:27:10.997504-0600 DEBUG single_day_ticker_trades:
+Empty DataFrame
+Columns: [symbol, direction, qty, entry_time, exit_time, entry_price, exit_price, pnl, return_pct, holding_minutes, date, win]
+Index: []
+2025-10-22T13:27:11.004518-0600 DEBUG ohlcv.tail(5):
+     open  high   low  close  volume       datetime
+541  8.55  8.55  8.55   8.55     148  1760398440000
+542  8.57  8.57  8.57   8.57     100  1760399100000
+543  8.57  8.57  8.57   8.57     100  1760399220000
+544  8.57  8.57  8.57   8.57     111  1760399340000
+545  8.18  8.18  8.18   8.18     383  1760399940000
+2025-10-22T13:27:20.973269-0600 DEBUG 2025-10-13_AEC_1day1minute_price_history.csv
+2025-10-22T13:27:21.013994-0600 DEBUG ticker_symbol: AEC
+2025-10-22T13:27:21.013994-0600 DEBUG single_day_ticker_trades:
+Empty DataFrame
+Columns: [symbol, direction, qty, entry_time, exit_time, entry_price, exit_price, pnl, return_pct, holding_minutes, date, win]
+Index: []
+2025-10-22T13:27:21.030962-0600 DEBUG ohlcv.tail(5):
+        open     high      low    close  volume       datetime
+262  11.3784  11.3784  11.3784  11.3784     200  1760394840000
+263  11.4800  11.4800  11.4800  11.4800     300  1760396340000
+264  11.3000  11.3000  11.3000  11.3000     100  1760397900000
+265  11.4700  11.4700  11.4700  11.4700     200  1760398260000
+266  11.4700  11.4700  11.4700  11.4700     300  1760398860000
+2025-10-22T13:27:25.366709-0600 DEBUG 2025-10-13_AGMRF_1day1minute_price_history.csv
+2025-10-22T13:27:25.394350-0600 DEBUG ticker_symbol: AGMRF
+2025-10-22T13:27:25.394999-0600 DEBUG single_day_ticker_trades:
+Empty DataFrame
+Columns: [symbol, direction, qty, entry_time, exit_time, entry_price, exit_price, pnl, return_pct, holding_minutes, date, win]
+Index: []
+2025-10-22T13:27:25.406172-0600 DEBUG ohlcv.tail(5):
+      open    high     low   close  volume       datetime
+32  2.2200  2.2200  2.1500  2.1500    1600  1760377200000
+33  2.2107  2.2107  2.2107  2.2107     323  1760379180000
+34  2.1573  2.1573  2.1573  2.1573    3333  1760383020000
+35  2.2150  2.2500  2.2150  2.2500    2500  1760384880000
+36  2.2500  2.2500  2.2500  2.2500    2430  1760384940000
+2025-10-22T13:27:32.043283-0600 DEBUG 2025-10-13_APXCF_1day1minute_price_history.csv
+2025-10-22T13:27:32.063727-0600 DEBUG ticker_symbol: APXCF
+2025-10-22T13:27:32.079354-0600 DEBUG single_day_ticker_trades:
+Empty DataFrame
+Columns: [symbol, direction, qty, entry_time, exit_time, entry_price, exit_price, pnl, return_pct, holding_minutes, date, win]
+Index: []
+2025-10-22T13:27:32.088457-0600 DEBUG ohlcv.tail(5):
+       open    high     low   close  volume       datetime
+245  3.2250  3.2250  3.2250  3.2250     250  1760385420000
+246  3.2250  3.2250  3.2250  3.2250     200  1760385480000
+247  3.2400  3.2500  3.2400  3.2500    6737  1760385540000
+248  3.1501  3.1501  3.1501  3.1501     800  1760385600000
+249  3.2200  3.2200  3.2200  3.2200     800  1760385840000
+2025-10-22T13:27:35.052399-0600 DEBUG 2025-10-13_AQMS_1day1minute_price_history.csv
+2025-10-22T13:27:35.167114-0600 DEBUG ticker_symbol: AQMS
+2025-10-22T13:27:35.187157-0600 DEBUG single_day_ticker_trades:
+   symbol direction  qty                entry_time                 exit_time  ...     pnl  return_pct  holding_minutes        date    win
+9    AQMS      long  1.0 2025-10-13 14:37:10+00:00 2025-10-13 14:40:11+00:00  ... -0.2782   -0.033245         3.016667  2025-10-13  False
+15   AQMS      long  1.0 2025-10-13 14:58:09+00:00 2025-10-13 15:02:10+00:00  ...  0.0569    0.006495         4.016667  2025-10-13   True
+16   AQMS      long  1.0 2025-10-13 14:59:12+00:00 2025-10-13 15:02:11+00:00  ... -1.1374   -0.116300         2.983333  2025-10-13  False
+17   AQMS      long  1.0 2025-10-13 15:00:11+00:00 2025-10-13 15:03:10+00:00  ... -0.3108   -0.033624         2.983333  2025-10-13  False
+20   AQMS      long  1.0 2025-10-13 15:17:11+00:00 2025-10-13 15:18:22+00:00  ... -0.6581   -0.064532         1.183333  2025-10-13  False
+21   AQMS      long  1.0 2025-10-13 15:18:13+00:00 2025-10-13 15:19:11+00:00  ... -0.1586   -0.015889         0.966667  2025-10-13  False
+22   AQMS      long  1.0 2025-10-13 15:38:09+00:00 2025-10-13 15:41:11+00:00  ... -0.3900   -0.033163         3.033333  2025-10-13  False
+23   AQMS      long  1.0 2025-10-13 15:39:12+00:00 2025-10-13 15:45:13+00:00  ...  0.0400    0.003500         6.016667  2025-10-13   True
+34   AQMS      long  1.0 2025-10-13 16:53:20+00:00 2025-10-13 16:53:30+00:00  ... -0.0399   -0.003572         0.166667  2025-10-13  False
+
+[9 rows x 12 columns]
+2025-10-22T13:27:35.202299-0600 DEBUG ohlcv.tail(5):
+        open     high    low    close  volume       datetime
+640  22.8888  22.8888  22.70  22.7000    4167  1760399700000
+641  22.3500  22.7000  22.32  22.5248    6385  1760399760000
+642  22.6000  22.7800  22.60  22.7799    7810  1760399820000
+643  22.6500  22.7900  22.65  22.7200    8994  1760399880000
+644  22.7100  22.9300  22.00  22.0099   18481  1760399940000
+2025-10-22T13:27:35.205299-0600 DEBUG pnl_sum = $-2.8760999999999974
+2025-10-22T13:28:15.056091-0600 DEBUG 2025-10-13_ARAI_1day1minute_price_history.csv
+2025-10-22T13:28:15.116308-0600 DEBUG ticker_symbol: ARAI
+2025-10-22T13:28:15.116308-0600 DEBUG single_day_ticker_trades:
+Empty DataFrame
+Columns: [symbol, direction, qty, entry_time, exit_time, entry_price, exit_price, pnl, return_pct, holding_minutes, date, win]
+Index: []
+2025-10-22T13:28:15.139226-0600 DEBUG ohlcv.tail(5):
+       open    high     low   close  volume       datetime
+270  4.9700  4.9700  4.9700  4.9700     251  1760395800000
+271  4.9200  4.9200  4.9200  4.9200     250  1760398020000
+272  4.9799  4.9799  4.9799  4.9799    2000  1760398800000
+273  4.9800  4.9800  4.9800  4.9800     100  1760399820000
+274  4.9800  4.9800  4.9800  4.9800     292  1760399880000
+2025-10-22T13:28:35.409411-0600 DEBUG Loaded secrets from schwab_auth_token.json
+2025-10-22T13:28:37.855583-0600 DEBUG orders:
+      session          duration orderType  ...                            orderActivityCollection  price  statusDescription
+0      NORMAL               DAY      STOP  ...  [{'activityType': 'EXECUTION', 'activityId': 1...    NaN                NaN
+1      NORMAL               DAY      STOP  ...  [{'activityType': 'EXECUTION', 'activityId': 1...    NaN                NaN
+2      NORMAL               DAY    MARKET  ...  [{'activityType': 'EXECUTION', 'activityId': 1...    NaN                NaN
+3    SEAMLESS               DAY     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...   9.00                NaN
+4    SEAMLESS               DAY     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...  10.00                NaN
+..        ...               ...       ...  ...                                                ...    ...                ...
+155  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...   9.26                NaN
+156  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...   9.67                NaN
+157  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...   9.49                NaN
+158  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...   9.48                NaN
+159  SEAMLESS  GOOD_TILL_CANCEL     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...   8.77                NaN
+
+[160 rows x 25 columns]
+2025-10-22T13:28:37.902423-0600 INFO Writing orders to: C:\Users\Nick\Documents\MoneyGame\MoneyGame\logs\2025-10-18_to_2025-10-22_order_history.csv
+2025-10-22T13:28:37.902423-0600 INFO Detected Schwab order-level schema; flattening to fills...
+2025-10-22T13:28:37.976142-0600 INFO Schwab flatten: 160 orders -> 104 activities scanned, 72 execution-like, 72 legs -> 72 fill rows
+2025-10-22T13:28:38.006936-0600 DEBUG live_trades.tail(5):
+   symbol direction  qty                entry_time                 exit_time  ...     pnl  return_pct  holding_minutes        date    win
+31   RYOJ      long  3.0 2025-10-21 18:43:28+00:00 2025-10-21 18:47:43+00:00  ... -0.5697   -0.025802         4.250000  2025-10-21  False
+32   RYOJ      long  3.0 2025-10-21 18:44:30+00:00 2025-10-21 18:48:39+00:00  ... -1.1778   -0.051036         4.150000  2025-10-21  False
+33   RYOJ      long  3.0 2025-10-21 19:25:29+00:00 2025-10-21 19:27:42+00:00  ...  0.2103    0.008896         2.216667  2025-10-21   True
+34   RYOJ      long  2.0 2025-10-21 20:00:36+00:00 2025-10-21 20:02:38+00:00  ... -1.7084   -0.086684         2.033333  2025-10-21  False
+35   BYND      long  3.0 2025-10-22 14:20:24+00:00 2025-10-22 14:22:20+00:00  ... -0.7968   -0.037537         1.933333  2025-10-22  False
+
+[5 rows x 12 columns]
+2025-10-22T13:28:38.006936-0600 DEBUG data_folder_path: C:\Users\Nick\Documents\MoneyGame\MoneyGame\moneygame\core\../../data/
+2025-10-22T13:28:39.304765-0600 DEBUG 2025-10-20_ANRO_1day1minute_price_history.csv
+2025-10-22T13:28:39.355994-0600 DEBUG ticker_symbol: ANRO
+2025-10-22T13:28:39.374065-0600 DEBUG single_day_ticker_trades:
+   symbol direction  qty                entry_time                 exit_time  ...     pnl  return_pct  holding_minutes        date    win
+4    ANRO      long  1.0 2025-10-20 14:04:08+00:00 2025-10-20 14:16:45+00:00  ...  0.9028    0.088491        12.616667  2025-10-20   True
+5    ANRO      long  1.0 2025-10-20 14:10:09+00:00 2025-10-20 14:16:59+00:00  ...  0.1201    0.010839         6.833333  2025-10-20   True
+6    ANRO      long  1.0 2025-10-20 14:11:08+00:00 2025-10-20 14:17:44+00:00  ...  0.1416    0.012922         6.600000  2025-10-20   True
+7    ANRO      long  1.0 2025-10-20 15:16:10+00:00 2025-10-20 15:18:11+00:00  ... -0.4265   -0.037293         2.016667  2025-10-20  False
+11   ANRO      long  1.0 2025-10-20 16:02:22+00:00 2025-10-20 16:04:50+00:00  ... -0.1050   -0.009263         2.466667  2025-10-20  False
+
+[5 rows x 12 columns]
+2025-10-22T13:28:39.378087-0600 DEBUG ohlcv.tail(5):
+      open   high    low  close  volume       datetime
+532  11.40  11.40  11.40  11.40     160  1761004020000
+533  11.46  11.46  11.46  11.46     100  1761004560000
+534  11.39  11.39  11.39  11.39     300  1761004620000
+535  11.45  11.45  11.45  11.45    2098  1761004680000
+536  11.40  11.40  11.40  11.40     213  1761004740000
+2025-10-22T13:28:39.378087-0600 DEBUG pnl_sum = $0.6329999999999991
+2025-10-22T13:45:06.777437-0600 DEBUG 2025-10-20_AZTR_1day1minute_price_history.csv
+2025-10-22T13:45:06.844440-0600 DEBUG ticker_symbol: AZTR
+2025-10-22T13:45:06.851438-0600 DEBUG single_day_ticker_trades:
+Empty DataFrame
+Columns: [symbol, direction, qty, entry_time, exit_time, entry_price, exit_price, pnl, return_pct, holding_minutes, date, win]
+Index: []
+2025-10-22T13:45:06.860452-0600 DEBUG ohlcv.tail(5):
+        open    high      low     close  volume       datetime
+678  0.62810  0.6281  0.62810  0.628100    1000  1761004500000
+679  0.62990  0.6299  0.62810  0.628205     500  1761004560000
+680  0.62810  0.6300  0.62810  0.629900   32178  1761004620000
+681  0.62995  0.6520  0.62995  0.639000   13572  1761004680000
+682  0.63010  0.6301  0.63000  0.630000    9275  1761004740000
+2025-10-22T13:45:10.136299-0600 DEBUG 2025-10-20_BBAI_1day1minute_price_history.csv
+2025-10-22T13:45:10.210298-0600 DEBUG ticker_symbol: BBAI
+2025-10-22T13:45:10.217297-0600 DEBUG single_day_ticker_trades:
+Empty DataFrame
+Columns: [symbol, direction, qty, entry_time, exit_time, entry_price, exit_price, pnl, return_pct, holding_minutes, date, win]
+Index: []
+2025-10-22T13:45:10.225302-0600 DEBUG ohlcv.tail(5):
+       open    high     low   close  volume       datetime
+723  7.5700  7.5800  7.5700  7.5800    7250  1761004500000
+724  7.5702  7.5800  7.5701  7.5800    5749  1761004560000
+725  7.5600  7.5800  7.5600  7.5793    1991  1761004620000
+726  7.5700  7.5700  7.5700  7.5700     200  1761004680000
+727  7.5600  7.5795  7.5600  7.5700    1300  1761004740000
+2025-10-22T13:45:15.488937-0600 DEBUG 2025-10-20_BGLC_1day1minute_price_history.csv
+2025-10-22T13:45:15.531926-0600 DEBUG ticker_symbol: BGLC
+2025-10-22T13:45:15.539932-0600 DEBUG single_day_ticker_trades:
+Empty DataFrame
+Columns: [symbol, direction, qty, entry_time, exit_time, entry_price, exit_price, pnl, return_pct, holding_minutes, date, win]
+Index: []
+2025-10-22T13:45:15.555930-0600 DEBUG ohlcv.tail(5):
+       open    high     low   close  volume       datetime
+265  5.1000  5.1000  5.1000  5.1000     300  1760996100000
+266  5.0762  5.0762  5.0762  5.0762     130  1760997180000
+267  5.1900  5.1900  5.1900  5.1900     100  1760998980000
+268  5.1800  5.1800  5.1800  5.1800     503  1761000300000
+269  5.2500  5.2500  5.2500  5.2500     571  1761001200000
+2025-10-22T13:45:19.252368-0600 DEBUG 2025-10-20_BITF_1day1minute_price_history.csv
+2025-10-22T13:45:19.335358-0600 DEBUG ticker_symbol: BITF
+2025-10-22T13:45:19.343357-0600 DEBUG single_day_ticker_trades:
+Empty DataFrame
+Columns: [symbol, direction, qty, entry_time, exit_time, entry_price, exit_price, pnl, return_pct, holding_minutes, date, win]
+Index: []
+2025-10-22T13:45:19.350358-0600 DEBUG ohlcv.tail(5):
+       open    high     low   close  volume       datetime
+770  4.9099  4.9099  4.9000  4.9095   16500  1761004500000
+771  4.9100  4.9100  4.9003  4.9099   13200  1761004560000
+772  4.9100  4.9100  4.9000  4.9100   12250  1761004620000
+773  4.9050  4.9100  4.9000  4.9099    1300  1761004680000
+774  4.9000  4.9200  4.9000  4.9200   34118  1761004740000
+2025-10-22T13:45:24.604579-0600 DEBUG 2025-10-20_BYND_1day1minute_price_history.csv
+2025-10-22T13:45:24.694574-0600 DEBUG ticker_symbol: BYND
+2025-10-22T13:45:24.701572-0600 DEBUG single_day_ticker_trades:
+Empty DataFrame
+Columns: [symbol, direction, qty, entry_time, exit_time, entry_price, exit_price, pnl, return_pct, holding_minutes, date, win]
+Index: []
+2025-10-22T13:45:24.708574-0600 DEBUG ohlcv.tail(5):
+      open  high   low   close  volume       datetime
+775  1.680  1.69  1.67  1.6898  272259  1761004500000
+776  1.680  1.69  1.67  1.6797  238866  1761004560000
+777  1.680  1.70  1.67  1.7000  487735  1761004620000
+778  1.690  1.69  1.68  1.6800  330440  1761004680000
+779  1.685  1.69  1.68  1.6899  553887  1761004740000
+2025-10-22T13:45:41.749032-0600 DEBUG 2025-10-20_CAN_1day1minute_price_history.csv
+2025-10-22T13:45:41.827043-0600 DEBUG ticker_symbol: CAN
+2025-10-22T13:45:41.835031-0600 DEBUG single_day_ticker_trades:
+Empty DataFrame
+Columns: [symbol, direction, qty, entry_time, exit_time, entry_price, exit_price, pnl, return_pct, holding_minutes, date, win]
+Index: []
+2025-10-22T13:45:41.843051-0600 DEBUG ohlcv.tail(5):
+       open    high     low  close  volume       datetime
+759  2.1199  2.1300  2.1199   2.13    2300  1761004500000
+760  2.1200  2.1300  2.1200   2.13    1470  1761004560000
+761  2.1300  2.1300  2.1297   2.13    4100  1761004620000
+762  2.1300  2.1400  2.1200   2.13    9706  1761004680000
+763  2.1393  2.1397  2.1000   2.12   11110  1761004740000
+2025-10-22T13:45:45.567742-0600 DEBUG 2025-10-20_CREV_1day1minute_price_history.csv
+2025-10-22T13:45:45.597730-0600 DEBUG ticker_symbol: CREV
+2025-10-22T13:45:45.602730-0600 DEBUG single_day_ticker_trades:
+Empty DataFrame
+Columns: [symbol, direction, qty, entry_time, exit_time, entry_price, exit_price, pnl, return_pct, holding_minutes, date, win]
+Index: []
+2025-10-22T13:45:45.609730-0600 DEBUG ohlcv.tail(5):
+     open  high   low  close  volume       datetime
+225  5.04  5.04  5.04   5.04     500  1761000840000
+226  5.05  5.05  5.05   5.05     196  1761002760000
+227  5.05  5.05  5.05   5.05     200  1761004560000
+228  5.05  5.05  5.03   5.03    1140  1761004680000
+229  5.03  5.03  5.03   5.03     200  1761004740000
+2025-10-22T13:45:52.129820-0600 DEBUG 2025-10-20_CTXR_1day1minute_price_history.csv
+2025-10-22T13:45:52.197809-0600 DEBUG ticker_symbol: CTXR
+2025-10-22T13:45:52.203809-0600 DEBUG single_day_ticker_trades:
+Empty DataFrame
+Columns: [symbol, direction, qty, entry_time, exit_time, entry_price, exit_price, pnl, return_pct, holding_minutes, date, win]
+Index: []
+2025-10-22T13:45:52.213570-0600 DEBUG ohlcv.tail(5):
+       open    high     low   close  volume       datetime
+537  1.7800  1.7900  1.7800  1.7900     800  1761002640000
+538  1.7800  1.7900  1.7800  1.7800    1203  1761002700000
+539  1.7886  1.7886  1.7886  1.7886     100  1761003480000
+540  1.7900  1.7900  1.7900  1.7900    3214  1761003900000
+541  1.8000  1.8000  1.8000  1.8000     400  1761004740000
+2025-10-22T13:45:57.068867-0600 DEBUG 2025-10-20_DFDV_1day1minute_price_history.csv
+2025-10-22T13:45:57.108868-0600 DEBUG ticker_symbol: DFDV
+2025-10-22T13:45:57.114885-0600 DEBUG single_day_ticker_trades:
+Empty DataFrame
+Columns: [symbol, direction, qty, entry_time, exit_time, entry_price, exit_price, pnl, return_pct, holding_minutes, date, win]
+Index: []
+2025-10-22T13:45:57.120866-0600 DEBUG ohlcv.tail(5):
+        open     high      low    close  volume       datetime
+366  14.5200  14.5200  14.5200  14.5200     200  1760997240000
+367  14.5000  14.5000  14.5000  14.5000     195  1760997960000
+368  14.4983  14.4983  14.4983  14.4983     150  1760999160000
+369  14.4504  14.4504  14.4504  14.4504     300  1761000360000
+370  14.4500  14.4500  14.4500  14.4500    1100  1761001860000
+2025-10-22T13:46:01.396557-0600 DEBUG 2025-10-20_DGXX_1day1minute_price_history.csv
+2025-10-22T13:46:01.464552-0600 DEBUG ticker_symbol: DGXX
+2025-10-22T13:46:01.471572-0600 DEBUG single_day_ticker_trades:
+Empty DataFrame
+Columns: [symbol, direction, qty, entry_time, exit_time, entry_price, exit_price, pnl, return_pct, holding_minutes, date, win]
+Index: []
+2025-10-22T13:46:01.478555-0600 DEBUG ohlcv.tail(5):
+       open    high     low   close  volume       datetime
+593  4.7800  4.7800  4.7800  4.7800     310  1761004380000
+594  4.7900  4.7900  4.7900  4.7900     300  1761004500000
+595  4.6809  4.6809  4.6809  4.6809     109  1761004560000
+596  4.7700  4.7700  4.6900  4.6900     741  1761004680000
+597  4.7800  4.7800  4.7800  4.7800    4749  1761004740000
+2025-10-22T13:46:15.111978-0600 DEBUG 2025-10-20_FGI_1day1minute_price_history.csv
+2025-10-22T13:46:15.189991-0600 DEBUG ticker_symbol: FGI
+2025-10-22T13:46:15.196991-0600 DEBUG single_day_ticker_trades:
+Empty DataFrame
+Columns: [symbol, direction, qty, entry_time, exit_time, entry_price, exit_price, pnl, return_pct, holding_minutes, date, win]
+Index: []
+2025-10-22T13:46:15.204991-0600 DEBUG ohlcv.tail(5):
+       open    high     low   close  volume       datetime
+629  6.0900  6.0900  6.0900  6.0900     355  1761004260000
+630  6.2100  6.2100  6.2100  6.2100     766  1761004320000
+631  6.0900  6.0900  6.0900  6.0900    1699  1761004560000
+632  6.1000  6.1000  6.1000  6.1000     200  1761004680000
+633  6.0919  6.0919  6.0919  6.0919     144  1761004740000
+2025-10-22T13:46:18.929328-0600 DEBUG 2025-10-20_GNLN_1day1minute_price_history.csv
+2025-10-22T13:46:18.976328-0600 DEBUG ticker_symbol: GNLN
+2025-10-22T13:46:18.982325-0600 DEBUG single_day_ticker_trades:
+Empty DataFrame
+Columns: [symbol, direction, qty, entry_time, exit_time, entry_price, exit_price, pnl, return_pct, holding_minutes, date, win]
+Index: []
+2025-10-22T13:46:18.989328-0600 DEBUG ohlcv.tail(5):
+     open  high   low  close  volume       datetime
+441  3.39  3.39  3.39   3.39    1200  1761003840000
+442  3.39  3.39  3.39   3.39     350  1761004080000
+443  3.41  3.43  3.41   3.43     655  1761004320000
+444  3.41  3.41  3.41   3.41     100  1761004620000
+445  3.41  3.41  3.41   3.41     414  1761004680000
+2025-10-22T13:46:23.969898-0600 DEBUG 2025-10-20_GRNQ_1day1minute_price_history.csv
+2025-10-22T13:46:24.033880-0600 DEBUG ticker_symbol: GRNQ
+2025-10-22T13:46:24.042882-0600 DEBUG single_day_ticker_trades:
+Empty DataFrame
+Columns: [symbol, direction, qty, entry_time, exit_time, entry_price, exit_price, pnl, return_pct, holding_minutes, date, win]
+Index: []
+2025-10-22T13:46:24.050878-0600 DEBUG ohlcv.tail(5):
+     open  high     low   close  volume       datetime
+511  1.34  1.34  1.3400  1.3400     179  1761003780000
+512  1.34  1.34  1.3400  1.3400     490  1761003900000
+513  1.34  1.34  1.3400  1.3400     228  1761004380000
+514  1.34  1.34  1.3400  1.3400     150  1761004500000
+515  1.35  1.35  1.3494  1.3494    4730  1761004620000
+2025-10-22T13:46:27.996989-0600 DEBUG 2025-10-20_GSIT_1day1minute_price_history.csv
+2025-10-22T13:46:28.060996-0600 DEBUG ticker_symbol: GSIT
+2025-10-22T13:46:28.079980-0600 DEBUG single_day_ticker_trades:
+   symbol direction  qty                entry_time                 exit_time  ...     pnl  return_pct  holding_minutes        date    win
+9    GSIT      long  1.0 2025-10-20 15:28:09+00:00 2025-10-20 15:30:42+00:00  ... -0.3500   -0.023302         2.550000  2025-10-20  False
+10   GSIT      long  1.0 2025-10-20 15:36:20+00:00 2025-10-20 15:39:09+00:00  ... -1.1472   -0.071267         2.816667  2025-10-20  False
+13   GSIT      long  1.0 2025-10-20 18:50:23+00:00 2025-10-20 18:54:27+00:00  ...  0.4111    0.029749         4.066667  2025-10-20   True
+14   GSIT      long  1.0 2025-10-20 18:55:24+00:00 2025-10-20 18:56:44+00:00  ...  0.2050    0.014391         1.333333  2025-10-20   True
+15   GSIT      long  1.0 2025-10-20 20:28:27+00:00 2025-10-20 20:44:00+00:00  ...  0.2500    0.017947        15.550000  2025-10-20   True
+16   GSIT      long  1.0 2025-10-20 20:44:28+00:00 2025-10-20 20:50:28+00:00  ...  0.4944    0.034573         6.000000  2025-10-20   True
+17   GSIT      long  1.0 2025-10-20 20:50:26+00:00 2025-10-20 20:52:03+00:00  ... -0.3462   -0.023313         1.616667  2025-10-20  False
+
+[7 rows x 12 columns]
+2025-10-22T13:46:28.086992-0600 DEBUG ohlcv.tail(5):
+      open   high    low    close  volume       datetime
+615  14.95  14.98  14.80  14.8000   27116  1761004500000
+616  14.80  14.98  14.80  14.9502   12455  1761004560000
+617  14.95  14.97  14.90  14.9700   24224  1761004620000
+618  14.91  14.97  14.81  14.8800   14090  1761004680000
+619  14.90  14.97  14.80  14.9000   43818  1761004740000
+2025-10-22T13:46:28.090977-0600 DEBUG pnl_sum = $-0.4829000000000008
+2025-10-22T13:52:42.187136-0600 DEBUG 2025-10-20_IMPP_1day1minute_price_history.csv
+2025-10-22T13:52:42.244322-0600 DEBUG ticker_symbol: IMPP
+2025-10-22T13:52:42.250310-0600 DEBUG single_day_ticker_trades:
+Empty DataFrame
+Columns: [symbol, direction, qty, entry_time, exit_time, entry_price, exit_price, pnl, return_pct, holding_minutes, date, win]
+Index: []
+2025-10-22T13:52:42.257323-0600 DEBUG ohlcv.tail(5):
+       open    high     low   close  volume       datetime
+348  5.4900  5.4900  5.4900  5.4900     125  1760999940000
+349  5.4000  5.4000  5.4000  5.4000     200  1761000840000
+350  5.4000  5.4000  5.4000  5.4000     225  1761001680000
+351  5.4000  5.4000  5.4000  5.4000     190  1761002040000
+352  5.4827  5.4827  5.4827  5.4827     300  1761003900000
+2025-10-22T13:52:46.211425-0600 DEBUG 2025-10-20_MAGH_1day1minute_price_history.csv
+2025-10-22T13:52:46.232268-0600 DEBUG ticker_symbol: MAGH
+2025-10-22T13:52:46.237285-0600 DEBUG single_day_ticker_trades:
+Empty DataFrame
+Columns: [symbol, direction, qty, entry_time, exit_time, entry_price, exit_price, pnl, return_pct, holding_minutes, date, win]
+Index: []
+2025-10-22T13:52:46.247276-0600 DEBUG ohlcv.tail(5):
+       open    high     low   close  volume       datetime
+115  1.5899  1.5899  1.5899  1.5899     300  1760989800000
+116  1.5900  1.5900  1.5850  1.5850     823  1760989860000
+117  1.5800  1.5850  1.5800  1.5850     300  1760990160000
+118  1.5801  1.5801  1.5801  1.5801    2100  1760990280000
+119  1.5850  1.5851  1.5700  1.5800     939  1760990340000
+2025-10-22T13:52:48.492578-0600 DEBUG 2025-10-20_MMA_1day1minute_price_history.csv
+2025-10-22T13:52:48.547787-0600 DEBUG ticker_symbol: MMA
+2025-10-22T13:52:48.553787-0600 DEBUG single_day_ticker_trades:
+Empty DataFrame
+Columns: [symbol, direction, qty, entry_time, exit_time, entry_price, exit_price, pnl, return_pct, holding_minutes, date, win]
+Index: []
+2025-10-22T13:52:48.563260-0600 DEBUG ohlcv.tail(5):
+       open    high     low   close  volume       datetime
+427  1.5900  1.5900  1.5800  1.5800    4612  1761004200000
+428  1.5899  1.5899  1.5899  1.5899    1242  1761004260000
+429  1.5900  1.5900  1.5800  1.5800    1500  1761004380000
+430  1.5900  1.5900  1.5900  1.5900    1000  1761004560000
+431  1.5900  1.5900  1.5900  1.5900     300  1761004740000
+2025-10-22T13:52:51.924072-0600 DEBUG 2025-10-20_MSTU_1day1minute_price_history.csv
+2025-10-22T13:52:51.995561-0600 DEBUG ticker_symbol: MSTU
+2025-10-22T13:52:51.995561-0600 DEBUG single_day_ticker_trades:
+Empty DataFrame
+Columns: [symbol, direction, qty, entry_time, exit_time, entry_price, exit_price, pnl, return_pct, holding_minutes, date, win]
+Index: []
+2025-10-22T13:52:52.018863-0600 DEBUG ohlcv.tail(5):
+     open  high   low  close  volume       datetime
+746  3.79  3.79  3.79   3.79    1100  1761004440000
+747  3.79  3.79  3.79   3.79     699  1761004500000
+748  3.79  3.79  3.79   3.79    1523  1761004560000
+749  3.79  3.79  3.79   3.79    1700  1761004620000
+750  3.79  3.79  3.78   3.78    9565  1761004740000
+2025-10-22T13:52:55.800525-0600 DEBUG 2025-10-20_NCNA_1day1minute_price_history.csv
+2025-10-22T13:52:55.836477-0600 DEBUG ticker_symbol: NCNA
+2025-10-22T13:52:55.836477-0600 DEBUG single_day_ticker_trades:
+Empty DataFrame
+Columns: [symbol, direction, qty, entry_time, exit_time, entry_price, exit_price, pnl, return_pct, holding_minutes, date, win]
+Index: []
+2025-10-22T13:52:55.853292-0600 DEBUG ohlcv.tail(5):
+     open  high   low  close  volume       datetime
+377  5.00  5.00  5.00   5.00     111  1761001980000
+378  4.99  5.00  4.99   5.00     300  1761002340000
+379  5.01  5.01  5.01   5.01     188  1761002580000
+380  5.02  5.02  5.02   5.02     253  1761003540000
+381  5.03  5.03  5.03   5.03     341  1761004020000
+2025-10-22T13:52:59.044410-0600 DEBUG 2025-10-20_PLUG_1day1minute_price_history.csv
+2025-10-22T13:52:59.138375-0600 DEBUG ticker_symbol: PLUG
+2025-10-22T13:52:59.152825-0600 DEBUG single_day_ticker_trades:
+Empty DataFrame
+Columns: [symbol, direction, qty, entry_time, exit_time, entry_price, exit_price, pnl, return_pct, holding_minutes, date, win]
+Index: []
+2025-10-22T13:52:59.160821-0600 DEBUG ohlcv.tail(5):
+      open    high   low   close  volume       datetime
+759  3.430  3.4305  3.43  3.4305   10474  1761004500000
+760  3.435  3.4395  3.43  3.4300    7737  1761004560000
+761  3.430  3.4300  3.43  3.4300    2928  1761004620000
+762  3.420  3.4200  3.42  3.4200    1003  1761004680000
+763  3.430  3.4400  3.42  3.4300    8405  1761004740000
+2025-10-22T13:53:02.399043-0600 DEBUG 2025-10-20_RANI_1day1minute_price_history.csv
+2025-10-22T13:53:02.494398-0600 DEBUG ticker_symbol: RANI
+2025-10-22T13:53:02.494398-0600 DEBUG single_day_ticker_trades:
+Empty DataFrame
+Columns: [symbol, direction, qty, entry_time, exit_time, entry_price, exit_price, pnl, return_pct, holding_minutes, date, win]
+Index: []
+2025-10-22T13:53:02.514544-0600 DEBUG ohlcv.tail(5):
+       open    high   low   close  volume       datetime
+773  2.1700  2.1800  2.14  2.1495   19769  1761004500000
+774  2.1400  2.1500  2.14  2.1500   16371  1761004560000
+775  2.1499  2.1499  2.14  2.1497    7746  1761004620000
+776  2.1400  2.1500  2.13  2.1307   24607  1761004680000
+777  2.1498  2.1498  2.12  2.1300   20992  1761004740000
+2025-10-22T13:53:07.952146-0600 DEBUG 2025-10-20_RDHL_1day1minute_price_history.csv
+2025-10-22T13:53:08.005117-0600 DEBUG ticker_symbol: RDHL
+2025-10-22T13:53:08.027661-0600 DEBUG single_day_ticker_trades:
+Empty DataFrame
+Columns: [symbol, direction, qty, entry_time, exit_time, entry_price, exit_price, pnl, return_pct, holding_minutes, date, win]
+Index: []
+2025-10-22T13:53:08.034655-0600 DEBUG ohlcv.tail(5):
+       open    high     low   close  volume       datetime
+539  1.6900  1.6900  1.6900  1.6900     115  1761004440000
+540  1.6799  1.6799  1.6501  1.6501     795  1761004500000
+541  1.6602  1.6602  1.6602  1.6602     266  1761004560000
+542  1.6600  1.6600  1.6600  1.6600     500  1761004620000
+543  1.6700  1.6799  1.6700  1.6799     215  1761004680000
+2025-10-22T13:53:12.006514-0600 DEBUG 2025-10-20_REPL_1day1minute_price_history.csv
+2025-10-22T13:53:12.086217-0600 DEBUG ticker_symbol: REPL
+2025-10-22T13:53:12.105210-0600 DEBUG single_day_ticker_trades:
+  symbol direction  qty                entry_time                 exit_time  ...     pnl  return_pct  holding_minutes        date    win
+0   REPL      long  1.0 2025-10-20 12:02:36+00:00 2025-10-20 12:57:22+00:00  ...  0.7807    0.089019        54.766667  2025-10-20   True
+1   REPL      long  1.0 2025-10-20 12:53:05+00:00 2025-10-20 13:01:09+00:00  ... -0.0092   -0.000981         8.066667  2025-10-20  False
+2   REPL      long  1.0 2025-10-20 12:58:05+00:00 2025-10-20 13:40:46+00:00  ... -0.4400   -0.046122        42.683333  2025-10-20  False
+3   REPL      long  1.0 2025-10-20 13:36:07+00:00 2025-10-20 13:41:01+00:00  ... -0.5000   -0.052576         4.900000  2025-10-20  False
+
+[4 rows x 12 columns]
+2025-10-22T13:53:12.112209-0600 DEBUG ohlcv.tail(5):
+       open    high     low   close  volume       datetime
+726  8.6700  8.6900  8.6600  8.6601    1718  1761004500000
+727  8.6638  8.6894  8.6600  8.6894    2400  1761004560000
+728  8.6637  8.7100  8.6602  8.7005    3122  1761004620000
+729  8.7000  8.7013  8.7000  8.7013    1650  1761004680000
+730  8.7002  8.7392  8.7002  8.7009    6185  1761004740000
+2025-10-22T13:53:12.114199-0600 DEBUG pnl_sum = $-0.1684999999999981
+2025-10-22T13:53:47.008895-0600 DEBUG 2025-10-20_SLS_1day1minute_price_history.csv
+2025-10-22T13:53:47.074967-0600 DEBUG ticker_symbol: SLS
+2025-10-22T13:53:47.081969-0600 DEBUG single_day_ticker_trades:
+Empty DataFrame
+Columns: [symbol, direction, qty, entry_time, exit_time, entry_price, exit_price, pnl, return_pct, holding_minutes, date, win]
+Index: []
+2025-10-22T13:53:47.088952-0600 DEBUG ohlcv.tail(5):
+       open    high     low   close  volume       datetime
+687  2.0200  2.0500  2.0200  2.0300    3073  1761004500000
+688  2.0300  2.0300  2.0287  2.0300     633  1761004560000
+689  2.0295  2.0400  2.0295  2.0399    3158  1761004620000
+690  2.0400  2.0400  2.0305  2.0305    1608  1761004680000
+691  2.0300  2.0313  2.0200  2.0300    8820  1761004740000
+2025-10-22T13:53:52.461534-0600 DEBUG 2025-10-20_SPRC_1day1minute_price_history.csv
+2025-10-22T13:53:52.512089-0600 DEBUG ticker_symbol: SPRC
+2025-10-22T13:53:52.518092-0600 DEBUG single_day_ticker_trades:
+Empty DataFrame
+Columns: [symbol, direction, qty, entry_time, exit_time, entry_price, exit_price, pnl, return_pct, holding_minutes, date, win]
+Index: []
+2025-10-22T13:53:52.526089-0600 DEBUG ohlcv.tail(5):
+     open  high   low  close  volume       datetime
+385  4.11  4.11  4.11   4.11     106  1761002280000
+386  4.16  4.16  4.16   4.16    2900  1761003960000
+387  4.25  4.25  4.25   4.25     360  1761004200000
+388  4.17  4.17  4.14   4.14    4297  1761004440000
+389  4.10  4.10  4.10   4.10     500  1761004680000
+2025-10-22T14:00:18.036644-0600 DEBUG 2025-10-20_SQQQ_1day1minute_price_history.csv
+2025-10-22T14:00:18.180261-0600 DEBUG ticker_symbol: SQQQ
+2025-10-22T14:00:18.194263-0600 DEBUG single_day_ticker_trades:
+Empty DataFrame
+Columns: [symbol, direction, qty, entry_time, exit_time, entry_price, exit_price, pnl, return_pct, holding_minutes, date, win]
+Index: []
+2025-10-22T14:00:18.206260-0600 DEBUG ohlcv.tail(5):
+      open    high      low    close  volume       datetime
+767  14.30  14.301  14.2900  14.3000   41120  1761004500000
+768  14.29  14.300  14.2900  14.3000   22739  1761004560000
+769  14.30  14.300  14.2999  14.3000   20762  1761004620000
+770  14.30  14.300  14.2900  14.2900   26948  1761004680000
+771  14.30  14.300  14.2900  14.2905   21036  1761004740000
+2025-10-22T14:00:27.957438-0600 DEBUG 2025-10-20_USARW_1day1minute_price_history.csv
+2025-10-22T14:00:27.989430-0600 DEBUG ticker_symbol: USARW
+2025-10-22T14:00:28.005433-0600 DEBUG single_day_ticker_trades:
+   symbol direction  qty                entry_time                 exit_time  ...     pnl  return_pct  holding_minutes        date    win
+8   USARW      long  1.0 2025-10-20 15:16:18+00:00 2025-10-20 15:22:35+00:00  ...  0.1202    0.006540         6.283333  2025-10-20   True
+12  USARW      long  1.0 2025-10-20 17:48:22+00:00 2025-10-20 17:58:19+00:00  ... -0.0699   -0.003545         9.950000  2025-10-20  False
+
+[2 rows x 12 columns]
+2025-10-22T14:00:28.012430-0600 DEBUG ohlcv.tail(5):
+      open   high    low  close  volume       datetime
+284  20.63  20.63  20.63  20.63     539  1760998860000
+285  20.50  20.50  20.50  20.50     130  1760999340000
+286  20.60  20.60  20.60  20.60     160  1760999760000
+287  20.65  20.65  20.65  20.65     250  1760999820000
+288  20.40  20.40  20.40  20.40     893  1761001740000
+2025-10-22T14:00:28.015435-0600 DEBUG pnl_sum = $0.05030000000000001
+2025-10-22T14:00:55.504860-0600 DEBUG 2025-10-20_VRCA_1day1minute_price_history.csv
+2025-10-22T14:00:55.536857-0600 DEBUG ticker_symbol: VRCA
+2025-10-22T14:00:55.544781-0600 DEBUG single_day_ticker_trades:
+Empty DataFrame
+Columns: [symbol, direction, qty, entry_time, exit_time, entry_price, exit_price, pnl, return_pct, holding_minutes, date, win]
+Index: []
+2025-10-22T14:00:55.553631-0600 DEBUG ohlcv.tail(5):
+       open    high   low   close  volume       datetime
+250  4.0100  4.0100  4.01  4.0100    2670  1761004440000
+251  4.0299  4.0299  4.02  4.0200    1240  1761004500000
+252  4.0500  4.0500  4.05  4.0500     300  1761004620000
+253  4.0200  4.0200  4.01  4.0200    2749  1761004680000
+254  4.0100  4.1008  4.01  4.1008    2109  1761004740000
+2025-10-22T14:00:58.683041-0600 DEBUG 2025-10-21_ANRO_1day1minute_price_history.csv
+2025-10-22T14:00:58.719037-0600 DEBUG ticker_symbol: ANRO
+2025-10-22T14:00:58.725038-0600 DEBUG single_day_ticker_trades:
+Empty DataFrame
+Columns: [symbol, direction, qty, entry_time, exit_time, entry_price, exit_price, pnl, return_pct, holding_minutes, date, win]
+Index: []
+2025-10-22T14:00:58.732036-0600 DEBUG ohlcv.tail(5):
+      open   high    low  close  volume       datetime
+335  10.85  10.85  10.85  10.85     100  1761088140000
+336  10.90  10.90  10.90  10.90     209  1761088380000
+337  10.90  10.90  10.90  10.90     140  1761089160000
+338  10.90  10.90  10.90  10.90     100  1761089700000
+339  10.85  10.85  10.85  10.85     100  1761091080000
+2025-10-22T14:01:05.048328-0600 DEBUG 2025-10-21_ATMV_1day1minute_price_history.csv
+2025-10-22T14:01:05.107590-0600 DEBUG ticker_symbol: ATMV
+2025-10-22T14:01:05.124592-0600 DEBUG single_day_ticker_trades:
+   symbol direction  qty                entry_time                 exit_time  ...     pnl  return_pct  holding_minutes        date    win
+23   ATMV      long  3.0 2025-10-21 13:42:32+00:00 2025-10-21 14:02:33+00:00  ... -9.0462   -0.194348        20.016667  2025-10-21  False
+24   ATMV      long  3.0 2025-10-21 14:45:25+00:00 2025-10-21 14:46:57+00:00  ... -1.6260   -0.038056         1.533333  2025-10-21  False
+27   ATMV      long  3.0 2025-10-21 14:46:25+00:00 2025-10-21 14:56:06+00:00  ...  0.1680    0.004016         9.683333  2025-10-21   True
+
+[3 rows x 12 columns]
+2025-10-22T14:01:05.132590-0600 DEBUG ohlcv.tail(5):
+      open   high    low  close  volume       datetime
+511  11.20  11.20  11.20  11.20     223  1761090480000
+512  11.19  11.19  11.19  11.19     150  1761090540000
+513  11.01  11.01  11.01  11.01     941  1761090960000
+514  11.00  11.00  11.00  11.00    1100  1761091080000
+515  11.10  11.10  11.10  11.10     908  1761091140000
+2025-10-22T14:01:05.135593-0600 DEBUG pnl_sum = $-10.504200000000006
+2025-10-22T14:01:40.544851-0600 DEBUG 2025-10-21_BGLC_1day1minute_price_history.csv
+2025-10-22T14:01:40.554849-0600 DEBUG ticker_symbol: BGLC
+2025-10-22T14:01:40.560847-0600 DEBUG single_day_ticker_trades:
+Empty DataFrame
+Columns: [symbol, direction, qty, entry_time, exit_time, entry_price, exit_price, pnl, return_pct, holding_minutes, date, win]
+Index: []
+2025-10-22T14:01:40.568846-0600 DEBUG ohlcv.tail(5):
+    open  high   low  close  volume       datetime
+42  5.20  5.20  5.20   5.20     305  1761076800000
+43  5.20  5.20  5.20   5.20     234  1761080640000
+44  5.10  5.10  5.10   5.10     132  1761084900000
+45  5.10  5.10  5.10   5.10     100  1761088020000
+46  5.08  5.08  5.08   5.08     700  1761088320000
+2025-10-22T14:01:44.416272-0600 DEBUG 2025-10-21_BOF_1day1minute_price_history.csv
+2025-10-22T14:01:44.495928-0600 DEBUG ticker_symbol: BOF
+2025-10-22T14:01:44.503927-0600 DEBUG single_day_ticker_trades:
+Empty DataFrame
+Columns: [symbol, direction, qty, entry_time, exit_time, entry_price, exit_price, pnl, return_pct, holding_minutes, date, win]
+Index: []
+2025-10-22T14:01:44.511927-0600 DEBUG ohlcv.tail(5):
+     open  high   low  close  volume       datetime
+725  2.79  2.88  2.71   2.85    2572  1761090900000
+726  2.71  2.71  2.71   2.71     300  1761090960000
+727  2.71  2.82  2.71   2.77    4468  1761091020000
+728  2.77  2.77  2.72   2.72    1694  1761091080000
+729  2.80  2.80  2.73   2.78     920  1761091140000
+2025-10-22T14:05:40.745321-0600 DEBUG 2025-10-21_BYND_1day1minute_price_history.csv
+2025-10-22T14:05:40.824316-0600 DEBUG ticker_symbol: BYND
+2025-10-22T14:05:40.831314-0600 DEBUG single_day_ticker_trades:
+Empty DataFrame
+Columns: [symbol, direction, qty, entry_time, exit_time, entry_price, exit_price, pnl, return_pct, holding_minutes, date, win]
+Index: []
+2025-10-22T14:05:40.838329-0600 DEBUG ohlcv.tail(5):
+       open  high   low   close  volume       datetime
+775  4.4603  4.47  4.41  4.4300  419231  1761090900000
+776  4.4300  4.44  4.41  4.4400  313100  1761090960000
+777  4.4300  4.47  4.43  4.4600  330912  1761091020000
+778  4.4700  4.49  4.45  4.4600  604005  1761091080000
+779  4.4600  4.47  4.42  4.4401  727321  1761091140000
+2025-10-22T14:05:50.371009-0600 DEBUG 2025-10-21_CREV_1day1minute_price_history.csv
+2025-10-22T14:05:50.398024-0600 DEBUG ticker_symbol: CREV
+2025-10-22T14:05:50.402008-0600 DEBUG single_day_ticker_trades:
+Empty DataFrame
+Columns: [symbol, direction, qty, entry_time, exit_time, entry_price, exit_price, pnl, return_pct, holding_minutes, date, win]
+Index: []
+2025-10-22T14:05:50.410025-0600 DEBUG ohlcv.tail(5):
+     open  high   low  close  volume       datetime
+133  5.05  5.05  5.05   5.05     185  1761087420000
+134  5.03  5.03  5.03   5.03     100  1761087780000
+135  5.02  5.02  5.02   5.02     199  1761089220000
+136  5.05  5.05  5.04   5.04    1300  1761090180000
+137  5.08  5.08  5.04   5.04    1809  1761090900000
+2025-10-22T14:05:51.455994-0600 DEBUG 2025-10-21_CTXR_1day1minute_price_history.csv
+2025-10-22T14:05:51.493009-0600 DEBUG ticker_symbol: CTXR
+2025-10-22T14:05:51.498008-0600 DEBUG single_day_ticker_trades:
+Empty DataFrame
+Columns: [symbol, direction, qty, entry_time, exit_time, entry_price, exit_price, pnl, return_pct, holding_minutes, date, win]
+Index: []
+2025-10-22T14:05:51.506001-0600 DEBUG ohlcv.tail(5):
+       open    high     low   close  volume       datetime
+379  1.6600  1.6600  1.6600  1.6600     130  1761083520000
+380  1.6900  1.6900  1.6900  1.6900     250  1761083940000
+381  1.6600  1.6600  1.6600  1.6600     800  1761086760000
+382  1.6991  1.6991  1.6991  1.6991     463  1761087060000
+383  1.6600  1.6600  1.6600  1.6600    1456  1761090480000
+2025-10-22T15:34:16.947137-0600 DEBUG 2025-10-21_DCGO_1day1minute_price_history.csv
+2025-10-22T15:34:17.022161-0600 DEBUG ticker_symbol: DCGO
+2025-10-22T15:34:17.032155-0600 DEBUG single_day_ticker_trades:
+Empty DataFrame
+Columns: [symbol, direction, qty, entry_time, exit_time, entry_price, exit_price, pnl, return_pct, holding_minutes, date, win]
+Index: []
+2025-10-22T15:34:17.040151-0600 DEBUG ohlcv.tail(5):
+      open    high   low  close  volume       datetime
+742  1.450  1.4500  1.45   1.45     658  1761090840000
+743  1.460  1.4600  1.44   1.44    6618  1761090900000
+744  1.449  1.4499  1.44   1.44    2998  1761090960000
+745  1.430  1.4600  1.43   1.46    7100  1761091080000
+746  1.440  1.5000  1.44   1.48   23731  1761091140000
+2025-10-22T15:37:24.417032-0600 DEBUG Loaded secrets from schwab_auth_token.json
+2025-10-22T15:37:26.650749-0600 DEBUG orders:
+      session duration orderType  ...                            orderActivityCollection  price                                  statusDescription
+0      NORMAL      DAY      STOP  ...  [{'activityType': 'EXECUTION', 'activityId': 1...    NaN                                                NaN
+1      NORMAL      DAY      STOP  ...  [{'activityType': 'EXECUTION', 'activityId': 1...    NaN                                                NaN
+2      NORMAL      DAY    MARKET  ...  [{'activityType': 'EXECUTION', 'activityId': 1...    NaN                                                NaN
+3    SEAMLESS      DAY     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...    9.0                                                NaN
+4    SEAMLESS      DAY     LIMIT  ...  [{'activityType': 'EXECUTION', 'activityId': 1...   10.0                                                NaN
+..        ...      ...       ...  ...                                                ...    ...                                                ...
+128    NORMAL      DAY    MARKET  ...                                                NaN    NaN  This order may result in an oversold/overbough...
+129    NORMAL      DAY      STOP  ...  [{'activityType': 'EXECUTION', 'activityId': 1...    NaN                                                NaN
+130    NORMAL      DAY      STOP  ...  [{'activityType': 'EXECUTION', 'activityId': 1...    NaN                                                NaN
+131    NORMAL      DAY    MARKET  ...  [{'activityType': 'EXECUTION', 'activityId': 1...    NaN                                                NaN
+132    NORMAL      DAY      STOP  ...  [{'activityType': 'EXECUTION', 'activityId': 1...    NaN                                                NaN
+
+[133 rows x 25 columns]
+2025-10-22T15:37:26.703762-0600 INFO Writing orders to: C:\Users\Nick\Documents\MoneyGame\MoneyGame\logs\2025-10-20_to_2025-10-22_order_history.csv
+2025-10-22T15:37:26.712764-0600 INFO Detected Schwab order-level schema; flattening to fills...
+2025-10-22T15:37:26.757763-0600 INFO Schwab flatten: 133 orders -> 77 activities scanned, 51 execution-like, 51 legs -> 51 fill rows
+2025-10-22T15:37:26.791765-0600 DEBUG live_trades.tail(5):
+   symbol direction  qty                entry_time                 exit_time  ...     pnl  return_pct  holding_minutes        date    win
+21   RYOJ      long  3.0 2025-10-21 18:43:28+00:00 2025-10-21 18:47:43+00:00  ... -0.5697   -0.025802         4.250000  2025-10-21  False
+22   RYOJ      long  3.0 2025-10-21 18:44:30+00:00 2025-10-21 18:48:39+00:00  ... -1.1778   -0.051036         4.150000  2025-10-21  False
+23   RYOJ      long  3.0 2025-10-21 19:25:29+00:00 2025-10-21 19:27:42+00:00  ...  0.2103    0.008896         2.216667  2025-10-21   True
+24   RYOJ      long  2.0 2025-10-21 20:00:36+00:00 2025-10-21 20:02:38+00:00  ... -1.7084   -0.086684         2.033333  2025-10-21  False
+25   BYND      long  3.0 2025-10-22 14:20:24+00:00 2025-10-22 14:22:20+00:00  ... -0.7968   -0.037537         1.933333  2025-10-22  False
+
+[5 rows x 12 columns]
+2025-10-22T15:37:26.793749-0600 DEBUG data_folder_path: C:\Users\Nick\Documents\MoneyGame\MoneyGame\moneygame\core\../../data/
+2025-10-22T15:37:28.025296-0600 DEBUG 2025-10-21_ANRO_1day1minute_price_history.csv
+2025-10-22T15:37:28.056291-0600 DEBUG ticker_symbol: ANRO
+2025-10-22T15:37:28.061291-0600 DEBUG single_day_ticker_trades:
+Empty DataFrame
+Columns: [symbol, direction, qty, entry_time, exit_time, entry_price, exit_price, pnl, return_pct, holding_minutes, date, win]
+Index: []
+2025-10-22T15:37:32.859918-0600 DEBUG 2025-10-21_ATMV_1day1minute_price_history.csv
+2025-10-22T15:37:32.941920-0600 DEBUG ticker_symbol: ATMV
+2025-10-22T15:37:33.104924-0600 DEBUG single_day_ticker_trades:
+   symbol direction  qty                entry_time                 exit_time  ...     pnl  return_pct  holding_minutes        date    win
+13   ATMV      long  3.0 2025-10-21 13:42:32+00:00 2025-10-21 14:02:33+00:00  ... -9.0462   -0.194348        20.016667  2025-10-21  False
+14   ATMV      long  3.0 2025-10-21 14:45:25+00:00 2025-10-21 14:46:57+00:00  ... -1.6260   -0.038056         1.533333  2025-10-21  False
+17   ATMV      long  3.0 2025-10-21 14:46:25+00:00 2025-10-21 14:56:06+00:00  ...  0.1680    0.004016         9.683333  2025-10-21   True
+
+[3 rows x 12 columns]
+2025-10-22T15:37:33.118918-0600 DEBUG pnl_sum = $-10.504200000000006
+2025-10-22T15:38:08.086323-0600 DEBUG 2025-10-21_BGLC_1day1minute_price_history.csv
+2025-10-22T15:38:08.097324-0600 DEBUG ticker_symbol: BGLC
+2025-10-22T15:38:08.104334-0600 DEBUG single_day_ticker_trades:
+Empty DataFrame
+Columns: [symbol, direction, qty, entry_time, exit_time, entry_price, exit_price, pnl, return_pct, holding_minutes, date, win]
+Index: []
+2025-10-22T15:38:12.107382-0600 DEBUG 2025-10-21_BOF_1day1minute_price_history.csv
+2025-10-22T15:38:12.227374-0600 DEBUG ticker_symbol: BOF
+2025-10-22T15:38:12.238378-0600 DEBUG single_day_ticker_trades:
+Empty DataFrame
+Columns: [symbol, direction, qty, entry_time, exit_time, entry_price, exit_price, pnl, return_pct, holding_minutes, date, win]
+Index: []
+2025-10-22T15:38:16.364846-0600 DEBUG 2025-10-21_BYND_1day1minute_price_history.csv
+2025-10-22T15:38:16.491843-0600 DEBUG ticker_symbol: BYND
+2025-10-22T15:38:16.506841-0600 DEBUG single_day_ticker_trades:
+Empty DataFrame
+Columns: [symbol, direction, qty, entry_time, exit_time, entry_price, exit_price, pnl, return_pct, holding_minutes, date, win]
+Index: []
+2025-10-22T15:38:22.382771-0600 DEBUG 2025-10-21_CREV_1day1minute_price_history.csv
+2025-10-22T15:38:22.403766-0600 DEBUG ticker_symbol: CREV
+2025-10-22T15:38:22.408767-0600 DEBUG single_day_ticker_trades:
+Empty DataFrame
+Columns: [symbol, direction, qty, entry_time, exit_time, entry_price, exit_price, pnl, return_pct, holding_minutes, date, win]
+Index: []
+2025-10-22T15:38:25.661912-0600 DEBUG 2025-10-21_CTXR_1day1minute_price_history.csv
+2025-10-22T15:38:25.731927-0600 DEBUG ticker_symbol: CTXR
+2025-10-22T15:38:25.744930-0600 DEBUG single_day_ticker_trades:
+Empty DataFrame
+Columns: [symbol, direction, qty, entry_time, exit_time, entry_price, exit_price, pnl, return_pct, holding_minutes, date, win]
+Index: []
+2025-10-22T15:38:28.473088-0600 DEBUG 2025-10-21_DCGO_1day1minute_price_history.csv
+2025-10-22T15:38:28.598997-0600 DEBUG ticker_symbol: DCGO
+2025-10-22T15:38:28.608998-0600 DEBUG single_day_ticker_trades:
+Empty DataFrame
+Columns: [symbol, direction, qty, entry_time, exit_time, entry_price, exit_price, pnl, return_pct, holding_minutes, date, win]
+Index: []
+2025-10-22T15:38:32.246631-0600 DEBUG 2025-10-21_DGXX_1day1minute_price_history.csv
+2025-10-22T15:38:32.339625-0600 DEBUG ticker_symbol: DGXX
+2025-10-22T15:38:32.349629-0600 DEBUG single_day_ticker_trades:
+Empty DataFrame
+Columns: [symbol, direction, qty, entry_time, exit_time, entry_price, exit_price, pnl, return_pct, holding_minutes, date, win]
+Index: []
+2025-10-22T15:38:35.904599-0600 DEBUG 2025-10-21_FGI_1day1minute_price_history.csv
+2025-10-22T15:38:35.936601-0600 DEBUG ticker_symbol: FGI
+2025-10-22T15:38:35.941621-0600 DEBUG single_day_ticker_trades:
+Empty DataFrame
+Columns: [symbol, direction, qty, entry_time, exit_time, entry_price, exit_price, pnl, return_pct, holding_minutes, date, win]
+Index: []
+2025-10-22T15:38:44.618369-0600 DEBUG 2025-10-21_GNLN_1day1minute_price_history.csv
+2025-10-22T15:38:44.647370-0600 DEBUG ticker_symbol: GNLN
+2025-10-22T15:38:44.652369-0600 DEBUG single_day_ticker_trades:
+Empty DataFrame
+Columns: [symbol, direction, qty, entry_time, exit_time, entry_price, exit_price, pnl, return_pct, holding_minutes, date, win]
+Index: []
+2025-10-22T15:38:47.368767-0600 DEBUG 2025-10-21_GSIT_1day1minute_price_history.csv
+2025-10-22T15:38:47.513620-0600 DEBUG ticker_symbol: GSIT
+2025-10-22T15:38:47.552621-0600 DEBUG single_day_ticker_trades:
+  symbol direction  qty                entry_time                 exit_time  ...    pnl  return_pct  holding_minutes        date    win
+8   GSIT      long  2.0 2025-10-21 12:57:22+00:00 2025-10-21 12:58:54+00:00  ... -0.318   -0.008918         1.533333  2025-10-21  False
+
+[1 rows x 12 columns]
+2025-10-22T15:38:47.556622-0600 DEBUG pnl_sum = $-0.31799999999999784
+2025-10-22T15:39:14.271650-0600 DEBUG 2025-10-21_IBIO_1day1minute_price_history.csv
+2025-10-22T15:39:14.340647-0600 DEBUG ticker_symbol: IBIO
+2025-10-22T15:39:14.351651-0600 DEBUG single_day_ticker_trades:
+Empty DataFrame
+Columns: [symbol, direction, qty, entry_time, exit_time, entry_price, exit_price, pnl, return_pct, holding_minutes, date, win]
+Index: []
+2025-10-22T15:39:18.020654-0600 DEBUG 2025-10-21_IMPP_1day1minute_price_history.csv
+2025-10-22T15:39:18.062675-0600 DEBUG ticker_symbol: IMPP
+2025-10-22T15:39:18.072651-0600 DEBUG single_day_ticker_trades:
+Empty DataFrame
+Columns: [symbol, direction, qty, entry_time, exit_time, entry_price, exit_price, pnl, return_pct, holding_minutes, date, win]
+Index: []
+2025-10-22T15:39:23.932151-0600 DEBUG 2025-10-21_IONZ_1day1minute_price_history.csv
+2025-10-22T15:39:24.056199-0600 DEBUG ticker_symbol: IONZ
+2025-10-22T15:39:24.065198-0600 DEBUG single_day_ticker_trades:
+Empty DataFrame
+Columns: [symbol, direction, qty, entry_time, exit_time, entry_price, exit_price, pnl, return_pct, holding_minutes, date, win]
+Index: []
+2025-10-22T15:39:28.609431-0600 DEBUG 2025-10-21_JFU_1day1minute_price_history.csv
+2025-10-22T15:39:28.623434-0600 DEBUG ticker_symbol: JFU
+2025-10-22T15:39:28.627431-0600 DEBUG single_day_ticker_trades:
+Empty DataFrame
+Columns: [symbol, direction, qty, entry_time, exit_time, entry_price, exit_price, pnl, return_pct, holding_minutes, date, win]
+Index: []
+2025-10-22T15:39:36.117991-0600 DEBUG 2025-10-21_JWEL_1day1minute_price_history.csv
+2025-10-22T15:39:36.227991-0600 DEBUG ticker_symbol: JWEL
+2025-10-22T15:39:36.239994-0600 DEBUG single_day_ticker_trades:
+Empty DataFrame
+Columns: [symbol, direction, qty, entry_time, exit_time, entry_price, exit_price, pnl, return_pct, holding_minutes, date, win]
+Index: []
+2025-10-22T15:39:40.786289-0600 DEBUG 2025-10-21_LGCB_1day1minute_price_history.csv
+2025-10-22T15:39:40.836411-0600 DEBUG ticker_symbol: LGCB
+2025-10-22T15:39:40.842420-0600 DEBUG single_day_ticker_trades:
+Empty DataFrame
+Columns: [symbol, direction, qty, entry_time, exit_time, entry_price, exit_price, pnl, return_pct, holding_minutes, date, win]
+Index: []
+2025-10-22T15:39:47.201565-0600 DEBUG 2025-10-21_MAGH_1day1minute_price_history.csv
+2025-10-22T15:39:47.220565-0600 DEBUG ticker_symbol: MAGH
+2025-10-22T15:39:47.226563-0600 DEBUG single_day_ticker_trades:
+Empty DataFrame
+Columns: [symbol, direction, qty, entry_time, exit_time, entry_price, exit_price, pnl, return_pct, holding_minutes, date, win]
+Index: []
+2025-10-22T15:39:50.878368-0600 DEBUG 2025-10-21_MEC_1day1minute_price_history.csv
+2025-10-22T15:39:50.920368-0600 DEBUG ticker_symbol: MEC
+2025-10-22T15:39:50.925366-0600 DEBUG single_day_ticker_trades:
+Empty DataFrame
+Columns: [symbol, direction, qty, entry_time, exit_time, entry_price, exit_price, pnl, return_pct, holding_minutes, date, win]
+Index: []
+2025-10-22T15:40:04.164636-0600 DEBUG 2025-10-21_MMA_1day1minute_price_history.csv
+2025-10-22T15:40:04.192632-0600 DEBUG ticker_symbol: MMA
+2025-10-22T15:40:04.196638-0600 DEBUG single_day_ticker_trades:
+Empty DataFrame
+Columns: [symbol, direction, qty, entry_time, exit_time, entry_price, exit_price, pnl, return_pct, holding_minutes, date, win]
+Index: []
+2025-10-22T15:40:06.429278-0600 DEBUG 2025-10-21_NCNA_1day1minute_price_history.csv
+2025-10-22T15:40:06.465278-0600 DEBUG ticker_symbol: NCNA
+2025-10-22T15:40:06.471281-0600 DEBUG single_day_ticker_trades:
+Empty DataFrame
+Columns: [symbol, direction, qty, entry_time, exit_time, entry_price, exit_price, pnl, return_pct, holding_minutes, date, win]
+Index: []
+2025-10-22T15:40:10.825454-0600 DEBUG 2025-10-21_NERV_1day1minute_price_history.csv
+2025-10-22T15:40:10.940453-0600 DEBUG ticker_symbol: NERV
+2025-10-22T15:40:10.978453-0600 DEBUG single_day_ticker_trades:
+   symbol direction  qty                entry_time                 exit_time  ...     pnl  return_pct  holding_minutes        date    win
+9    NERV      long  3.0 2025-10-21 13:42:22+00:00 2025-10-21 13:46:10+00:00  ...  2.3103    0.087215         3.800000  2025-10-21   True
+10   NERV      long  3.0 2025-10-21 13:43:24+00:00 2025-10-21 13:46:10+00:00  ...  1.4112    0.051523         2.766667  2025-10-21   True
+11   NERV      long  3.0 2025-10-21 13:45:33+00:00 2025-10-21 13:47:45+00:00  ... -0.8121   -0.027535         2.200000  2025-10-21  False
+12   NERV      long  3.0 2025-10-21 13:53:26+00:00 2025-10-21 13:53:49+00:00  ... -0.2979   -0.009027         0.383333  2025-10-21  False
+18   NERV      long  3.0 2025-10-21 15:12:26+00:00 2025-10-21 15:18:42+00:00  ...  0.3003    0.009200         6.266667  2025-10-21   True
+19   NERV      long  3.0 2025-10-21 16:24:25+00:00 2025-10-21 16:24:32+00:00  ... -5.0850   -0.140373         0.116667  2025-10-21  False
+
+[6 rows x 12 columns]
+2025-10-22T15:40:10.983453-0600 DEBUG pnl_sum = $-2.1731999999999925

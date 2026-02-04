@@ -1,0 +1,2 @@
+config,total_pnl,num_trades,win_rate_pct,loss_rate_pct,breakeven_pct,profit_factor,sharpe,max_drawdown_pct,cagr_pct,calmar
+baseline,-704.6633347133957,671,34.575260804769,65.424739195231,0.0,0.7315882679056344,-1.721333678257475,17.259524527908248,-15.32730019357934,-0.888048808574967

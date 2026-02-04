@@ -1,0 +1,34 @@
+# --- Add the following sections to pyproject.toml ---
+
+[project]
+# Update your entry points to expose a CLI
+scripts = { hart-quantitative-research = "backend.core.daily_buy_suggester:main" }
+
+[tool.black]
+line-length = 100
+target-version = ["py311"]
+skip-string-normalization = true
+
+[tool.ruff]
+line-length = 100
+select = ["E","F","I","B","UP","N","ANN","C4"]
+ignore = ["ANN101","ANN102","ANN401"]
+fix = true
+target-version = "py311"
+exclude = ["frontend"]
+
+[tool.ruff.format]
+quote-style = "preserve"
+
+[tool.isort]
+profile = "black"
+
+[tool.mypy]
+python_version = "3.11"
+ignore_missing_imports = true
+strict_optional = true
+disallow_untyped_defs = false
+
+# OPTIONAL: If you plan to use Pydantic settings
+[project.optional-dependencies]
+extras = ["pydantic-settings", "python-dotenv"]

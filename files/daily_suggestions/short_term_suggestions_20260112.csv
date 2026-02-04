@@ -1,0 +1,2 @@
+ticker,action,horizon,thesis,entry,stop,qty,notional,risk_$,risk_%,score,close,vol_ratio20,prox_52w_high_pct,r20,sma50,sma200,adv20_dollar,r5,r60,atr14,atr_%,news_score,has_fresh_news,upgrade_hits,downgrade_hits,earnings_within_window,next_earnings_date,last_earnings_surprise_pct,catalyst_reasons,intraday_rel_vol
+LRCX,Buy,1-2 day,Momentum + liquidity with catalysts: Recent upgrade,219.81,202.72,1,220.0,17.0,7.77,1.0135,218.36,1.39,0.56,0.2978,165.53,115.77,2184763824.0,0.1799,0.5788,7.906,3.62,0.75,True,3,0,False,,,['Recent upgrade'],1.39

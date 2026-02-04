@@ -1,0 +1,1350 @@
+Politician trade source failed (house_clerk): Message: 
+Stacktrace:
+#0 0x62d3913bdb22 <unknown>
+#1 0x62d390deca56 <unknown>
+#2 0x62d390e3ec0c <unknown>
+#3 0x62d390e3ee25 <unknown>
+#4 0x62d390e89418 <unknown>
+#5 0x62d390e64151 <unknown>
+#6 0x62d390e86c5d <unknown>
+#7 0x62d390e63ec7 <unknown>
+#8 0x62d390e31232 <unknown>
+#9 0x62d390e320a5 <unknown>
+#10 0x62d391382374 <unknown>
+#11 0x62d3913856b6 <unknown>
+#12 0x62d39138516e <unknown>
+#13 0x62d391385b29 <unknown>
+#14 0x62d391371c8a <unknown>
+#15 0x62d391385eaa <unknown>
+#16 0x62d391359f59 <unknown>
+#17 0x62d3913ab159 <unknown>
+#18 0x62d3913ab34d <unknown>
+#19 0x62d3913bce2e <unknown>
+#20 0x779e740abb7b <unknown>
+
+Senate report table missing (https://efdsearch.senate.gov/search/view/paper/16afdd38-c0ec-4e37-bc05-cbd82901b43f/): Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="content"]/div/div/section/div/div/table"}
+  (Session info: chrome=144.0.7559.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x58be7e14eb22 <unknown>
+#1 0x58be7db7da56 <unknown>
+#2 0x58be7dbcfc0c <unknown>
+#3 0x58be7dbcfe25 <unknown>
+#4 0x58be7dc1a418 <unknown>
+#5 0x58be7dbf5151 <unknown>
+#6 0x58be7dc17c5d <unknown>
+#7 0x58be7dbf4ec7 <unknown>
+#8 0x58be7dbc2232 <unknown>
+#9 0x58be7dbc30a5 <unknown>
+#10 0x58be7e113374 <unknown>
+#11 0x58be7e1166b6 <unknown>
+#12 0x58be7e11616e <unknown>
+#13 0x58be7e116b29 <unknown>
+#14 0x58be7e102c8a <unknown>
+#15 0x58be7e116eaa <unknown>
+#16 0x58be7e0eaf59 <unknown>
+#17 0x58be7e13c159 <unknown>
+#18 0x58be7e13c34d <unknown>
+#19 0x58be7e14de2e <unknown>
+#20 0x7f94352f2b7b <unknown>
+
+Senate report table missing (https://efdsearch.senate.gov/search/view/paper/19dc3e18-b10f-465d-8f37-117ab78a8d0b/): Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="content"]/div/div/section/div/div/table"}
+  (Session info: chrome=144.0.7559.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x58be7e14eb22 <unknown>
+#1 0x58be7db7da56 <unknown>
+#2 0x58be7dbcfc0c <unknown>
+#3 0x58be7dbcfe25 <unknown>
+#4 0x58be7dc1a418 <unknown>
+#5 0x58be7dbf5151 <unknown>
+#6 0x58be7dc17c5d <unknown>
+#7 0x58be7dbf4ec7 <unknown>
+#8 0x58be7dbc2232 <unknown>
+#9 0x58be7dbc30a5 <unknown>
+#10 0x58be7e113374 <unknown>
+#11 0x58be7e1166b6 <unknown>
+#12 0x58be7e11616e <unknown>
+#13 0x58be7e116b29 <unknown>
+#14 0x58be7e102c8a <unknown>
+#15 0x58be7e116eaa <unknown>
+#16 0x58be7e0eaf59 <unknown>
+#17 0x58be7e13c159 <unknown>
+#18 0x58be7e13c34d <unknown>
+#19 0x58be7e14de2e <unknown>
+#20 0x7f94352f2b7b <unknown>
+
+Senate report table missing (https://efdsearch.senate.gov/search/view/paper/f873aeb4-adbb-4934-a188-79416a2e4c76/): Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="content"]/div/div/section/div/div/table"}
+  (Session info: chrome=144.0.7559.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x58be7e14eb22 <unknown>
+#1 0x58be7db7da56 <unknown>
+#2 0x58be7dbcfc0c <unknown>
+#3 0x58be7dbcfe25 <unknown>
+#4 0x58be7dc1a418 <unknown>
+#5 0x58be7dbf5151 <unknown>
+#6 0x58be7dc17c5d <unknown>
+#7 0x58be7dbf4ec7 <unknown>
+#8 0x58be7dbc2232 <unknown>
+#9 0x58be7dbc30a5 <unknown>
+#10 0x58be7e113374 <unknown>
+#11 0x58be7e1166b6 <unknown>
+#12 0x58be7e11616e <unknown>
+#13 0x58be7e116b29 <unknown>
+#14 0x58be7e102c8a <unknown>
+#15 0x58be7e116eaa <unknown>
+#16 0x58be7e0eaf59 <unknown>
+#17 0x58be7e13c159 <unknown>
+#18 0x58be7e13c34d <unknown>
+#19 0x58be7e14de2e <unknown>
+#20 0x7f94352f2b7b <unknown>
+
+Senate report table missing (https://efdsearch.senate.gov/search/view/paper/e63995b3-352b-4cf8-ac61-ae05cfa7553b/): Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="content"]/div/div/section/div/div/table"}
+  (Session info: chrome=144.0.7559.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x58be7e14eb22 <unknown>
+#1 0x58be7db7da56 <unknown>
+#2 0x58be7dbcfc0c <unknown>
+#3 0x58be7dbcfe25 <unknown>
+#4 0x58be7dc1a418 <unknown>
+#5 0x58be7dbf5151 <unknown>
+#6 0x58be7dc17c5d <unknown>
+#7 0x58be7dbf4ec7 <unknown>
+#8 0x58be7dbc2232 <unknown>
+#9 0x58be7dbc30a5 <unknown>
+#10 0x58be7e113374 <unknown>
+#11 0x58be7e1166b6 <unknown>
+#12 0x58be7e11616e <unknown>
+#13 0x58be7e116b29 <unknown>
+#14 0x58be7e102c8a <unknown>
+#15 0x58be7e116eaa <unknown>
+#16 0x58be7e0eaf59 <unknown>
+#17 0x58be7e13c159 <unknown>
+#18 0x58be7e13c34d <unknown>
+#19 0x58be7e14de2e <unknown>
+#20 0x7f94352f2b7b <unknown>
+
+Senate report table missing (https://efdsearch.senate.gov/search/view/paper/13a0fc2a-bbbb-4c1b-b380-d315e198d2a3/): Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="content"]/div/div/section/div/div/table"}
+  (Session info: chrome=144.0.7559.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x58be7e14eb22 <unknown>
+#1 0x58be7db7da56 <unknown>
+#2 0x58be7dbcfc0c <unknown>
+#3 0x58be7dbcfe25 <unknown>
+#4 0x58be7dc1a418 <unknown>
+#5 0x58be7dbf5151 <unknown>
+#6 0x58be7dc17c5d <unknown>
+#7 0x58be7dbf4ec7 <unknown>
+#8 0x58be7dbc2232 <unknown>
+#9 0x58be7dbc30a5 <unknown>
+#10 0x58be7e113374 <unknown>
+#11 0x58be7e1166b6 <unknown>
+#12 0x58be7e11616e <unknown>
+#13 0x58be7e116b29 <unknown>
+#14 0x58be7e102c8a <unknown>
+#15 0x58be7e116eaa <unknown>
+#16 0x58be7e0eaf59 <unknown>
+#17 0x58be7e13c159 <unknown>
+#18 0x58be7e13c34d <unknown>
+#19 0x58be7e14de2e <unknown>
+#20 0x7f94352f2b7b <unknown>
+
+Wrote 175 trades to /app/files/politician_trades/politician_trades_90d.json
+Politician trade source failed (house_clerk): Message: 
+Stacktrace:
+#0 0x61fc98bf8b22 <unknown>
+#1 0x61fc98627a56 <unknown>
+#2 0x61fc98679c0c <unknown>
+#3 0x61fc98679e25 <unknown>
+#4 0x61fc986c4418 <unknown>
+#5 0x61fc9869f151 <unknown>
+#6 0x61fc986c1c5d <unknown>
+#7 0x61fc9869eec7 <unknown>
+#8 0x61fc9866c232 <unknown>
+#9 0x61fc9866d0a5 <unknown>
+#10 0x61fc98bbd374 <unknown>
+#11 0x61fc98bc06b6 <unknown>
+#12 0x61fc98bc016e <unknown>
+#13 0x61fc98bc0b29 <unknown>
+#14 0x61fc98bacc8a <unknown>
+#15 0x61fc98bc0eaa <unknown>
+#16 0x61fc98b94f59 <unknown>
+#17 0x61fc98be6159 <unknown>
+#18 0x61fc98be634d <unknown>
+#19 0x61fc98bf7e2e <unknown>
+#20 0x781581e6cb7b <unknown>
+
+Senate report table missing (https://efdsearch.senate.gov/search/view/paper/13a0fc2a-bbbb-4c1b-b380-d315e198d2a3/): Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="content"]/div/div/section/div/div/table"}
+  (Session info: chrome=144.0.7559.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x63e55e3dfb22 <unknown>
+#1 0x63e55de0ea56 <unknown>
+#2 0x63e55de60c0c <unknown>
+#3 0x63e55de60e25 <unknown>
+#4 0x63e55deab418 <unknown>
+#5 0x63e55de86151 <unknown>
+#6 0x63e55dea8c5d <unknown>
+#7 0x63e55de85ec7 <unknown>
+#8 0x63e55de53232 <unknown>
+#9 0x63e55de540a5 <unknown>
+#10 0x63e55e3a4374 <unknown>
+#11 0x63e55e3a76b6 <unknown>
+#12 0x63e55e3a716e <unknown>
+#13 0x63e55e3a7b29 <unknown>
+#14 0x63e55e393c8a <unknown>
+#15 0x63e55e3a7eaa <unknown>
+#16 0x63e55e37bf59 <unknown>
+#17 0x63e55e3cd159 <unknown>
+#18 0x63e55e3cd34d <unknown>
+#19 0x63e55e3dee2e <unknown>
+#20 0x76171a4c5b7b <unknown>
+
+Senate report table missing (https://efdsearch.senate.gov/search/view/paper/f873aeb4-adbb-4934-a188-79416a2e4c76/): Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="content"]/div/div/section/div/div/table"}
+  (Session info: chrome=144.0.7559.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x63e55e3dfb22 <unknown>
+#1 0x63e55de0ea56 <unknown>
+#2 0x63e55de60c0c <unknown>
+#3 0x63e55de60e25 <unknown>
+#4 0x63e55deab418 <unknown>
+#5 0x63e55de86151 <unknown>
+#6 0x63e55dea8c5d <unknown>
+#7 0x63e55de85ec7 <unknown>
+#8 0x63e55de53232 <unknown>
+#9 0x63e55de540a5 <unknown>
+#10 0x63e55e3a4374 <unknown>
+#11 0x63e55e3a76b6 <unknown>
+#12 0x63e55e3a716e <unknown>
+#13 0x63e55e3a7b29 <unknown>
+#14 0x63e55e393c8a <unknown>
+#15 0x63e55e3a7eaa <unknown>
+#16 0x63e55e37bf59 <unknown>
+#17 0x63e55e3cd159 <unknown>
+#18 0x63e55e3cd34d <unknown>
+#19 0x63e55e3dee2e <unknown>
+#20 0x76171a4c5b7b <unknown>
+
+Senate report table missing (https://efdsearch.senate.gov/search/view/paper/16afdd38-c0ec-4e37-bc05-cbd82901b43f/): Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="content"]/div/div/section/div/div/table"}
+  (Session info: chrome=144.0.7559.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x63e55e3dfb22 <unknown>
+#1 0x63e55de0ea56 <unknown>
+#2 0x63e55de60c0c <unknown>
+#3 0x63e55de60e25 <unknown>
+#4 0x63e55deab418 <unknown>
+#5 0x63e55de86151 <unknown>
+#6 0x63e55dea8c5d <unknown>
+#7 0x63e55de85ec7 <unknown>
+#8 0x63e55de53232 <unknown>
+#9 0x63e55de540a5 <unknown>
+#10 0x63e55e3a4374 <unknown>
+#11 0x63e55e3a76b6 <unknown>
+#12 0x63e55e3a716e <unknown>
+#13 0x63e55e3a7b29 <unknown>
+#14 0x63e55e393c8a <unknown>
+#15 0x63e55e3a7eaa <unknown>
+#16 0x63e55e37bf59 <unknown>
+#17 0x63e55e3cd159 <unknown>
+#18 0x63e55e3cd34d <unknown>
+#19 0x63e55e3dee2e <unknown>
+#20 0x76171a4c5b7b <unknown>
+
+Senate report table missing (https://efdsearch.senate.gov/search/view/paper/19dc3e18-b10f-465d-8f37-117ab78a8d0b/): Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="content"]/div/div/section/div/div/table"}
+  (Session info: chrome=144.0.7559.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x63e55e3dfb22 <unknown>
+#1 0x63e55de0ea56 <unknown>
+#2 0x63e55de60c0c <unknown>
+#3 0x63e55de60e25 <unknown>
+#4 0x63e55deab418 <unknown>
+#5 0x63e55de86151 <unknown>
+#6 0x63e55dea8c5d <unknown>
+#7 0x63e55de85ec7 <unknown>
+#8 0x63e55de53232 <unknown>
+#9 0x63e55de540a5 <unknown>
+#10 0x63e55e3a4374 <unknown>
+#11 0x63e55e3a76b6 <unknown>
+#12 0x63e55e3a716e <unknown>
+#13 0x63e55e3a7b29 <unknown>
+#14 0x63e55e393c8a <unknown>
+#15 0x63e55e3a7eaa <unknown>
+#16 0x63e55e37bf59 <unknown>
+#17 0x63e55e3cd159 <unknown>
+#18 0x63e55e3cd34d <unknown>
+#19 0x63e55e3dee2e <unknown>
+#20 0x76171a4c5b7b <unknown>
+
+Senate report table missing (https://efdsearch.senate.gov/search/view/paper/e63995b3-352b-4cf8-ac61-ae05cfa7553b/): Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="content"]/div/div/section/div/div/table"}
+  (Session info: chrome=144.0.7559.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x63e55e3dfb22 <unknown>
+#1 0x63e55de0ea56 <unknown>
+#2 0x63e55de60c0c <unknown>
+#3 0x63e55de60e25 <unknown>
+#4 0x63e55deab418 <unknown>
+#5 0x63e55de86151 <unknown>
+#6 0x63e55dea8c5d <unknown>
+#7 0x63e55de85ec7 <unknown>
+#8 0x63e55de53232 <unknown>
+#9 0x63e55de540a5 <unknown>
+#10 0x63e55e3a4374 <unknown>
+#11 0x63e55e3a76b6 <unknown>
+#12 0x63e55e3a716e <unknown>
+#13 0x63e55e3a7b29 <unknown>
+#14 0x63e55e393c8a <unknown>
+#15 0x63e55e3a7eaa <unknown>
+#16 0x63e55e37bf59 <unknown>
+#17 0x63e55e3cd159 <unknown>
+#18 0x63e55e3cd34d <unknown>
+#19 0x63e55e3dee2e <unknown>
+#20 0x76171a4c5b7b <unknown>
+
+Wrote 174 trades to /app/files/politician_trades/politician_trades_90d.json
+Politician trade source failed (house_clerk): Message: 
+Stacktrace:
+#0 0x61114106fb22 <unknown>
+#1 0x611140a9ea56 <unknown>
+#2 0x611140af0c0c <unknown>
+#3 0x611140af0e25 <unknown>
+#4 0x611140b3b418 <unknown>
+#5 0x611140b16151 <unknown>
+#6 0x611140b38c5d <unknown>
+#7 0x611140b15ec7 <unknown>
+#8 0x611140ae3232 <unknown>
+#9 0x611140ae40a5 <unknown>
+#10 0x611141034374 <unknown>
+#11 0x6111410376b6 <unknown>
+#12 0x61114103716e <unknown>
+#13 0x611141037b29 <unknown>
+#14 0x611141023c8a <unknown>
+#15 0x611141037eaa <unknown>
+#16 0x61114100bf59 <unknown>
+#17 0x61114105d159 <unknown>
+#18 0x61114105d34d <unknown>
+#19 0x61114106ee2e <unknown>
+#20 0x7ae83bfdbb7b <unknown>
+
+Senate report table missing (https://efdsearch.senate.gov/search/view/paper/f873aeb4-adbb-4934-a188-79416a2e4c76/): Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="content"]/div/div/section/div/div/table"}
+  (Session info: chrome=144.0.7559.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x649ef2ea9b22 <unknown>
+#1 0x649ef28d8a56 <unknown>
+#2 0x649ef292ac0c <unknown>
+#3 0x649ef292ae25 <unknown>
+#4 0x649ef2975418 <unknown>
+#5 0x649ef2950151 <unknown>
+#6 0x649ef2972c5d <unknown>
+#7 0x649ef294fec7 <unknown>
+#8 0x649ef291d232 <unknown>
+#9 0x649ef291e0a5 <unknown>
+#10 0x649ef2e6e374 <unknown>
+#11 0x649ef2e716b6 <unknown>
+#12 0x649ef2e7116e <unknown>
+#13 0x649ef2e71b29 <unknown>
+#14 0x649ef2e5dc8a <unknown>
+#15 0x649ef2e71eaa <unknown>
+#16 0x649ef2e45f59 <unknown>
+#17 0x649ef2e97159 <unknown>
+#18 0x649ef2e9734d <unknown>
+#19 0x649ef2ea8e2e <unknown>
+#20 0x7b5ab4822b7b <unknown>
+
+Senate report table missing (https://efdsearch.senate.gov/search/view/paper/e63995b3-352b-4cf8-ac61-ae05cfa7553b/): Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="content"]/div/div/section/div/div/table"}
+  (Session info: chrome=144.0.7559.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x649ef2ea9b22 <unknown>
+#1 0x649ef28d8a56 <unknown>
+#2 0x649ef292ac0c <unknown>
+#3 0x649ef292ae25 <unknown>
+#4 0x649ef2975418 <unknown>
+#5 0x649ef2950151 <unknown>
+#6 0x649ef2972c5d <unknown>
+#7 0x649ef294fec7 <unknown>
+#8 0x649ef291d232 <unknown>
+#9 0x649ef291e0a5 <unknown>
+#10 0x649ef2e6e374 <unknown>
+#11 0x649ef2e716b6 <unknown>
+#12 0x649ef2e7116e <unknown>
+#13 0x649ef2e71b29 <unknown>
+#14 0x649ef2e5dc8a <unknown>
+#15 0x649ef2e71eaa <unknown>
+#16 0x649ef2e45f59 <unknown>
+#17 0x649ef2e97159 <unknown>
+#18 0x649ef2e9734d <unknown>
+#19 0x649ef2ea8e2e <unknown>
+#20 0x7b5ab4822b7b <unknown>
+
+Senate report table missing (https://efdsearch.senate.gov/search/view/paper/16afdd38-c0ec-4e37-bc05-cbd82901b43f/): Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="content"]/div/div/section/div/div/table"}
+  (Session info: chrome=144.0.7559.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x649ef2ea9b22 <unknown>
+#1 0x649ef28d8a56 <unknown>
+#2 0x649ef292ac0c <unknown>
+#3 0x649ef292ae25 <unknown>
+#4 0x649ef2975418 <unknown>
+#5 0x649ef2950151 <unknown>
+#6 0x649ef2972c5d <unknown>
+#7 0x649ef294fec7 <unknown>
+#8 0x649ef291d232 <unknown>
+#9 0x649ef291e0a5 <unknown>
+#10 0x649ef2e6e374 <unknown>
+#11 0x649ef2e716b6 <unknown>
+#12 0x649ef2e7116e <unknown>
+#13 0x649ef2e71b29 <unknown>
+#14 0x649ef2e5dc8a <unknown>
+#15 0x649ef2e71eaa <unknown>
+#16 0x649ef2e45f59 <unknown>
+#17 0x649ef2e97159 <unknown>
+#18 0x649ef2e9734d <unknown>
+#19 0x649ef2ea8e2e <unknown>
+#20 0x7b5ab4822b7b <unknown>
+
+Senate report table missing (https://efdsearch.senate.gov/search/view/paper/19dc3e18-b10f-465d-8f37-117ab78a8d0b/): Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="content"]/div/div/section/div/div/table"}
+  (Session info: chrome=144.0.7559.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x649ef2ea9b22 <unknown>
+#1 0x649ef28d8a56 <unknown>
+#2 0x649ef292ac0c <unknown>
+#3 0x649ef292ae25 <unknown>
+#4 0x649ef2975418 <unknown>
+#5 0x649ef2950151 <unknown>
+#6 0x649ef2972c5d <unknown>
+#7 0x649ef294fec7 <unknown>
+#8 0x649ef291d232 <unknown>
+#9 0x649ef291e0a5 <unknown>
+#10 0x649ef2e6e374 <unknown>
+#11 0x649ef2e716b6 <unknown>
+#12 0x649ef2e7116e <unknown>
+#13 0x649ef2e71b29 <unknown>
+#14 0x649ef2e5dc8a <unknown>
+#15 0x649ef2e71eaa <unknown>
+#16 0x649ef2e45f59 <unknown>
+#17 0x649ef2e97159 <unknown>
+#18 0x649ef2e9734d <unknown>
+#19 0x649ef2ea8e2e <unknown>
+#20 0x7b5ab4822b7b <unknown>
+
+Senate report table missing (https://efdsearch.senate.gov/search/view/paper/13a0fc2a-bbbb-4c1b-b380-d315e198d2a3/): Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="content"]/div/div/section/div/div/table"}
+  (Session info: chrome=144.0.7559.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x649ef2ea9b22 <unknown>
+#1 0x649ef28d8a56 <unknown>
+#2 0x649ef292ac0c <unknown>
+#3 0x649ef292ae25 <unknown>
+#4 0x649ef2975418 <unknown>
+#5 0x649ef2950151 <unknown>
+#6 0x649ef2972c5d <unknown>
+#7 0x649ef294fec7 <unknown>
+#8 0x649ef291d232 <unknown>
+#9 0x649ef291e0a5 <unknown>
+#10 0x649ef2e6e374 <unknown>
+#11 0x649ef2e716b6 <unknown>
+#12 0x649ef2e7116e <unknown>
+#13 0x649ef2e71b29 <unknown>
+#14 0x649ef2e5dc8a <unknown>
+#15 0x649ef2e71eaa <unknown>
+#16 0x649ef2e45f59 <unknown>
+#17 0x649ef2e97159 <unknown>
+#18 0x649ef2e9734d <unknown>
+#19 0x649ef2ea8e2e <unknown>
+#20 0x7b5ab4822b7b <unknown>
+
+Wrote 177 trades to /app/files/politician_trades/politician_trades_90d.json
+Politician trade source failed (house_clerk): Message: 
+Stacktrace:
+#0 0x591d55311b22 <unknown>
+#1 0x591d54d40a56 <unknown>
+#2 0x591d54d92c0c <unknown>
+#3 0x591d54d92e25 <unknown>
+#4 0x591d54ddd418 <unknown>
+#5 0x591d54db8151 <unknown>
+#6 0x591d54ddac5d <unknown>
+#7 0x591d54db7ec7 <unknown>
+#8 0x591d54d85232 <unknown>
+#9 0x591d54d860a5 <unknown>
+#10 0x591d552d6374 <unknown>
+#11 0x591d552d96b6 <unknown>
+#12 0x591d552d916e <unknown>
+#13 0x591d552d9b29 <unknown>
+#14 0x591d552c5c8a <unknown>
+#15 0x591d552d9eaa <unknown>
+#16 0x591d552adf59 <unknown>
+#17 0x591d552ff159 <unknown>
+#18 0x591d552ff34d <unknown>
+#19 0x591d55310e2e <unknown>
+#20 0x7cfc51c1fb7b <unknown>
+
+Senate report table missing (https://efdsearch.senate.gov/search/view/paper/f873aeb4-adbb-4934-a188-79416a2e4c76/): Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="content"]/div/div/section/div/div/table"}
+  (Session info: chrome=144.0.7559.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x5f71ed48cb22 <unknown>
+#1 0x5f71ecebba56 <unknown>
+#2 0x5f71ecf0dc0c <unknown>
+#3 0x5f71ecf0de25 <unknown>
+#4 0x5f71ecf58418 <unknown>
+#5 0x5f71ecf33151 <unknown>
+#6 0x5f71ecf55c5d <unknown>
+#7 0x5f71ecf32ec7 <unknown>
+#8 0x5f71ecf00232 <unknown>
+#9 0x5f71ecf010a5 <unknown>
+#10 0x5f71ed451374 <unknown>
+#11 0x5f71ed4546b6 <unknown>
+#12 0x5f71ed45416e <unknown>
+#13 0x5f71ed454b29 <unknown>
+#14 0x5f71ed440c8a <unknown>
+#15 0x5f71ed454eaa <unknown>
+#16 0x5f71ed428f59 <unknown>
+#17 0x5f71ed47a159 <unknown>
+#18 0x5f71ed47a34d <unknown>
+#19 0x5f71ed48be2e <unknown>
+#20 0x7831a8121b7b <unknown>
+
+Senate report table missing (https://efdsearch.senate.gov/search/view/paper/13a0fc2a-bbbb-4c1b-b380-d315e198d2a3/): Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="content"]/div/div/section/div/div/table"}
+  (Session info: chrome=144.0.7559.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x5f71ed48cb22 <unknown>
+#1 0x5f71ecebba56 <unknown>
+#2 0x5f71ecf0dc0c <unknown>
+#3 0x5f71ecf0de25 <unknown>
+#4 0x5f71ecf58418 <unknown>
+#5 0x5f71ecf33151 <unknown>
+#6 0x5f71ecf55c5d <unknown>
+#7 0x5f71ecf32ec7 <unknown>
+#8 0x5f71ecf00232 <unknown>
+#9 0x5f71ecf010a5 <unknown>
+#10 0x5f71ed451374 <unknown>
+#11 0x5f71ed4546b6 <unknown>
+#12 0x5f71ed45416e <unknown>
+#13 0x5f71ed454b29 <unknown>
+#14 0x5f71ed440c8a <unknown>
+#15 0x5f71ed454eaa <unknown>
+#16 0x5f71ed428f59 <unknown>
+#17 0x5f71ed47a159 <unknown>
+#18 0x5f71ed47a34d <unknown>
+#19 0x5f71ed48be2e <unknown>
+#20 0x7831a8121b7b <unknown>
+
+Senate report table missing (https://efdsearch.senate.gov/search/view/paper/16afdd38-c0ec-4e37-bc05-cbd82901b43f/): Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="content"]/div/div/section/div/div/table"}
+  (Session info: chrome=144.0.7559.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x5f71ed48cb22 <unknown>
+#1 0x5f71ecebba56 <unknown>
+#2 0x5f71ecf0dc0c <unknown>
+#3 0x5f71ecf0de25 <unknown>
+#4 0x5f71ecf58418 <unknown>
+#5 0x5f71ecf33151 <unknown>
+#6 0x5f71ecf55c5d <unknown>
+#7 0x5f71ecf32ec7 <unknown>
+#8 0x5f71ecf00232 <unknown>
+#9 0x5f71ecf010a5 <unknown>
+#10 0x5f71ed451374 <unknown>
+#11 0x5f71ed4546b6 <unknown>
+#12 0x5f71ed45416e <unknown>
+#13 0x5f71ed454b29 <unknown>
+#14 0x5f71ed440c8a <unknown>
+#15 0x5f71ed454eaa <unknown>
+#16 0x5f71ed428f59 <unknown>
+#17 0x5f71ed47a159 <unknown>
+#18 0x5f71ed47a34d <unknown>
+#19 0x5f71ed48be2e <unknown>
+#20 0x7831a8121b7b <unknown>
+
+Senate report table missing (https://efdsearch.senate.gov/search/view/paper/19dc3e18-b10f-465d-8f37-117ab78a8d0b/): Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="content"]/div/div/section/div/div/table"}
+  (Session info: chrome=144.0.7559.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x5f71ed48cb22 <unknown>
+#1 0x5f71ecebba56 <unknown>
+#2 0x5f71ecf0dc0c <unknown>
+#3 0x5f71ecf0de25 <unknown>
+#4 0x5f71ecf58418 <unknown>
+#5 0x5f71ecf33151 <unknown>
+#6 0x5f71ecf55c5d <unknown>
+#7 0x5f71ecf32ec7 <unknown>
+#8 0x5f71ecf00232 <unknown>
+#9 0x5f71ecf010a5 <unknown>
+#10 0x5f71ed451374 <unknown>
+#11 0x5f71ed4546b6 <unknown>
+#12 0x5f71ed45416e <unknown>
+#13 0x5f71ed454b29 <unknown>
+#14 0x5f71ed440c8a <unknown>
+#15 0x5f71ed454eaa <unknown>
+#16 0x5f71ed428f59 <unknown>
+#17 0x5f71ed47a159 <unknown>
+#18 0x5f71ed47a34d <unknown>
+#19 0x5f71ed48be2e <unknown>
+#20 0x7831a8121b7b <unknown>
+
+Senate report table missing (https://efdsearch.senate.gov/search/view/paper/e63995b3-352b-4cf8-ac61-ae05cfa7553b/): Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="content"]/div/div/section/div/div/table"}
+  (Session info: chrome=144.0.7559.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x5f71ed48cb22 <unknown>
+#1 0x5f71ecebba56 <unknown>
+#2 0x5f71ecf0dc0c <unknown>
+#3 0x5f71ecf0de25 <unknown>
+#4 0x5f71ecf58418 <unknown>
+#5 0x5f71ecf33151 <unknown>
+#6 0x5f71ecf55c5d <unknown>
+#7 0x5f71ecf32ec7 <unknown>
+#8 0x5f71ecf00232 <unknown>
+#9 0x5f71ecf010a5 <unknown>
+#10 0x5f71ed451374 <unknown>
+#11 0x5f71ed4546b6 <unknown>
+#12 0x5f71ed45416e <unknown>
+#13 0x5f71ed454b29 <unknown>
+#14 0x5f71ed440c8a <unknown>
+#15 0x5f71ed454eaa <unknown>
+#16 0x5f71ed428f59 <unknown>
+#17 0x5f71ed47a159 <unknown>
+#18 0x5f71ed47a34d <unknown>
+#19 0x5f71ed48be2e <unknown>
+#20 0x7831a8121b7b <unknown>
+
+Wrote 173 trades to /app/files/politician_trades/politician_trades_90d.json
+Politician trade source failed (house_clerk): Message: 
+Stacktrace:
+#0 0x576740affb22 <unknown>
+#1 0x57674052ea56 <unknown>
+#2 0x576740580c0c <unknown>
+#3 0x576740580e25 <unknown>
+#4 0x5767405cb418 <unknown>
+#5 0x5767405a6151 <unknown>
+#6 0x5767405c8c5d <unknown>
+#7 0x5767405a5ec7 <unknown>
+#8 0x576740573232 <unknown>
+#9 0x5767405740a5 <unknown>
+#10 0x576740ac4374 <unknown>
+#11 0x576740ac76b6 <unknown>
+#12 0x576740ac716e <unknown>
+#13 0x576740ac7b29 <unknown>
+#14 0x576740ab3c8a <unknown>
+#15 0x576740ac7eaa <unknown>
+#16 0x576740a9bf59 <unknown>
+#17 0x576740aed159 <unknown>
+#18 0x576740aed34d <unknown>
+#19 0x576740afee2e <unknown>
+#20 0x73a006615b7b <unknown>
+
+Senate report table missing (https://efdsearch.senate.gov/search/view/paper/19dc3e18-b10f-465d-8f37-117ab78a8d0b/): Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="content"]/div/div/section/div/div/table"}
+  (Session info: chrome=144.0.7559.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x5d34c5790b22 <unknown>
+#1 0x5d34c51bfa56 <unknown>
+#2 0x5d34c5211c0c <unknown>
+#3 0x5d34c5211e25 <unknown>
+#4 0x5d34c525c418 <unknown>
+#5 0x5d34c5237151 <unknown>
+#6 0x5d34c5259c5d <unknown>
+#7 0x5d34c5236ec7 <unknown>
+#8 0x5d34c5204232 <unknown>
+#9 0x5d34c52050a5 <unknown>
+#10 0x5d34c5755374 <unknown>
+#11 0x5d34c57586b6 <unknown>
+#12 0x5d34c575816e <unknown>
+#13 0x5d34c5758b29 <unknown>
+#14 0x5d34c5744c8a <unknown>
+#15 0x5d34c5758eaa <unknown>
+#16 0x5d34c572cf59 <unknown>
+#17 0x5d34c577e159 <unknown>
+#18 0x5d34c577e34d <unknown>
+#19 0x5d34c578fe2e <unknown>
+#20 0x7eabf409db7b <unknown>
+
+Senate report table missing (https://efdsearch.senate.gov/search/view/paper/13a0fc2a-bbbb-4c1b-b380-d315e198d2a3/): Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="content"]/div/div/section/div/div/table"}
+  (Session info: chrome=144.0.7559.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x5d34c5790b22 <unknown>
+#1 0x5d34c51bfa56 <unknown>
+#2 0x5d34c5211c0c <unknown>
+#3 0x5d34c5211e25 <unknown>
+#4 0x5d34c525c418 <unknown>
+#5 0x5d34c5237151 <unknown>
+#6 0x5d34c5259c5d <unknown>
+#7 0x5d34c5236ec7 <unknown>
+#8 0x5d34c5204232 <unknown>
+#9 0x5d34c52050a5 <unknown>
+#10 0x5d34c5755374 <unknown>
+#11 0x5d34c57586b6 <unknown>
+#12 0x5d34c575816e <unknown>
+#13 0x5d34c5758b29 <unknown>
+#14 0x5d34c5744c8a <unknown>
+#15 0x5d34c5758eaa <unknown>
+#16 0x5d34c572cf59 <unknown>
+#17 0x5d34c577e159 <unknown>
+#18 0x5d34c577e34d <unknown>
+#19 0x5d34c578fe2e <unknown>
+#20 0x7eabf409db7b <unknown>
+
+Senate report table missing (https://efdsearch.senate.gov/search/view/paper/f873aeb4-adbb-4934-a188-79416a2e4c76/): Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="content"]/div/div/section/div/div/table"}
+  (Session info: chrome=144.0.7559.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x5d34c5790b22 <unknown>
+#1 0x5d34c51bfa56 <unknown>
+#2 0x5d34c5211c0c <unknown>
+#3 0x5d34c5211e25 <unknown>
+#4 0x5d34c525c418 <unknown>
+#5 0x5d34c5237151 <unknown>
+#6 0x5d34c5259c5d <unknown>
+#7 0x5d34c5236ec7 <unknown>
+#8 0x5d34c5204232 <unknown>
+#9 0x5d34c52050a5 <unknown>
+#10 0x5d34c5755374 <unknown>
+#11 0x5d34c57586b6 <unknown>
+#12 0x5d34c575816e <unknown>
+#13 0x5d34c5758b29 <unknown>
+#14 0x5d34c5744c8a <unknown>
+#15 0x5d34c5758eaa <unknown>
+#16 0x5d34c572cf59 <unknown>
+#17 0x5d34c577e159 <unknown>
+#18 0x5d34c577e34d <unknown>
+#19 0x5d34c578fe2e <unknown>
+#20 0x7eabf409db7b <unknown>
+
+Senate report table missing (https://efdsearch.senate.gov/search/view/paper/e63995b3-352b-4cf8-ac61-ae05cfa7553b/): Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="content"]/div/div/section/div/div/table"}
+  (Session info: chrome=144.0.7559.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x5d34c5790b22 <unknown>
+#1 0x5d34c51bfa56 <unknown>
+#2 0x5d34c5211c0c <unknown>
+#3 0x5d34c5211e25 <unknown>
+#4 0x5d34c525c418 <unknown>
+#5 0x5d34c5237151 <unknown>
+#6 0x5d34c5259c5d <unknown>
+#7 0x5d34c5236ec7 <unknown>
+#8 0x5d34c5204232 <unknown>
+#9 0x5d34c52050a5 <unknown>
+#10 0x5d34c5755374 <unknown>
+#11 0x5d34c57586b6 <unknown>
+#12 0x5d34c575816e <unknown>
+#13 0x5d34c5758b29 <unknown>
+#14 0x5d34c5744c8a <unknown>
+#15 0x5d34c5758eaa <unknown>
+#16 0x5d34c572cf59 <unknown>
+#17 0x5d34c577e159 <unknown>
+#18 0x5d34c577e34d <unknown>
+#19 0x5d34c578fe2e <unknown>
+#20 0x7eabf409db7b <unknown>
+
+Senate report table missing (https://efdsearch.senate.gov/search/view/paper/16afdd38-c0ec-4e37-bc05-cbd82901b43f/): Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="content"]/div/div/section/div/div/table"}
+  (Session info: chrome=144.0.7559.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x5d34c5790b22 <unknown>
+#1 0x5d34c51bfa56 <unknown>
+#2 0x5d34c5211c0c <unknown>
+#3 0x5d34c5211e25 <unknown>
+#4 0x5d34c525c418 <unknown>
+#5 0x5d34c5237151 <unknown>
+#6 0x5d34c5259c5d <unknown>
+#7 0x5d34c5236ec7 <unknown>
+#8 0x5d34c5204232 <unknown>
+#9 0x5d34c52050a5 <unknown>
+#10 0x5d34c5755374 <unknown>
+#11 0x5d34c57586b6 <unknown>
+#12 0x5d34c575816e <unknown>
+#13 0x5d34c5758b29 <unknown>
+#14 0x5d34c5744c8a <unknown>
+#15 0x5d34c5758eaa <unknown>
+#16 0x5d34c572cf59 <unknown>
+#17 0x5d34c577e159 <unknown>
+#18 0x5d34c577e34d <unknown>
+#19 0x5d34c578fe2e <unknown>
+#20 0x7eabf409db7b <unknown>
+
+Wrote 173 trades to /app/files/politician_trades/politician_trades_90d.json
+Politician trade source failed (house_clerk): Message: 
+Stacktrace:
+#0 0x6528dc510b22 <unknown>
+#1 0x6528dbf3fa56 <unknown>
+#2 0x6528dbf91c0c <unknown>
+#3 0x6528dbf91e25 <unknown>
+#4 0x6528dbfdc418 <unknown>
+#5 0x6528dbfb7151 <unknown>
+#6 0x6528dbfd9c5d <unknown>
+#7 0x6528dbfb6ec7 <unknown>
+#8 0x6528dbf84232 <unknown>
+#9 0x6528dbf850a5 <unknown>
+#10 0x6528dc4d5374 <unknown>
+#11 0x6528dc4d86b6 <unknown>
+#12 0x6528dc4d816e <unknown>
+#13 0x6528dc4d8b29 <unknown>
+#14 0x6528dc4c4c8a <unknown>
+#15 0x6528dc4d8eaa <unknown>
+#16 0x6528dc4acf59 <unknown>
+#17 0x6528dc4fe159 <unknown>
+#18 0x6528dc4fe34d <unknown>
+#19 0x6528dc50fe2e <unknown>
+#20 0x780db61d4b7b <unknown>
+
+Senate report table missing (https://efdsearch.senate.gov/search/view/paper/16afdd38-c0ec-4e37-bc05-cbd82901b43f/): Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="content"]/div/div/section/div/div/table"}
+  (Session info: chrome=144.0.7559.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x55a3bcc1db22 <unknown>
+#1 0x55a3bc64ca56 <unknown>
+#2 0x55a3bc69ec0c <unknown>
+#3 0x55a3bc69ee25 <unknown>
+#4 0x55a3bc6e9418 <unknown>
+#5 0x55a3bc6c4151 <unknown>
+#6 0x55a3bc6e6c5d <unknown>
+#7 0x55a3bc6c3ec7 <unknown>
+#8 0x55a3bc691232 <unknown>
+#9 0x55a3bc6920a5 <unknown>
+#10 0x55a3bcbe2374 <unknown>
+#11 0x55a3bcbe56b6 <unknown>
+#12 0x55a3bcbe516e <unknown>
+#13 0x55a3bcbe5b29 <unknown>
+#14 0x55a3bcbd1c8a <unknown>
+#15 0x55a3bcbe5eaa <unknown>
+#16 0x55a3bcbb9f59 <unknown>
+#17 0x55a3bcc0b159 <unknown>
+#18 0x55a3bcc0b34d <unknown>
+#19 0x55a3bcc1ce2e <unknown>
+#20 0x7228764afb7b <unknown>
+
+Senate report table missing (https://efdsearch.senate.gov/search/view/paper/f873aeb4-adbb-4934-a188-79416a2e4c76/): Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="content"]/div/div/section/div/div/table"}
+  (Session info: chrome=144.0.7559.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x55a3bcc1db22 <unknown>
+#1 0x55a3bc64ca56 <unknown>
+#2 0x55a3bc69ec0c <unknown>
+#3 0x55a3bc69ee25 <unknown>
+#4 0x55a3bc6e9418 <unknown>
+#5 0x55a3bc6c4151 <unknown>
+#6 0x55a3bc6e6c5d <unknown>
+#7 0x55a3bc6c3ec7 <unknown>
+#8 0x55a3bc691232 <unknown>
+#9 0x55a3bc6920a5 <unknown>
+#10 0x55a3bcbe2374 <unknown>
+#11 0x55a3bcbe56b6 <unknown>
+#12 0x55a3bcbe516e <unknown>
+#13 0x55a3bcbe5b29 <unknown>
+#14 0x55a3bcbd1c8a <unknown>
+#15 0x55a3bcbe5eaa <unknown>
+#16 0x55a3bcbb9f59 <unknown>
+#17 0x55a3bcc0b159 <unknown>
+#18 0x55a3bcc0b34d <unknown>
+#19 0x55a3bcc1ce2e <unknown>
+#20 0x7228764afb7b <unknown>
+
+Senate report table missing (https://efdsearch.senate.gov/search/view/paper/19dc3e18-b10f-465d-8f37-117ab78a8d0b/): Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="content"]/div/div/section/div/div/table"}
+  (Session info: chrome=144.0.7559.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x55a3bcc1db22 <unknown>
+#1 0x55a3bc64ca56 <unknown>
+#2 0x55a3bc69ec0c <unknown>
+#3 0x55a3bc69ee25 <unknown>
+#4 0x55a3bc6e9418 <unknown>
+#5 0x55a3bc6c4151 <unknown>
+#6 0x55a3bc6e6c5d <unknown>
+#7 0x55a3bc6c3ec7 <unknown>
+#8 0x55a3bc691232 <unknown>
+#9 0x55a3bc6920a5 <unknown>
+#10 0x55a3bcbe2374 <unknown>
+#11 0x55a3bcbe56b6 <unknown>
+#12 0x55a3bcbe516e <unknown>
+#13 0x55a3bcbe5b29 <unknown>
+#14 0x55a3bcbd1c8a <unknown>
+#15 0x55a3bcbe5eaa <unknown>
+#16 0x55a3bcbb9f59 <unknown>
+#17 0x55a3bcc0b159 <unknown>
+#18 0x55a3bcc0b34d <unknown>
+#19 0x55a3bcc1ce2e <unknown>
+#20 0x7228764afb7b <unknown>
+
+Senate report table missing (https://efdsearch.senate.gov/search/view/paper/13a0fc2a-bbbb-4c1b-b380-d315e198d2a3/): Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="content"]/div/div/section/div/div/table"}
+  (Session info: chrome=144.0.7559.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x55a3bcc1db22 <unknown>
+#1 0x55a3bc64ca56 <unknown>
+#2 0x55a3bc69ec0c <unknown>
+#3 0x55a3bc69ee25 <unknown>
+#4 0x55a3bc6e9418 <unknown>
+#5 0x55a3bc6c4151 <unknown>
+#6 0x55a3bc6e6c5d <unknown>
+#7 0x55a3bc6c3ec7 <unknown>
+#8 0x55a3bc691232 <unknown>
+#9 0x55a3bc6920a5 <unknown>
+#10 0x55a3bcbe2374 <unknown>
+#11 0x55a3bcbe56b6 <unknown>
+#12 0x55a3bcbe516e <unknown>
+#13 0x55a3bcbe5b29 <unknown>
+#14 0x55a3bcbd1c8a <unknown>
+#15 0x55a3bcbe5eaa <unknown>
+#16 0x55a3bcbb9f59 <unknown>
+#17 0x55a3bcc0b159 <unknown>
+#18 0x55a3bcc0b34d <unknown>
+#19 0x55a3bcc1ce2e <unknown>
+#20 0x7228764afb7b <unknown>
+
+Senate report table missing (https://efdsearch.senate.gov/search/view/paper/e63995b3-352b-4cf8-ac61-ae05cfa7553b/): Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="content"]/div/div/section/div/div/table"}
+  (Session info: chrome=144.0.7559.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x55a3bcc1db22 <unknown>
+#1 0x55a3bc64ca56 <unknown>
+#2 0x55a3bc69ec0c <unknown>
+#3 0x55a3bc69ee25 <unknown>
+#4 0x55a3bc6e9418 <unknown>
+#5 0x55a3bc6c4151 <unknown>
+#6 0x55a3bc6e6c5d <unknown>
+#7 0x55a3bc6c3ec7 <unknown>
+#8 0x55a3bc691232 <unknown>
+#9 0x55a3bc6920a5 <unknown>
+#10 0x55a3bcbe2374 <unknown>
+#11 0x55a3bcbe56b6 <unknown>
+#12 0x55a3bcbe516e <unknown>
+#13 0x55a3bcbe5b29 <unknown>
+#14 0x55a3bcbd1c8a <unknown>
+#15 0x55a3bcbe5eaa <unknown>
+#16 0x55a3bcbb9f59 <unknown>
+#17 0x55a3bcc0b159 <unknown>
+#18 0x55a3bcc0b34d <unknown>
+#19 0x55a3bcc1ce2e <unknown>
+#20 0x7228764afb7b <unknown>
+
+Wrote 167 trades to /app/files/politician_trades/politician_trades_90d.json
+Politician trade source failed (house_clerk): Message: 
+Stacktrace:
+#0 0x5bd628717b22 <unknown>
+#1 0x5bd628146a56 <unknown>
+#2 0x5bd628198c0c <unknown>
+#3 0x5bd628198e25 <unknown>
+#4 0x5bd6281e3418 <unknown>
+#5 0x5bd6281be151 <unknown>
+#6 0x5bd6281e0c5d <unknown>
+#7 0x5bd6281bdec7 <unknown>
+#8 0x5bd62818b232 <unknown>
+#9 0x5bd62818c0a5 <unknown>
+#10 0x5bd6286dc374 <unknown>
+#11 0x5bd6286df6b6 <unknown>
+#12 0x5bd6286df16e <unknown>
+#13 0x5bd6286dfb29 <unknown>
+#14 0x5bd6286cbc8a <unknown>
+#15 0x5bd6286dfeaa <unknown>
+#16 0x5bd6286b3f59 <unknown>
+#17 0x5bd628705159 <unknown>
+#18 0x5bd62870534d <unknown>
+#19 0x5bd628716e2e <unknown>
+#20 0x7c1d6380db7b <unknown>
+
+Senate report table missing (https://efdsearch.senate.gov/search/view/paper/19dc3e18-b10f-465d-8f37-117ab78a8d0b/): Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="content"]/div/div/section/div/div/table"}
+  (Session info: chrome=144.0.7559.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x6306a2f60b22 <unknown>
+#1 0x6306a298fa56 <unknown>
+#2 0x6306a29e1c0c <unknown>
+#3 0x6306a29e1e25 <unknown>
+#4 0x6306a2a2c418 <unknown>
+#5 0x6306a2a07151 <unknown>
+#6 0x6306a2a29c5d <unknown>
+#7 0x6306a2a06ec7 <unknown>
+#8 0x6306a29d4232 <unknown>
+#9 0x6306a29d50a5 <unknown>
+#10 0x6306a2f25374 <unknown>
+#11 0x6306a2f286b6 <unknown>
+#12 0x6306a2f2816e <unknown>
+#13 0x6306a2f28b29 <unknown>
+#14 0x6306a2f14c8a <unknown>
+#15 0x6306a2f28eaa <unknown>
+#16 0x6306a2efcf59 <unknown>
+#17 0x6306a2f4e159 <unknown>
+#18 0x6306a2f4e34d <unknown>
+#19 0x6306a2f5fe2e <unknown>
+#20 0x7de6c4600b7b <unknown>
+
+Senate report table missing (https://efdsearch.senate.gov/search/view/paper/16afdd38-c0ec-4e37-bc05-cbd82901b43f/): Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="content"]/div/div/section/div/div/table"}
+  (Session info: chrome=144.0.7559.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x6306a2f60b22 <unknown>
+#1 0x6306a298fa56 <unknown>
+#2 0x6306a29e1c0c <unknown>
+#3 0x6306a29e1e25 <unknown>
+#4 0x6306a2a2c418 <unknown>
+#5 0x6306a2a07151 <unknown>
+#6 0x6306a2a29c5d <unknown>
+#7 0x6306a2a06ec7 <unknown>
+#8 0x6306a29d4232 <unknown>
+#9 0x6306a29d50a5 <unknown>
+#10 0x6306a2f25374 <unknown>
+#11 0x6306a2f286b6 <unknown>
+#12 0x6306a2f2816e <unknown>
+#13 0x6306a2f28b29 <unknown>
+#14 0x6306a2f14c8a <unknown>
+#15 0x6306a2f28eaa <unknown>
+#16 0x6306a2efcf59 <unknown>
+#17 0x6306a2f4e159 <unknown>
+#18 0x6306a2f4e34d <unknown>
+#19 0x6306a2f5fe2e <unknown>
+#20 0x7de6c4600b7b <unknown>
+
+Senate report table missing (https://efdsearch.senate.gov/search/view/paper/f873aeb4-adbb-4934-a188-79416a2e4c76/): Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="content"]/div/div/section/div/div/table"}
+  (Session info: chrome=144.0.7559.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x6306a2f60b22 <unknown>
+#1 0x6306a298fa56 <unknown>
+#2 0x6306a29e1c0c <unknown>
+#3 0x6306a29e1e25 <unknown>
+#4 0x6306a2a2c418 <unknown>
+#5 0x6306a2a07151 <unknown>
+#6 0x6306a2a29c5d <unknown>
+#7 0x6306a2a06ec7 <unknown>
+#8 0x6306a29d4232 <unknown>
+#9 0x6306a29d50a5 <unknown>
+#10 0x6306a2f25374 <unknown>
+#11 0x6306a2f286b6 <unknown>
+#12 0x6306a2f2816e <unknown>
+#13 0x6306a2f28b29 <unknown>
+#14 0x6306a2f14c8a <unknown>
+#15 0x6306a2f28eaa <unknown>
+#16 0x6306a2efcf59 <unknown>
+#17 0x6306a2f4e159 <unknown>
+#18 0x6306a2f4e34d <unknown>
+#19 0x6306a2f5fe2e <unknown>
+#20 0x7de6c4600b7b <unknown>
+
+Senate report table missing (https://efdsearch.senate.gov/search/view/paper/13a0fc2a-bbbb-4c1b-b380-d315e198d2a3/): Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="content"]/div/div/section/div/div/table"}
+  (Session info: chrome=144.0.7559.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x6306a2f60b22 <unknown>
+#1 0x6306a298fa56 <unknown>
+#2 0x6306a29e1c0c <unknown>
+#3 0x6306a29e1e25 <unknown>
+#4 0x6306a2a2c418 <unknown>
+#5 0x6306a2a07151 <unknown>
+#6 0x6306a2a29c5d <unknown>
+#7 0x6306a2a06ec7 <unknown>
+#8 0x6306a29d4232 <unknown>
+#9 0x6306a29d50a5 <unknown>
+#10 0x6306a2f25374 <unknown>
+#11 0x6306a2f286b6 <unknown>
+#12 0x6306a2f2816e <unknown>
+#13 0x6306a2f28b29 <unknown>
+#14 0x6306a2f14c8a <unknown>
+#15 0x6306a2f28eaa <unknown>
+#16 0x6306a2efcf59 <unknown>
+#17 0x6306a2f4e159 <unknown>
+#18 0x6306a2f4e34d <unknown>
+#19 0x6306a2f5fe2e <unknown>
+#20 0x7de6c4600b7b <unknown>
+
+Senate report table missing (https://efdsearch.senate.gov/search/view/paper/e63995b3-352b-4cf8-ac61-ae05cfa7553b/): Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="content"]/div/div/section/div/div/table"}
+  (Session info: chrome=144.0.7559.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x6306a2f60b22 <unknown>
+#1 0x6306a298fa56 <unknown>
+#2 0x6306a29e1c0c <unknown>
+#3 0x6306a29e1e25 <unknown>
+#4 0x6306a2a2c418 <unknown>
+#5 0x6306a2a07151 <unknown>
+#6 0x6306a2a29c5d <unknown>
+#7 0x6306a2a06ec7 <unknown>
+#8 0x6306a29d4232 <unknown>
+#9 0x6306a29d50a5 <unknown>
+#10 0x6306a2f25374 <unknown>
+#11 0x6306a2f286b6 <unknown>
+#12 0x6306a2f2816e <unknown>
+#13 0x6306a2f28b29 <unknown>
+#14 0x6306a2f14c8a <unknown>
+#15 0x6306a2f28eaa <unknown>
+#16 0x6306a2efcf59 <unknown>
+#17 0x6306a2f4e159 <unknown>
+#18 0x6306a2f4e34d <unknown>
+#19 0x6306a2f5fe2e <unknown>
+#20 0x7de6c4600b7b <unknown>
+
+Wrote 163 trades to /app/files/politician_trades/politician_trades_90d.json
+Politician trade source failed (house_clerk): Message: 
+Stacktrace:
+#0 0x57990c246b22 <unknown>
+#1 0x57990bc75a56 <unknown>
+#2 0x57990bcc7c0c <unknown>
+#3 0x57990bcc7e25 <unknown>
+#4 0x57990bd12418 <unknown>
+#5 0x57990bced151 <unknown>
+#6 0x57990bd0fc5d <unknown>
+#7 0x57990bcecec7 <unknown>
+#8 0x57990bcba232 <unknown>
+#9 0x57990bcbb0a5 <unknown>
+#10 0x57990c20b374 <unknown>
+#11 0x57990c20e6b6 <unknown>
+#12 0x57990c20e16e <unknown>
+#13 0x57990c20eb29 <unknown>
+#14 0x57990c1fac8a <unknown>
+#15 0x57990c20eeaa <unknown>
+#16 0x57990c1e2f59 <unknown>
+#17 0x57990c234159 <unknown>
+#18 0x57990c23434d <unknown>
+#19 0x57990c245e2e <unknown>
+#20 0x7b68a7944b7b <unknown>
+
+Senate report table missing (https://efdsearch.senate.gov/search/view/paper/f873aeb4-adbb-4934-a188-79416a2e4c76/): Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="content"]/div/div/section/div/div/table"}
+  (Session info: chrome=144.0.7559.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x62d060cdfb22 <unknown>
+#1 0x62d06070ea56 <unknown>
+#2 0x62d060760c0c <unknown>
+#3 0x62d060760e25 <unknown>
+#4 0x62d0607ab418 <unknown>
+#5 0x62d060786151 <unknown>
+#6 0x62d0607a8c5d <unknown>
+#7 0x62d060785ec7 <unknown>
+#8 0x62d060753232 <unknown>
+#9 0x62d0607540a5 <unknown>
+#10 0x62d060ca4374 <unknown>
+#11 0x62d060ca76b6 <unknown>
+#12 0x62d060ca716e <unknown>
+#13 0x62d060ca7b29 <unknown>
+#14 0x62d060c93c8a <unknown>
+#15 0x62d060ca7eaa <unknown>
+#16 0x62d060c7bf59 <unknown>
+#17 0x62d060ccd159 <unknown>
+#18 0x62d060ccd34d <unknown>
+#19 0x62d060cdee2e <unknown>
+#20 0x7011c1253b7b <unknown>
+
+Senate report table missing (https://efdsearch.senate.gov/search/view/paper/16afdd38-c0ec-4e37-bc05-cbd82901b43f/): Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="content"]/div/div/section/div/div/table"}
+  (Session info: chrome=144.0.7559.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x62d060cdfb22 <unknown>
+#1 0x62d06070ea56 <unknown>
+#2 0x62d060760c0c <unknown>
+#3 0x62d060760e25 <unknown>
+#4 0x62d0607ab418 <unknown>
+#5 0x62d060786151 <unknown>
+#6 0x62d0607a8c5d <unknown>
+#7 0x62d060785ec7 <unknown>
+#8 0x62d060753232 <unknown>
+#9 0x62d0607540a5 <unknown>
+#10 0x62d060ca4374 <unknown>
+#11 0x62d060ca76b6 <unknown>
+#12 0x62d060ca716e <unknown>
+#13 0x62d060ca7b29 <unknown>
+#14 0x62d060c93c8a <unknown>
+#15 0x62d060ca7eaa <unknown>
+#16 0x62d060c7bf59 <unknown>
+#17 0x62d060ccd159 <unknown>
+#18 0x62d060ccd34d <unknown>
+#19 0x62d060cdee2e <unknown>
+#20 0x7011c1253b7b <unknown>
+
+Senate report table missing (https://efdsearch.senate.gov/search/view/paper/19dc3e18-b10f-465d-8f37-117ab78a8d0b/): Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="content"]/div/div/section/div/div/table"}
+  (Session info: chrome=144.0.7559.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x62d060cdfb22 <unknown>
+#1 0x62d06070ea56 <unknown>
+#2 0x62d060760c0c <unknown>
+#3 0x62d060760e25 <unknown>
+#4 0x62d0607ab418 <unknown>
+#5 0x62d060786151 <unknown>
+#6 0x62d0607a8c5d <unknown>
+#7 0x62d060785ec7 <unknown>
+#8 0x62d060753232 <unknown>
+#9 0x62d0607540a5 <unknown>
+#10 0x62d060ca4374 <unknown>
+#11 0x62d060ca76b6 <unknown>
+#12 0x62d060ca716e <unknown>
+#13 0x62d060ca7b29 <unknown>
+#14 0x62d060c93c8a <unknown>
+#15 0x62d060ca7eaa <unknown>
+#16 0x62d060c7bf59 <unknown>
+#17 0x62d060ccd159 <unknown>
+#18 0x62d060ccd34d <unknown>
+#19 0x62d060cdee2e <unknown>
+#20 0x7011c1253b7b <unknown>
+
+Senate report table missing (https://efdsearch.senate.gov/search/view/paper/e63995b3-352b-4cf8-ac61-ae05cfa7553b/): Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="content"]/div/div/section/div/div/table"}
+  (Session info: chrome=144.0.7559.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x62d060cdfb22 <unknown>
+#1 0x62d06070ea56 <unknown>
+#2 0x62d060760c0c <unknown>
+#3 0x62d060760e25 <unknown>
+#4 0x62d0607ab418 <unknown>
+#5 0x62d060786151 <unknown>
+#6 0x62d0607a8c5d <unknown>
+#7 0x62d060785ec7 <unknown>
+#8 0x62d060753232 <unknown>
+#9 0x62d0607540a5 <unknown>
+#10 0x62d060ca4374 <unknown>
+#11 0x62d060ca76b6 <unknown>
+#12 0x62d060ca716e <unknown>
+#13 0x62d060ca7b29 <unknown>
+#14 0x62d060c93c8a <unknown>
+#15 0x62d060ca7eaa <unknown>
+#16 0x62d060c7bf59 <unknown>
+#17 0x62d060ccd159 <unknown>
+#18 0x62d060ccd34d <unknown>
+#19 0x62d060cdee2e <unknown>
+#20 0x7011c1253b7b <unknown>
+
+Senate report table missing (https://efdsearch.senate.gov/search/view/paper/13a0fc2a-bbbb-4c1b-b380-d315e198d2a3/): Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="content"]/div/div/section/div/div/table"}
+  (Session info: chrome=144.0.7559.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x62d060cdfb22 <unknown>
+#1 0x62d06070ea56 <unknown>
+#2 0x62d060760c0c <unknown>
+#3 0x62d060760e25 <unknown>
+#4 0x62d0607ab418 <unknown>
+#5 0x62d060786151 <unknown>
+#6 0x62d0607a8c5d <unknown>
+#7 0x62d060785ec7 <unknown>
+#8 0x62d060753232 <unknown>
+#9 0x62d0607540a5 <unknown>
+#10 0x62d060ca4374 <unknown>
+#11 0x62d060ca76b6 <unknown>
+#12 0x62d060ca716e <unknown>
+#13 0x62d060ca7b29 <unknown>
+#14 0x62d060c93c8a <unknown>
+#15 0x62d060ca7eaa <unknown>
+#16 0x62d060c7bf59 <unknown>
+#17 0x62d060ccd159 <unknown>
+#18 0x62d060ccd34d <unknown>
+#19 0x62d060cdee2e <unknown>
+#20 0x7011c1253b7b <unknown>
+
+Wrote 162 trades to /app/files/politician_trades/politician_trades_90d.json
+Politician trade source failed (house_clerk): Message: 
+Stacktrace:
+#0 0x61136bf7eb22 <unknown>
+#1 0x61136b9ada56 <unknown>
+#2 0x61136b9ffc0c <unknown>
+#3 0x61136b9ffe25 <unknown>
+#4 0x61136ba4a418 <unknown>
+#5 0x61136ba25151 <unknown>
+#6 0x61136ba47c5d <unknown>
+#7 0x61136ba24ec7 <unknown>
+#8 0x61136b9f2232 <unknown>
+#9 0x61136b9f30a5 <unknown>
+#10 0x61136bf43374 <unknown>
+#11 0x61136bf466b6 <unknown>
+#12 0x61136bf4616e <unknown>
+#13 0x61136bf46b29 <unknown>
+#14 0x61136bf32c8a <unknown>
+#15 0x61136bf46eaa <unknown>
+#16 0x61136bf1af59 <unknown>
+#17 0x61136bf6c159 <unknown>
+#18 0x61136bf6c34d <unknown>
+#19 0x61136bf7de2e <unknown>
+#20 0x74068b651b7b <unknown>
+
+Senate report table missing (https://efdsearch.senate.gov/search/view/paper/16afdd38-c0ec-4e37-bc05-cbd82901b43f/): Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="content"]/div/div/section/div/div/table"}
+  (Session info: chrome=144.0.7559.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x575181f17b22 <unknown>
+#1 0x575181946a56 <unknown>
+#2 0x575181998c0c <unknown>
+#3 0x575181998e25 <unknown>
+#4 0x5751819e3418 <unknown>
+#5 0x5751819be151 <unknown>
+#6 0x5751819e0c5d <unknown>
+#7 0x5751819bdec7 <unknown>
+#8 0x57518198b232 <unknown>
+#9 0x57518198c0a5 <unknown>
+#10 0x575181edc374 <unknown>
+#11 0x575181edf6b6 <unknown>
+#12 0x575181edf16e <unknown>
+#13 0x575181edfb29 <unknown>
+#14 0x575181ecbc8a <unknown>
+#15 0x575181edfeaa <unknown>
+#16 0x575181eb3f59 <unknown>
+#17 0x575181f05159 <unknown>
+#18 0x575181f0534d <unknown>
+#19 0x575181f16e2e <unknown>
+#20 0x728d2bde9b7b <unknown>
+
+Senate report table missing (https://efdsearch.senate.gov/search/view/paper/f873aeb4-adbb-4934-a188-79416a2e4c76/): Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="content"]/div/div/section/div/div/table"}
+  (Session info: chrome=144.0.7559.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x575181f17b22 <unknown>
+#1 0x575181946a56 <unknown>
+#2 0x575181998c0c <unknown>
+#3 0x575181998e25 <unknown>
+#4 0x5751819e3418 <unknown>
+#5 0x5751819be151 <unknown>
+#6 0x5751819e0c5d <unknown>
+#7 0x5751819bdec7 <unknown>
+#8 0x57518198b232 <unknown>
+#9 0x57518198c0a5 <unknown>
+#10 0x575181edc374 <unknown>
+#11 0x575181edf6b6 <unknown>
+#12 0x575181edf16e <unknown>
+#13 0x575181edfb29 <unknown>
+#14 0x575181ecbc8a <unknown>
+#15 0x575181edfeaa <unknown>
+#16 0x575181eb3f59 <unknown>
+#17 0x575181f05159 <unknown>
+#18 0x575181f0534d <unknown>
+#19 0x575181f16e2e <unknown>
+#20 0x728d2bde9b7b <unknown>
+
+Senate report table missing (https://efdsearch.senate.gov/search/view/paper/19dc3e18-b10f-465d-8f37-117ab78a8d0b/): Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="content"]/div/div/section/div/div/table"}
+  (Session info: chrome=144.0.7559.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x575181f17b22 <unknown>
+#1 0x575181946a56 <unknown>
+#2 0x575181998c0c <unknown>
+#3 0x575181998e25 <unknown>
+#4 0x5751819e3418 <unknown>
+#5 0x5751819be151 <unknown>
+#6 0x5751819e0c5d <unknown>
+#7 0x5751819bdec7 <unknown>
+#8 0x57518198b232 <unknown>
+#9 0x57518198c0a5 <unknown>
+#10 0x575181edc374 <unknown>
+#11 0x575181edf6b6 <unknown>
+#12 0x575181edf16e <unknown>
+#13 0x575181edfb29 <unknown>
+#14 0x575181ecbc8a <unknown>
+#15 0x575181edfeaa <unknown>
+#16 0x575181eb3f59 <unknown>
+#17 0x575181f05159 <unknown>
+#18 0x575181f0534d <unknown>
+#19 0x575181f16e2e <unknown>
+#20 0x728d2bde9b7b <unknown>
+
+Senate report table missing (https://efdsearch.senate.gov/search/view/paper/13a0fc2a-bbbb-4c1b-b380-d315e198d2a3/): Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="content"]/div/div/section/div/div/table"}
+  (Session info: chrome=144.0.7559.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x575181f17b22 <unknown>
+#1 0x575181946a56 <unknown>
+#2 0x575181998c0c <unknown>
+#3 0x575181998e25 <unknown>
+#4 0x5751819e3418 <unknown>
+#5 0x5751819be151 <unknown>
+#6 0x5751819e0c5d <unknown>
+#7 0x5751819bdec7 <unknown>
+#8 0x57518198b232 <unknown>
+#9 0x57518198c0a5 <unknown>
+#10 0x575181edc374 <unknown>
+#11 0x575181edf6b6 <unknown>
+#12 0x575181edf16e <unknown>
+#13 0x575181edfb29 <unknown>
+#14 0x575181ecbc8a <unknown>
+#15 0x575181edfeaa <unknown>
+#16 0x575181eb3f59 <unknown>
+#17 0x575181f05159 <unknown>
+#18 0x575181f0534d <unknown>
+#19 0x575181f16e2e <unknown>
+#20 0x728d2bde9b7b <unknown>
+
+Senate report table missing (https://efdsearch.senate.gov/search/view/paper/e63995b3-352b-4cf8-ac61-ae05cfa7553b/): Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="content"]/div/div/section/div/div/table"}
+  (Session info: chrome=144.0.7559.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x575181f17b22 <unknown>
+#1 0x575181946a56 <unknown>
+#2 0x575181998c0c <unknown>
+#3 0x575181998e25 <unknown>
+#4 0x5751819e3418 <unknown>
+#5 0x5751819be151 <unknown>
+#6 0x5751819e0c5d <unknown>
+#7 0x5751819bdec7 <unknown>
+#8 0x57518198b232 <unknown>
+#9 0x57518198c0a5 <unknown>
+#10 0x575181edc374 <unknown>
+#11 0x575181edf6b6 <unknown>
+#12 0x575181edf16e <unknown>
+#13 0x575181edfb29 <unknown>
+#14 0x575181ecbc8a <unknown>
+#15 0x575181edfeaa <unknown>
+#16 0x575181eb3f59 <unknown>
+#17 0x575181f05159 <unknown>
+#18 0x575181f0534d <unknown>
+#19 0x575181f16e2e <unknown>
+#20 0x728d2bde9b7b <unknown>
+
+Wrote 152 trades to /app/files/politician_trades/politician_trades_90d.json

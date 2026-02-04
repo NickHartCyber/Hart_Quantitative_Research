@@ -1,0 +1,2 @@
+ticker,action,horizon,thesis,entry,stop,qty,notional,risk_$,risk_%,score,close,vol_ratio20,prox_52w_high_pct,r20,sma50,sma200,adv20_dollar,r5,r60,atr14,atr_%,news_score,has_fresh_news,upgrade_hits,downgrade_hits,earnings_within_window,next_earnings_date,last_earnings_surprise_pct,catalyst_reasons,intraday_rel_vol
+CHRW,Buy,1-2 day,Momentum + liquidity with catalysts: Recent upgrade,199.02,190.99,3,597.0,24.0,4.04,0.92208,198.5,1.33,0.91,0.2124,166.45,127.29,396754492.0,0.1145,0.2981,5.008,2.52,0.7016,True,5,1,False,2026-04-29 21:00:00+00:00,-17.42,['Recent upgrade'],1.33

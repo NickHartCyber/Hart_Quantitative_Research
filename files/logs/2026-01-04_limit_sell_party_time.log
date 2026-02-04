@@ -1,0 +1,20 @@
+2026-01-04T21:38:46.071769-0700 INFO Stopping script
+2026-01-04T21:39:49.930025-0700 INFO Stopping script
+2026-01-04T22:14:25.281597-0700 INFO Starting token refresh...
+2026-01-04T22:14:25.333927-0700 DEBUG Loaded secrets from schwab_secrets.json
+2026-01-04T22:14:25.349256-0700 DEBUG Loaded secrets from schwab_auth_token.json
+2026-01-04T22:14:38.082955-0700 DEBUG Refresh token response status=200
+2026-01-04T22:14:38.093767-0700 DEBUG Updated schwab_auth_token.json successfully.
+2026-01-04T22:14:38.093767-0700 INFO Access/refresh tokens successfully refreshed and stored.
+2026-01-04T22:14:38.118965-0700 DEBUG Loaded secrets from schwab_auth_token.json
+2026-01-04T22:14:38.124389-0700 DEBUG Loaded secrets from schwab_auth_token.json
+2026-01-04T22:14:40.898000-0700 DEBUG Loaded secrets from stock_news_api_token.json
+2026-01-04T22:14:40.954079-0700 DEBUG Scanning bot sleeping (outside window) for 5 min
+2026-01-04T22:14:40.955076-0700 DEBUG Loaded secrets from schwab_auth_token.json
+2026-01-04T22:14:40.956087-0700 DEBUG Loaded secrets from schwab_auth_token.json
+2026-01-04T22:14:45.035065-0700 DEBUG Loaded secrets from stock_news_api_token.json
+2026-01-04T22:14:45.060216-0700 DEBUG Outside RTH window; sleeping 60s
+2026-01-04T22:14:56.700961-0700 ERROR Token refresh task was cancelled
+2026-01-04T22:14:56.700961-0700 ERROR Scanning Bot Task was cancelled
+2026-01-04T22:14:56.711241-0700 INFO Task group was cancelled; shutting down.
+2026-01-04T22:14:56.711241-0700 INFO Stopping script

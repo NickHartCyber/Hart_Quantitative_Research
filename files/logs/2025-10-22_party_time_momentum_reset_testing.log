@@ -1,0 +1,1923 @@
+2025-10-22T08:12:09.224657-0600 INFO Starting Momentum Breakout Alg Test
+2025-10-22T08:12:09.283779-0600 INFO Running config: tight_stop_quick_take_testing (tight_stop_quick_take_testing.yaml)
+2025-10-22T08:12:09.284761-0600 DEBUG data_folder_path: C:\Users\Nick\Documents\MoneyGame\MoneyGame\moneygame\core\strategies\../../../data/
+2025-10-22T08:12:11.197753-0600 DEBUG 2025-10-17_AKAN_1day1minute_price_history.csv
+2025-10-22T08:12:11.264417-0600 DEBUG ticker_symbol: AKAN
+2025-10-22T08:12:11.362942-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:12:11.362942-0600 INFO 2025-10-17_AKAN: ATR < 0.05 on 92.14% of bars (slip=0.010)
+2025-10-22T08:12:11.362942-0600 INFO Trades for 2025-10-17_AKAN:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:14:11.278856-0600 DEBUG 2025-10-17_AQMS_1day1minute_price_history.csv
+2025-10-22T08:14:11.325731-0600 DEBUG ticker_symbol: AQMS
+2025-10-22T08:14:11.416605-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:14:11.425283-0600 INFO 2025-10-17_AQMS: ATR < 0.05 on 0.93% of bars (slip=0.010)
+2025-10-22T08:14:11.427288-0600 INFO Trades for 2025-10-17_AQMS:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:14:14.364968-0600 DEBUG 2025-10-17_ARTV_1day1minute_price_history.csv
+2025-10-22T08:14:14.592484-0600 DEBUG ticker_symbol: ARTV
+2025-10-22T08:14:14.903600-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:14:14.906275-0600 INFO 2025-10-17_ARTV: ATR < 0.05 on 27.13% of bars (slip=0.010)
+2025-10-22T08:14:14.906275-0600 INFO Trades for 2025-10-17_ARTV:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:14:18.229255-0600 DEBUG 2025-10-17_AUUD_1day1minute_price_history.csv
+2025-10-22T08:14:18.302663-0600 DEBUG ticker_symbol: AUUD
+2025-10-22T08:14:18.359142-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:14:18.361141-0600 INFO 2025-10-17_AUUD: ATR < 0.05 on 98.42% of bars (slip=0.010)
+2025-10-22T08:14:18.362142-0600 INFO Trades for 2025-10-17_AUUD:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:14:21.333369-0600 DEBUG 2025-10-17_BIAF_1day1minute_price_history.csv
+2025-10-22T08:14:21.414910-0600 DEBUG ticker_symbol: BIAF
+2025-10-22T08:14:21.539814-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:14:21.541888-0600 INFO 2025-10-17_BIAF: ATR < 0.05 on 100.00% of bars (slip=0.010)
+2025-10-22T08:14:21.546911-0600 INFO Trades for 2025-10-17_BIAF:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:14:23.463412-0600 DEBUG 2025-10-17_BITF_1day1minute_price_history.csv
+2025-10-22T08:14:23.561321-0600 DEBUG ticker_symbol: BITF
+2025-10-22T08:14:23.700212-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:14:23.700212-0600 INFO 2025-10-17_BITF: ATR < 0.05 on 90.34% of bars (slip=0.010)
+2025-10-22T08:14:23.700212-0600 INFO Trades for 2025-10-17_BITF:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:14:26.461363-0600 DEBUG 2025-10-17_BMRA_1day1minute_price_history.csv
+2025-10-22T08:14:26.509609-0600 DEBUG ticker_symbol: BMRA
+2025-10-22T08:14:26.612437-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:14:26.612437-0600 INFO 2025-10-17_BMRA: ATR < 0.05 on 100.00% of bars (slip=0.010)
+2025-10-22T08:14:26.612437-0600 INFO Trades for 2025-10-17_BMRA:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:14:29.010718-0600 DEBUG 2025-10-17_CCM_1day1minute_price_history.csv
+2025-10-22T08:14:29.060920-0600 DEBUG ticker_symbol: CCM
+2025-10-22T08:14:29.087656-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:14:29.103285-0600 INFO 2025-10-17_CCM: ATR < 0.05 on 0.00% of bars (slip=0.010)
+2025-10-22T08:14:29.103285-0600 INFO Trades for 2025-10-17_CCM:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:14:41.288417-0600 DEBUG 2025-10-17_CETY_1day1minute_price_history.csv
+2025-10-22T08:14:41.371404-0600 DEBUG ticker_symbol: CETY
+2025-10-22T08:14:41.465406-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:14:41.498403-0600 INFO 2025-10-17_CETY: ATR < 0.05 on 100.00% of bars (slip=0.010)
+2025-10-22T08:14:41.546410-0600 INFO Trades for 2025-10-17_CETY:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:14:45.311633-0600 DEBUG 2025-10-17_CISS_1day1minute_price_history.csv
+2025-10-22T08:14:45.423637-0600 DEBUG ticker_symbol: CISS
+2025-10-22T08:14:45.605687-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:14:45.625806-0600 INFO 2025-10-17_CISS: ATR < 0.05 on 94.24% of bars (slip=0.010)
+2025-10-22T08:14:52.034983-0600 INFO Starting Momentum Breakout Alg Test
+2025-10-22T08:14:52.192893-0600 INFO Running config: tight_stop_quick_take_testing (tight_stop_quick_take_testing.yaml)
+2025-10-22T08:14:52.200673-0600 DEBUG data_folder_path: C:\Users\Nick\Documents\MoneyGame\MoneyGame\moneygame\core\strategies\../../../data/
+2025-10-22T08:14:54.553706-0600 DEBUG 2025-10-17_AKAN_1day1minute_price_history.csv
+2025-10-22T08:14:54.697887-0600 DEBUG ticker_symbol: AKAN
+2025-10-22T08:14:55.025168-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:14:55.025168-0600 INFO 2025-10-17_AKAN: ATR < 0.05 on 92.14% of bars (slip=0.010)
+2025-10-22T08:14:55.047811-0600 INFO Trades for 2025-10-17_AKAN:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:14:55.051489-0600 DEBUG 2025-10-17_AQMS_1day1minute_price_history.csv
+2025-10-22T08:14:55.123670-0600 DEBUG ticker_symbol: AQMS
+2025-10-22T08:14:55.275389-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:14:55.291014-0600 INFO 2025-10-17_AQMS: ATR < 0.05 on 0.93% of bars (slip=0.010)
+2025-10-22T08:14:55.291014-0600 INFO Trades for 2025-10-17_AQMS:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:14:55.291014-0600 DEBUG 2025-10-17_ARTV_1day1minute_price_history.csv
+2025-10-22T08:14:55.403784-0600 DEBUG ticker_symbol: ARTV
+2025-10-22T08:14:55.655124-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:14:55.655124-0600 INFO 2025-10-17_ARTV: ATR < 0.05 on 27.13% of bars (slip=0.010)
+2025-10-22T08:14:55.655124-0600 INFO Trades for 2025-10-17_ARTV:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:14:55.670816-0600 DEBUG 2025-10-17_AUUD_1day1minute_price_history.csv
+2025-10-22T08:14:55.722993-0600 DEBUG ticker_symbol: AUUD
+2025-10-22T08:14:55.819833-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:14:55.819833-0600 INFO 2025-10-17_AUUD: ATR < 0.05 on 98.42% of bars (slip=0.010)
+2025-10-22T08:14:55.819833-0600 INFO Trades for 2025-10-17_AUUD:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:14:55.819833-0600 DEBUG 2025-10-17_BIAF_1day1minute_price_history.csv
+2025-10-22T08:14:55.892857-0600 DEBUG ticker_symbol: BIAF
+2025-10-22T08:14:56.032875-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:14:56.035926-0600 INFO 2025-10-17_BIAF: ATR < 0.05 on 100.00% of bars (slip=0.010)
+2025-10-22T08:14:56.035926-0600 INFO Trades for 2025-10-17_BIAF:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:14:56.041297-0600 DEBUG 2025-10-17_BITF_1day1minute_price_history.csv
+2025-10-22T08:14:56.181099-0600 DEBUG ticker_symbol: BITF
+2025-10-22T08:14:56.466695-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:14:56.469695-0600 INFO 2025-10-17_BITF: ATR < 0.05 on 90.34% of bars (slip=0.010)
+2025-10-22T08:14:56.471697-0600 INFO Trades for 2025-10-17_BITF:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:14:56.473988-0600 DEBUG 2025-10-17_BMRA_1day1minute_price_history.csv
+2025-10-22T08:14:56.494904-0600 DEBUG ticker_symbol: BMRA
+2025-10-22T08:14:56.549849-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:14:56.551848-0600 INFO 2025-10-17_BMRA: ATR < 0.05 on 100.00% of bars (slip=0.010)
+2025-10-22T08:14:56.553851-0600 INFO Trades for 2025-10-17_BMRA:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:14:56.555376-0600 DEBUG 2025-10-17_CCM_1day1minute_price_history.csv
+2025-10-22T08:14:56.596804-0600 DEBUG ticker_symbol: CCM
+2025-10-22T08:14:56.664087-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:14:56.664087-0600 INFO 2025-10-17_CCM: ATR < 0.05 on 0.00% of bars (slip=0.010)
+2025-10-22T08:14:56.673924-0600 INFO Trades for 2025-10-17_CCM:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:14:56.677975-0600 DEBUG 2025-10-17_CETY_1day1minute_price_history.csv
+2025-10-22T08:14:56.698560-0600 DEBUG ticker_symbol: CETY
+2025-10-22T08:14:56.751604-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:14:56.753606-0600 INFO 2025-10-17_CETY: ATR < 0.05 on 100.00% of bars (slip=0.010)
+2025-10-22T08:14:56.756605-0600 INFO Trades for 2025-10-17_CETY:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:14:56.757605-0600 DEBUG 2025-10-17_CISS_1day1minute_price_history.csv
+2025-10-22T08:14:56.817165-0600 DEBUG ticker_symbol: CISS
+2025-10-22T08:14:56.918537-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:14:56.918537-0600 INFO 2025-10-17_CISS: ATR < 0.05 on 94.24% of bars (slip=0.010)
+2025-10-22T08:14:56.934164-0600 INFO Trades for 2025-10-17_CISS:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:14:56.934164-0600 DEBUG 2025-10-17_CLPS_1day1minute_price_history.csv
+2025-10-22T08:14:56.984467-0600 DEBUG ticker_symbol: CLPS
+2025-10-22T08:14:57.062875-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:14:57.066873-0600 INFO 2025-10-17_CLPS: ATR < 0.05 on 100.00% of bars (slip=0.010)
+2025-10-22T08:14:57.071873-0600 INFO Trades for 2025-10-17_CLPS:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:14:57.083875-0600 DEBUG 2025-10-17_COOT_1day1minute_price_history.csv
+2025-10-22T08:14:57.212574-0600 DEBUG ticker_symbol: COOT
+2025-10-22T08:14:57.352360-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:14:57.352360-0600 INFO 2025-10-17_COOT: ATR < 0.05 on 95.86% of bars (slip=0.010)
+2025-10-22T08:14:57.352360-0600 INFO Trades for 2025-10-17_COOT:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:14:57.360386-0600 DEBUG 2025-10-17_CREV_1day1minute_price_history.csv
+2025-10-22T08:14:57.479486-0600 DEBUG ticker_symbol: CREV
+2025-10-22T08:14:57.687195-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:14:57.687195-0600 INFO 2025-10-17_CREV: ATR < 0.05 on 44.48% of bars (slip=0.010)
+2025-10-22T08:14:57.702818-0600 INFO Trades for 2025-10-17_CREV:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:14:57.702818-0600 DEBUG 2025-10-17_CRMLW_1day1minute_price_history.csv
+2025-10-22T08:14:57.751819-0600 DEBUG ticker_symbol: CRMLW
+2025-10-22T08:14:57.819524-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:14:57.838248-0600 INFO 2025-10-17_CRMLW: ATR < 0.05 on 4.78% of bars (slip=0.010)
+2025-10-22T08:14:57.880826-0600 INFO Trades for 2025-10-17_CRMLW:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:14:57.933294-0600 DEBUG 2025-10-17_CTXR_1day1minute_price_history.csv
+2025-10-22T08:14:58.056610-0600 DEBUG ticker_symbol: CTXR
+2025-10-22T08:14:58.170798-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:14:58.170798-0600 INFO 2025-10-17_CTXR: ATR < 0.05 on 100.00% of bars (slip=0.010)
+2025-10-22T08:14:58.170798-0600 INFO Trades for 2025-10-17_CTXR:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:14:58.187156-0600 DEBUG 2025-10-17_DGXX_1day1minute_price_history.csv
+2025-10-22T08:14:58.305738-0600 DEBUG ticker_symbol: DGXX
+2025-10-22T08:14:58.491712-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:14:58.494708-0600 INFO 2025-10-17_DGXX: ATR < 0.05 on 93.93% of bars (slip=0.010)
+2025-10-22T08:14:58.498706-0600 INFO Trades for 2025-10-17_DGXX:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:14:58.500854-0600 DEBUG 2025-10-17_ELBM_1day1minute_price_history.csv
+2025-10-22T08:14:58.640620-0600 DEBUG ticker_symbol: ELBM
+2025-10-22T08:14:58.870245-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:14:58.885871-0600 INFO 2025-10-17_ELBM: ATR < 0.05 on 86.05% of bars (slip=0.010)
+2025-10-22T08:14:58.885871-0600 INFO Trades for 2025-10-17_ELBM:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:14:58.891288-0600 DEBUG 2025-10-17_ELWS_1day1minute_price_history.csv
+2025-10-22T08:14:58.952568-0600 DEBUG ticker_symbol: ELWS
+2025-10-22T08:14:59.056525-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:14:59.056525-0600 INFO 2025-10-17_ELWS: ATR < 0.05 on 21.94% of bars (slip=0.010)
+2025-10-22T08:14:59.072150-0600 INFO Trades for 2025-10-17_ELWS:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:14:59.072150-0600 DEBUG 2025-10-17_ENTO_1day1minute_price_history.csv
+2025-10-22T08:14:59.127274-0600 DEBUG ticker_symbol: ENTO
+2025-10-22T08:14:59.214828-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:14:59.214828-0600 INFO 2025-10-17_ENTO: ATR < 0.05 on 82.79% of bars (slip=0.010)
+2025-10-22T08:14:59.214828-0600 INFO Trades for 2025-10-17_ENTO:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:14:59.214828-0600 DEBUG 2025-10-17_FGI_1day1minute_price_history.csv
+2025-10-22T08:14:59.275007-0600 DEBUG ticker_symbol: FGI
+2025-10-22T08:14:59.369149-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:14:59.369149-0600 INFO 2025-10-17_FGI: ATR < 0.05 on 12.90% of bars (slip=0.010)
+2025-10-22T08:14:59.369149-0600 INFO Trades for 2025-10-17_FGI:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:14:59.384618-0600 DEBUG 2025-10-17_GIPR_1day1minute_price_history.csv
+2025-10-22T08:14:59.420664-0600 DEBUG ticker_symbol: GIPR
+2025-10-22T08:14:59.468646-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:14:59.468646-0600 INFO 2025-10-17_GIPR: ATR < 0.05 on 100.00% of bars (slip=0.010)
+2025-10-22T08:14:59.468646-0600 INFO Trades for 2025-10-17_GIPR:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:14:59.482535-0600 DEBUG 2025-10-17_GITS_1day1minute_price_history.csv
+2025-10-22T08:14:59.535368-0600 DEBUG ticker_symbol: GITS
+2025-10-22T08:14:59.603671-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:14:59.622466-0600 INFO 2025-10-17_GITS: ATR < 0.05 on 90.34% of bars (slip=0.010)
+2025-10-22T08:14:59.625467-0600 INFO Trades for 2025-10-17_GITS:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:14:59.632238-0600 DEBUG 2025-10-17_GWH_1day1minute_price_history.csv
+2025-10-22T08:14:59.787368-0600 DEBUG ticker_symbol: GWH
+2025-10-22T08:14:59.997400-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:00.002127-0600 INFO 2025-10-17_GWH: ATR < 0.05 on 44.84% of bars (slip=0.010)
+2025-10-22T08:15:00.014077-0600 INFO Trades for 2025-10-17_GWH:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:00.031025-0600 DEBUG 2025-10-17_HTOO_1day1minute_price_history.csv
+2025-10-22T08:15:00.078284-0600 DEBUG ticker_symbol: HTOO
+2025-10-22T08:15:00.126064-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:00.128061-0600 INFO 2025-10-17_HTOO: ATR < 0.05 on 18.03% of bars (slip=0.010)
+2025-10-22T08:15:00.132066-0600 INFO Trades for 2025-10-17_HTOO:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:00.135065-0600 DEBUG 2025-10-17_IBG_1day1minute_price_history.csv
+2025-10-22T08:15:00.178062-0600 DEBUG ticker_symbol: IBG
+2025-10-22T08:15:00.243483-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:00.246482-0600 INFO 2025-10-17_IBG: ATR < 0.05 on 84.30% of bars (slip=0.010)
+2025-10-22T08:15:00.247513-0600 INFO Trades for 2025-10-17_IBG:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:00.247513-0600 DEBUG 2025-10-17_IONZ_1day1minute_price_history.csv
+2025-10-22T08:15:00.412434-0600 DEBUG ticker_symbol: IONZ
+2025-10-22T08:15:00.667136-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:00.667136-0600 INFO 2025-10-17_IONZ: ATR < 0.05 on 97.17% of bars (slip=0.010)
+2025-10-22T08:15:00.688259-0600 INFO Trades for 2025-10-17_IONZ:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:00.693054-0600 DEBUG 2025-10-17_IRBT_1day1minute_price_history.csv
+2025-10-22T08:15:00.790272-0600 DEBUG ticker_symbol: IRBT
+2025-10-22T08:15:00.947226-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:00.947226-0600 INFO 2025-10-17_IRBT: ATR < 0.05 on 99.17% of bars (slip=0.010)
+2025-10-22T08:15:00.947226-0600 INFO Trades for 2025-10-17_IRBT:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:00.963216-0600 DEBUG 2025-10-17_IVF_1day1minute_price_history.csv
+2025-10-22T08:15:01.110604-0600 DEBUG ticker_symbol: IVF
+2025-10-22T08:15:01.370526-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:01.372523-0600 INFO 2025-10-17_IVF: ATR < 0.05 on 100.00% of bars (slip=0.010)
+2025-10-22T08:15:01.375527-0600 INFO Trades for 2025-10-17_IVF:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:01.378401-0600 DEBUG 2025-10-17_KMRK_1day1minute_price_history.csv
+2025-10-22T08:15:01.488954-0600 DEBUG ticker_symbol: KMRK
+2025-10-22T08:15:01.658839-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:01.661833-0600 INFO 2025-10-17_KMRK: ATR < 0.05 on 100.00% of bars (slip=0.010)
+2025-10-22T08:15:01.664835-0600 INFO Trades for 2025-10-17_KMRK:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:01.666836-0600 DEBUG 2025-10-17_KZR_1day1minute_price_history.csv
+2025-10-22T08:15:01.763947-0600 DEBUG ticker_symbol: KZR
+2025-10-22T08:15:02.000752-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:02.000752-0600 INFO 2025-10-17_KZR: ATR < 0.05 on 73.43% of bars (slip=0.010)
+2025-10-22T08:15:02.024896-0600 INFO Trades for 2025-10-17_KZR:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:02.032893-0600 DEBUG 2025-10-17_LGCB_1day1minute_price_history.csv
+2025-10-22T08:15:02.098938-0600 DEBUG ticker_symbol: LGCB
+2025-10-22T08:15:02.198643-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:02.198643-0600 INFO 2025-10-17_LGCB: ATR < 0.05 on 100.00% of bars (slip=0.010)
+2025-10-22T08:15:02.214264-0600 INFO Trades for 2025-10-17_LGCB:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:02.218919-0600 DEBUG 2025-10-17_LVLU_1day1minute_price_history.csv
+2025-10-22T08:15:02.252861-0600 DEBUG ticker_symbol: LVLU
+2025-10-22T08:15:02.301973-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:02.308971-0600 INFO 2025-10-17_LVLU: ATR < 0.05 on 47.37% of bars (slip=0.010)
+2025-10-22T08:15:02.313030-0600 INFO Trades for 2025-10-17_LVLU:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:02.315029-0600 DEBUG 2025-10-17_MAMK_1day1minute_price_history.csv
+2025-10-22T08:15:02.349799-0600 DEBUG ticker_symbol: MAMK
+2025-10-22T08:15:02.391083-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:02.394085-0600 INFO 2025-10-17_MAMK: ATR < 0.05 on 93.33% of bars (slip=0.010)
+2025-10-22T08:15:02.398582-0600 INFO Trades for 2025-10-17_MAMK:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:02.401629-0600 DEBUG 2025-10-17_MGX_1day1minute_price_history.csv
+2025-10-22T08:15:02.481834-0600 DEBUG ticker_symbol: MGX
+2025-10-22T08:15:02.609892-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:02.609892-0600 INFO 2025-10-17_MGX: ATR < 0.05 on 100.00% of bars (slip=0.010)
+2025-10-22T08:15:02.626541-0600 INFO Trades for 2025-10-17_MGX:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:02.628540-0600 DEBUG 2025-10-17_MIRA_1day1minute_price_history.csv
+2025-10-22T08:15:02.743590-0600 DEBUG ticker_symbol: MIRA
+2025-10-22T08:15:02.914256-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:02.933733-0600 INFO 2025-10-17_MIRA: ATR < 0.05 on 97.82% of bars (slip=0.010)
+2025-10-22T08:15:02.937736-0600 INFO Trades for 2025-10-17_MIRA:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:02.939734-0600 DEBUG 2025-10-17_MSTU_1day1minute_price_history.csv
+2025-10-22T08:15:03.094702-0600 DEBUG ticker_symbol: MSTU
+2025-10-22T08:15:03.380978-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:03.382977-0600 INFO 2025-10-17_MSTU: ATR < 0.05 on 100.00% of bars (slip=0.010)
+2025-10-22T08:15:03.385019-0600 INFO Trades for 2025-10-17_MSTU:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:03.385019-0600 DEBUG 2025-10-17_NIO_1day1minute_price_history.csv
+2025-10-22T08:15:03.515490-0600 DEBUG ticker_symbol: NIO
+2025-10-22T08:15:03.787952-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:03.791951-0600 INFO 2025-10-17_NIO: ATR < 0.05 on 100.00% of bars (slip=0.010)
+2025-10-22T08:15:03.792950-0600 INFO Trades for 2025-10-17_NIO:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:03.793950-0600 DEBUG 2025-10-17_NIVF_1day1minute_price_history.csv
+2025-10-22T08:15:03.891445-0600 DEBUG ticker_symbol: NIVF
+2025-10-22T08:15:04.046685-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:04.048883-0600 INFO 2025-10-17_NIVF: ATR < 0.05 on 100.00% of bars (slip=0.010)
+2025-10-22T08:15:04.051878-0600 INFO Trades for 2025-10-17_NIVF:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:04.054881-0600 DEBUG 2025-10-17_NRXP_1day1minute_price_history.csv
+2025-10-22T08:15:04.118610-0600 DEBUG ticker_symbol: NRXP
+2025-10-22T08:15:04.210716-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:04.212717-0600 INFO 2025-10-17_NRXP: ATR < 0.05 on 100.00% of bars (slip=0.010)
+2025-10-22T08:15:04.214715-0600 INFO Trades for 2025-10-17_NRXP:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:04.216714-0600 DEBUG 2025-10-17_NUAI_1day1minute_price_history.csv
+2025-10-22T08:15:04.346332-0600 DEBUG ticker_symbol: NUAI
+2025-10-22T08:15:04.603472-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:04.619095-0600 INFO 2025-10-17_NUAI: ATR < 0.05 on 75.20% of bars (slip=0.010)
+2025-10-22T08:15:04.630433-0600 INFO Trades for 2025-10-17_NUAI:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:04.634890-0600 DEBUG 2025-10-17_NUKK_1day1minute_price_history.csv
+2025-10-22T08:15:04.730780-0600 DEBUG ticker_symbol: NUKK
+2025-10-22T08:15:04.879063-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:04.894684-0600 INFO 2025-10-17_NUKK: ATR < 0.05 on 20.39% of bars (slip=0.010)
+2025-10-22T08:15:04.894684-0600 INFO Trades for 2025-10-17_NUKK:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:04.894684-0600 DEBUG 2025-10-17_NVNI_1day1minute_price_history.csv
+2025-10-22T08:15:04.945613-0600 DEBUG ticker_symbol: NVNI
+2025-10-22T08:15:05.040341-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:05.055966-0600 INFO 2025-10-17_NVNI: ATR < 0.05 on 74.61% of bars (slip=0.010)
+2025-10-22T08:15:05.062222-0600 INFO Trades for 2025-10-17_NVNI:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:05.065225-0600 DEBUG 2025-10-17_PFAI_1day1minute_price_history.csv
+2025-10-22T08:15:05.108666-0600 DEBUG ticker_symbol: PFAI
+2025-10-22T08:15:05.177680-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:05.177680-0600 INFO 2025-10-17_PFAI: ATR < 0.05 on 64.80% of bars (slip=0.010)
+2025-10-22T08:15:05.177680-0600 INFO Trades for 2025-10-17_PFAI:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:05.177680-0600 DEBUG 2025-10-17_PLUG_1day1minute_price_history.csv
+2025-10-22T08:15:05.306515-0600 DEBUG ticker_symbol: PLUG
+2025-10-22T08:15:05.567628-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:05.571155-0600 INFO 2025-10-17_PLUG: ATR < 0.05 on 100.00% of bars (slip=0.010)
+2025-10-22T08:15:05.585184-0600 INFO Trades for 2025-10-17_PLUG:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:05.586999-0600 DEBUG 2025-10-17_QCLS_1day1minute_price_history.csv
+2025-10-22T08:15:05.673803-0600 DEBUG ticker_symbol: QCLS
+2025-10-22T08:15:05.790472-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:05.790472-0600 INFO 2025-10-17_QCLS: ATR < 0.05 on 64.84% of bars (slip=0.010)
+2025-10-22T08:15:05.790472-0600 INFO Trades for 2025-10-17_QCLS:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:05.790472-0600 DEBUG 2025-10-17_QNRX_1day1minute_price_history.csv
+2025-10-22T08:15:05.844640-0600 DEBUG ticker_symbol: QNRX
+2025-10-22T08:15:05.935857-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:05.938861-0600 INFO 2025-10-17_QNRX: ATR < 0.05 on 5.45% of bars (slip=0.010)
+2025-10-22T08:15:05.943860-0600 INFO Trades for 2025-10-17_QNRX:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:05.948024-0600 DEBUG 2025-10-17_RANI_1day1minute_price_history.csv
+2025-10-22T08:15:06.073687-0600 DEBUG ticker_symbol: RANI
+2025-10-22T08:15:06.341779-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:06.341779-0600 INFO 2025-10-17_RANI: ATR < 0.05 on 56.63% of bars (slip=0.010)
+2025-10-22T08:15:06.341779-0600 INFO Trades for 2025-10-17_RANI:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:06.358703-0600 DEBUG 2025-10-17_REE_1day1minute_price_history.csv
+2025-10-22T08:15:06.418741-0600 DEBUG ticker_symbol: REE
+2025-10-22T08:15:06.522658-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:06.523660-0600 INFO 2025-10-17_REE: ATR < 0.05 on 100.00% of bars (slip=0.010)
+2025-10-22T08:15:06.526664-0600 INFO Trades for 2025-10-17_REE:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:06.528660-0600 DEBUG 2025-10-17_RGP_1day1minute_price_history.csv
+2025-10-22T08:15:06.596423-0600 DEBUG ticker_symbol: RGP
+2025-10-22T08:15:06.691130-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:06.693130-0600 INFO 2025-10-17_RGP: ATR < 0.05 on 100.00% of bars (slip=0.010)
+2025-10-22T08:15:06.694179-0600 INFO Trades for 2025-10-17_RGP:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:06.699124-0600 DEBUG 2025-10-17_RGTZ_1day1minute_price_history.csv
+2025-10-22T08:15:06.847094-0600 DEBUG ticker_symbol: RGTZ
+2025-10-22T08:15:07.138919-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:07.138919-0600 INFO 2025-10-17_RGTZ: ATR < 0.05 on 24.24% of bars (slip=0.010)
+2025-10-22T08:15:07.138919-0600 INFO Trades for 2025-10-17_RGTZ:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:07.154544-0600 DEBUG 2025-10-17_RKDA_1day1minute_price_history.csv
+2025-10-22T08:15:07.209738-0600 DEBUG ticker_symbol: RKDA
+2025-10-22T08:15:07.342829-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:07.345824-0600 INFO 2025-10-17_RKDA: ATR < 0.05 on 64.82% of bars (slip=0.010)
+2025-10-22T08:15:07.348825-0600 INFO Trades for 2025-10-17_RKDA:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:07.350827-0600 DEBUG 2025-10-17_RMSG_1day1minute_price_history.csv
+2025-10-22T08:15:07.400931-0600 DEBUG ticker_symbol: RMSG
+2025-10-22T08:15:07.465588-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:07.468588-0600 INFO 2025-10-17_RMSG: ATR < 0.05 on 81.25% of bars (slip=0.010)
+2025-10-22T08:15:07.471588-0600 INFO Trades for 2025-10-17_RMSG:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:07.474588-0600 DEBUG 2025-10-17_RXRX_1day1minute_price_history.csv
+2025-10-22T08:15:07.625922-0600 DEBUG ticker_symbol: RXRX
+2025-10-22T08:15:07.874553-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:07.874553-0600 INFO 2025-10-17_RXRX: ATR < 0.05 on 97.79% of bars (slip=0.010)
+2025-10-22T08:15:07.890179-0600 INFO Trades for 2025-10-17_RXRX:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:07.895533-0600 DEBUG 2025-10-17_RYOJ_1day1minute_price_history.csv
+2025-10-22T08:15:07.947251-0600 DEBUG ticker_symbol: RYOJ
+2025-10-22T08:15:08.092519-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:08.092519-0600 INFO 2025-10-17_RYOJ: ATR < 0.05 on 70.85% of bars (slip=0.010)
+2025-10-22T08:15:08.092519-0600 INFO Trades for 2025-10-17_RYOJ:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:08.092519-0600 DEBUG 2025-10-17_SBFM_1day1minute_price_history.csv
+2025-10-22T08:15:08.174253-0600 DEBUG ticker_symbol: SBFM
+2025-10-22T08:15:08.278295-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:08.280297-0600 INFO 2025-10-17_SBFM: ATR < 0.05 on 100.00% of bars (slip=0.010)
+2025-10-22T08:15:08.282295-0600 INFO Trades for 2025-10-17_SBFM:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:08.284295-0600 DEBUG 2025-10-17_SCNX_1day1minute_price_history.csv
+2025-10-22T08:15:08.371928-0600 DEBUG ticker_symbol: SCNX
+2025-10-22T08:15:08.549396-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:08.591398-0600 INFO 2025-10-17_SCNX: ATR < 0.05 on 100.00% of bars (slip=0.010)
+2025-10-22T08:15:08.591398-0600 INFO Trades for 2025-10-17_SCNX:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:08.629231-0600 DEBUG 2025-10-17_SEV_1day1minute_price_history.csv
+2025-10-22T08:15:08.747860-0600 DEBUG ticker_symbol: SEV
+2025-10-22T08:15:08.917927-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:08.919921-0600 INFO 2025-10-17_SEV: ATR < 0.05 on 6.65% of bars (slip=0.010)
+2025-10-22T08:15:08.923924-0600 INFO Trades for 2025-10-17_SEV:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:08.928923-0600 DEBUG 2025-10-17_SGBX_1day1minute_price_history.csv
+2025-10-22T08:15:09.105962-0600 DEBUG ticker_symbol: SGBX
+2025-10-22T08:15:09.353805-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:09.353805-0600 INFO 2025-10-17_SGBX: ATR < 0.05 on 70.96% of bars (slip=0.010)
+2025-10-22T08:15:09.353805-0600 INFO Trades for 2025-10-17_SGBX:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:09.366586-0600 DEBUG 2025-10-17_SNSE_1day1minute_price_history.csv
+2025-10-22T08:15:09.423774-0600 DEBUG ticker_symbol: SNSE
+2025-10-22T08:15:09.528528-0600 DEBUG entries:
+                            open   high    low  close  volume      ema_f  \
+2025-10-17 08:29:00-04:00  18.85  19.80  17.21  19.00   23659  17.021493   
+2025-10-17 13:17:00-04:00  12.42  12.42  12.02  12.02    4836  11.987877   
+
+                               ema_m      ema_s     atr14      adx14  \
+2025-10-17 08:29:00-04:00  16.046128  15.735056  2.736286  19.667417   
+2025-10-17 13:17:00-04:00  11.859768  11.814928  0.222214  47.889170   
+
+                                vwap  roll_high  roll_high_prev  body_frac  \
+2025-10-17 08:29:00-04:00  16.577670    19.8000         19.4900   0.057915   
+2025-10-17 13:17:00-04:00  15.499302    12.4616         12.4616   1.000000   
+
+                           range_vs_atr  rvol_ratio  dollar_bar signal  \
+2025-10-17 08:29:00-04:00      0.946539    3.138446   449521.00    BUY   
+2025-10-17 13:17:00-04:00      1.800064    4.349702    58128.72    BUY   
+
+                           entry_price  stop_price  target_price  \
+2025-10-17 08:29:00-04:00    19.551520   15.321200     26.320032   
+2025-10-17 13:17:00-04:00    12.465944   12.149139     12.972832   
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             why  \
+2025-10-17 08:29:00-04:00  Premarket allowed (cfg.allow_premarket=True); Liquidity OK: dollar_bar 449521 ≥ min_dollar 10000; rVol OK: rvol_ratio 3.14 ≥ min_rvol 1.60; Breakout: prev.close 18.66 > prev.roll_high_prev 16.95; Entry OK; Extension OK: vwap_ext 0.79 ≤ 0.80; ema_ext 0.69 ≤ 1.00; range_vs_atr 1.31 ≤ 2.20; Order calc base: trigger≈19.55, base_entry≈19.55, stop≈15.32, R≈4.23, target≈26.32; Price OK: close 18.66 ≥ min_price 5.00; ATR vs slippage OK: ATR14 3.08 ≥ 0.15; Exp move OK: 6.77 ≥ 0.24 (vs costs); Retest-limit set: 19.57 (trigger 19.55, lookahead 6 bars); Entry dbg: mode=retest_limit, trigger=19.55, next_open=18.85, entry_col=19.55, limit_col=19.57152   
+2025-10-17 13:17:00-04:00                    Regular session; Liquidity OK: dollar_bar 58129 ≥ min_dollar 25000; rVol OK: rvol_ratio 4.35 ≥ min_rvol 1.30; Breakout: prev.close 12.16 > prev.roll_high_prev 12.12; Entry OK; Extension OK: vwap_ext -15.52 ≤ 0.80; ema_ext 0.83 ≤ 1.00; range_vs_atr 1.39 ≤ 2.20; Order calc base: trigger≈12.47, base_entry≈12.47, stop≈12.15, R≈0.32, target≈12.97; Price OK: close 12.16 ≥ min_price 5.00; ATR vs slippage OK: ATR14 0.22 ≥ 0.15; Exp move OK: 0.51 ≥ 0.24 (vs costs); Retest-limit set: 12.49 (trigger 12.47, lookahead 6 bars); Entry dbg: mode=retest_limit, trigger=12.47, next_open=12.42, entry_col=12.47, limit_col=12.485944285714286   
+
+                           entry_limit  
+2025-10-17 08:29:00-04:00    19.571520  
+2025-10-17 13:17:00-04:00    12.485944  
+2025-10-22T08:15:09.544682-0600 INFO 2025-10-17_SNSE: ATR < 0.05 on 0.00% of bars (slip=0.010)
+2025-10-22T08:15:09.570426-0600 DEBUG bought_rows:
+       open   high      low  close  volume       datetime
+31  18.8500  19.80  17.2100  19.00   23659  1760704140000
+32  18.0200  19.00  17.5000  17.50   13033  1760704200000
+33  17.5000  17.62  17.0488  17.61    2844  1760704260000
+34  17.7300  18.61  17.7300  18.61    2056  1760704320000
+35  18.2100  18.21  17.7100  17.71     339  1760704380000
+36  17.7036  17.90  17.7036  17.90     609  1760704440000
+2025-10-22T08:15:09.579608-0600 DEBUG bought_rows:
+      open   high    low  close  volume       datetime
+196  12.42  12.42  12.02  12.02    4836  1760721420000
+197  11.75  11.75  11.75  11.75     200  1760721780000
+2025-10-22T08:15:09.595912-0600 INFO Trades for 2025-10-17_SNSE:
+                   entry_ts                   exit_ts      reason  qty  \
+0 2025-10-17 08:29:00-04:00 2025-10-17 08:34:00-04:00   atr_trail    1   
+1 2025-10-17 13:17:00-04:00 2025-10-17 13:23:00-04:00  vwap_break    1   
+
+   entry_price  exit_price  entry_eff   exit_eff       pnl  return_pct  \
+0    19.551520   18.288011  19.561520  18.278011 -1.283509   -6.561395   
+1    12.465944   11.750000  12.475944  11.740000 -0.735944   -5.898906   
+
+   hold_minutes       mfe       mae  entry_limit  
+0           5.0  0.248480 -2.502720    19.571520  
+1           6.0 -0.045944 -0.715944    12.485944  
+2025-10-22T08:15:09.598917-0600 INFO BUY Time: 2025-10-17T08:29:00-04:00 | SELL Time: 2025-10-17T08:34:00-04:00  | qty=1  in=19.5615 out=18.2780  P&L=$-1.28 (-6.56%)  hold=5.0m  atr_trail
+2025-10-22T08:15:09.599912-0600 INFO BUY Time: 2025-10-17T13:17:00-04:00 | SELL Time: 2025-10-17T13:23:00-04:00  | qty=1  in=12.4759 out=11.7400  P&L=$-0.74 (-5.90%)  hold=6.0m  vwap_break
+2025-10-22T08:15:09.600913-0600 DEBUG pnl_sum = $-2.019452857142859
+2025-10-22T08:15:09.601914-0600 DEBUG money_made_each_day: {'2025-10-17': -2.019452857142859}
+2025-10-22T08:15:09.604913-0600 DEBUG 2025-10-17_SOAR_1day1minute_price_history.csv
+2025-10-22T08:15:09.671950-0600 DEBUG ticker_symbol: SOAR
+2025-10-22T08:15:09.760190-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:09.760190-0600 INFO 2025-10-17_SOAR: ATR < 0.05 on 92.98% of bars (slip=0.010)
+2025-10-22T08:15:09.760190-0600 INFO Trades for 2025-10-17_SOAR:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:09.775815-0600 DEBUG 2025-10-17_SOXS_1day1minute_price_history.csv
+2025-10-22T08:15:09.885451-0600 DEBUG ticker_symbol: SOXS
+2025-10-22T08:15:10.171900-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:10.171900-0600 INFO 2025-10-17_SOXS: ATR < 0.05 on 100.00% of bars (slip=0.010)
+2025-10-22T08:15:10.188801-0600 INFO Trades for 2025-10-17_SOXS:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:10.194229-0600 DEBUG 2025-10-17_SQQQ_1day1minute_price_history.csv
+2025-10-22T08:15:10.344349-0600 DEBUG ticker_symbol: SQQQ
+2025-10-22T08:15:10.588719-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:10.588719-0600 INFO 2025-10-17_SQQQ: ATR < 0.05 on 84.47% of bars (slip=0.010)
+2025-10-22T08:15:10.604344-0600 INFO Trades for 2025-10-17_SQQQ:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:10.611916-0600 DEBUG 2025-10-17_STKE_1day1minute_price_history.csv
+2025-10-22T08:15:10.694450-0600 DEBUG ticker_symbol: STKE
+2025-10-22T08:15:10.848462-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:10.850463-0600 INFO 2025-10-17_STKE: ATR < 0.05 on 54.09% of bars (slip=0.010)
+2025-10-22T08:15:10.853461-0600 INFO Trades for 2025-10-17_STKE:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:10.856465-0600 DEBUG 2025-10-17_SUGP_1day1minute_price_history.csv
+2025-10-22T08:15:10.913457-0600 DEBUG ticker_symbol: SUGP
+2025-10-22T08:15:10.971993-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:10.971993-0600 INFO 2025-10-17_SUGP: ATR < 0.05 on 10.43% of bars (slip=0.010)
+2025-10-22T08:15:10.988718-0600 INFO Trades for 2025-10-17_SUGP:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:10.991398-0600 DEBUG 2025-10-17_TAOP_1day1minute_price_history.csv
+2025-10-22T08:15:11.070862-0600 DEBUG ticker_symbol: TAOP
+2025-10-22T08:15:11.181378-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:11.181378-0600 INFO 2025-10-17_TAOP: ATR < 0.05 on 63.99% of bars (slip=0.010)
+2025-10-22T08:15:11.181378-0600 INFO Trades for 2025-10-17_TAOP:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:11.197903-0600 DEBUG 2025-10-17_TSLQ_1day1minute_price_history.csv
+2025-10-22T08:15:11.366569-0600 DEBUG ticker_symbol: TSLQ
+2025-10-22T08:15:11.712349-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:11.713533-0600 INFO 2025-10-17_TSLQ: ATR < 0.05 on 40.38% of bars (slip=0.010)
+2025-10-22T08:15:11.713533-0600 INFO Trades for 2025-10-17_TSLQ:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:11.713533-0600 DEBUG 2025-10-17_TXMD_1day1minute_price_history.csv
+2025-10-22T08:15:11.830548-0600 DEBUG ticker_symbol: TXMD
+2025-10-22T08:15:11.997156-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:12.006210-0600 INFO 2025-10-17_TXMD: ATR < 0.05 on 88.11% of bars (slip=0.010)
+2025-10-22T08:15:12.015598-0600 INFO Trades for 2025-10-17_TXMD:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:12.018106-0600 DEBUG 2025-10-17_UVXY_1day1minute_price_history.csv
+2025-10-22T08:15:12.188950-0600 DEBUG ticker_symbol: UVXY
+2025-10-22T08:15:12.540340-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:12.542476-0600 INFO 2025-10-17_UVXY: ATR < 0.05 on 50.70% of bars (slip=0.010)
+2025-10-22T08:15:12.544588-0600 INFO Trades for 2025-10-17_UVXY:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:12.544588-0600 DEBUG 2025-10-17_WATT_1day1minute_price_history.csv
+2025-10-22T08:15:12.600930-0600 DEBUG ticker_symbol: WATT
+2025-10-22T08:15:12.668992-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:12.668992-0600 INFO 2025-10-17_WATT: ATR < 0.05 on 0.00% of bars (slip=0.010)
+2025-10-22T08:15:12.684616-0600 INFO Trades for 2025-10-17_WATT:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:12.690471-0600 DEBUG 2025-10-17_WHWK_1day1minute_price_history.csv
+2025-10-22T08:15:12.790095-0600 DEBUG ticker_symbol: WHWK
+2025-10-22T08:15:12.936838-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:12.940841-0600 INFO 2025-10-17_WHWK: ATR < 0.05 on 98.53% of bars (slip=0.010)
+2025-10-22T08:15:12.943835-0600 INFO Trades for 2025-10-17_WHWK:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:12.945838-0600 DEBUG 2025-10-17_XRTX_1day1minute_price_history.csv
+2025-10-22T08:15:13.115416-0600 DEBUG ticker_symbol: XRTX
+2025-10-22T08:15:13.355701-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:13.371323-0600 INFO 2025-10-17_XRTX: ATR < 0.05 on 88.49% of bars (slip=0.010)
+2025-10-22T08:15:13.375221-0600 INFO Trades for 2025-10-17_XRTX:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:13.378222-0600 DEBUG 2025-10-17_ZBAI_1day1minute_price_history.csv
+2025-10-22T08:15:13.408221-0600 DEBUG ticker_symbol: ZBAI
+2025-10-22T08:15:13.438828-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:13.452439-0600 INFO 2025-10-17_ZBAI: ATR < 0.05 on 0.00% of bars (slip=0.010)
+2025-10-22T08:15:13.457438-0600 INFO Trades for 2025-10-17_ZBAI:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:13.460438-0600 DEBUG 2025-10-17_ZEO_1day1minute_price_history.csv
+2025-10-22T08:15:13.488978-0600 DEBUG ticker_symbol: ZEO
+2025-10-22T08:15:13.533014-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:13.536638-0600 INFO 2025-10-17_ZEO: ATR < 0.05 on 100.00% of bars (slip=0.010)
+2025-10-22T08:15:13.540484-0600 INFO Trades for 2025-10-17_ZEO:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:13.540484-0600 DEBUG 2025-10-17_ZGM_1day1minute_price_history.csv
+2025-10-22T08:15:13.576889-0600 DEBUG ticker_symbol: ZGM
+2025-10-22T08:15:13.632151-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:13.634206-0600 INFO 2025-10-17_ZGM: ATR < 0.05 on 80.00% of bars (slip=0.010)
+2025-10-22T08:15:13.639552-0600 INFO Trades for 2025-10-17_ZGM:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:13.645777-0600 DEBUG 2025-10-20_ANRO_1day1minute_price_history.csv
+2025-10-22T08:15:13.734425-0600 DEBUG ticker_symbol: ANRO
+2025-10-22T08:15:13.941498-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:13.943497-0600 INFO 2025-10-20_ANRO: ATR < 0.05 on 1.72% of bars (slip=0.010)
+2025-10-22T08:15:13.946499-0600 INFO Trades for 2025-10-20_ANRO:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:13.948468-0600 DEBUG 2025-10-20_AZTR_1day1minute_price_history.csv
+2025-10-22T08:15:14.087056-0600 DEBUG ticker_symbol: AZTR
+2025-10-22T08:15:14.296671-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:14.303320-0600 INFO 2025-10-20_AZTR: ATR < 0.05 on 93.43% of bars (slip=0.010)
+2025-10-22T08:15:14.306646-0600 INFO Trades for 2025-10-20_AZTR:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:14.309594-0600 DEBUG 2025-10-20_BBAI_1day1minute_price_history.csv
+2025-10-22T08:15:14.446621-0600 DEBUG ticker_symbol: BBAI
+2025-10-22T08:15:14.666816-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:14.666816-0600 INFO 2025-10-20_BBAI: ATR < 0.05 on 96.50% of bars (slip=0.010)
+2025-10-22T08:15:14.666816-0600 INFO Trades for 2025-10-20_BBAI:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:14.685060-0600 DEBUG 2025-10-20_BGLC_1day1minute_price_history.csv
+2025-10-22T08:15:14.744426-0600 DEBUG ticker_symbol: BGLC
+2025-10-22T08:15:14.832129-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:14.832129-0600 INFO 2025-10-20_BGLC: ATR < 0.05 on 1.17% of bars (slip=0.010)
+2025-10-22T08:15:14.832129-0600 INFO Trades for 2025-10-20_BGLC:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:14.847751-0600 DEBUG 2025-10-20_BITF_1day1minute_price_history.csv
+2025-10-22T08:15:14.984933-0600 DEBUG ticker_symbol: BITF
+2025-10-22T08:15:15.276568-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:15.276568-0600 INFO 2025-10-20_BITF: ATR < 0.05 on 94.23% of bars (slip=0.010)
+2025-10-22T08:15:15.276568-0600 INFO Trades for 2025-10-20_BITF:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:15.290574-0600 DEBUG 2025-10-20_BYND_1day1minute_price_history.csv
+2025-10-22T08:15:15.436374-0600 DEBUG ticker_symbol: BYND
+2025-10-22T08:15:15.679640-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:15.680639-0600 INFO 2025-10-20_BYND: ATR < 0.05 on 98.04% of bars (slip=0.010)
+2025-10-22T08:15:15.682737-0600 INFO Trades for 2025-10-20_BYND:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:15.685565-0600 DEBUG 2025-10-20_CAN_1day1minute_price_history.csv
+2025-10-22T08:15:15.815330-0600 DEBUG ticker_symbol: CAN
+2025-10-22T08:15:16.092948-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:16.108739-0600 INFO 2025-10-20_CAN: ATR < 0.05 on 100.00% of bars (slip=0.010)
+2025-10-22T08:15:16.110740-0600 INFO Trades for 2025-10-20_CAN:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:16.115736-0600 DEBUG 2025-10-20_CREV_1day1minute_price_history.csv
+2025-10-22T08:15:16.178064-0600 DEBUG ticker_symbol: CREV
+2025-10-22T08:15:16.232574-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:16.232574-0600 INFO 2025-10-20_CREV: ATR < 0.05 on 69.59% of bars (slip=0.010)
+2025-10-22T08:15:16.232574-0600 INFO Trades for 2025-10-20_CREV:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:16.232574-0600 DEBUG 2025-10-20_CTXR_1day1minute_price_history.csv
+2025-10-22T08:15:16.353958-0600 DEBUG ticker_symbol: CTXR
+2025-10-22T08:15:16.525433-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:16.525433-0600 INFO 2025-10-20_CTXR: ATR < 0.05 on 97.35% of bars (slip=0.010)
+2025-10-22T08:15:16.525433-0600 INFO Trades for 2025-10-20_CTXR:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:16.539634-0600 DEBUG 2025-10-20_DFDV_1day1minute_price_history.csv
+2025-10-22T08:15:16.624607-0600 DEBUG ticker_symbol: DFDV
+2025-10-22T08:15:16.758683-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:16.760730-0600 INFO 2025-10-20_DFDV: ATR < 0.05 on 77.65% of bars (slip=0.010)
+2025-10-22T08:15:16.760730-0600 INFO Trades for 2025-10-20_DFDV:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:16.766398-0600 DEBUG 2025-10-20_DGXX_1day1minute_price_history.csv
+2025-10-22T08:15:16.866760-0600 DEBUG ticker_symbol: DGXX
+2025-10-22T08:15:17.058146-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:17.063490-0600 INFO 2025-10-20_DGXX: ATR < 0.05 on 89.57% of bars (slip=0.010)
+2025-10-22T08:15:17.074497-0600 INFO Trades for 2025-10-20_DGXX:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:17.081486-0600 DEBUG 2025-10-20_FGI_1day1minute_price_history.csv
+2025-10-22T08:15:17.217983-0600 DEBUG ticker_symbol: FGI
+2025-10-22T08:15:17.447889-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:17.447889-0600 INFO 2025-10-20_FGI: ATR < 0.05 on 21.10% of bars (slip=0.010)
+2025-10-22T08:15:17.463514-0600 INFO Trades for 2025-10-20_FGI:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:17.472041-0600 DEBUG 2025-10-20_GNLN_1day1minute_price_history.csv
+2025-10-22T08:15:17.562319-0600 DEBUG ticker_symbol: GNLN
+2025-10-22T08:15:17.729163-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:17.729163-0600 INFO 2025-10-20_GNLN: ATR < 0.05 on 66.74% of bars (slip=0.010)
+2025-10-22T08:15:17.729163-0600 INFO Trades for 2025-10-20_GNLN:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:17.744160-0600 DEBUG 2025-10-20_GRNQ_1day1minute_price_history.csv
+2025-10-22T08:15:17.867003-0600 DEBUG ticker_symbol: GRNQ
+2025-10-22T08:15:18.039478-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:18.048475-0600 INFO 2025-10-20_GRNQ: ATR < 0.05 on 100.00% of bars (slip=0.010)
+2025-10-22T08:15:18.051476-0600 INFO Trades for 2025-10-20_GRNQ:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:18.055459-0600 DEBUG 2025-10-20_GSIT_1day1minute_price_history.csv
+2025-10-22T08:15:18.278054-0600 DEBUG ticker_symbol: GSIT
+2025-10-22T08:15:18.528349-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:18.530912-0600 INFO 2025-10-20_GSIT: ATR < 0.05 on 0.00% of bars (slip=0.010)
+2025-10-22T08:15:18.537709-0600 INFO Trades for 2025-10-20_GSIT:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:18.539714-0600 DEBUG 2025-10-20_IMPP_1day1minute_price_history.csv
+2025-10-22T08:15:18.647555-0600 DEBUG ticker_symbol: IMPP
+2025-10-22T08:15:18.797827-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:18.797827-0600 INFO 2025-10-20_IMPP: ATR < 0.05 on 91.76% of bars (slip=0.010)
+2025-10-22T08:15:18.797827-0600 INFO Trades for 2025-10-20_IMPP:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:18.816308-0600 DEBUG 2025-10-20_MAGH_1day1minute_price_history.csv
+2025-10-22T08:15:18.867381-0600 DEBUG ticker_symbol: MAGH
+2025-10-22T08:15:18.934164-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:18.937227-0600 INFO 2025-10-20_MAGH: ATR < 0.05 on 100.00% of bars (slip=0.010)
+2025-10-22T08:15:18.940229-0600 INFO Trades for 2025-10-20_MAGH:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:18.943423-0600 DEBUG 2025-10-20_MMA_1day1minute_price_history.csv
+2025-10-22T08:15:19.058302-0600 DEBUG ticker_symbol: MMA
+2025-10-22T08:15:19.220643-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:19.223644-0600 INFO 2025-10-20_MMA: ATR < 0.05 on 95.94% of bars (slip=0.010)
+2025-10-22T08:15:19.230291-0600 INFO Trades for 2025-10-20_MMA:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:19.233292-0600 DEBUG 2025-10-20_MSTU_1day1minute_price_history.csv
+2025-10-22T08:15:19.396500-0600 DEBUG ticker_symbol: MSTU
+2025-10-22T08:15:19.704742-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:19.709741-0600 INFO 2025-10-20_MSTU: ATR < 0.05 on 100.00% of bars (slip=0.010)
+2025-10-22T08:15:19.712743-0600 INFO Trades for 2025-10-20_MSTU:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:19.716521-0600 DEBUG 2025-10-20_NCNA_1day1minute_price_history.csv
+2025-10-22T08:15:19.818443-0600 DEBUG ticker_symbol: NCNA
+2025-10-22T08:15:19.974733-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:19.976731-0600 INFO 2025-10-20_NCNA: ATR < 0.05 on 55.28% of bars (slip=0.010)
+2025-10-22T08:15:19.978218-0600 INFO Trades for 2025-10-20_NCNA:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:19.982532-0600 DEBUG 2025-10-20_PLUG_1day1minute_price_history.csv
+2025-10-22T08:15:20.139279-0600 DEBUG ticker_symbol: PLUG
+2025-10-22T08:15:20.401334-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:20.416960-0600 INFO 2025-10-20_PLUG: ATR < 0.05 on 100.00% of bars (slip=0.010)
+2025-10-22T08:15:20.424016-0600 INFO Trades for 2025-10-20_PLUG:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:20.428933-0600 DEBUG 2025-10-20_RANI_1day1minute_price_history.csv
+2025-10-22T08:15:20.592729-0600 DEBUG ticker_symbol: RANI
+2025-10-22T08:15:20.994060-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:20.994060-0600 INFO 2025-10-20_RANI: ATR < 0.05 on 89.15% of bars (slip=0.010)
+2025-10-22T08:15:21.010639-0600 INFO Trades for 2025-10-20_RANI:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:21.012915-0600 DEBUG 2025-10-20_RDHL_1day1minute_price_history.csv
+2025-10-22T08:15:21.152124-0600 DEBUG ticker_symbol: RDHL
+2025-10-22T08:15:21.356448-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:21.356448-0600 INFO 2025-10-20_RDHL: ATR < 0.05 on 92.66% of bars (slip=0.010)
+2025-10-22T08:15:21.356448-0600 INFO Trades for 2025-10-20_RDHL:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:21.368135-0600 DEBUG 2025-10-20_REPL_1day1minute_price_history.csv
+2025-10-22T08:15:21.507394-0600 DEBUG ticker_symbol: REPL
+2025-10-22T08:15:21.772078-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:21.772078-0600 INFO 2025-10-20_REPL: ATR < 0.05 on 26.88% of bars (slip=0.010)
+2025-10-22T08:15:21.788215-0600 INFO Trades for 2025-10-20_REPL:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:21.790327-0600 DEBUG 2025-10-20_SLS_1day1minute_price_history.csv
+2025-10-22T08:15:21.925652-0600 DEBUG ticker_symbol: SLS
+2025-10-22T08:15:22.186179-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:22.186179-0600 INFO 2025-10-20_SLS: ATR < 0.05 on 99.41% of bars (slip=0.010)
+2025-10-22T08:15:22.215763-0600 INFO Trades for 2025-10-20_SLS:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:22.220915-0600 DEBUG 2025-10-20_SPRC_1day1minute_price_history.csv
+2025-10-22T08:15:22.324595-0600 DEBUG ticker_symbol: SPRC
+2025-10-22T08:15:22.458313-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:22.473939-0600 INFO 2025-10-20_SPRC: ATR < 0.05 on 59.68% of bars (slip=0.010)
+2025-10-22T08:15:22.473939-0600 INFO Trades for 2025-10-20_SPRC:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:22.482309-0600 DEBUG 2025-10-20_SQQQ_1day1minute_price_history.csv
+2025-10-22T08:15:22.653680-0600 DEBUG ticker_symbol: SQQQ
+2025-10-22T08:15:22.932309-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:22.932309-0600 INFO 2025-10-20_SQQQ: ATR < 0.05 on 100.00% of bars (slip=0.010)
+2025-10-22T08:15:22.932309-0600 INFO Trades for 2025-10-20_SQQQ:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:22.944319-0600 DEBUG 2025-10-20_USARW_1day1minute_price_history.csv
+2025-10-22T08:15:23.042946-0600 DEBUG ticker_symbol: USARW
+2025-10-22T08:15:23.141882-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:23.157506-0600 INFO 2025-10-20_USARW: ATR < 0.05 on 0.00% of bars (slip=0.010)
+2025-10-22T08:15:23.163308-0600 INFO Trades for 2025-10-20_USARW:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:23.168308-0600 DEBUG 2025-10-20_VRCA_1day1minute_price_history.csv
+2025-10-22T08:15:23.226643-0600 DEBUG ticker_symbol: VRCA
+2025-10-22T08:15:23.337581-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:23.341628-0600 INFO 2025-10-20_VRCA: ATR < 0.05 on 71.90% of bars (slip=0.010)
+2025-10-22T08:15:23.351063-0600 INFO Trades for 2025-10-20_VRCA:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:23.355033-0600 DEBUG 2025-10-21_ANRO_1day1minute_price_history.csv
+2025-10-22T08:15:23.408135-0600 DEBUG ticker_symbol: ANRO
+2025-10-22T08:15:23.553626-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:23.558114-0600 INFO 2025-10-21_ANRO: ATR < 0.05 on 44.34% of bars (slip=0.010)
+2025-10-22T08:15:23.562116-0600 INFO Trades for 2025-10-21_ANRO:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:23.565113-0600 DEBUG 2025-10-21_ATMV_1day1minute_price_history.csv
+2025-10-22T08:15:23.673553-0600 DEBUG ticker_symbol: ATMV
+2025-10-22T08:15:23.851583-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:23.851583-0600 INFO 2025-10-21_ATMV: ATR < 0.05 on 1.19% of bars (slip=0.010)
+2025-10-22T08:15:23.867198-0600 INFO Trades for 2025-10-21_ATMV:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:23.871299-0600 DEBUG 2025-10-21_BGLC_1day1minute_price_history.csv
+2025-10-22T08:15:23.907574-0600 DEBUG ticker_symbol: BGLC
+2025-10-22T08:15:23.974590-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:23.978198-0600 INFO 2025-10-21_BGLC: ATR < 0.05 on 100.00% of bars (slip=0.010)
+2025-10-22T08:15:24.000292-0600 INFO Trades for 2025-10-21_BGLC:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:24.016554-0600 DEBUG 2025-10-21_BOF_1day1minute_price_history.csv
+2025-10-22T08:15:24.230309-0600 DEBUG ticker_symbol: BOF
+2025-10-22T08:15:24.537966-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:24.540487-0600 INFO 2025-10-21_BOF: ATR < 0.05 on 81.31% of bars (slip=0.010)
+2025-10-22T08:15:24.542484-0600 INFO Trades for 2025-10-21_BOF:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:24.545486-0600 DEBUG 2025-10-21_BYND_1day1minute_price_history.csv
+2025-10-22T08:15:24.743081-0600 DEBUG ticker_symbol: BYND
+2025-10-22T08:15:25.011690-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:25.011690-0600 INFO 2025-10-21_BYND: ATR < 0.05 on 38.59% of bars (slip=0.010)
+2025-10-22T08:15:25.011690-0600 INFO Trades for 2025-10-21_BYND:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:25.027542-0600 DEBUG 2025-10-21_CREV_1day1minute_price_history.csv
+2025-10-22T08:15:25.084488-0600 DEBUG ticker_symbol: CREV
+2025-10-22T08:15:25.140774-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:25.140774-0600 INFO 2025-10-21_CREV: ATR < 0.05 on 48.80% of bars (slip=0.010)
+2025-10-22T08:15:25.140774-0600 INFO Trades for 2025-10-21_CREV:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:25.151703-0600 DEBUG 2025-10-21_CTXR_1day1minute_price_history.csv
+2025-10-22T08:15:25.239478-0600 DEBUG ticker_symbol: CTXR
+2025-10-22T08:15:25.370623-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:25.370623-0600 INFO 2025-10-21_CTXR: ATR < 0.05 on 96.77% of bars (slip=0.010)
+2025-10-22T08:15:25.370623-0600 INFO Trades for 2025-10-21_CTXR:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:25.388027-0600 DEBUG 2025-10-21_DCGO_1day1minute_price_history.csv
+2025-10-22T08:15:25.537759-0600 DEBUG ticker_symbol: DCGO
+2025-10-22T08:15:25.824298-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:25.824420-0600 INFO 2025-10-21_DCGO: ATR < 0.05 on 100.00% of bars (slip=0.010)
+2025-10-22T08:15:25.824420-0600 INFO Trades for 2025-10-21_DCGO:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:25.824420-0600 DEBUG 2025-10-21_DGXX_1day1minute_price_history.csv
+2025-10-22T08:15:25.947704-0600 DEBUG ticker_symbol: DGXX
+2025-10-22T08:15:26.130013-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:26.132013-0600 INFO 2025-10-21_DGXX: ATR < 0.05 on 86.11% of bars (slip=0.010)
+2025-10-22T08:15:26.135010-0600 INFO Trades for 2025-10-21_DGXX:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:26.138011-0600 DEBUG 2025-10-21_FGI_1day1minute_price_history.csv
+2025-10-22T08:15:26.190837-0600 DEBUG ticker_symbol: FGI
+2025-10-22T08:15:26.257316-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:26.260315-0600 INFO 2025-10-21_FGI: ATR < 0.05 on 42.86% of bars (slip=0.010)
+2025-10-22T08:15:26.264315-0600 INFO Trades for 2025-10-21_FGI:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:26.268319-0600 DEBUG 2025-10-21_GNLN_1day1minute_price_history.csv
+2025-10-22T08:15:26.340791-0600 DEBUG ticker_symbol: GNLN
+2025-10-22T08:15:26.436043-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:26.438092-0600 INFO 2025-10-21_GNLN: ATR < 0.05 on 85.12% of bars (slip=0.010)
+2025-10-22T08:15:26.438092-0600 INFO Trades for 2025-10-21_GNLN:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:26.438092-0600 DEBUG 2025-10-21_GSIT_1day1minute_price_history.csv
+2025-10-22T08:15:26.570175-0600 DEBUG ticker_symbol: GSIT
+2025-10-22T08:15:26.838593-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:26.838593-0600 INFO 2025-10-21_GSIT: ATR < 0.05 on 6.68% of bars (slip=0.010)
+2025-10-22T08:15:26.838593-0600 INFO Trades for 2025-10-21_GSIT:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:26.848524-0600 DEBUG 2025-10-21_IBIO_1day1minute_price_history.csv
+2025-10-22T08:15:27.002214-0600 DEBUG ticker_symbol: IBIO
+2025-10-22T08:15:27.246954-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:27.246954-0600 INFO 2025-10-21_IBIO: ATR < 0.05 on 96.90% of bars (slip=0.010)
+2025-10-22T08:15:27.262578-0600 INFO Trades for 2025-10-21_IBIO:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:27.265772-0600 DEBUG 2025-10-21_IMPP_1day1minute_price_history.csv
+2025-10-22T08:15:27.354005-0600 DEBUG ticker_symbol: IMPP
+2025-10-22T08:15:27.457961-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:27.462008-0600 INFO 2025-10-21_IMPP: ATR < 0.05 on 95.42% of bars (slip=0.010)
+2025-10-22T08:15:27.462008-0600 INFO Trades for 2025-10-21_IMPP:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:27.466994-0600 DEBUG 2025-10-21_IONZ_1day1minute_price_history.csv
+2025-10-22T08:15:27.601330-0600 DEBUG ticker_symbol: IONZ
+2025-10-22T08:15:27.851326-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:27.851326-0600 INFO 2025-10-21_IONZ: ATR < 0.05 on 97.27% of bars (slip=0.010)
+2025-10-22T08:15:27.851326-0600 INFO Trades for 2025-10-21_IONZ:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:27.851326-0600 DEBUG 2025-10-21_JFU_1day1minute_price_history.csv
+2025-10-22T08:15:27.888892-0600 DEBUG ticker_symbol: JFU
+2025-10-22T08:15:27.937487-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:27.937487-0600 INFO 2025-10-21_JFU: ATR < 0.05 on 0.00% of bars (slip=0.010)
+2025-10-22T08:15:27.955266-0600 INFO Trades for 2025-10-21_JFU:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:27.958272-0600 DEBUG 2025-10-21_JWEL_1day1minute_price_history.csv
+2025-10-22T08:15:28.096675-0600 DEBUG ticker_symbol: JWEL
+2025-10-22T08:15:28.269449-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:28.269449-0600 INFO 2025-10-21_JWEL: ATR < 0.05 on 100.00% of bars (slip=0.010)
+2025-10-22T08:15:28.285926-0600 INFO Trades for 2025-10-21_JWEL:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:28.289171-0600 DEBUG 2025-10-21_LGCB_1day1minute_price_history.csv
+2025-10-22T08:15:28.393146-0600 DEBUG ticker_symbol: LGCB
+2025-10-22T08:15:28.553625-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:28.556625-0600 INFO 2025-10-21_LGCB: ATR < 0.05 on 100.00% of bars (slip=0.010)
+2025-10-22T08:15:28.557793-0600 INFO Trades for 2025-10-21_LGCB:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:28.563748-0600 DEBUG 2025-10-21_MAGH_1day1minute_price_history.csv
+2025-10-22T08:15:28.605602-0600 DEBUG ticker_symbol: MAGH
+2025-10-22T08:15:28.678199-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:28.684806-0600 INFO 2025-10-21_MAGH: ATR < 0.05 on 100.00% of bars (slip=0.010)
+2025-10-22T08:15:28.689957-0600 INFO Trades for 2025-10-21_MAGH:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:28.691952-0600 DEBUG 2025-10-21_MEC_1day1minute_price_history.csv
+2025-10-22T08:15:28.752261-0600 DEBUG ticker_symbol: MEC
+2025-10-22T08:15:28.885493-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:28.901780-0600 INFO 2025-10-21_MEC: ATR < 0.05 on 53.23% of bars (slip=0.010)
+2025-10-22T08:15:28.901780-0600 INFO Trades for 2025-10-21_MEC:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:28.906626-0600 DEBUG 2025-10-21_MMA_1day1minute_price_history.csv
+2025-10-22T08:15:28.970128-0600 DEBUG ticker_symbol: MMA
+2025-10-22T08:15:29.068419-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:29.070420-0600 INFO 2025-10-21_MMA: ATR < 0.05 on 100.00% of bars (slip=0.010)
+2025-10-22T08:15:29.072491-0600 INFO Trades for 2025-10-21_MMA:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:29.074844-0600 DEBUG 2025-10-21_NCNA_1day1minute_price_history.csv
+2025-10-22T08:15:29.153111-0600 DEBUG ticker_symbol: NCNA
+2025-10-22T08:15:29.234736-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:29.251811-0600 INFO 2025-10-21_NCNA: ATR < 0.05 on 86.60% of bars (slip=0.010)
+2025-10-22T08:15:29.252199-0600 INFO Trades for 2025-10-21_NCNA:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:29.258860-0600 DEBUG 2025-10-21_NERV_1day1minute_price_history.csv
+2025-10-22T08:15:29.384577-0600 DEBUG ticker_symbol: NERV
+2025-10-22T08:15:29.600108-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:29.603108-0600 INFO 2025-10-21_NERV: ATR < 0.05 on 20.92% of bars (slip=0.010)
+2025-10-22T08:15:29.604228-0600 INFO Trades for 2025-10-21_NERV:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:29.608748-0600 DEBUG 2025-10-21_OMSE_1day1minute_price_history.csv
+2025-10-22T08:15:29.685879-0600 DEBUG ticker_symbol: OMSE
+2025-10-22T08:15:29.767578-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:29.783202-0600 INFO 2025-10-21_OMSE: ATR < 0.05 on 41.23% of bars (slip=0.010)
+2025-10-22T08:15:29.783202-0600 INFO Trades for 2025-10-21_OMSE:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:29.789310-0600 DEBUG 2025-10-21_RANI_1day1minute_price_history.csv
+2025-10-22T08:15:29.926424-0600 DEBUG ticker_symbol: RANI
+2025-10-22T08:15:30.180919-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:30.180919-0600 INFO 2025-10-21_RANI: ATR < 0.05 on 71.90% of bars (slip=0.010)
+2025-10-22T08:15:30.180919-0600 INFO Trades for 2025-10-21_RANI:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:30.194678-0600 DEBUG 2025-10-21_RDHL_1day1minute_price_history.csv
+2025-10-22T08:15:30.254905-0600 DEBUG ticker_symbol: RDHL
+2025-10-22T08:15:30.318488-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:30.321488-0600 INFO 2025-10-21_RDHL: ATR < 0.05 on 100.00% of bars (slip=0.010)
+2025-10-22T08:15:30.323487-0600 INFO Trades for 2025-10-21_RDHL:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:30.325776-0600 DEBUG 2025-10-21_RYOJ_1day1minute_price_history.csv
+2025-10-22T08:15:30.442307-0600 DEBUG ticker_symbol: RYOJ
+2025-10-22T08:15:30.634822-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:30.634822-0600 INFO 2025-10-21_RYOJ: ATR < 0.05 on 20.36% of bars (slip=0.010)
+2025-10-22T08:15:30.634822-0600 INFO Trades for 2025-10-21_RYOJ:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:30.643042-0600 DEBUG 2025-10-21_SHPH_1day1minute_price_history.csv
+2025-10-22T08:15:30.704127-0600 DEBUG ticker_symbol: SHPH
+2025-10-22T08:15:30.778711-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:30.780714-0600 INFO 2025-10-21_SHPH: ATR < 0.05 on 62.38% of bars (slip=0.010)
+2025-10-22T08:15:30.783668-0600 INFO Trades for 2025-10-21_SHPH:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:30.786192-0600 DEBUG 2025-10-21_SOXS_1day1minute_price_history.csv
+2025-10-22T08:15:30.915472-0600 DEBUG ticker_symbol: SOXS
+2025-10-22T08:15:31.135149-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:31.150771-0600 INFO 2025-10-21_SOXS: ATR < 0.05 on 100.00% of bars (slip=0.010)
+2025-10-22T08:15:31.150771-0600 INFO Trades for 2025-10-21_SOXS:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:31.155884-0600 DEBUG 2025-10-21_SPRC_1day1minute_price_history.csv
+2025-10-22T08:15:31.194392-0600 DEBUG ticker_symbol: SPRC
+2025-10-22T08:15:31.234559-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:31.234559-0600 INFO 2025-10-21_SPRC: ATR < 0.05 on 90.43% of bars (slip=0.010)
+2025-10-22T08:15:31.234559-0600 INFO Trades for 2025-10-21_SPRC:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:31.247282-0600 DEBUG 2025-10-21_SPRO_1day1minute_price_history.csv
+2025-10-22T08:15:31.348043-0600 DEBUG ticker_symbol: SPRO
+2025-10-22T08:15:31.521023-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:31.523025-0600 INFO 2025-10-21_SPRO: ATR < 0.05 on 100.00% of bars (slip=0.010)
+2025-10-22T08:15:31.526070-0600 INFO Trades for 2025-10-21_SPRO:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:31.528419-0600 DEBUG 2025-10-21_SPWR_1day1minute_price_history.csv
+2025-10-22T08:15:31.647646-0600 DEBUG ticker_symbol: SPWR
+2025-10-22T08:15:31.838871-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:31.838871-0600 INFO 2025-10-21_SPWR: ATR < 0.05 on 89.74% of bars (slip=0.010)
+2025-10-22T08:15:31.838871-0600 INFO Trades for 2025-10-21_SPWR:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:31.838871-0600 DEBUG 2025-10-21_SQQQ_1day1minute_price_history.csv
+2025-10-22T08:15:31.984248-0600 DEBUG ticker_symbol: SQQQ
+2025-10-22T08:15:32.275634-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:32.277638-0600 INFO 2025-10-21_SQQQ: ATR < 0.05 on 100.00% of bars (slip=0.010)
+2025-10-22T08:15:32.279611-0600 INFO Trades for 2025-10-21_SQQQ:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:32.282102-0600 DEBUG 2025-10-21_USARW_1day1minute_price_history.csv
+2025-10-22T08:15:32.347206-0600 DEBUG ticker_symbol: USARW
+2025-10-22T08:15:32.452262-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:32.454259-0600 INFO 2025-10-21_USARW: ATR < 0.05 on 0.00% of bars (slip=0.010)
+2025-10-22T08:15:32.456261-0600 INFO Trades for 2025-10-21_USARW:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:32.458260-0600 DEBUG 2025-10-21_VRCA_1day1minute_price_history.csv
+2025-10-22T08:15:32.533337-0600 DEBUG ticker_symbol: VRCA
+2025-10-22T08:15:32.649026-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:32.651024-0600 INFO 2025-10-21_VRCA: ATR < 0.05 on 93.03% of bars (slip=0.010)
+2025-10-22T08:15:32.656024-0600 INFO Trades for 2025-10-21_VRCA:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:32.658392-0600 DEBUG 2025-10-22_AIRE_1day1minute_price_history.csv
+2025-10-22T08:15:32.701751-0600 DEBUG ticker_symbol: AIRE
+2025-10-22T08:15:32.765527-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:32.765527-0600 INFO 2025-10-22_AIRE: ATR < 0.05 on 85.98% of bars (slip=0.010)
+2025-10-22T08:15:32.765527-0600 INFO Trades for 2025-10-22_AIRE:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:32.780085-0600 DEBUG 2025-10-22_AREB_1day1minute_price_history.csv
+2025-10-22T08:15:32.816515-0600 DEBUG ticker_symbol: AREB
+2025-10-22T08:15:32.889141-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:32.890142-0600 INFO 2025-10-22_AREB: ATR < 0.05 on 77.57% of bars (slip=0.010)
+2025-10-22T08:15:32.892142-0600 INFO Trades for 2025-10-22_AREB:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:32.894142-0600 DEBUG 2025-10-22_BENF_1day1minute_price_history.csv
+2025-10-22T08:15:32.931073-0600 DEBUG ticker_symbol: BENF
+2025-10-22T08:15:33.005684-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:33.009685-0600 INFO 2025-10-22_BENF: ATR < 0.05 on 77.57% of bars (slip=0.010)
+2025-10-22T08:15:33.013682-0600 INFO Trades for 2025-10-22_BENF:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:33.018681-0600 DEBUG 2025-10-22_BITF_1day1minute_price_history.csv
+2025-10-22T08:15:33.064053-0600 DEBUG ticker_symbol: BITF
+2025-10-22T08:15:33.138949-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:33.140949-0600 INFO 2025-10-22_BITF: ATR < 0.05 on 60.75% of bars (slip=0.010)
+2025-10-22T08:15:33.143949-0600 INFO Trades for 2025-10-22_BITF:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:33.146952-0600 DEBUG 2025-10-22_BNBX_1day1minute_price_history.csv
+2025-10-22T08:15:33.194946-0600 DEBUG ticker_symbol: BNBX
+2025-10-22T08:15:33.252235-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:33.255234-0600 INFO 2025-10-22_BNBX: ATR < 0.05 on 0.00% of bars (slip=0.010)
+2025-10-22T08:15:33.258230-0600 INFO Trades for 2025-10-22_BNBX:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:33.260233-0600 DEBUG 2025-10-22_BOF_1day1minute_price_history.csv
+2025-10-22T08:15:33.297601-0600 DEBUG ticker_symbol: BOF
+2025-10-22T08:15:33.352590-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:33.354591-0600 INFO 2025-10-22_BOF: ATR < 0.05 on 71.96% of bars (slip=0.010)
+2025-10-22T08:15:33.356588-0600 INFO Trades for 2025-10-22_BOF:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:33.358589-0600 DEBUG 2025-10-22_BYND_1day1minute_price_history.csv
+2025-10-22T08:15:33.399020-0600 DEBUG ticker_symbol: BYND
+2025-10-22T08:15:33.447604-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:33.463589-0600 INFO 2025-10-22_BYND: ATR < 0.05 on 0.00% of bars (slip=0.010)
+2025-10-22T08:15:33.465589-0600 INFO Trades for 2025-10-22_BYND:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:33.467588-0600 DEBUG 2025-10-22_DNUT_1day1minute_price_history.csv
+2025-10-22T08:15:33.514112-0600 DEBUG ticker_symbol: DNUT
+2025-10-22T08:15:33.582463-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:33.585462-0600 INFO 2025-10-22_DNUT: ATR < 0.05 on 11.21% of bars (slip=0.010)
+2025-10-22T08:15:33.589464-0600 INFO Trades for 2025-10-22_DNUT:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:33.597983-0600 DEBUG 2025-10-22_KDKRW_1day1minute_price_history.csv
+2025-10-22T08:15:33.629888-0600 DEBUG ticker_symbol: KDKRW
+2025-10-22T08:15:33.685031-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:33.686031-0600 INFO 2025-10-22_KDKRW: ATR < 0.05 on 100.00% of bars (slip=0.010)
+2025-10-22T08:15:33.689037-0600 INFO Trades for 2025-10-22_KDKRW:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:33.691035-0600 DEBUG 2025-10-22_LGCB_1day1minute_price_history.csv
+2025-10-22T08:15:33.712904-0600 DEBUG ticker_symbol: LGCB
+2025-10-22T08:15:33.746212-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:33.765025-0600 INFO 2025-10-22_LGCB: ATR < 0.05 on 100.00% of bars (slip=0.010)
+2025-10-22T08:15:33.767020-0600 INFO Trades for 2025-10-22_LGCB:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:33.769022-0600 DEBUG 2025-10-22_MCTA_1day1minute_price_history.csv
+2025-10-22T08:15:33.804709-0600 DEBUG ticker_symbol: MCTA
+2025-10-22T08:15:33.846052-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:33.862820-0600 INFO 2025-10-22_MCTA: ATR < 0.05 on 2.82% of bars (slip=0.010)
+2025-10-22T08:15:33.862820-0600 INFO Trades for 2025-10-22_MCTA:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:33.869449-0600 DEBUG 2025-10-22_NERV_1day1minute_price_history.csv
+2025-10-22T08:15:33.905418-0600 DEBUG ticker_symbol: NERV
+2025-10-22T08:15:33.975407-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:33.977406-0600 INFO 2025-10-22_NERV: ATR < 0.05 on 52.34% of bars (slip=0.010)
+2025-10-22T08:15:33.980638-0600 INFO Trades for 2025-10-22_NERV:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:33.982639-0600 DEBUG 2025-10-22_RANI_1day1minute_price_history.csv
+2025-10-22T08:15:34.032691-0600 DEBUG ticker_symbol: RANI
+2025-10-22T08:15:34.109177-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:34.112159-0600 INFO 2025-10-22_RANI: ATR < 0.05 on 34.58% of bars (slip=0.010)
+2025-10-22T08:15:34.115163-0600 INFO Trades for 2025-10-22_RANI:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:34.117163-0600 DEBUG 2025-10-22_SBEV_1day1minute_price_history.csv
+2025-10-22T08:15:34.162460-0600 DEBUG ticker_symbol: SBEV
+2025-10-22T08:15:34.230443-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:34.245013-0600 INFO 2025-10-22_SBEV: ATR < 0.05 on 60.75% of bars (slip=0.010)
+2025-10-22T08:15:34.249009-0600 INFO Trades for 2025-10-22_SBEV:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:34.252420-0600 DEBUG 2025-10-22_SHMD_1day1minute_price_history.csv
+2025-10-22T08:15:34.301486-0600 DEBUG ticker_symbol: SHMD
+2025-10-22T08:15:34.366567-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:34.368567-0600 INFO 2025-10-22_SHMD: ATR < 0.05 on 39.25% of bars (slip=0.010)
+2025-10-22T08:15:34.370568-0600 INFO Trades for 2025-10-22_SHMD:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:34.372567-0600 DEBUG 2025-10-22_SLGB_1day1minute_price_history.csv
+2025-10-22T08:15:34.414887-0600 DEBUG ticker_symbol: SLGB
+2025-10-22T08:15:34.487091-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:34.489090-0600 INFO 2025-10-22_SLGB: ATR < 0.05 on 14.95% of bars (slip=0.010)
+2025-10-22T08:15:34.491089-0600 INFO Trades for 2025-10-22_SLGB:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:34.493090-0600 DEBUG 2025-10-22_SOXS_1day1minute_price_history.csv
+2025-10-22T08:15:34.531324-0600 DEBUG ticker_symbol: SOXS
+2025-10-22T08:15:34.618760-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:34.621770-0600 INFO 2025-10-22_SOXS: ATR < 0.05 on 100.00% of bars (slip=0.010)
+2025-10-22T08:15:34.623761-0600 INFO Trades for 2025-10-22_SOXS:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:34.625763-0600 DEBUG 2025-10-22_SQQQ_1day1minute_price_history.csv
+2025-10-22T08:15:34.672894-0600 DEBUG ticker_symbol: SQQQ
+2025-10-22T08:15:34.733546-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:34.735550-0600 INFO 2025-10-22_SQQQ: ATR < 0.05 on 100.00% of bars (slip=0.010)
+2025-10-22T08:15:34.737551-0600 INFO Trades for 2025-10-22_SQQQ:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:34.738549-0600 DEBUG 2025-10-22_WOK_1day1minute_price_history.csv
+2025-10-22T08:15:34.780102-0600 DEBUG ticker_symbol: WOK
+2025-10-22T08:15:34.853085-0600 DEBUG entries:
+Empty DataFrame
+Columns: [open, high, low, close, volume, ema_f, ema_m, ema_s, atr14, adx14, vwap, roll_high, roll_high_prev, body_frac, range_vs_atr, rvol_ratio, dollar_bar, signal, entry_price, stop_price, target_price, why, entry_limit]
+Index: []
+2025-10-22T08:15:34.856085-0600 INFO 2025-10-22_WOK: ATR < 0.05 on 4.67% of bars (slip=0.010)
+2025-10-22T08:15:34.859081-0600 INFO Trades for 2025-10-22_WOK:
+Empty DataFrame
+Columns: []
+Index: []
+2025-10-22T08:15:35.477593-0600 INFO tight_stop_quick_take_testing Config total_trades_df:
+                   entry_ts                   exit_ts      reason  qty  \
+0 2025-10-17 08:29:00-04:00 2025-10-17 08:34:00-04:00   atr_trail    1   
+1 2025-10-17 13:17:00-04:00 2025-10-17 13:23:00-04:00  vwap_break    1   
+
+   entry_price  exit_price  entry_eff   exit_eff       pnl  return_pct  \
+0    19.551520   18.288011  19.561520  18.278011 -1.283509   -6.561395   
+1    12.465944   11.750000  12.475944  11.740000 -0.735944   -5.898906   
+
+   hold_minutes       mfe       mae  entry_limit  
+0           5.0  0.248480 -2.502720    19.571520  
+1           6.0 -0.045944 -0.715944    12.485944  
+2025-10-22T08:15:35.477593-0600 INFO money_made_each_stock_each_day: {'2025-10-17_AKAN': 0.0, '2025-10-17_AQMS': 0.0, '2025-10-17_ARTV': 0.0, '2025-10-17_AUUD': 0.0, '2025-10-17_BIAF': 0.0, '2025-10-17_BITF': 0.0, '2025-10-17_BMRA': 0.0, '2025-10-17_CCM': 0.0, '2025-10-17_CETY': 0.0, '2025-10-17_CISS': 0.0, '2025-10-17_CLPS': 0.0, '2025-10-17_COOT': 0.0, '2025-10-17_CREV': 0.0, '2025-10-17_CRMLW': 0.0, '2025-10-17_CTXR': 0.0, '2025-10-17_DGXX': 0.0, '2025-10-17_ELBM': 0.0, '2025-10-17_ELWS': 0.0, '2025-10-17_ENTO': 0.0, '2025-10-17_FGI': 0.0, '2025-10-17_GIPR': 0.0, '2025-10-17_GITS': 0.0, '2025-10-17_GWH': 0.0, '2025-10-17_HTOO': 0.0, '2025-10-17_IBG': 0.0, '2025-10-17_IONZ': 0.0, '2025-10-17_IRBT': 0.0, '2025-10-17_IVF': 0.0, '2025-10-17_KMRK': 0.0, '2025-10-17_KZR': 0.0, '2025-10-17_LGCB': 0.0, '2025-10-17_LVLU': 0.0, '2025-10-17_MAMK': 0.0, '2025-10-17_MGX': 0.0, '2025-10-17_MIRA': 0.0, '2025-10-17_MSTU': 0.0, '2025-10-17_NIO': 0.0, '2025-10-17_NIVF': 0.0, '2025-10-17_NRXP': 0.0, '2025-10-17_NUAI': 0.0, '2025-10-17_NUKK': 0.0, '2025-10-17_NVNI': 0.0, '2025-10-17_PFAI': 0.0, '2025-10-17_PLUG': 0.0, '2025-10-17_QCLS': 0.0, '2025-10-17_QNRX': 0.0, '2025-10-17_RANI': 0.0, '2025-10-17_REE': 0.0, '2025-10-17_RGP': 0.0, '2025-10-17_RGTZ': 0.0, '2025-10-17_RKDA': 0.0, '2025-10-17_RMSG': 0.0, '2025-10-17_RXRX': 0.0, '2025-10-17_RYOJ': 0.0, '2025-10-17_SBFM': 0.0, '2025-10-17_SCNX': 0.0, '2025-10-17_SEV': 0.0, '2025-10-17_SGBX': 0.0, '2025-10-17_SNSE': -2.019452857142859, '2025-10-17_SOAR': 0.0, '2025-10-17_SOXS': 0.0, '2025-10-17_SQQQ': 0.0, '2025-10-17_STKE': 0.0, '2025-10-17_SUGP': 0.0, '2025-10-17_TAOP': 0.0, '2025-10-17_TSLQ': 0.0, '2025-10-17_TXMD': 0.0, '2025-10-17_UVXY': 0.0, '2025-10-17_WATT': 0.0, '2025-10-17_WHWK': 0.0, '2025-10-17_XRTX': 0.0, '2025-10-17_ZBAI': 0.0, '2025-10-17_ZEO': 0.0, '2025-10-17_ZGM': 0.0, '2025-10-20_ANRO': 0.0, '2025-10-20_AZTR': 0.0, '2025-10-20_BBAI': 0.0, '2025-10-20_BGLC': 0.0, '2025-10-20_BITF': 0.0, '2025-10-20_BYND': 0.0, '2025-10-20_CAN': 0.0, '2025-10-20_CREV': 0.0, '2025-10-20_CTXR': 0.0, '2025-10-20_DFDV': 0.0, '2025-10-20_DGXX': 0.0, '2025-10-20_FGI': 0.0, '2025-10-20_GNLN': 0.0, '2025-10-20_GRNQ': 0.0, '2025-10-20_GSIT': 0.0, '2025-10-20_IMPP': 0.0, '2025-10-20_MAGH': 0.0, '2025-10-20_MMA': 0.0, '2025-10-20_MSTU': 0.0, '2025-10-20_NCNA': 0.0, '2025-10-20_PLUG': 0.0, '2025-10-20_RANI': 0.0, '2025-10-20_RDHL': 0.0, '2025-10-20_REPL': 0.0, '2025-10-20_SLS': 0.0, '2025-10-20_SPRC': 0.0, '2025-10-20_SQQQ': 0.0, '2025-10-20_USARW': 0.0, '2025-10-20_VRCA': 0.0, '2025-10-21_ANRO': 0.0, '2025-10-21_ATMV': 0.0, '2025-10-21_BGLC': 0.0, '2025-10-21_BOF': 0.0, '2025-10-21_BYND': 0.0, '2025-10-21_CREV': 0.0, '2025-10-21_CTXR': 0.0, '2025-10-21_DCGO': 0.0, '2025-10-21_DGXX': 0.0, '2025-10-21_FGI': 0.0, '2025-10-21_GNLN': 0.0, '2025-10-21_GSIT': 0.0, '2025-10-21_IBIO': 0.0, '2025-10-21_IMPP': 0.0, '2025-10-21_IONZ': 0.0, '2025-10-21_JFU': 0.0, '2025-10-21_JWEL': 0.0, '2025-10-21_LGCB': 0.0, '2025-10-21_MAGH': 0.0, '2025-10-21_MEC': 0.0, '2025-10-21_MMA': 0.0, '2025-10-21_NCNA': 0.0, '2025-10-21_NERV': 0.0, '2025-10-21_OMSE': 0.0, '2025-10-21_RANI': 0.0, '2025-10-21_RDHL': 0.0, '2025-10-21_RYOJ': 0.0, '2025-10-21_SHPH': 0.0, '2025-10-21_SOXS': 0.0, '2025-10-21_SPRC': 0.0, '2025-10-21_SPRO': 0.0, '2025-10-21_SPWR': 0.0, '2025-10-21_SQQQ': 0.0, '2025-10-21_USARW': 0.0, '2025-10-21_VRCA': 0.0, '2025-10-22_AIRE': 0.0, '2025-10-22_AREB': 0.0, '2025-10-22_BENF': 0.0, '2025-10-22_BITF': 0.0, '2025-10-22_BNBX': 0.0, '2025-10-22_BOF': 0.0, '2025-10-22_BYND': 0.0, '2025-10-22_DNUT': 0.0, '2025-10-22_KDKRW': 0.0, '2025-10-22_LGCB': 0.0, '2025-10-22_MCTA': 0.0, '2025-10-22_NERV': 0.0, '2025-10-22_RANI': 0.0, '2025-10-22_SBEV': 0.0, '2025-10-22_SHMD': 0.0, '2025-10-22_SLGB': 0.0, '2025-10-22_SOXS': 0.0, '2025-10-22_SQQQ': 0.0, '2025-10-22_WOK': 0.0}
+2025-10-22T08:15:35.494970-0600 INFO money_made_each_day: {'2025-10-17': -2.019452857142859, '2025-10-20': 0.0, '2025-10-21': 0.0, '2025-10-22': 0.0}
+2025-10-22T08:15:35.496971-0600 INFO number_of_trades_per_stock_per_day: {'2025-10-17_AKAN': 0, '2025-10-17_AQMS': 0, '2025-10-17_ARTV': 0, '2025-10-17_AUUD': 0, '2025-10-17_BIAF': 0, '2025-10-17_BITF': 0, '2025-10-17_BMRA': 0, '2025-10-17_CCM': 0, '2025-10-17_CETY': 0, '2025-10-17_CISS': 0, '2025-10-17_CLPS': 0, '2025-10-17_COOT': 0, '2025-10-17_CREV': 0, '2025-10-17_CRMLW': 0, '2025-10-17_CTXR': 0, '2025-10-17_DGXX': 0, '2025-10-17_ELBM': 0, '2025-10-17_ELWS': 0, '2025-10-17_ENTO': 0, '2025-10-17_FGI': 0, '2025-10-17_GIPR': 0, '2025-10-17_GITS': 0, '2025-10-17_GWH': 0, '2025-10-17_HTOO': 0, '2025-10-17_IBG': 0, '2025-10-17_IONZ': 0, '2025-10-17_IRBT': 0, '2025-10-17_IVF': 0, '2025-10-17_KMRK': 0, '2025-10-17_KZR': 0, '2025-10-17_LGCB': 0, '2025-10-17_LVLU': 0, '2025-10-17_MAMK': 0, '2025-10-17_MGX': 0, '2025-10-17_MIRA': 0, '2025-10-17_MSTU': 0, '2025-10-17_NIO': 0, '2025-10-17_NIVF': 0, '2025-10-17_NRXP': 0, '2025-10-17_NUAI': 0, '2025-10-17_NUKK': 0, '2025-10-17_NVNI': 0, '2025-10-17_PFAI': 0, '2025-10-17_PLUG': 0, '2025-10-17_QCLS': 0, '2025-10-17_QNRX': 0, '2025-10-17_RANI': 0, '2025-10-17_REE': 0, '2025-10-17_RGP': 0, '2025-10-17_RGTZ': 0, '2025-10-17_RKDA': 0, '2025-10-17_RMSG': 0, '2025-10-17_RXRX': 0, '2025-10-17_RYOJ': 0, '2025-10-17_SBFM': 0, '2025-10-17_SCNX': 0, '2025-10-17_SEV': 0, '2025-10-17_SGBX': 0, '2025-10-17_SNSE': 2, '2025-10-17_SOAR': 0, '2025-10-17_SOXS': 0, '2025-10-17_SQQQ': 0, '2025-10-17_STKE': 0, '2025-10-17_SUGP': 0, '2025-10-17_TAOP': 0, '2025-10-17_TSLQ': 0, '2025-10-17_TXMD': 0, '2025-10-17_UVXY': 0, '2025-10-17_WATT': 0, '2025-10-17_WHWK': 0, '2025-10-17_XRTX': 0, '2025-10-17_ZBAI': 0, '2025-10-17_ZEO': 0, '2025-10-17_ZGM': 0, '2025-10-20_ANRO': 0, '2025-10-20_AZTR': 0, '2025-10-20_BBAI': 0, '2025-10-20_BGLC': 0, '2025-10-20_BITF': 0, '2025-10-20_BYND': 0, '2025-10-20_CAN': 0, '2025-10-20_CREV': 0, '2025-10-20_CTXR': 0, '2025-10-20_DFDV': 0, '2025-10-20_DGXX': 0, '2025-10-20_FGI': 0, '2025-10-20_GNLN': 0, '2025-10-20_GRNQ': 0, '2025-10-20_GSIT': 0, '2025-10-20_IMPP': 0, '2025-10-20_MAGH': 0, '2025-10-20_MMA': 0, '2025-10-20_MSTU': 0, '2025-10-20_NCNA': 0, '2025-10-20_PLUG': 0, '2025-10-20_RANI': 0, '2025-10-20_RDHL': 0, '2025-10-20_REPL': 0, '2025-10-20_SLS': 0, '2025-10-20_SPRC': 0, '2025-10-20_SQQQ': 0, '2025-10-20_USARW': 0, '2025-10-20_VRCA': 0, '2025-10-21_ANRO': 0, '2025-10-21_ATMV': 0, '2025-10-21_BGLC': 0, '2025-10-21_BOF': 0, '2025-10-21_BYND': 0, '2025-10-21_CREV': 0, '2025-10-21_CTXR': 0, '2025-10-21_DCGO': 0, '2025-10-21_DGXX': 0, '2025-10-21_FGI': 0, '2025-10-21_GNLN': 0, '2025-10-21_GSIT': 0, '2025-10-21_IBIO': 0, '2025-10-21_IMPP': 0, '2025-10-21_IONZ': 0, '2025-10-21_JFU': 0, '2025-10-21_JWEL': 0, '2025-10-21_LGCB': 0, '2025-10-21_MAGH': 0, '2025-10-21_MEC': 0, '2025-10-21_MMA': 0, '2025-10-21_NCNA': 0, '2025-10-21_NERV': 0, '2025-10-21_OMSE': 0, '2025-10-21_RANI': 0, '2025-10-21_RDHL': 0, '2025-10-21_RYOJ': 0, '2025-10-21_SHPH': 0, '2025-10-21_SOXS': 0, '2025-10-21_SPRC': 0, '2025-10-21_SPRO': 0, '2025-10-21_SPWR': 0, '2025-10-21_SQQQ': 0, '2025-10-21_USARW': 0, '2025-10-21_VRCA': 0, '2025-10-22_AIRE': 0, '2025-10-22_AREB': 0, '2025-10-22_BENF': 0, '2025-10-22_BITF': 0, '2025-10-22_BNBX': 0, '2025-10-22_BOF': 0, '2025-10-22_BYND': 0, '2025-10-22_DNUT': 0, '2025-10-22_KDKRW': 0, '2025-10-22_LGCB': 0, '2025-10-22_MCTA': 0, '2025-10-22_NERV': 0, '2025-10-22_RANI': 0, '2025-10-22_SBEV': 0, '2025-10-22_SHMD': 0, '2025-10-22_SLGB': 0, '2025-10-22_SOXS': 0, '2025-10-22_SQQQ': 0, '2025-10-22_WOK': 0}
+2025-10-22T08:15:35.501970-0600 INFO total_trades_made: 2
+2025-10-22T08:15:35.502969-0600 INFO total_money_made: $-2.019452857142859
+2025-10-22T08:15:35.511159-0600 INFO --- Sharpe Ratio Calculation ---
+2025-10-22T08:15:35.512158-0600 INFO Annualized Sharpe Ratio: -2.29
+
+2025-10-22T08:15:35.514159-0600 INFO --- Maximum Drawdown Calculation ---
+2025-10-22T08:15:35.517160-0600 INFO Maximum Drawdown: 0.00%
+
+2025-10-22T08:15:35.518158-0600 INFO This means the largest loss from a peak was 0.00% of the portfolio's value.
+2025-10-22T08:15:35.520152-0600 INFO --- Win/Loss Breakdown ---
+2025-10-22T08:15:35.521149-0600 INFO Trades evaluated: 2
+2025-10-22T08:15:35.522151-0600 INFO Wins: 0  (0.00%)
+2025-10-22T08:15:35.524169-0600 INFO Losses: 2  (100.00%)
+2025-10-22T08:15:35.524169-0600 INFO Breakeven: 0  (0.00%)
+2025-10-22T08:15:35.527141-0600 INFO Avg Win: $0.00 | Avg Loss: $-1.01 | Profit Factor: 0.00
+2025-10-22T08:15:35.530139-0600 INFO --- Cost Sensitivity ---
+2025-10-22T08:15:35.532137-0600 INFO Assumed slippage per side: $0.010 (round-trip $0.020)
+2025-10-22T08:15:35.534277-0600 INFO Cost-flippable trades (|PnL| < $0.02): 0 / 2 (0.00%)
+2025-10-22T08:15:35.536279-0600 INFO Trades within ±3x cost: 0 / 2 (0.00%)
+2025-10-22T08:16:08.198633-0600 INFO Saved summary: C:\Users\Nick\Documents\MoneyGame\MoneyGame\moneygame\core\..\..\logs\2025-10-22_config_experiment_summary.csv
+2025-10-22T08:16:08.205889-0600 INFO Stopping script

@@ -1,0 +1,25 @@
+{
+  "holdings": [
+    {
+      "ticker": "TSLA",
+      "shares": 1.0,
+      "cost_basis": 436.6
+    },
+    {
+      "ticker": "MKSI",
+      "shares": 1.0,
+      "cost_basis": 188.88
+    },
+    {
+      "ticker": "MTSI",
+      "shares": 1.0,
+      "cost_basis": 210.19
+    },
+    {
+      "ticker": "LUNR",
+      "shares": 2.0,
+      "cost_basis": 12.03
+    }
+  ],
+  "saved_at": "2026-01-14T23:08:33.988037+00:00"
+}

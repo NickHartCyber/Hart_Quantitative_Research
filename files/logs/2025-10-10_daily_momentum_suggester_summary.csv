@@ -1,0 +1,2 @@
+config,total_pnl,num_trades,win_rate_pct,loss_rate_pct,breakeven_pct,profit_factor,sharpe,max_drawdown_pct,cagr_pct,calmar
+fast_ma_scalper,-721.6521680428822,939,38.65814696485623,61.34185303514377,0.0,0.8011272446809817,-1.630845544378502,31.726656026322814,-25.098797595064802,-0.7910949573204613

@@ -1,0 +1,56 @@
+# docker-compose.yml
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: ./backend/Dockerfile
+    container_name: hart-quantitative-research-backend
+    env_file:
+      - ../schwab_secrets/openai.env
+    environment:
+      - HART_QUANTITATIVE_RESEARCH_DATABASE_URL=postgresql+psycopg://hart_quantitative_research:hart_quantitative_research@db:5432/hart_quantitative_research
+    command: uvicorn backend.api:app --host 0.0.0.0 --port 8000
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend:/app/backend
+      - ./files:/app/files
+      - ../schwab_secrets:/schwab_secrets
+    depends_on:
+      - db
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: ./Dockerfile
+    container_name: hart-quantitative-research-frontend
+    environment:
+      - HOST=0.0.0.0
+      - PORT=3000
+      - CHOKIDAR_USEPOLLING=true
+      - BROWSER=none
+      - REACT_APP_API_BASE=http://localhost:8000
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+    stdin_open: true
+    tty: true
+
+  db:
+    image: postgres:16
+    container_name: hart-quantitative-research-db
+    environment:
+      - POSTGRES_USER=hart_quantitative_research
+      - POSTGRES_PASSWORD=hart_quantitative_research
+      - POSTGRES_DB=hart_quantitative_research
+    ports:
+      - "5432:5432"
+    volumes:
+      - hart-quantitative-research-db:/var/lib/postgresql/data
+
+volumes:
+  hart-quantitative-research-db:

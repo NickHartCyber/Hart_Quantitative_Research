@@ -1,0 +1,208 @@
+{
+  "metrics": {
+    "total_pnl": -0.3697000000000017,
+    "num_trades": 7,
+    "wins": 6,
+    "losses": 1,
+    "win_rate_pct": 85.71428571428571,
+    "gross_profit": 0.9902999999999995,
+    "gross_loss": -1.3600000000000012,
+    "profit_factor": 0.7281617647058813,
+    "avg_win": 0.16504999999999992,
+    "avg_loss": -1.3600000000000012,
+    "payoff_ratio": 0.12136029411764689,
+    "expectancy_per_trade": -0.052814285714286036,
+    "trade_sharpe": 0.5172031742618713,
+    "daily_sharpe_pnl_based": -5.125197243017156,
+    "max_drawdown_dollars": -1.3600000000000012,
+    "peak_cum_pnl": 0.0600000000000005,
+    "drawdown_duration_steps": 6,
+    "avg_holding_minutes": 2.078571428571429,
+    "median_holding_minutes": 1.3333333333333333
+  },
+  "trades": [
+    {
+      "symbol": "BNAI",
+      "direction": "long",
+      "qty": 1.0,
+      "entry_time": "2026-01-14T14:33:04+00:00",
+      "exit_time": "2026-01-14T14:33:16+00:00",
+      "entry_price": 4.14,
+      "exit_price": 4.2,
+      "pnl": 0.0600000000000005,
+      "return_pct": 0.01449275362318847,
+      "holding_minutes": 0.2,
+      "date": "2026-01-14",
+      "win": true
+    },
+    {
+      "symbol": "ROLR",
+      "direction": "long",
+      "qty": 1.0,
+      "entry_time": "2026-01-14T14:32:05+00:00",
+      "exit_time": "2026-01-14T14:38:32+00:00",
+      "entry_price": 16.3,
+      "exit_price": 14.94,
+      "pnl": -1.3600000000000012,
+      "return_pct": -0.08343558282208596,
+      "holding_minutes": 6.45,
+      "date": "2026-01-14",
+      "win": false
+    },
+    {
+      "symbol": "AGIG",
+      "direction": "long",
+      "qty": 1.0,
+      "entry_time": "2026-01-14T14:42:08+00:00",
+      "exit_time": "2026-01-14T14:43:41+00:00",
+      "entry_price": 3.9611,
+      "exit_price": 4.03,
+      "pnl": 0.06890000000000018,
+      "return_pct": 0.01739415818838208,
+      "holding_minutes": 1.55,
+      "date": "2026-01-14",
+      "win": true
+    },
+    {
+      "symbol": "BNAI",
+      "direction": "long",
+      "qty": 1.0,
+      "entry_time": "2026-01-14T14:47:06+00:00",
+      "exit_time": "2026-01-14T14:47:13+00:00",
+      "entry_price": 5.0999,
+      "exit_price": 5.22,
+      "pnl": 0.12009999999999987,
+      "return_pct": 0.023549481362379554,
+      "holding_minutes": 0.11666666666666667,
+      "date": "2026-01-14",
+      "win": true
+    },
+    {
+      "symbol": "BNAI",
+      "direction": "long",
+      "qty": 1.0,
+      "entry_time": "2026-01-14T14:52:06+00:00",
+      "exit_time": "2026-01-14T14:53:26+00:00",
+      "entry_price": 5.6543,
+      "exit_price": 5.82,
+      "pnl": 0.16570000000000018,
+      "return_pct": 0.029305130608563434,
+      "holding_minutes": 1.3333333333333333,
+      "date": "2026-01-14",
+      "win": true
+    },
+    {
+      "symbol": "ROLR",
+      "direction": "long",
+      "qty": 1.0,
+      "entry_time": "2026-01-14T16:28:06+00:00",
+      "exit_time": "2026-01-14T16:28:22+00:00",
+      "entry_price": 17.6244,
+      "exit_price": 17.98,
+      "pnl": 0.35559999999999903,
+      "return_pct": 0.02017657338689549,
+      "holding_minutes": 0.26666666666666666,
+      "date": "2026-01-14",
+      "win": true
+    },
+    {
+      "symbol": "CJMB",
+      "direction": "long",
+      "qty": 2.0,
+      "entry_time": "2026-01-15T15:20:54+00:00",
+      "exit_time": "2026-01-15T15:25:32+00:00",
+      "entry_price": 3.19,
+      "exit_price": 3.3,
+      "pnl": 0.21999999999999975,
+      "return_pct": 0.034482758620689724,
+      "holding_minutes": 4.633333333333334,
+      "date": "2026-01-15",
+      "win": true
+    }
+  ],
+  "per_symbol": [
+    {
+      "symbol": "BNAI",
+      "trades": 3,
+      "pnl": 0.34580000000000055,
+      "win_rate": 100.0,
+      "avg_return_pct": 0.022449121864710486,
+      "avg_holding_min": 0.5499999999999999
+    },
+    {
+      "symbol": "CJMB",
+      "trades": 1,
+      "pnl": 0.21999999999999975,
+      "win_rate": 100.0,
+      "avg_return_pct": 0.034482758620689724,
+      "avg_holding_min": 4.633333333333334
+    },
+    {
+      "symbol": "AGIG",
+      "trades": 1,
+      "pnl": 0.06890000000000018,
+      "win_rate": 100.0,
+      "avg_return_pct": 0.01739415818838208,
+      "avg_holding_min": 1.55
+    },
+    {
+      "symbol": "ROLR",
+      "trades": 2,
+      "pnl": -1.0044000000000022,
+      "win_rate": 50.0,
+      "avg_return_pct": -0.031629504717595236,
+      "avg_holding_min": 3.3583333333333334
+    }
+  ],
+  "equity_curve": [
+    {
+      "exit_time": "2026-01-14T14:33:16+00:00",
+      "pnl": 0.0600000000000005,
+      "cum_pnl": 0.0600000000000005
+    },
+    {
+      "exit_time": "2026-01-14T14:38:32+00:00",
+      "pnl": -1.3600000000000012,
+      "cum_pnl": -1.3000000000000007
+    },
+    {
+      "exit_time": "2026-01-14T14:43:41+00:00",
+      "pnl": 0.06890000000000018,
+      "cum_pnl": -1.2311000000000005
+    },
+    {
+      "exit_time": "2026-01-14T14:47:13+00:00",
+      "pnl": 0.12009999999999987,
+      "cum_pnl": -1.1110000000000007
+    },
+    {
+      "exit_time": "2026-01-14T14:53:26+00:00",
+      "pnl": 0.16570000000000018,
+      "cum_pnl": -0.9453000000000005
+    },
+    {
+      "exit_time": "2026-01-14T16:28:22+00:00",
+      "pnl": 0.35559999999999903,
+      "cum_pnl": -0.5897000000000014
+    },
+    {
+      "exit_time": "2026-01-15T15:25:32+00:00",
+      "pnl": 0.21999999999999975,
+      "cum_pnl": -0.3697000000000017
+    }
+  ],
+  "daily_pnl": [
+    {
+      "date": "2026-01-14",
+      "pnl": -0.5897000000000014
+    },
+    {
+      "date": "2026-01-15",
+      "pnl": 0.21999999999999975
+    }
+  ],
+  "order_count": 20,
+  "fetched_at": "2026-01-20T19:49:40.781792+00:00",
+  "source": "cache:2025-10-22_to_2026-01-20_order_history.csv",
+  "cache_file": "2025-10-22_to_2026-01-20_order_history.csv"
+}

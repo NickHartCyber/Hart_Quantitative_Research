@@ -1,0 +1,2037 @@
+2026-01-05T14:56:49.847754+0000 INFO Starting token refresh...
+2026-01-05T14:56:49.857646+0000 DEBUG Loaded secrets from schwab_secrets.json
+2026-01-05T14:56:49.865519+0000 DEBUG Loaded secrets from schwab_auth_token.json
+2026-01-05T14:56:50.643881+0000 DEBUG Refresh token response status=200
+2026-01-05T14:56:50.650463+0000 DEBUG Updated schwab_auth_token.json successfully.
+2026-01-05T14:56:50.654536+0000 INFO Access/refresh tokens successfully refreshed and stored.
+2026-01-05T14:56:50.661441+0000 DEBUG Loaded secrets from schwab_auth_token.json
+2026-01-05T14:56:50.664523+0000 DEBUG Loaded secrets from schwab_auth_token.json
+2026-01-05T14:56:50.987746+0000 DEBUG Loaded secrets from stock_news_api_token.json
+2026-01-05T14:56:51.014756+0000 INFO Scanning for ten percent gainers
+2026-01-05T14:56:51.015369+0000 DEBUG now_et: 09:56:51.014686
+2026-01-05T14:56:51.015585+0000 DEBUG Fetching Equity movers (PERCENT_CHANGE_UP)
+2026-01-05T14:56:51.506000+0000 DEBUG Creating Ten Percent Gainers List
+2026-01-05T14:56:51.516729+0000 DEBUG ten_per_movers shape: (3, 9)
+2026-01-05T14:56:51.529642+0000 DEBUG Loaded secrets from schwab_auth_token.json
+2026-01-05T14:56:51.531880+0000 DEBUG Loaded secrets from schwab_auth_token.json
+2026-01-05T14:56:51.907323+0000 DEBUG Loaded secrets from stock_news_api_token.json
+2026-01-05T14:56:52.599160+0000 DEBUG ten_per_gainers:         description    volume lastPrice  ...  trades netPercentChange symbol
+0  DATAVAULT AI INC  95288953      1.33  ...  134718           0.3119   DVLT
+1      VERIFYME INC  61471301      1.14  ...  147034           0.6825   VRME
+2      STRIVE INC A  35892839       1.0  ...   34233           0.1534   ASST
+
+[3 rows x 9 columns]
+2026-01-05T14:56:52.602368+0000 INFO Connecting to Gmail...
+2026-01-05T14:56:52.635615+0000 INFO Connected to Gmail.
+2026-01-05T14:56:52.638542+0000 DEBUG Scanning Gmail for tickers…
+2026-01-05T15:01:44.570295+0000 INFO New Email Subject: Alert: New symbols: HYPD, JOBY/WS, MNTS, SHPH, TENX, UUU, VELO were added to Ross_Pre_Market_Custom.
+2026-01-05T15:01:44.570632+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Momo_Custom.
+2026-01-05T15:01:44.570733+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Momo_Custom.
+2026-01-05T15:01:44.570944+0000 INFO New Email Subject: Alert: New symbol: ASTI was added to Ross_Pre_Market_Custom.
+2026-01-05T15:01:44.571042+0000 INFO New Email Subject: Alert: New symbol: VBIX was added to Ross_Pre_Market_Custom.
+2026-01-05T15:01:44.571126+0000 INFO New Email Subject: Alert: New symbol: MPJPY was added to Ross_Pre_Market_Custom.
+2026-01-05T15:01:44.571260+0000 INFO New Email Subject: Alert: New symbol: TENX was added to Ross_Pre_Market_Custom.
+2026-01-05T15:01:44.571959+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:01:44.572098+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:01:44.572226+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:01:44.572364+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:01:44.572522+0000 INFO New Email Subject: Alert: New symbol: ALCY was added to Ross_Pre_Market_Custom.
+2026-01-05T15:01:44.572986+0000 INFO New Email Subject: Alert: New symbol: AGIG was added to Ross_Pre_Market_Custom.
+2026-01-05T15:01:44.573437+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:01:44.573555+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:01:44.573675+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:01:44.573771+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:01:44.573974+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:01:44.574467+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:01:44.574610+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:01:44.574760+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:01:44.574917+0000 INFO New Email Subject: Alert: New symbol: VVPR was added to Ross_Pre_Market_Custom.
+2026-01-05T15:01:44.575076+0000 INFO New Email Subject: Alert: New symbol: DFSC was added to Ross_Pre_Market_Custom.
+2026-01-05T15:01:44.575342+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:01:44.575512+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:01:44.575729+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:01:44.575972+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:01:44.576150+0000 INFO New Email Subject: Alert: New symbol: INBS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:01:44.576350+0000 INFO New Email Subject: Alert: New symbol: BDRX was added to Ross_Pre_Market_Custom.
+2026-01-05T15:01:44.958124+0000 DEBUG gmail quotes shape: (11, 16)
+2026-01-05T15:01:45.978157+0000 INFO Ten_percent_gainers snapshot rows=17
+2026-01-05T15:01:45.979759+0000 DEBUG Putting updated ten_percent_gainers on queue.
+2026-01-05T15:01:45.980635+0000 DEBUG Scanning bot sleeping for ~3 min
+2026-01-05T15:04:46.016658+0000 INFO Scanning for ten percent gainers
+2026-01-05T15:04:46.017381+0000 DEBUG now_et: 10:04:46.016573
+2026-01-05T15:04:46.018091+0000 DEBUG Fetching Equity movers (PERCENT_CHANGE_UP)
+2026-01-05T15:04:46.430865+0000 DEBUG Creating Ten Percent Gainers List
+2026-01-05T15:04:46.436007+0000 DEBUG ten_per_movers shape: (3, 9)
+2026-01-05T15:04:47.466374+0000 DEBUG ten_per_gainers:                     description     volume  ... symbol ticker_rating
+0              DATAVAULT AI INC  108963226  ...   DVLT           NaN
+1                  VERIFYME INC   71576554  ...   VRME           NaN
+2                  STRIVE INC A   43919972  ...   ASST           NaN
+3             HYPERION DEFI INC     147094  ...   HYPD           0.5
+4                MOMENTUS INC A   36491221  ...   MNTS           0.5
+5          SHUTTLE PHARMACEUTIC      51621  ...   SHPH           0.5
+6          TENAX THERAPEUTICS I     204167  ...   TENX           0.5
+7          UNIVERSAL SAFETY PRO     173345  ...    UUU           0.5
+8                    VELO3D INC     840901  ...   VELO           0.5
+9   ASCENT SOLAR TECHNOL Equity    1815738  ...   ASTI           0.5
+10                  VIEWBIX INC      91514  ...   VBIX           0.5
+11           METAPLANET INC ADR     819319  ...  MPJPY           0.5
+12       ALCHEMY INVTS ACQUIS A      86660  ...   ALCY           0.5
+13         ABUNDIA GLOBAL IMPAC     164522  ...   AGIG           0.5
+14             ROBIN ENERGY LTD     154289  ...   RBNE           0.5
+15          DEFSEC TECHNOLOGIES      42802  ...   DFSC           0.5
+16         INTELLIGENT BIO SOLU    2147016  ...   INBS           0.5
+
+[17 rows x 10 columns]
+2026-01-05T15:04:47.466831+0000 INFO Connecting to Gmail...
+2026-01-05T15:04:47.472756+0000 INFO Connected to Gmail.
+2026-01-05T15:04:47.473068+0000 DEBUG Scanning Gmail for tickers…
+2026-01-05T15:04:53.665642+0000 INFO New Email Subject: Alert: New symbols: HYPD, JOBY/WS, MNTS, SHPH, TENX, UUU, VELO were added to Ross_Pre_Market_Custom.
+2026-01-05T15:04:53.665954+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Momo_Custom.
+2026-01-05T15:04:53.666054+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Momo_Custom.
+2026-01-05T15:04:53.666138+0000 INFO New Email Subject: Alert: New symbol: ASTI was added to Ross_Pre_Market_Custom.
+2026-01-05T15:04:53.666262+0000 INFO New Email Subject: Alert: New symbol: VBIX was added to Ross_Pre_Market_Custom.
+2026-01-05T15:04:53.666342+0000 INFO New Email Subject: Alert: New symbol: MPJPY was added to Ross_Pre_Market_Custom.
+2026-01-05T15:04:53.666438+0000 INFO New Email Subject: Alert: New symbol: TENX was added to Ross_Pre_Market_Custom.
+2026-01-05T15:04:53.666544+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:04:53.666617+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:04:53.666759+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:04:53.667977+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:04:53.668230+0000 INFO New Email Subject: Alert: New symbol: ALCY was added to Ross_Pre_Market_Custom.
+2026-01-05T15:04:53.668483+0000 INFO New Email Subject: Alert: New symbol: AGIG was added to Ross_Pre_Market_Custom.
+2026-01-05T15:04:53.668682+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:04:53.668876+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:04:53.669070+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:04:53.669182+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:04:53.669427+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:04:53.669662+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:04:53.669905+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:04:53.670094+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:04:53.670315+0000 INFO New Email Subject: Alert: New symbol: VVPR was added to Ross_Pre_Market_Custom.
+2026-01-05T15:04:53.670500+0000 INFO New Email Subject: Alert: New symbol: DFSC was added to Ross_Pre_Market_Custom.
+2026-01-05T15:04:53.670714+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:04:53.670949+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:04:53.671156+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:04:53.671401+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:04:53.671614+0000 INFO New Email Subject: Alert: New symbol: INBS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:04:53.671793+0000 INFO New Email Subject: Alert: New symbol: BDRX was added to Ross_Pre_Market_Custom.
+2026-01-05T15:04:53.975516+0000 DEBUG gmail quotes shape: (11, 16)
+2026-01-05T15:04:54.989331+0000 INFO Ten_percent_gainers snapshot rows=19
+2026-01-05T15:04:54.989870+0000 DEBUG Putting updated ten_percent_gainers on queue.
+2026-01-05T15:04:54.990033+0000 DEBUG Scanning bot sleeping for ~3 min
+2026-01-05T15:07:55.013513+0000 INFO Scanning for ten percent gainers
+2026-01-05T15:07:55.014005+0000 DEBUG now_et: 10:07:55.013451
+2026-01-05T15:07:55.014263+0000 DEBUG Fetching Equity movers (PERCENT_CHANGE_UP)
+2026-01-05T15:07:55.302427+0000 DEBUG Creating Ten Percent Gainers List
+2026-01-05T15:07:55.306427+0000 DEBUG ten_per_movers shape: (3, 9)
+2026-01-05T15:07:56.328462+0000 DEBUG ten_per_gainers:                     description     volume  ... symbol ticker_rating
+0              DATAVAULT AI INC  112596024  ...   DVLT           NaN
+1                  VERIFYME INC   77080066  ...   VRME           NaN
+2                  STRIVE INC A   45730344  ...   ASST           NaN
+3             HYPERION DEFI INC     171657  ...   HYPD           0.5
+4                MOMENTUS INC A   37821801  ...   MNTS           0.5
+5          SHUTTLE PHARMACEUTIC      54175  ...   SHPH           0.5
+6          TENAX THERAPEUTICS I     210084  ...   TENX           0.5
+7          UNIVERSAL SAFETY PRO     188978  ...    UUU           0.5
+8                    VELO3D INC     865530  ...   VELO           0.5
+9   ASCENT SOLAR TECHNOL Equity    2472266  ...   ASTI           0.5
+10                  VIEWBIX INC      95229  ...   VBIX           0.5
+11           METAPLANET INC ADR     841422  ...  MPJPY           0.5
+12       ALCHEMY INVTS ACQUIS A      88459  ...   ALCY           0.5
+13         ABUNDIA GLOBAL IMPAC     174867  ...   AGIG           0.5
+14             ROBIN ENERGY LTD     163889  ...   RBNE           0.5
+15           VIVOPOWER INTL PLC      60983  ...   VVPR           0.5
+16          DEFSEC TECHNOLOGIES      43182  ...   DFSC           0.5
+17         INTELLIGENT BIO SOLU    2430359  ...   INBS           0.5
+18     BIODEXA PHARMACEUTIC ADR      47169  ...   BDRX           0.5
+
+[19 rows x 10 columns]
+2026-01-05T15:07:56.328845+0000 INFO Connecting to Gmail...
+2026-01-05T15:07:56.334195+0000 INFO Connected to Gmail.
+2026-01-05T15:07:56.334556+0000 DEBUG Scanning Gmail for tickers…
+2026-01-05T15:08:02.571233+0000 INFO New Email Subject: Alert: New symbols: HYPD, JOBY/WS, MNTS, SHPH, TENX, UUU, VELO were added to Ross_Pre_Market_Custom.
+2026-01-05T15:08:02.571557+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Momo_Custom.
+2026-01-05T15:08:02.571654+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Momo_Custom.
+2026-01-05T15:08:02.571777+0000 INFO New Email Subject: Alert: New symbol: ASTI was added to Ross_Pre_Market_Custom.
+2026-01-05T15:08:02.571874+0000 INFO New Email Subject: Alert: New symbol: VBIX was added to Ross_Pre_Market_Custom.
+2026-01-05T15:08:02.571946+0000 INFO New Email Subject: Alert: New symbol: MPJPY was added to Ross_Pre_Market_Custom.
+2026-01-05T15:08:02.572015+0000 INFO New Email Subject: Alert: New symbol: TENX was added to Ross_Pre_Market_Custom.
+2026-01-05T15:08:02.572084+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:08:02.572170+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:08:02.572688+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:08:02.572828+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:08:02.572922+0000 INFO New Email Subject: Alert: New symbol: ALCY was added to Ross_Pre_Market_Custom.
+2026-01-05T15:08:02.573007+0000 INFO New Email Subject: Alert: New symbol: AGIG was added to Ross_Pre_Market_Custom.
+2026-01-05T15:08:02.573107+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:08:02.574415+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:08:02.574586+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:08:02.574733+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:08:02.574833+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:08:02.574923+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:08:02.575016+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:08:02.575102+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:08:02.575218+0000 INFO New Email Subject: Alert: New symbol: VVPR was added to Ross_Pre_Market_Custom.
+2026-01-05T15:08:02.575312+0000 INFO New Email Subject: Alert: New symbol: DFSC was added to Ross_Pre_Market_Custom.
+2026-01-05T15:08:02.575396+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:08:02.576328+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:08:02.576458+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:08:02.576564+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:08:02.576649+0000 INFO New Email Subject: Alert: New symbol: INBS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:08:02.576748+0000 INFO New Email Subject: Alert: New symbol: BDRX was added to Ross_Pre_Market_Custom.
+2026-01-05T15:08:02.875077+0000 DEBUG gmail quotes shape: (11, 16)
+2026-01-05T15:08:08.965029+0000 INFO Ten_percent_gainers snapshot rows=19
+2026-01-05T15:08:08.966011+0000 DEBUG Putting updated ten_percent_gainers on queue.
+2026-01-05T15:08:08.966271+0000 DEBUG Scanning bot sleeping for ~3 min
+2026-01-05T15:09:06.829542+0000 INFO [VRME] BUY trigger (boll/rVol) @ ~1.31 green_vol_ratio=1.65 rvol=1.59
+2026-01-05T15:09:06.830422+0000 DEBUG place_buy coid: VRME-BUY-20260105T150906-2044
+2026-01-05T15:09:06.831152+0000 DEBUG {'price': None, 'session': 'NORMAL', 'duration': 'DAY', 'orderType': 'MARKET', 'complexOrderStrategyType': 'NONE', 'quantity': 1, 'taxLotMethod': 'FIFO', 'orderLegCollection': [{'orderLegType': 'EQUITY', 'legId': 1, 'instrument': {'symbol': 'VRME', 'assetType': 'EQUITY'}, 'instruction': 'BUY', 'positionEffect': 'OPENING', 'quantity': 1}], 'orderStrategyType': 'SINGLE'}
+2026-01-05T15:09:07.201038+0000 INFO Order Placed Successfully
+2026-01-05T15:09:07.204381+0000 DEBUG create_order order_or_resp:
+{'price': None, 'session': 'NORMAL', 'duration': 'DAY', 'orderType': 'MARKET', 'complexOrderStrategyType': 'NONE', 'quantity': 1, 'taxLotMethod': 'FIFO', 'orderLegCollection': [{'orderLegType': 'EQUITY', 'legId': 1, 'instrument': {'symbol': 'VRME', 'assetType': 'EQUITY'}, 'instruction': 'BUY', 'positionEffect': 'OPENING', 'quantity': 1}], 'orderStrategyType': 'SINGLE'}
+2026-01-05T15:09:07.205369+0000 DEBUG place_buy payload_dict:
+{'price': None, 'session': 'NORMAL', 'duration': 'DAY', 'orderType': 'MARKET', 'complexOrderStrategyType': 'NONE', 'quantity': 1, 'taxLotMethod': 'FIFO', 'orderLegCollection': [{'orderLegType': 'EQUITY', 'legId': 1, 'instrument': {'symbol': 'VRME', 'assetType': 'EQUITY'}, 'instruction': 'BUY', 'positionEffect': 'OPENING', 'quantity': 1}], 'orderStrategyType': 'SINGLE', 'clientOrderId': 'VRME-BUY-20260105T150906-2044'}
+2026-01-05T15:09:10.095027+0000 DEBUG Order filled: session                                                                NORMAL
+duration                                                                  DAY
+orderType                                                              MARKET
+complexOrderStrategyType                                                 NONE
+quantity                                                                  1.0
+filledQuantity                                                            1.0
+remainingQuantity                                                         0.0
+requestedDestination                                                     AUTO
+destinationLinkName                                                      GTSM
+taxLotMethod                                                             FIFO
+orderLegCollection          [{'orderLegType': 'EQUITY', 'legId': 1, 'instr...
+orderStrategyType                                                      SINGLE
+orderId                                                         1005048853287
+cancelable                                                              False
+editable                                                                False
+status                                                                 FILLED
+enteredTime                                          2026-01-05T15:09:07+0000
+closeTime                                            2026-01-05T15:09:07+0000
+tag                                             TA_hartnc15gmailcom1741705857
+accountNumber                                                        80157725
+orderActivityCollection     [{'activityType': 'EXECUTION', 'activityId': 1...
+Name: 0, dtype: object
+2026-01-05T15:09:10.097052+0000 DEBUG fill: Fill(price=1.3165, quantity=1, time=None), status: OrderStatus.FILLED, order_series: session                                                                NORMAL
+duration                                                                  DAY
+orderType                                                              MARKET
+complexOrderStrategyType                                                 NONE
+quantity                                                                  1.0
+filledQuantity                                                            1.0
+remainingQuantity                                                         0.0
+requestedDestination                                                     AUTO
+destinationLinkName                                                      GTSM
+taxLotMethod                                                             FIFO
+orderLegCollection          [{'orderLegType': 'EQUITY', 'legId': 1, 'instr...
+orderStrategyType                                                      SINGLE
+orderId                                                         1005048853287
+cancelable                                                              False
+editable                                                                False
+status                                                                 FILLED
+enteredTime                                          2026-01-05T15:09:07+0000
+closeTime                                            2026-01-05T15:09:07+0000
+tag                                             TA_hartnc15gmailcom1741705857
+accountNumber                                                        80157725
+orderActivityCollection     [{'activityType': 'EXECUTION', 'activityId': 1...
+Name: 0, dtype: object
+2026-01-05T15:09:10.104499+0000 INFO [VRME] placing LIMIT SELL @ 1.35 (+0.03)
+2026-01-05T15:09:10.104921+0000 DEBUG place_sell coid: VRME-SELL-20260105T150910-9591
+2026-01-05T15:09:10.105292+0000 DEBUG {'price': 1.35, 'session': 'NORMAL', 'duration': 'DAY', 'orderType': 'MARKET', 'complexOrderStrategyType': 'NONE', 'quantity': 1, 'taxLotMethod': 'FIFO', 'orderLegCollection': [{'orderLegType': 'EQUITY', 'legId': 1, 'instrument': {'symbol': 'VRME', 'assetType': 'EQUITY'}, 'instruction': 'SELL', 'positionEffect': 'OPENING', 'quantity': 1}], 'orderStrategyType': 'SINGLE'}
+2026-01-05T15:09:10.424439+0000 ERROR Error in response with message: {"message":"Limit price must be populated only for limit orders."}
+2026-01-05T15:09:10.424927+0000 ERROR Error code: 400
+2026-01-05T15:09:10.427467+0000 DEBUG create_order order_or_resp:
+{"message":"Limit price must be populated only for limit orders."}
+2026-01-05T15:09:10.428108+0000 ERROR create_stop_loss_order order_or_resp:
+{"message":"Limit price must be populated only for limit orders."}
+2026-01-05T15:09:10.428634+0000 ERROR create_stop_loss_order type(order_or_resp):
+<class 'str'>
+2026-01-05T15:09:10.428957+0000 DEBUG place_sell payload_dict:
+None
+2026-01-05T15:09:10.429259+0000 ERROR VRME: broker returned error response for SELL.
+2026-01-05T15:09:10.429477+0000 ERROR [VRME] limit sell placement failed; fallback SELL @ MKT
+2026-01-05T15:09:10.429653+0000 DEBUG place_sell coid: VRME-SELL-20260105T150910-4329
+2026-01-05T15:09:10.430060+0000 DEBUG {'price': None, 'session': 'NORMAL', 'duration': 'DAY', 'orderType': 'MARKET', 'complexOrderStrategyType': 'NONE', 'quantity': 1, 'taxLotMethod': 'FIFO', 'orderLegCollection': [{'orderLegType': 'EQUITY', 'legId': 1, 'instrument': {'symbol': 'VRME', 'assetType': 'EQUITY'}, 'instruction': 'SELL', 'positionEffect': 'OPENING', 'quantity': 1}], 'orderStrategyType': 'SINGLE'}
+2026-01-05T15:09:10.933168+0000 INFO Order Placed Successfully
+2026-01-05T15:09:10.935910+0000 DEBUG create_order order_or_resp:
+{'price': None, 'session': 'NORMAL', 'duration': 'DAY', 'orderType': 'MARKET', 'complexOrderStrategyType': 'NONE', 'quantity': 1, 'taxLotMethod': 'FIFO', 'orderLegCollection': [{'orderLegType': 'EQUITY', 'legId': 1, 'instrument': {'symbol': 'VRME', 'assetType': 'EQUITY'}, 'instruction': 'SELL', 'positionEffect': 'OPENING', 'quantity': 1}], 'orderStrategyType': 'SINGLE'}
+2026-01-05T15:09:10.936942+0000 DEBUG place_sell payload_dict:
+{'price': None, 'session': 'NORMAL', 'duration': 'DAY', 'orderType': 'MARKET', 'complexOrderStrategyType': 'NONE', 'quantity': 1, 'taxLotMethod': 'FIFO', 'orderLegCollection': [{'orderLegType': 'EQUITY', 'legId': 1, 'instrument': {'symbol': 'VRME', 'assetType': 'EQUITY'}, 'instruction': 'SELL', 'positionEffect': 'OPENING', 'quantity': 1}], 'orderStrategyType': 'SINGLE', 'clientOrderId': 'VRME-SELL-20260105T150910-4329'}
+2026-01-05T15:09:14.141131+0000 DEBUG Order filled: session                                                                NORMAL
+duration                                                                  DAY
+orderType                                                              MARKET
+complexOrderStrategyType                                                 NONE
+quantity                                                                  1.0
+filledQuantity                                                            1.0
+remainingQuantity                                                         0.0
+requestedDestination                                                     AUTO
+destinationLinkName                                                      INTL
+taxLotMethod                                                             FIFO
+orderLegCollection          [{'orderLegType': 'EQUITY', 'legId': 1, 'instr...
+orderStrategyType                                                      SINGLE
+orderId                                                         1005048853299
+cancelable                                                              False
+editable                                                                False
+status                                                                 FILLED
+enteredTime                                          2026-01-05T15:09:10+0000
+closeTime                                            2026-01-05T15:09:10+0000
+tag                                             TA_hartnc15gmailcom1741705857
+accountNumber                                                        80157725
+orderActivityCollection     [{'activityType': 'EXECUTION', 'activityId': 1...
+Name: 0, dtype: object
+2026-01-05T15:09:14.143894+0000 DEBUG SELL fill: Fill(price=1.3132, quantity=1, time=None), status: OrderStatus.FILLED, order_series: session                                                                NORMAL
+duration                                                                  DAY
+orderType                                                              MARKET
+complexOrderStrategyType                                                 NONE
+quantity                                                                  1.0
+filledQuantity                                                            1.0
+remainingQuantity                                                         0.0
+requestedDestination                                                     AUTO
+destinationLinkName                                                      INTL
+taxLotMethod                                                             FIFO
+orderLegCollection          [{'orderLegType': 'EQUITY', 'legId': 1, 'instr...
+orderStrategyType                                                      SINGLE
+orderId                                                         1005048853299
+cancelable                                                              False
+editable                                                                False
+status                                                                 FILLED
+enteredTime                                          2026-01-05T15:09:10+0000
+closeTime                                            2026-01-05T15:09:10+0000
+tag                                             TA_hartnc15gmailcom1741705857
+accountNumber                                                        80157725
+orderActivityCollection     [{'activityType': 'EXECUTION', 'activityId': 1...
+Name: 0, dtype: object
+2026-01-05T15:11:07.613478+0000 INFO [INBS] BUY trigger (boll/rVol) @ ~12.02 green_vol_ratio=1.64 rvol=2.08
+2026-01-05T15:11:07.614386+0000 DEBUG place_buy coid: INBS-BUY-20260105T151107-2358
+2026-01-05T15:11:07.615090+0000 DEBUG {'price': None, 'session': 'NORMAL', 'duration': 'DAY', 'orderType': 'MARKET', 'complexOrderStrategyType': 'NONE', 'quantity': 1, 'taxLotMethod': 'FIFO', 'orderLegCollection': [{'orderLegType': 'EQUITY', 'legId': 1, 'instrument': {'symbol': 'INBS', 'assetType': 'EQUITY'}, 'instruction': 'BUY', 'positionEffect': 'OPENING', 'quantity': 1}], 'orderStrategyType': 'SINGLE'}
+2026-01-05T15:11:07.952383+0000 INFO Order Placed Successfully
+2026-01-05T15:11:07.955242+0000 DEBUG create_order order_or_resp:
+{'price': None, 'session': 'NORMAL', 'duration': 'DAY', 'orderType': 'MARKET', 'complexOrderStrategyType': 'NONE', 'quantity': 1, 'taxLotMethod': 'FIFO', 'orderLegCollection': [{'orderLegType': 'EQUITY', 'legId': 1, 'instrument': {'symbol': 'INBS', 'assetType': 'EQUITY'}, 'instruction': 'BUY', 'positionEffect': 'OPENING', 'quantity': 1}], 'orderStrategyType': 'SINGLE'}
+2026-01-05T15:11:07.956102+0000 DEBUG place_buy payload_dict:
+{'price': None, 'session': 'NORMAL', 'duration': 'DAY', 'orderType': 'MARKET', 'complexOrderStrategyType': 'NONE', 'quantity': 1, 'taxLotMethod': 'FIFO', 'orderLegCollection': [{'orderLegType': 'EQUITY', 'legId': 1, 'instrument': {'symbol': 'INBS', 'assetType': 'EQUITY'}, 'instruction': 'BUY', 'positionEffect': 'OPENING', 'quantity': 1}], 'orderStrategyType': 'SINGLE', 'clientOrderId': 'INBS-BUY-20260105T151107-2358'}
+2026-01-05T15:11:08.968069+0000 INFO Scanning for ten percent gainers
+2026-01-05T15:11:08.968420+0000 DEBUG now_et: 10:11:08.968011
+2026-01-05T15:11:08.968546+0000 DEBUG Fetching Equity movers (PERCENT_CHANGE_UP)
+2026-01-05T15:11:09.748739+0000 DEBUG Creating Ten Percent Gainers List
+2026-01-05T15:11:09.752471+0000 DEBUG ten_per_movers shape: (2, 9)
+2026-01-05T15:11:10.773289+0000 DEBUG ten_per_gainers:                     description     volume  ... symbol ticker_rating
+0              DATAVAULT AI INC  116126409  ...   DVLT           NaN
+1                  VERIFYME INC   85299469  ...   VRME           NaN
+2             HYPERION DEFI INC     182640  ...   HYPD           0.5
+3                MOMENTUS INC A   38667831  ...   MNTS           0.5
+4          SHUTTLE PHARMACEUTIC      55603  ...   SHPH           0.5
+5          TENAX THERAPEUTICS I     210953  ...   TENX           0.5
+6          UNIVERSAL SAFETY PRO     198045  ...    UUU           0.5
+7                    VELO3D INC     889451  ...   VELO           0.5
+8   ASCENT SOLAR TECHNOL Equity    2727221  ...   ASTI           0.5
+9                   VIEWBIX INC      95230  ...   VBIX           0.5
+10           METAPLANET INC ADR     855227  ...  MPJPY           0.5
+11       ALCHEMY INVTS ACQUIS A      93737  ...   ALCY           0.5
+12         ABUNDIA GLOBAL IMPAC     175220  ...   AGIG           0.5
+13             ROBIN ENERGY LTD     174318  ...   RBNE           0.5
+14           VIVOPOWER INTL PLC      67950  ...   VVPR           0.5
+15          DEFSEC TECHNOLOGIES      44791  ...   DFSC           0.5
+16         INTELLIGENT BIO SOLU    2592955  ...   INBS           0.5
+17     BIODEXA PHARMACEUTIC ADR      47402  ...   BDRX           0.5
+18                 STRIVE INC A   45730344  ...   ASST           0.5
+
+[19 rows x 10 columns]
+2026-01-05T15:11:10.773861+0000 INFO Connecting to Gmail...
+2026-01-05T15:11:10.779057+0000 INFO Connected to Gmail.
+2026-01-05T15:11:10.779279+0000 DEBUG Scanning Gmail for tickers…
+2026-01-05T15:11:17.110105+0000 INFO New Email Subject: Alert: New symbols: HYPD, JOBY/WS, MNTS, SHPH, TENX, UUU, VELO were added to Ross_Pre_Market_Custom.
+2026-01-05T15:11:17.110493+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Momo_Custom.
+2026-01-05T15:11:17.110603+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Momo_Custom.
+2026-01-05T15:11:17.110694+0000 INFO New Email Subject: Alert: New symbol: ASTI was added to Ross_Pre_Market_Custom.
+2026-01-05T15:11:17.110779+0000 INFO New Email Subject: Alert: New symbol: VBIX was added to Ross_Pre_Market_Custom.
+2026-01-05T15:11:17.110911+0000 INFO New Email Subject: Alert: New symbol: MPJPY was added to Ross_Pre_Market_Custom.
+2026-01-05T15:11:17.111032+0000 INFO New Email Subject: Alert: New symbol: TENX was added to Ross_Pre_Market_Custom.
+2026-01-05T15:11:17.111180+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:11:17.112225+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:11:17.112435+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:11:17.112595+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:11:17.112747+0000 INFO New Email Subject: Alert: New symbol: ALCY was added to Ross_Pre_Market_Custom.
+2026-01-05T15:11:17.113020+0000 INFO New Email Subject: Alert: New symbol: AGIG was added to Ross_Pre_Market_Custom.
+2026-01-05T15:11:17.113368+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:11:17.113538+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:11:17.113775+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:11:17.114126+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:11:17.114386+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:11:17.114697+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:11:17.115046+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:11:17.115365+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:11:17.115695+0000 INFO New Email Subject: Alert: New symbol: VVPR was added to Ross_Pre_Market_Custom.
+2026-01-05T15:11:17.115984+0000 INFO New Email Subject: Alert: New symbol: DFSC was added to Ross_Pre_Market_Custom.
+2026-01-05T15:11:17.116360+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:11:17.116613+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:11:17.116914+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:11:17.117228+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:11:17.117424+0000 INFO New Email Subject: Alert: New symbol: INBS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:11:17.117657+0000 INFO New Email Subject: Alert: New symbol: BDRX was added to Ross_Pre_Market_Custom.
+2026-01-05T15:11:17.444416+0000 DEBUG gmail quotes shape: (11, 16)
+2026-01-05T15:11:17.781251+0000 DEBUG Order filled: session                                                                NORMAL
+duration                                                                  DAY
+orderType                                                              MARKET
+complexOrderStrategyType                                                 NONE
+quantity                                                                  1.0
+filledQuantity                                                            1.0
+remainingQuantity                                                         0.0
+requestedDestination                                                     AUTO
+destinationLinkName                                                      JNST
+taxLotMethod                                                             FIFO
+orderLegCollection          [{'orderLegType': 'EQUITY', 'legId': 1, 'instr...
+orderStrategyType                                                      SINGLE
+orderId                                                         1005048853545
+cancelable                                                              False
+editable                                                                False
+status                                                                 FILLED
+enteredTime                                          2026-01-05T15:11:07+0000
+closeTime                                            2026-01-05T15:11:07+0000
+tag                                             TA_hartnc15gmailcom1741705857
+accountNumber                                                        80157725
+orderActivityCollection     [{'activityType': 'EXECUTION', 'activityId': 1...
+Name: 0, dtype: object
+2026-01-05T15:11:17.783880+0000 DEBUG fill: Fill(price=12.17, quantity=1, time=None), status: OrderStatus.FILLED, order_series: session                                                                NORMAL
+duration                                                                  DAY
+orderType                                                              MARKET
+complexOrderStrategyType                                                 NONE
+quantity                                                                  1.0
+filledQuantity                                                            1.0
+remainingQuantity                                                         0.0
+requestedDestination                                                     AUTO
+destinationLinkName                                                      JNST
+taxLotMethod                                                             FIFO
+orderLegCollection          [{'orderLegType': 'EQUITY', 'legId': 1, 'instr...
+orderStrategyType                                                      SINGLE
+orderId                                                         1005048853545
+cancelable                                                              False
+editable                                                                False
+status                                                                 FILLED
+enteredTime                                          2026-01-05T15:11:07+0000
+closeTime                                            2026-01-05T15:11:07+0000
+tag                                             TA_hartnc15gmailcom1741705857
+accountNumber                                                        80157725
+orderActivityCollection     [{'activityType': 'EXECUTION', 'activityId': 1...
+Name: 0, dtype: object
+2026-01-05T15:11:17.788341+0000 INFO [INBS] placing LIMIT SELL @ 12.45 (+0.28)
+2026-01-05T15:11:17.788735+0000 DEBUG place_sell coid: INBS-SELL-20260105T151117-4942
+2026-01-05T15:11:17.789130+0000 DEBUG {'price': 12.45, 'session': 'NORMAL', 'duration': 'DAY', 'orderType': 'MARKET', 'complexOrderStrategyType': 'NONE', 'quantity': 1, 'taxLotMethod': 'FIFO', 'orderLegCollection': [{'orderLegType': 'EQUITY', 'legId': 1, 'instrument': {'symbol': 'INBS', 'assetType': 'EQUITY'}, 'instruction': 'SELL', 'positionEffect': 'OPENING', 'quantity': 1}], 'orderStrategyType': 'SINGLE'}
+2026-01-05T15:11:18.081927+0000 ERROR Error in response with message: {"message":"Limit price must be populated only for limit orders."}
+2026-01-05T15:11:18.082731+0000 ERROR Error code: 400
+2026-01-05T15:11:18.084798+0000 DEBUG create_order order_or_resp:
+{"message":"Limit price must be populated only for limit orders."}
+2026-01-05T15:11:18.085604+0000 ERROR create_stop_loss_order order_or_resp:
+{"message":"Limit price must be populated only for limit orders."}
+2026-01-05T15:11:18.085922+0000 ERROR create_stop_loss_order type(order_or_resp):
+<class 'str'>
+2026-01-05T15:11:18.086352+0000 DEBUG place_sell payload_dict:
+None
+2026-01-05T15:11:18.086521+0000 ERROR INBS: broker returned error response for SELL.
+2026-01-05T15:11:18.086632+0000 ERROR [INBS] limit sell placement failed; fallback SELL @ MKT
+2026-01-05T15:11:18.086810+0000 DEBUG place_sell coid: INBS-SELL-20260105T151118-3080
+2026-01-05T15:11:18.087046+0000 DEBUG {'price': None, 'session': 'NORMAL', 'duration': 'DAY', 'orderType': 'MARKET', 'complexOrderStrategyType': 'NONE', 'quantity': 1, 'taxLotMethod': 'FIFO', 'orderLegCollection': [{'orderLegType': 'EQUITY', 'legId': 1, 'instrument': {'symbol': 'INBS', 'assetType': 'EQUITY'}, 'instruction': 'SELL', 'positionEffect': 'OPENING', 'quantity': 1}], 'orderStrategyType': 'SINGLE'}
+2026-01-05T15:11:18.505729+0000 INFO Order Placed Successfully
+2026-01-05T15:11:18.508696+0000 DEBUG create_order order_or_resp:
+{'price': None, 'session': 'NORMAL', 'duration': 'DAY', 'orderType': 'MARKET', 'complexOrderStrategyType': 'NONE', 'quantity': 1, 'taxLotMethod': 'FIFO', 'orderLegCollection': [{'orderLegType': 'EQUITY', 'legId': 1, 'instrument': {'symbol': 'INBS', 'assetType': 'EQUITY'}, 'instruction': 'SELL', 'positionEffect': 'OPENING', 'quantity': 1}], 'orderStrategyType': 'SINGLE'}
+2026-01-05T15:11:18.509986+0000 DEBUG place_sell payload_dict:
+{'price': None, 'session': 'NORMAL', 'duration': 'DAY', 'orderType': 'MARKET', 'complexOrderStrategyType': 'NONE', 'quantity': 1, 'taxLotMethod': 'FIFO', 'orderLegCollection': [{'orderLegType': 'EQUITY', 'legId': 1, 'instrument': {'symbol': 'INBS', 'assetType': 'EQUITY'}, 'instruction': 'SELL', 'positionEffect': 'OPENING', 'quantity': 1}], 'orderStrategyType': 'SINGLE', 'clientOrderId': 'INBS-SELL-20260105T151118-3080'}
+2026-01-05T15:11:18.513823+0000 INFO Ten_percent_gainers snapshot rows=19
+2026-01-05T15:11:18.514377+0000 DEBUG Putting updated ten_percent_gainers on queue.
+2026-01-05T15:11:18.514714+0000 DEBUG Scanning bot sleeping for ~3 min
+2026-01-05T15:11:21.650738+0000 DEBUG Order filled: session                                                                NORMAL
+duration                                                                  DAY
+orderType                                                              MARKET
+complexOrderStrategyType                                                 NONE
+quantity                                                                  1.0
+filledQuantity                                                            1.0
+remainingQuantity                                                         0.0
+requestedDestination                                                     AUTO
+destinationLinkName                                                      CDRG
+taxLotMethod                                                             FIFO
+orderLegCollection          [{'orderLegType': 'EQUITY', 'legId': 1, 'instr...
+orderStrategyType                                                      SINGLE
+orderId                                                         1005048853568
+cancelable                                                              False
+editable                                                                False
+status                                                                 FILLED
+enteredTime                                          2026-01-05T15:11:18+0000
+closeTime                                            2026-01-05T15:11:18+0000
+tag                                             TA_hartnc15gmailcom1741705857
+accountNumber                                                        80157725
+orderActivityCollection     [{'activityType': 'EXECUTION', 'activityId': 1...
+Name: 0, dtype: object
+2026-01-05T15:11:21.653589+0000 DEBUG SELL fill: Fill(price=12.1568, quantity=1, time=None), status: OrderStatus.FILLED, order_series: session                                                                NORMAL
+duration                                                                  DAY
+orderType                                                              MARKET
+complexOrderStrategyType                                                 NONE
+quantity                                                                  1.0
+filledQuantity                                                            1.0
+remainingQuantity                                                         0.0
+requestedDestination                                                     AUTO
+destinationLinkName                                                      CDRG
+taxLotMethod                                                             FIFO
+orderLegCollection          [{'orderLegType': 'EQUITY', 'legId': 1, 'instr...
+orderStrategyType                                                      SINGLE
+orderId                                                         1005048853568
+cancelable                                                              False
+editable                                                                False
+status                                                                 FILLED
+enteredTime                                          2026-01-05T15:11:18+0000
+closeTime                                            2026-01-05T15:11:18+0000
+tag                                             TA_hartnc15gmailcom1741705857
+accountNumber                                                        80157725
+orderActivityCollection     [{'activityType': 'EXECUTION', 'activityId': 1...
+Name: 0, dtype: object
+2026-01-05T15:14:18.527886+0000 INFO Scanning for ten percent gainers
+2026-01-05T15:14:18.528537+0000 DEBUG now_et: 10:14:18.527811
+2026-01-05T15:14:18.528662+0000 DEBUG Fetching Equity movers (PERCENT_CHANGE_UP)
+2026-01-05T15:14:18.937640+0000 DEBUG Creating Ten Percent Gainers List
+2026-01-05T15:14:18.941103+0000 DEBUG ten_per_movers shape: (2, 9)
+2026-01-05T15:14:19.964314+0000 DEBUG ten_per_gainers:                     description     volume  ... symbol ticker_rating
+0              DATAVAULT AI INC  120777968  ...   DVLT           NaN
+1                  VERIFYME INC   89042555  ...   VRME           NaN
+2             HYPERION DEFI INC     185844  ...   HYPD           0.5
+3                MOMENTUS INC A   39375153  ...   MNTS           0.5
+4          SHUTTLE PHARMACEUTIC      56235  ...   SHPH           0.5
+5          TENAX THERAPEUTICS I     211639  ...   TENX           0.5
+6          UNIVERSAL SAFETY PRO     199163  ...    UUU           0.5
+7                    VELO3D INC     956998  ...   VELO           0.5
+8   ASCENT SOLAR TECHNOL Equity    2891903  ...   ASTI           0.5
+9                   VIEWBIX INC      99666  ...   VBIX           0.5
+10           METAPLANET INC ADR     855327  ...  MPJPY           0.5
+11       ALCHEMY INVTS ACQUIS A      95055  ...   ALCY           0.5
+12         ABUNDIA GLOBAL IMPAC     181160  ...   AGIG           0.5
+13             ROBIN ENERGY LTD     176235  ...   RBNE           0.5
+14           VIVOPOWER INTL PLC      72243  ...   VVPR           0.5
+15          DEFSEC TECHNOLOGIES      44994  ...   DFSC           0.5
+16         INTELLIGENT BIO SOLU    3052589  ...   INBS           0.5
+17     BIODEXA PHARMACEUTIC ADR      49401  ...   BDRX           0.5
+18                 STRIVE INC A   45730344  ...   ASST           0.5
+
+[19 rows x 10 columns]
+2026-01-05T15:14:19.964677+0000 INFO Connecting to Gmail...
+2026-01-05T15:14:19.970022+0000 INFO Connected to Gmail.
+2026-01-05T15:14:19.970310+0000 DEBUG Scanning Gmail for tickers…
+2026-01-05T15:14:26.442362+0000 INFO New Email Subject: Alert: New symbols: HYPD, JOBY/WS, MNTS, SHPH, TENX, UUU, VELO were added to Ross_Pre_Market_Custom.
+2026-01-05T15:14:26.442785+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Momo_Custom.
+2026-01-05T15:14:26.442917+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Momo_Custom.
+2026-01-05T15:14:26.443014+0000 INFO New Email Subject: Alert: New symbol: ASTI was added to Ross_Pre_Market_Custom.
+2026-01-05T15:14:26.443104+0000 INFO New Email Subject: Alert: New symbol: VBIX was added to Ross_Pre_Market_Custom.
+2026-01-05T15:14:26.443259+0000 INFO New Email Subject: Alert: New symbol: MPJPY was added to Ross_Pre_Market_Custom.
+2026-01-05T15:14:26.444289+0000 INFO New Email Subject: Alert: New symbol: TENX was added to Ross_Pre_Market_Custom.
+2026-01-05T15:14:26.444430+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:14:26.444548+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:14:26.444660+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:14:26.444766+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:14:26.444886+0000 INFO New Email Subject: Alert: New symbol: ALCY was added to Ross_Pre_Market_Custom.
+2026-01-05T15:14:26.445496+0000 INFO New Email Subject: Alert: New symbol: AGIG was added to Ross_Pre_Market_Custom.
+2026-01-05T15:14:26.445657+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:14:26.445839+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:14:26.446229+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:14:26.446360+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:14:26.446686+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:14:26.447047+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:14:26.447225+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:14:26.447537+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:14:26.447745+0000 INFO New Email Subject: Alert: New symbol: VVPR was added to Ross_Pre_Market_Custom.
+2026-01-05T15:14:26.447875+0000 INFO New Email Subject: Alert: New symbol: DFSC was added to Ross_Pre_Market_Custom.
+2026-01-05T15:14:26.448316+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:14:26.448580+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:14:26.448794+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:14:26.449037+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:14:26.449298+0000 INFO New Email Subject: Alert: New symbol: INBS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:14:26.449516+0000 INFO New Email Subject: Alert: New symbol: BDRX was added to Ross_Pre_Market_Custom.
+2026-01-05T15:14:26.859381+0000 DEBUG gmail quotes shape: (11, 16)
+2026-01-05T15:14:27.873335+0000 INFO Ten_percent_gainers snapshot rows=19
+2026-01-05T15:14:27.873922+0000 DEBUG Putting updated ten_percent_gainers on queue.
+2026-01-05T15:14:27.874094+0000 DEBUG Scanning bot sleeping for ~3 min
+2026-01-05T15:17:27.875945+0000 INFO Scanning for ten percent gainers
+2026-01-05T15:17:27.876550+0000 DEBUG now_et: 10:17:27.875868
+2026-01-05T15:17:27.876696+0000 DEBUG Fetching Equity movers (PERCENT_CHANGE_UP)
+2026-01-05T15:17:28.271616+0000 DEBUG Creating Ten Percent Gainers List
+2026-01-05T15:17:28.275236+0000 DEBUG ten_per_movers shape: (2, 9)
+2026-01-05T15:17:29.295911+0000 DEBUG ten_per_gainers:                     description     volume  ... symbol ticker_rating
+0              DATAVAULT AI INC  127132863  ...   DVLT           NaN
+1                  VERIFYME INC   91754768  ...   VRME           NaN
+2             HYPERION DEFI INC     187118  ...   HYPD           0.5
+3                MOMENTUS INC A   40045537  ...   MNTS           0.5
+4          SHUTTLE PHARMACEUTIC      56420  ...   SHPH           0.5
+5          TENAX THERAPEUTICS I     212290  ...   TENX           0.5
+6          UNIVERSAL SAFETY PRO     201477  ...    UUU           0.5
+7                    VELO3D INC     970322  ...   VELO           0.5
+8   ASCENT SOLAR TECHNOL Equity    3033779  ...   ASTI           0.5
+9                   VIEWBIX INC     101006  ...   VBIX           0.5
+10           METAPLANET INC ADR     856447  ...  MPJPY           0.5
+11       ALCHEMY INVTS ACQUIS A      96509  ...   ALCY           0.5
+12         ABUNDIA GLOBAL IMPAC     181160  ...   AGIG           0.5
+13             ROBIN ENERGY LTD     178495  ...   RBNE           0.5
+14           VIVOPOWER INTL PLC      72904  ...   VVPR           0.5
+15          DEFSEC TECHNOLOGIES      45095  ...   DFSC           0.5
+16         INTELLIGENT BIO SOLU    3579571  ...   INBS           0.5
+17     BIODEXA PHARMACEUTIC ADR      49401  ...   BDRX           0.5
+18                 STRIVE INC A   45730344  ...   ASST           0.5
+
+[19 rows x 10 columns]
+2026-01-05T15:17:29.296718+0000 INFO Connecting to Gmail...
+2026-01-05T15:17:29.301379+0000 INFO Connected to Gmail.
+2026-01-05T15:17:29.301632+0000 DEBUG Scanning Gmail for tickers…
+2026-01-05T15:17:35.847195+0000 INFO New Email Subject: Alert: New symbols: HYPD, JOBY/WS, MNTS, SHPH, TENX, UUU, VELO were added to Ross_Pre_Market_Custom.
+2026-01-05T15:17:35.847532+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Momo_Custom.
+2026-01-05T15:17:35.847662+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Momo_Custom.
+2026-01-05T15:17:35.847750+0000 INFO New Email Subject: Alert: New symbol: ASTI was added to Ross_Pre_Market_Custom.
+2026-01-05T15:17:35.847863+0000 INFO New Email Subject: Alert: New symbol: VBIX was added to Ross_Pre_Market_Custom.
+2026-01-05T15:17:35.848003+0000 INFO New Email Subject: Alert: New symbol: MPJPY was added to Ross_Pre_Market_Custom.
+2026-01-05T15:17:35.848133+0000 INFO New Email Subject: Alert: New symbol: TENX was added to Ross_Pre_Market_Custom.
+2026-01-05T15:17:35.849157+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:17:35.849301+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:17:35.849421+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:17:35.849524+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:17:35.849629+0000 INFO New Email Subject: Alert: New symbol: ALCY was added to Ross_Pre_Market_Custom.
+2026-01-05T15:17:35.849714+0000 INFO New Email Subject: Alert: New symbol: AGIG was added to Ross_Pre_Market_Custom.
+2026-01-05T15:17:35.849798+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:17:35.850458+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:17:35.850578+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:17:35.850682+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:17:35.850774+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:17:35.850867+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:17:35.851293+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:17:35.851424+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:17:35.851529+0000 INFO New Email Subject: Alert: New symbol: VVPR was added to Ross_Pre_Market_Custom.
+2026-01-05T15:17:35.851857+0000 INFO New Email Subject: Alert: New symbol: DFSC was added to Ross_Pre_Market_Custom.
+2026-01-05T15:17:35.851960+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:17:35.852268+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:17:35.852515+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:17:35.852722+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:17:35.852928+0000 INFO New Email Subject: Alert: New symbol: INBS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:17:35.853104+0000 INFO New Email Subject: Alert: New symbol: BDRX was added to Ross_Pre_Market_Custom.
+2026-01-05T15:17:36.148912+0000 DEBUG gmail quotes shape: (11, 16)
+2026-01-05T15:17:37.162524+0000 INFO Ten_percent_gainers snapshot rows=19
+2026-01-05T15:17:37.163028+0000 DEBUG Putting updated ten_percent_gainers on queue.
+2026-01-05T15:17:37.163242+0000 DEBUG Scanning bot sleeping for ~3 min
+2026-01-05T15:20:37.195102+0000 INFO Scanning for ten percent gainers
+2026-01-05T15:20:37.195672+0000 DEBUG now_et: 10:20:37.195040
+2026-01-05T15:20:37.195779+0000 DEBUG Fetching Equity movers (PERCENT_CHANGE_UP)
+2026-01-05T15:20:37.711964+0000 DEBUG Creating Ten Percent Gainers List
+2026-01-05T15:20:37.716372+0000 DEBUG ten_per_movers shape: (3, 9)
+2026-01-05T15:20:38.737132+0000 DEBUG ten_per_gainers:                     description     volume  ... symbol ticker_rating
+0              DATAVAULT AI INC  130832075  ...   DVLT           NaN
+1                  VERIFYME INC   94810422  ...   VRME           NaN
+2                  STRIVE INC A   53368000  ...   ASST           NaN
+3             HYPERION DEFI INC     187317  ...   HYPD           0.5
+4                MOMENTUS INC A   40331120  ...   MNTS           0.5
+5          SHUTTLE PHARMACEUTIC      56940  ...   SHPH           0.5
+6          TENAX THERAPEUTICS I     216237  ...   TENX           0.5
+7          UNIVERSAL SAFETY PRO     203648  ...    UUU           0.5
+8                    VELO3D INC     978120  ...   VELO           0.5
+9   ASCENT SOLAR TECHNOL Equity    3151946  ...   ASTI           0.5
+10                  VIEWBIX INC     102231  ...   VBIX           0.5
+11           METAPLANET INC ADR     877719  ...  MPJPY           0.5
+12       ALCHEMY INVTS ACQUIS A      97003  ...   ALCY           0.5
+13         ABUNDIA GLOBAL IMPAC     184155  ...   AGIG           0.5
+14             ROBIN ENERGY LTD     186670  ...   RBNE           0.5
+15           VIVOPOWER INTL PLC      72976  ...   VVPR           0.5
+16          DEFSEC TECHNOLOGIES      45146  ...   DFSC           0.5
+17         INTELLIGENT BIO SOLU    3794374  ...   INBS           0.5
+18     BIODEXA PHARMACEUTIC ADR      49401  ...   BDRX           0.5
+
+[19 rows x 10 columns]
+2026-01-05T15:20:38.737590+0000 INFO Connecting to Gmail...
+2026-01-05T15:20:38.742474+0000 INFO Connected to Gmail.
+2026-01-05T15:20:38.742692+0000 DEBUG Scanning Gmail for tickers…
+2026-01-05T15:20:44.953707+0000 INFO New Email Subject: Alert: New symbols: HYPD, JOBY/WS, MNTS, SHPH, TENX, UUU, VELO were added to Ross_Pre_Market_Custom.
+2026-01-05T15:20:44.954069+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Momo_Custom.
+2026-01-05T15:20:44.954215+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Momo_Custom.
+2026-01-05T15:20:44.954321+0000 INFO New Email Subject: Alert: New symbol: ASTI was added to Ross_Pre_Market_Custom.
+2026-01-05T15:20:44.954402+0000 INFO New Email Subject: Alert: New symbol: VBIX was added to Ross_Pre_Market_Custom.
+2026-01-05T15:20:44.954473+0000 INFO New Email Subject: Alert: New symbol: MPJPY was added to Ross_Pre_Market_Custom.
+2026-01-05T15:20:44.954548+0000 INFO New Email Subject: Alert: New symbol: TENX was added to Ross_Pre_Market_Custom.
+2026-01-05T15:20:44.954619+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:20:44.954685+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:20:44.954750+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:20:44.954818+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:20:44.954884+0000 INFO New Email Subject: Alert: New symbol: ALCY was added to Ross_Pre_Market_Custom.
+2026-01-05T15:20:44.954950+0000 INFO New Email Subject: Alert: New symbol: AGIG was added to Ross_Pre_Market_Custom.
+2026-01-05T15:20:44.955015+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:20:44.955090+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:20:44.956502+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:20:44.956795+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:20:44.957020+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:20:44.957282+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:20:44.957695+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:20:44.957802+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:20:44.958077+0000 INFO New Email Subject: Alert: New symbol: VVPR was added to Ross_Pre_Market_Custom.
+2026-01-05T15:20:44.958323+0000 INFO New Email Subject: Alert: New symbol: DFSC was added to Ross_Pre_Market_Custom.
+2026-01-05T15:20:44.958525+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:20:44.958761+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:20:44.958960+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:20:44.959185+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:20:44.959311+0000 INFO New Email Subject: Alert: New symbol: INBS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:20:44.959552+0000 INFO New Email Subject: Alert: New symbol: BDRX was added to Ross_Pre_Market_Custom.
+2026-01-05T15:20:45.299020+0000 DEBUG gmail quotes shape: (11, 16)
+2026-01-05T15:20:46.312647+0000 INFO Ten_percent_gainers snapshot rows=19
+2026-01-05T15:20:46.313336+0000 DEBUG Putting updated ten_percent_gainers on queue.
+2026-01-05T15:20:46.313937+0000 DEBUG Scanning bot sleeping for ~3 min
+2026-01-05T15:23:46.354279+0000 INFO Scanning for ten percent gainers
+2026-01-05T15:23:46.355037+0000 DEBUG now_et: 10:23:46.354167
+2026-01-05T15:23:46.355320+0000 DEBUG Fetching Equity movers (PERCENT_CHANGE_UP)
+2026-01-05T15:23:46.741606+0000 DEBUG Creating Ten Percent Gainers List
+2026-01-05T15:23:46.746948+0000 DEBUG ten_per_movers shape: (3, 9)
+2026-01-05T15:23:47.768792+0000 DEBUG ten_per_gainers:                     description     volume  ... symbol ticker_rating
+0              DATAVAULT AI INC  133750165  ...   DVLT           NaN
+1                  VERIFYME INC   98139773  ...   VRME           NaN
+2                  STRIVE INC A   54345433  ...   ASST           NaN
+3             HYPERION DEFI INC     189832  ...   HYPD           0.5
+4                MOMENTUS INC A   40615603  ...   MNTS           0.5
+5          SHUTTLE PHARMACEUTIC      57040  ...   SHPH           0.5
+6          TENAX THERAPEUTICS I     221788  ...   TENX           0.5
+7          UNIVERSAL SAFETY PRO     214728  ...    UUU           0.5
+8                    VELO3D INC     988663  ...   VELO           0.5
+9   ASCENT SOLAR TECHNOL Equity    3271445  ...   ASTI           0.5
+10                  VIEWBIX INC     104123  ...   VBIX           0.5
+11           METAPLANET INC ADR     887381  ...  MPJPY           0.5
+12       ALCHEMY INVTS ACQUIS A     102743  ...   ALCY           0.5
+13         ABUNDIA GLOBAL IMPAC     190550  ...   AGIG           0.5
+14             ROBIN ENERGY LTD     195574  ...   RBNE           0.5
+15           VIVOPOWER INTL PLC      74213  ...   VVPR           0.5
+16          DEFSEC TECHNOLOGIES      46405  ...   DFSC           0.5
+17         INTELLIGENT BIO SOLU    3958964  ...   INBS           0.5
+18     BIODEXA PHARMACEUTIC ADR      49401  ...   BDRX           0.5
+
+[19 rows x 10 columns]
+2026-01-05T15:23:47.769191+0000 INFO Connecting to Gmail...
+2026-01-05T15:23:47.774133+0000 INFO Connected to Gmail.
+2026-01-05T15:23:47.774458+0000 DEBUG Scanning Gmail for tickers…
+2026-01-05T15:23:53.878541+0000 INFO New Email Subject: Alert: New symbols: HYPD, JOBY/WS, MNTS, SHPH, TENX, UUU, VELO were added to Ross_Pre_Market_Custom.
+2026-01-05T15:23:53.878825+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Momo_Custom.
+2026-01-05T15:23:53.878931+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Momo_Custom.
+2026-01-05T15:23:53.879015+0000 INFO New Email Subject: Alert: New symbol: ASTI was added to Ross_Pre_Market_Custom.
+2026-01-05T15:23:53.879092+0000 INFO New Email Subject: Alert: New symbol: VBIX was added to Ross_Pre_Market_Custom.
+2026-01-05T15:23:53.879185+0000 INFO New Email Subject: Alert: New symbol: MPJPY was added to Ross_Pre_Market_Custom.
+2026-01-05T15:23:53.880261+0000 INFO New Email Subject: Alert: New symbol: TENX was added to Ross_Pre_Market_Custom.
+2026-01-05T15:23:53.880389+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:23:53.880549+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:23:53.880656+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:23:53.880827+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:23:53.880955+0000 INFO New Email Subject: Alert: New symbol: ALCY was added to Ross_Pre_Market_Custom.
+2026-01-05T15:23:53.881587+0000 INFO New Email Subject: Alert: New symbol: AGIG was added to Ross_Pre_Market_Custom.
+2026-01-05T15:23:53.881721+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:23:53.881884+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:23:53.882315+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:23:53.882452+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:23:53.882742+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:23:53.882985+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:23:53.883287+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:23:53.883585+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:23:53.883822+0000 INFO New Email Subject: Alert: New symbol: VVPR was added to Ross_Pre_Market_Custom.
+2026-01-05T15:23:53.884017+0000 INFO New Email Subject: Alert: New symbol: DFSC was added to Ross_Pre_Market_Custom.
+2026-01-05T15:23:53.884309+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:23:53.884425+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:23:53.884695+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:23:53.884927+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:23:53.885117+0000 INFO New Email Subject: Alert: New symbol: INBS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:23:53.885406+0000 INFO New Email Subject: Alert: New symbol: BDRX was added to Ross_Pre_Market_Custom.
+2026-01-05T15:23:54.143120+0000 DEBUG gmail quotes shape: (11, 16)
+2026-01-05T15:23:55.157305+0000 INFO Ten_percent_gainers snapshot rows=19
+2026-01-05T15:23:55.157818+0000 DEBUG Putting updated ten_percent_gainers on queue.
+2026-01-05T15:23:55.157940+0000 DEBUG Scanning bot sleeping for ~3 min
+2026-01-05T15:25:50.704120+0000 INFO Starting token refresh...
+2026-01-05T15:25:50.705042+0000 DEBUG Loaded secrets from schwab_secrets.json
+2026-01-05T15:25:50.705435+0000 DEBUG Loaded secrets from schwab_auth_token.json
+2026-01-05T15:25:51.171545+0000 DEBUG Refresh token response status=200
+2026-01-05T15:25:51.172790+0000 DEBUG Updated schwab_auth_token.json successfully.
+2026-01-05T15:25:51.173169+0000 INFO Access/refresh tokens successfully refreshed and stored.
+2026-01-05T15:26:55.196463+0000 INFO Scanning for ten percent gainers
+2026-01-05T15:26:55.196974+0000 DEBUG now_et: 10:26:55.196402
+2026-01-05T15:26:55.197081+0000 DEBUG Fetching Equity movers (PERCENT_CHANGE_UP)
+2026-01-05T15:26:55.373257+0000 ERROR Error in response with message: 
+            
+        
+2026-01-05T15:26:55.373552+0000 ERROR Error code: 401
+2026-01-05T15:26:55.376734+0000 DEBUG Loaded secrets from schwab_auth_token.json
+2026-01-05T15:26:55.377475+0000 DEBUG Loaded secrets from schwab_auth_token.json
+2026-01-05T15:26:55.377863+0000 DEBUG Retrying equity movers after token refresh
+2026-01-05T15:26:55.746444+0000 DEBUG Creating Ten Percent Gainers List
+2026-01-05T15:26:55.750004+0000 DEBUG ten_per_movers shape: (2, 9)
+2026-01-05T15:26:56.770017+0000 DEBUG ten_per_gainers:                     description     volume  ... symbol ticker_rating
+0              DATAVAULT AI INC  137863154  ...   DVLT           NaN
+1                  VERIFYME INC  101493288  ...   VRME           NaN
+2             HYPERION DEFI INC     190104  ...   HYPD           0.5
+3                MOMENTUS INC A   40973770  ...   MNTS           0.5
+4          SHUTTLE PHARMACEUTIC      57639  ...   SHPH           0.5
+5          TENAX THERAPEUTICS I     229494  ...   TENX           0.5
+6          UNIVERSAL SAFETY PRO     233895  ...    UUU           0.5
+7                    VELO3D INC    1008835  ...   VELO           0.5
+8   ASCENT SOLAR TECHNOL Equity    3364446  ...   ASTI           0.5
+9                   VIEWBIX INC     104123  ...   VBIX           0.5
+10           METAPLANET INC ADR     887994  ...  MPJPY           0.5
+11       ALCHEMY INVTS ACQUIS A     104241  ...   ALCY           0.5
+12         ABUNDIA GLOBAL IMPAC     194185  ...   AGIG           0.5
+13             ROBIN ENERGY LTD     208162  ...   RBNE           0.5
+14           VIVOPOWER INTL PLC      79385  ...   VVPR           0.5
+15          DEFSEC TECHNOLOGIES      48405  ...   DFSC           0.5
+16         INTELLIGENT BIO SOLU    4084128  ...   INBS           0.5
+17     BIODEXA PHARMACEUTIC ADR      55700  ...   BDRX           0.5
+18                 STRIVE INC A   54345433  ...   ASST           0.5
+
+[19 rows x 10 columns]
+2026-01-05T15:26:56.770798+0000 INFO Connecting to Gmail...
+2026-01-05T15:26:56.775407+0000 INFO Connected to Gmail.
+2026-01-05T15:26:56.775866+0000 DEBUG Scanning Gmail for tickers…
+2026-01-05T15:27:02.994282+0000 INFO New Email Subject: Alert: New symbols: HYPD, JOBY/WS, MNTS, SHPH, TENX, UUU, VELO were added to Ross_Pre_Market_Custom.
+2026-01-05T15:27:02.994824+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Momo_Custom.
+2026-01-05T15:27:02.995016+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Momo_Custom.
+2026-01-05T15:27:02.995177+0000 INFO New Email Subject: Alert: New symbol: ASTI was added to Ross_Pre_Market_Custom.
+2026-01-05T15:27:02.996274+0000 INFO New Email Subject: Alert: New symbol: VBIX was added to Ross_Pre_Market_Custom.
+2026-01-05T15:27:02.996476+0000 INFO New Email Subject: Alert: New symbol: MPJPY was added to Ross_Pre_Market_Custom.
+2026-01-05T15:27:02.996650+0000 INFO New Email Subject: Alert: New symbol: TENX was added to Ross_Pre_Market_Custom.
+2026-01-05T15:27:02.996826+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:27:02.997576+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:27:02.997764+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:27:02.997958+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:27:02.998527+0000 INFO New Email Subject: Alert: New symbol: ALCY was added to Ross_Pre_Market_Custom.
+2026-01-05T15:27:02.998736+0000 INFO New Email Subject: Alert: New symbol: AGIG was added to Ross_Pre_Market_Custom.
+2026-01-05T15:27:02.999193+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:27:02.999611+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:27:02.999964+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:27:03.000359+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:27:03.000741+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:27:03.001156+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:27:03.001538+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:27:03.001881+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:27:03.002312+0000 INFO New Email Subject: Alert: New symbol: VVPR was added to Ross_Pre_Market_Custom.
+2026-01-05T15:27:03.002683+0000 INFO New Email Subject: Alert: New symbol: DFSC was added to Ross_Pre_Market_Custom.
+2026-01-05T15:27:03.003027+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:27:03.003436+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:27:03.003614+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:27:03.004025+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:27:03.004418+0000 INFO New Email Subject: Alert: New symbol: INBS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:27:03.004749+0000 INFO New Email Subject: Alert: New symbol: BDRX was added to Ross_Pre_Market_Custom.
+2026-01-05T15:27:03.311488+0000 DEBUG gmail quotes shape: (11, 16)
+2026-01-05T15:27:03.526326+0000 ERROR Error in response with message: 
+            
+        
+2026-01-05T15:27:03.526654+0000 ERROR Error code: 401
+2026-01-05T15:27:03.529643+0000 DEBUG Loaded secrets from schwab_auth_token.json
+2026-01-05T15:27:03.530174+0000 DEBUG Loaded secrets from schwab_auth_token.json
+2026-01-05T15:27:03.530463+0000 DEBUG Retrying get_price_history after token refresh (1d)
+2026-01-05T15:27:10.375936+0000 INFO Ten_percent_gainers snapshot rows=19
+2026-01-05T15:27:10.376831+0000 DEBUG Putting updated ten_percent_gainers on queue.
+2026-01-05T15:27:10.376983+0000 DEBUG Scanning bot sleeping for ~3 min
+2026-01-05T15:30:10.381034+0000 INFO Scanning for ten percent gainers
+2026-01-05T15:30:10.382005+0000 DEBUG now_et: 10:30:10.380976
+2026-01-05T15:30:10.382144+0000 DEBUG Fetching Equity movers (PERCENT_CHANGE_UP)
+2026-01-05T15:30:10.783431+0000 DEBUG Creating Ten Percent Gainers List
+2026-01-05T15:30:10.786744+0000 DEBUG ten_per_movers shape: (2, 9)
+2026-01-05T15:30:11.807376+0000 DEBUG ten_per_gainers:                     description     volume  ... symbol ticker_rating
+0              DATAVAULT AI INC  140374167  ...   DVLT           NaN
+1                  VERIFYME INC  103580900  ...   VRME           NaN
+2             HYPERION DEFI INC     190871  ...   HYPD           0.5
+3                MOMENTUS INC A   41538622  ...   MNTS           0.5
+4          SHUTTLE PHARMACEUTIC      57791  ...   SHPH           0.5
+5          TENAX THERAPEUTICS I     241911  ...   TENX           0.5
+6          UNIVERSAL SAFETY PRO     237415  ...    UUU           0.5
+7                    VELO3D INC    1015394  ...   VELO           0.5
+8   ASCENT SOLAR TECHNOL Equity    3536689  ...   ASTI           0.5
+9                   VIEWBIX INC     104124  ...   VBIX           0.5
+10           METAPLANET INC ADR     901494  ...  MPJPY           0.5
+11       ALCHEMY INVTS ACQUIS A     106806  ...   ALCY           0.5
+12         ABUNDIA GLOBAL IMPAC     197123  ...   AGIG           0.5
+13             ROBIN ENERGY LTD     213736  ...   RBNE           0.5
+14           VIVOPOWER INTL PLC      80641  ...   VVPR           0.5
+15          DEFSEC TECHNOLOGIES      48405  ...   DFSC           0.5
+16         INTELLIGENT BIO SOLU    4193532  ...   INBS           0.5
+17     BIODEXA PHARMACEUTIC ADR      57468  ...   BDRX           0.5
+18                 STRIVE INC A   54345433  ...   ASST           0.5
+
+[19 rows x 10 columns]
+2026-01-05T15:30:11.807668+0000 INFO Connecting to Gmail...
+2026-01-05T15:30:11.812293+0000 INFO Connected to Gmail.
+2026-01-05T15:30:11.812462+0000 DEBUG Scanning Gmail for tickers…
+2026-01-05T15:30:18.041256+0000 INFO New Email Subject: Alert: New symbols: HYPD, JOBY/WS, MNTS, SHPH, TENX, UUU, VELO were added to Ross_Pre_Market_Custom.
+2026-01-05T15:30:18.041982+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Momo_Custom.
+2026-01-05T15:30:18.042144+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Momo_Custom.
+2026-01-05T15:30:18.042297+0000 INFO New Email Subject: Alert: New symbol: ASTI was added to Ross_Pre_Market_Custom.
+2026-01-05T15:30:18.042421+0000 INFO New Email Subject: Alert: New symbol: VBIX was added to Ross_Pre_Market_Custom.
+2026-01-05T15:30:18.043082+0000 INFO New Email Subject: Alert: New symbol: MPJPY was added to Ross_Pre_Market_Custom.
+2026-01-05T15:30:18.043266+0000 INFO New Email Subject: Alert: New symbol: TENX was added to Ross_Pre_Market_Custom.
+2026-01-05T15:30:18.043377+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:30:18.043472+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:30:18.043906+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:30:18.044017+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:30:18.044115+0000 INFO New Email Subject: Alert: New symbol: ALCY was added to Ross_Pre_Market_Custom.
+2026-01-05T15:30:18.044464+0000 INFO New Email Subject: Alert: New symbol: AGIG was added to Ross_Pre_Market_Custom.
+2026-01-05T15:30:18.044571+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:30:18.044839+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:30:18.044941+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:30:18.045188+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:30:18.045424+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:30:18.045529+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:30:18.045781+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:30:18.045968+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:30:18.046240+0000 INFO New Email Subject: Alert: New symbol: VVPR was added to Ross_Pre_Market_Custom.
+2026-01-05T15:30:18.046458+0000 INFO New Email Subject: Alert: New symbol: DFSC was added to Ross_Pre_Market_Custom.
+2026-01-05T15:30:18.046665+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:30:18.046936+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:30:18.047041+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:30:18.047186+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:30:18.047496+0000 INFO New Email Subject: Alert: New symbol: INBS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:30:18.047702+0000 INFO New Email Subject: Alert: New symbol: BDRX was added to Ross_Pre_Market_Custom.
+2026-01-05T15:30:18.415836+0000 DEBUG gmail quotes shape: (11, 16)
+2026-01-05T15:30:19.429677+0000 INFO Ten_percent_gainers snapshot rows=19
+2026-01-05T15:30:19.430156+0000 DEBUG Putting updated ten_percent_gainers on queue.
+2026-01-05T15:30:19.430846+0000 DEBUG Scanning bot sleeping for ~3 min
+2026-01-05T15:33:19.444888+0000 INFO Scanning for ten percent gainers
+2026-01-05T15:33:19.445454+0000 DEBUG now_et: 10:33:19.444816
+2026-01-05T15:33:19.445639+0000 DEBUG Fetching Equity movers (PERCENT_CHANGE_UP)
+2026-01-05T15:33:19.873306+0000 DEBUG Creating Ten Percent Gainers List
+2026-01-05T15:33:19.876954+0000 DEBUG ten_per_movers shape: (2, 9)
+2026-01-05T15:33:20.897687+0000 DEBUG ten_per_gainers:                     description     volume  ... symbol ticker_rating
+0              DATAVAULT AI INC  143855304  ...   DVLT           NaN
+1                  VERIFYME INC  106823336  ...   VRME           NaN
+2             HYPERION DEFI INC     192446  ...   HYPD           0.5
+3                MOMENTUS INC A   42007058  ...   MNTS           0.5
+4          SHUTTLE PHARMACEUTIC      58302  ...   SHPH           0.5
+5          TENAX THERAPEUTICS I     251252  ...   TENX           0.5
+6          UNIVERSAL SAFETY PRO     242452  ...    UUU           0.5
+7                    VELO3D INC    1026878  ...   VELO           0.5
+8   ASCENT SOLAR TECHNOL Equity    3722180  ...   ASTI           0.5
+9                   VIEWBIX INC     104393  ...   VBIX           0.5
+10           METAPLANET INC ADR     902085  ...  MPJPY           0.5
+11       ALCHEMY INVTS ACQUIS A     107331  ...   ALCY           0.5
+12         ABUNDIA GLOBAL IMPAC     197979  ...   AGIG           0.5
+13             ROBIN ENERGY LTD     223288  ...   RBNE           0.5
+14           VIVOPOWER INTL PLC      84113  ...   VVPR           0.5
+15          DEFSEC TECHNOLOGIES      53109  ...   DFSC           0.5
+16         INTELLIGENT BIO SOLU    4274378  ...   INBS           0.5
+17     BIODEXA PHARMACEUTIC ADR      57784  ...   BDRX           0.5
+18                 STRIVE INC A   54345433  ...   ASST           0.5
+
+[19 rows x 10 columns]
+2026-01-05T15:33:20.898109+0000 INFO Connecting to Gmail...
+2026-01-05T15:33:20.903048+0000 INFO Connected to Gmail.
+2026-01-05T15:33:20.903443+0000 DEBUG Scanning Gmail for tickers…
+2026-01-05T15:33:27.086652+0000 INFO New Email Subject: Alert: New symbols: HYPD, JOBY/WS, MNTS, SHPH, TENX, UUU, VELO were added to Ross_Pre_Market_Custom.
+2026-01-05T15:33:27.087541+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Momo_Custom.
+2026-01-05T15:33:27.087828+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Momo_Custom.
+2026-01-05T15:33:27.088066+0000 INFO New Email Subject: Alert: New symbol: ASTI was added to Ross_Pre_Market_Custom.
+2026-01-05T15:33:27.088424+0000 INFO New Email Subject: Alert: New symbol: VBIX was added to Ross_Pre_Market_Custom.
+2026-01-05T15:33:27.088741+0000 INFO New Email Subject: Alert: New symbol: MPJPY was added to Ross_Pre_Market_Custom.
+2026-01-05T15:33:27.088990+0000 INFO New Email Subject: Alert: New symbol: TENX was added to Ross_Pre_Market_Custom.
+2026-01-05T15:33:27.089250+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:33:27.089478+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:33:27.089742+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:33:27.089964+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:33:27.090276+0000 INFO New Email Subject: Alert: New symbol: ALCY was added to Ross_Pre_Market_Custom.
+2026-01-05T15:33:27.090493+0000 INFO New Email Subject: Alert: New symbol: AGIG was added to Ross_Pre_Market_Custom.
+2026-01-05T15:33:27.090694+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:33:27.090884+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:33:27.091232+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:33:27.091356+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:33:27.091583+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:33:27.091767+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:33:27.092009+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:33:27.092243+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:33:27.092438+0000 INFO New Email Subject: Alert: New symbol: VVPR was added to Ross_Pre_Market_Custom.
+2026-01-05T15:33:27.092647+0000 INFO New Email Subject: Alert: New symbol: DFSC was added to Ross_Pre_Market_Custom.
+2026-01-05T15:33:27.092832+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:33:27.093051+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:33:27.093346+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:33:27.093546+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:33:27.094090+0000 INFO New Email Subject: Alert: New symbol: INBS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:33:27.094331+0000 INFO New Email Subject: Alert: New symbol: BDRX was added to Ross_Pre_Market_Custom.
+2026-01-05T15:33:27.391518+0000 DEBUG gmail quotes shape: (11, 16)
+2026-01-05T15:33:28.405363+0000 INFO Ten_percent_gainers snapshot rows=19
+2026-01-05T15:33:28.406331+0000 DEBUG Putting updated ten_percent_gainers on queue.
+2026-01-05T15:33:28.406525+0000 DEBUG Scanning bot sleeping for ~3 min
+2026-01-05T15:36:28.421630+0000 INFO Scanning for ten percent gainers
+2026-01-05T15:36:28.422371+0000 DEBUG now_et: 10:36:28.421536
+2026-01-05T15:36:28.423141+0000 DEBUG Fetching Equity movers (PERCENT_CHANGE_UP)
+2026-01-05T15:36:28.933782+0000 DEBUG Creating Ten Percent Gainers List
+2026-01-05T15:36:28.937589+0000 DEBUG ten_per_movers shape: (2, 9)
+2026-01-05T15:36:29.958297+0000 DEBUG ten_per_gainers:                     description     volume  ... symbol ticker_rating
+0              DATAVAULT AI INC  148141658  ...   DVLT           NaN
+1                  VERIFYME INC  109161908  ...   VRME           NaN
+2             HYPERION DEFI INC     193303  ...   HYPD           0.5
+3                MOMENTUS INC A   42903195  ...   MNTS           0.5
+4          SHUTTLE PHARMACEUTIC      63104  ...   SHPH           0.5
+5          TENAX THERAPEUTICS I     251938  ...   TENX           0.5
+6          UNIVERSAL SAFETY PRO     246179  ...    UUU           0.5
+7                    VELO3D INC    1040669  ...   VELO           0.5
+8   ASCENT SOLAR TECHNOL Equity    3792408  ...   ASTI           0.5
+9                   VIEWBIX INC     104393  ...   VBIX           0.5
+10           METAPLANET INC ADR     904118  ...  MPJPY           0.5
+11       ALCHEMY INVTS ACQUIS A     107854  ...   ALCY           0.5
+12         ABUNDIA GLOBAL IMPAC     197999  ...   AGIG           0.5
+13             ROBIN ENERGY LTD     224543  ...   RBNE           0.5
+14          DEFSEC TECHNOLOGIES      53660  ...   DFSC           0.5
+15         INTELLIGENT BIO SOLU    4361132  ...   INBS           0.5
+16     BIODEXA PHARMACEUTIC ADR      57837  ...   BDRX           0.5
+17           VIVOPOWER INTL PLC      84113  ...   VVPR           0.5
+18                 STRIVE INC A   54345433  ...   ASST           0.5
+
+[19 rows x 10 columns]
+2026-01-05T15:36:29.958630+0000 INFO Connecting to Gmail...
+2026-01-05T15:36:29.963594+0000 INFO Connected to Gmail.
+2026-01-05T15:36:29.963777+0000 DEBUG Scanning Gmail for tickers…
+2026-01-05T15:36:36.162120+0000 INFO New Email Subject: Alert: New symbols: HYPD, JOBY/WS, MNTS, SHPH, TENX, UUU, VELO were added to Ross_Pre_Market_Custom.
+2026-01-05T15:36:36.162488+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Momo_Custom.
+2026-01-05T15:36:36.162596+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Momo_Custom.
+2026-01-05T15:36:36.162685+0000 INFO New Email Subject: Alert: New symbol: ASTI was added to Ross_Pre_Market_Custom.
+2026-01-05T15:36:36.162808+0000 INFO New Email Subject: Alert: New symbol: VBIX was added to Ross_Pre_Market_Custom.
+2026-01-05T15:36:36.162929+0000 INFO New Email Subject: Alert: New symbol: MPJPY was added to Ross_Pre_Market_Custom.
+2026-01-05T15:36:36.163042+0000 INFO New Email Subject: Alert: New symbol: TENX was added to Ross_Pre_Market_Custom.
+2026-01-05T15:36:36.163164+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:36:36.163821+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:36:36.163978+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:36:36.165125+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:36:36.165331+0000 INFO New Email Subject: Alert: New symbol: ALCY was added to Ross_Pre_Market_Custom.
+2026-01-05T15:36:36.165455+0000 INFO New Email Subject: Alert: New symbol: AGIG was added to Ross_Pre_Market_Custom.
+2026-01-05T15:36:36.165605+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:36:36.165766+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:36:36.166306+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:36:36.166455+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:36:36.166704+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:36:36.166995+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:36:36.167296+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:36:36.167526+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:36:36.167800+0000 INFO New Email Subject: Alert: New symbol: VVPR was added to Ross_Pre_Market_Custom.
+2026-01-05T15:36:36.168050+0000 INFO New Email Subject: Alert: New symbol: DFSC was added to Ross_Pre_Market_Custom.
+2026-01-05T15:36:36.168362+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:36:36.168627+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:36:36.168780+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:36:36.169150+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:36:36.169459+0000 INFO New Email Subject: Alert: New symbol: INBS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:36:36.169928+0000 INFO New Email Subject: Alert: New symbol: BDRX was added to Ross_Pre_Market_Custom.
+2026-01-05T15:36:36.466174+0000 DEBUG gmail quotes shape: (11, 16)
+2026-01-05T15:36:37.479060+0000 INFO Ten_percent_gainers snapshot rows=19
+2026-01-05T15:36:37.479617+0000 DEBUG Putting updated ten_percent_gainers on queue.
+2026-01-05T15:36:37.479792+0000 DEBUG Scanning bot sleeping for ~3 min
+2026-01-05T15:39:37.510753+0000 INFO Scanning for ten percent gainers
+2026-01-05T15:39:37.511512+0000 DEBUG now_et: 10:39:37.510693
+2026-01-05T15:39:37.512114+0000 DEBUG Fetching Equity movers (PERCENT_CHANGE_UP)
+2026-01-05T15:39:37.888888+0000 DEBUG Creating Ten Percent Gainers List
+2026-01-05T15:39:37.892401+0000 DEBUG ten_per_movers shape: (2, 9)
+2026-01-05T15:39:38.913145+0000 DEBUG ten_per_gainers:                     description     volume  ... symbol ticker_rating
+0              DATAVAULT AI INC  149634562  ...   DVLT           NaN
+1                  VERIFYME INC  112540777  ...   VRME           NaN
+2             HYPERION DEFI INC     193579  ...   HYPD           0.5
+3                MOMENTUS INC A   43281146  ...   MNTS           0.5
+4          SHUTTLE PHARMACEUTIC      63802  ...   SHPH           0.5
+5          TENAX THERAPEUTICS I     266069  ...   TENX           0.5
+6          UNIVERSAL SAFETY PRO     249859  ...    UUU           0.5
+7                    VELO3D INC    1046372  ...   VELO           0.5
+8   ASCENT SOLAR TECHNOL Equity    3869220  ...   ASTI           0.5
+9                   VIEWBIX INC     104393  ...   VBIX           0.5
+10           METAPLANET INC ADR     904720  ...  MPJPY           0.5
+11       ALCHEMY INVTS ACQUIS A     108432  ...   ALCY           0.5
+12         ABUNDIA GLOBAL IMPAC     198686  ...   AGIG           0.5
+13             ROBIN ENERGY LTD     229719  ...   RBNE           0.5
+14          DEFSEC TECHNOLOGIES      54491  ...   DFSC           0.5
+15         INTELLIGENT BIO SOLU    4405598  ...   INBS           0.5
+16     BIODEXA PHARMACEUTIC ADR      57870  ...   BDRX           0.5
+17           VIVOPOWER INTL PLC      84113  ...   VVPR           0.5
+18                 STRIVE INC A   54345433  ...   ASST           0.5
+
+[19 rows x 10 columns]
+2026-01-05T15:39:38.913529+0000 INFO Connecting to Gmail...
+2026-01-05T15:39:38.918198+0000 INFO Connected to Gmail.
+2026-01-05T15:39:38.918431+0000 DEBUG Scanning Gmail for tickers…
+2026-01-05T15:39:45.167319+0000 INFO New Email Subject: Alert: New symbols: HYPD, JOBY/WS, MNTS, SHPH, TENX, UUU, VELO were added to Ross_Pre_Market_Custom.
+2026-01-05T15:39:45.167647+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Momo_Custom.
+2026-01-05T15:39:45.167745+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Momo_Custom.
+2026-01-05T15:39:45.167826+0000 INFO New Email Subject: Alert: New symbol: ASTI was added to Ross_Pre_Market_Custom.
+2026-01-05T15:39:45.167899+0000 INFO New Email Subject: Alert: New symbol: VBIX was added to Ross_Pre_Market_Custom.
+2026-01-05T15:39:45.167971+0000 INFO New Email Subject: Alert: New symbol: MPJPY was added to Ross_Pre_Market_Custom.
+2026-01-05T15:39:45.168040+0000 INFO New Email Subject: Alert: New symbol: TENX was added to Ross_Pre_Market_Custom.
+2026-01-05T15:39:45.168125+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:39:45.168189+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:39:45.168359+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:39:45.169360+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:39:45.169475+0000 INFO New Email Subject: Alert: New symbol: ALCY was added to Ross_Pre_Market_Custom.
+2026-01-05T15:39:45.169587+0000 INFO New Email Subject: Alert: New symbol: AGIG was added to Ross_Pre_Market_Custom.
+2026-01-05T15:39:45.169697+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:39:45.169795+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:39:45.169918+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:39:45.170007+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:39:45.170090+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:39:45.171271+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:39:45.171412+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:39:45.171533+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:39:45.171694+0000 INFO New Email Subject: Alert: New symbol: VVPR was added to Ross_Pre_Market_Custom.
+2026-01-05T15:39:45.171785+0000 INFO New Email Subject: Alert: New symbol: DFSC was added to Ross_Pre_Market_Custom.
+2026-01-05T15:39:45.171872+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:39:45.171957+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:39:45.172040+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:39:45.172124+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:39:45.172726+0000 INFO New Email Subject: Alert: New symbol: INBS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:39:45.172857+0000 INFO New Email Subject: Alert: New symbol: BDRX was added to Ross_Pre_Market_Custom.
+2026-01-05T15:39:45.494449+0000 DEBUG gmail quotes shape: (11, 16)
+2026-01-05T15:39:46.507148+0000 INFO Ten_percent_gainers snapshot rows=19
+2026-01-05T15:39:46.507733+0000 DEBUG Putting updated ten_percent_gainers on queue.
+2026-01-05T15:39:46.507901+0000 DEBUG Scanning bot sleeping for ~3 min
+2026-01-05T15:42:07.066292+0000 INFO [AGIG] BUY trigger (boll/rVol) @ ~2.19 green_vol_ratio=2.89 rvol=3.68
+2026-01-05T15:42:07.067083+0000 DEBUG place_buy coid: AGIG-BUY-20260105T154207-4757
+2026-01-05T15:42:07.067362+0000 DEBUG {'price': None, 'session': 'NORMAL', 'duration': 'DAY', 'orderType': 'MARKET', 'complexOrderStrategyType': 'NONE', 'quantity': 1, 'taxLotMethod': 'FIFO', 'orderLegCollection': [{'orderLegType': 'EQUITY', 'legId': 1, 'instrument': {'symbol': 'AGIG', 'assetType': 'EQUITY'}, 'instruction': 'BUY', 'positionEffect': 'OPENING', 'quantity': 1}], 'orderStrategyType': 'SINGLE'}
+2026-01-05T15:42:07.479224+0000 INFO Order Placed Successfully
+2026-01-05T15:42:07.482485+0000 DEBUG create_order order_or_resp:
+{'price': None, 'session': 'NORMAL', 'duration': 'DAY', 'orderType': 'MARKET', 'complexOrderStrategyType': 'NONE', 'quantity': 1, 'taxLotMethod': 'FIFO', 'orderLegCollection': [{'orderLegType': 'EQUITY', 'legId': 1, 'instrument': {'symbol': 'AGIG', 'assetType': 'EQUITY'}, 'instruction': 'BUY', 'positionEffect': 'OPENING', 'quantity': 1}], 'orderStrategyType': 'SINGLE'}
+2026-01-05T15:42:07.483478+0000 DEBUG place_buy payload_dict:
+{'price': None, 'session': 'NORMAL', 'duration': 'DAY', 'orderType': 'MARKET', 'complexOrderStrategyType': 'NONE', 'quantity': 1, 'taxLotMethod': 'FIFO', 'orderLegCollection': [{'orderLegType': 'EQUITY', 'legId': 1, 'instrument': {'symbol': 'AGIG', 'assetType': 'EQUITY'}, 'instruction': 'BUY', 'positionEffect': 'OPENING', 'quantity': 1}], 'orderStrategyType': 'SINGLE', 'clientOrderId': 'AGIG-BUY-20260105T154207-4757'}
+2026-01-05T15:42:10.614017+0000 DEBUG Order filled: session                                                                NORMAL
+duration                                                                  DAY
+orderType                                                              MARKET
+complexOrderStrategyType                                                 NONE
+quantity                                                                  1.0
+filledQuantity                                                            1.0
+remainingQuantity                                                         0.0
+requestedDestination                                                     AUTO
+destinationLinkName                                                      JNST
+taxLotMethod                                                             FIFO
+orderLegCollection          [{'orderLegType': 'EQUITY', 'legId': 1, 'instr...
+orderStrategyType                                                      SINGLE
+orderId                                                         1005050121878
+cancelable                                                              False
+editable                                                                False
+status                                                                 FILLED
+enteredTime                                          2026-01-05T15:42:07+0000
+closeTime                                            2026-01-05T15:42:07+0000
+tag                                             TA_hartnc15gmailcom1741705857
+accountNumber                                                        80157725
+orderActivityCollection     [{'activityType': 'EXECUTION', 'activityId': 1...
+Name: 0, dtype: object
+2026-01-05T15:42:10.616176+0000 DEBUG fill: Fill(price=2.2196, quantity=1, time=None), status: OrderStatus.FILLED, order_series: session                                                                NORMAL
+duration                                                                  DAY
+orderType                                                              MARKET
+complexOrderStrategyType                                                 NONE
+quantity                                                                  1.0
+filledQuantity                                                            1.0
+remainingQuantity                                                         0.0
+requestedDestination                                                     AUTO
+destinationLinkName                                                      JNST
+taxLotMethod                                                             FIFO
+orderLegCollection          [{'orderLegType': 'EQUITY', 'legId': 1, 'instr...
+orderStrategyType                                                      SINGLE
+orderId                                                         1005050121878
+cancelable                                                              False
+editable                                                                False
+status                                                                 FILLED
+enteredTime                                          2026-01-05T15:42:07+0000
+closeTime                                            2026-01-05T15:42:07+0000
+tag                                             TA_hartnc15gmailcom1741705857
+accountNumber                                                        80157725
+orderActivityCollection     [{'activityType': 'EXECUTION', 'activityId': 1...
+Name: 0, dtype: object
+2026-01-05T15:42:10.620664+0000 INFO [AGIG] placing LIMIT SELL @ 2.25 (+0.03)
+2026-01-05T15:42:10.621123+0000 DEBUG place_sell coid: AGIG-SELL-20260105T154210-2295
+2026-01-05T15:42:10.621507+0000 DEBUG {'price': 2.25, 'session': 'NORMAL', 'duration': 'DAY', 'orderType': 'MARKET', 'complexOrderStrategyType': 'NONE', 'quantity': 1, 'taxLotMethod': 'FIFO', 'orderLegCollection': [{'orderLegType': 'EQUITY', 'legId': 1, 'instrument': {'symbol': 'AGIG', 'assetType': 'EQUITY'}, 'instruction': 'SELL', 'positionEffect': 'OPENING', 'quantity': 1}], 'orderStrategyType': 'SINGLE'}
+2026-01-05T15:42:10.937406+0000 ERROR Error in response with message: {"message":"Limit price must be populated only for limit orders."}
+2026-01-05T15:42:10.937778+0000 ERROR Error code: 400
+2026-01-05T15:42:10.940452+0000 DEBUG create_order order_or_resp:
+{"message":"Limit price must be populated only for limit orders."}
+2026-01-05T15:42:10.941378+0000 ERROR create_stop_loss_order order_or_resp:
+{"message":"Limit price must be populated only for limit orders."}
+2026-01-05T15:42:10.941818+0000 ERROR create_stop_loss_order type(order_or_resp):
+<class 'str'>
+2026-01-05T15:42:10.942107+0000 DEBUG place_sell payload_dict:
+None
+2026-01-05T15:42:10.942451+0000 ERROR AGIG: broker returned error response for SELL.
+2026-01-05T15:42:10.942762+0000 ERROR [AGIG] limit sell placement failed; fallback SELL @ MKT
+2026-01-05T15:42:10.943069+0000 DEBUG place_sell coid: AGIG-SELL-20260105T154210-2974
+2026-01-05T15:42:10.943485+0000 DEBUG {'price': None, 'session': 'NORMAL', 'duration': 'DAY', 'orderType': 'MARKET', 'complexOrderStrategyType': 'NONE', 'quantity': 1, 'taxLotMethod': 'FIFO', 'orderLegCollection': [{'orderLegType': 'EQUITY', 'legId': 1, 'instrument': {'symbol': 'AGIG', 'assetType': 'EQUITY'}, 'instruction': 'SELL', 'positionEffect': 'OPENING', 'quantity': 1}], 'orderStrategyType': 'SINGLE'}
+2026-01-05T15:42:11.462550+0000 INFO Order Placed Successfully
+2026-01-05T15:42:11.465421+0000 DEBUG create_order order_or_resp:
+{'price': None, 'session': 'NORMAL', 'duration': 'DAY', 'orderType': 'MARKET', 'complexOrderStrategyType': 'NONE', 'quantity': 1, 'taxLotMethod': 'FIFO', 'orderLegCollection': [{'orderLegType': 'EQUITY', 'legId': 1, 'instrument': {'symbol': 'AGIG', 'assetType': 'EQUITY'}, 'instruction': 'SELL', 'positionEffect': 'OPENING', 'quantity': 1}], 'orderStrategyType': 'SINGLE'}
+2026-01-05T15:42:11.466789+0000 DEBUG place_sell payload_dict:
+{'price': None, 'session': 'NORMAL', 'duration': 'DAY', 'orderType': 'MARKET', 'complexOrderStrategyType': 'NONE', 'quantity': 1, 'taxLotMethod': 'FIFO', 'orderLegCollection': [{'orderLegType': 'EQUITY', 'legId': 1, 'instrument': {'symbol': 'AGIG', 'assetType': 'EQUITY'}, 'instruction': 'SELL', 'positionEffect': 'OPENING', 'quantity': 1}], 'orderStrategyType': 'SINGLE', 'clientOrderId': 'AGIG-SELL-20260105T154210-2974'}
+2026-01-05T15:42:14.308984+0000 DEBUG Order filled: session                                                                NORMAL
+duration                                                                  DAY
+orderType                                                              MARKET
+complexOrderStrategyType                                                 NONE
+quantity                                                                  1.0
+filledQuantity                                                            1.0
+remainingQuantity                                                         0.0
+requestedDestination                                                     AUTO
+destinationLinkName                                                      ETMM
+taxLotMethod                                                             FIFO
+orderLegCollection          [{'orderLegType': 'EQUITY', 'legId': 1, 'instr...
+orderStrategyType                                                      SINGLE
+orderId                                                         1005050121886
+cancelable                                                              False
+editable                                                                False
+status                                                                 FILLED
+enteredTime                                          2026-01-05T15:42:11+0000
+closeTime                                            2026-01-05T15:42:11+0000
+tag                                             TA_hartnc15gmailcom1741705857
+accountNumber                                                        80157725
+orderActivityCollection     [{'activityType': 'EXECUTION', 'activityId': 1...
+Name: 0, dtype: object
+2026-01-05T15:42:14.311709+0000 DEBUG SELL fill: Fill(price=2.1859, quantity=1, time=None), status: OrderStatus.FILLED, order_series: session                                                                NORMAL
+duration                                                                  DAY
+orderType                                                              MARKET
+complexOrderStrategyType                                                 NONE
+quantity                                                                  1.0
+filledQuantity                                                            1.0
+remainingQuantity                                                         0.0
+requestedDestination                                                     AUTO
+destinationLinkName                                                      ETMM
+taxLotMethod                                                             FIFO
+orderLegCollection          [{'orderLegType': 'EQUITY', 'legId': 1, 'instr...
+orderStrategyType                                                      SINGLE
+orderId                                                         1005050121886
+cancelable                                                              False
+editable                                                                False
+status                                                                 FILLED
+enteredTime                                          2026-01-05T15:42:11+0000
+closeTime                                            2026-01-05T15:42:11+0000
+tag                                             TA_hartnc15gmailcom1741705857
+accountNumber                                                        80157725
+orderActivityCollection     [{'activityType': 'EXECUTION', 'activityId': 1...
+Name: 0, dtype: object
+2026-01-05T15:42:46.539988+0000 INFO Scanning for ten percent gainers
+2026-01-05T15:42:46.540423+0000 DEBUG now_et: 10:42:46.539923
+2026-01-05T15:42:46.540554+0000 DEBUG Fetching Equity movers (PERCENT_CHANGE_UP)
+2026-01-05T15:42:46.962630+0000 DEBUG Creating Ten Percent Gainers List
+2026-01-05T15:42:46.967560+0000 DEBUG ten_per_movers shape: (2, 9)
+2026-01-05T15:42:47.990278+0000 DEBUG ten_per_gainers:                     description     volume  ... symbol ticker_rating
+0              DATAVAULT AI INC  150884226  ...   DVLT           NaN
+1                  VERIFYME INC  116204337  ...   VRME           NaN
+2             HYPERION DEFI INC     197365  ...   HYPD           0.5
+3                MOMENTUS INC A   43964724  ...   MNTS           0.5
+4          SHUTTLE PHARMACEUTIC      64051  ...   SHPH           0.5
+5          TENAX THERAPEUTICS I     275038  ...   TENX           0.5
+6          UNIVERSAL SAFETY PRO     251647  ...    UUU           0.5
+7                    VELO3D INC    1049376  ...   VELO           0.5
+8   ASCENT SOLAR TECHNOL Equity    4035142  ...   ASTI           0.5
+9                   VIEWBIX INC     104393  ...   VBIX           0.5
+10           METAPLANET INC ADR     905446  ...  MPJPY           0.5
+11       ALCHEMY INVTS ACQUIS A     109082  ...   ALCY           0.5
+12         ABUNDIA GLOBAL IMPAC     198831  ...   AGIG           0.5
+13             ROBIN ENERGY LTD     231088  ...   RBNE           0.5
+14          DEFSEC TECHNOLOGIES      55515  ...   DFSC           0.5
+15         INTELLIGENT BIO SOLU    4480079  ...   INBS           0.5
+16     BIODEXA PHARMACEUTIC ADR      57870  ...   BDRX           0.5
+17           VIVOPOWER INTL PLC      84113  ...   VVPR           0.5
+18                 STRIVE INC A   54345433  ...   ASST           0.5
+
+[19 rows x 10 columns]
+2026-01-05T15:42:47.990615+0000 INFO Connecting to Gmail...
+2026-01-05T15:42:47.995596+0000 INFO Connected to Gmail.
+2026-01-05T15:42:47.995762+0000 DEBUG Scanning Gmail for tickers…
+2026-01-05T15:42:54.102889+0000 INFO New Email Subject: Alert: New symbols: HYPD, JOBY/WS, MNTS, SHPH, TENX, UUU, VELO were added to Ross_Pre_Market_Custom.
+2026-01-05T15:42:54.103647+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Momo_Custom.
+2026-01-05T15:42:54.103782+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Momo_Custom.
+2026-01-05T15:42:54.103967+0000 INFO New Email Subject: Alert: New symbol: ASTI was added to Ross_Pre_Market_Custom.
+2026-01-05T15:42:54.104551+0000 INFO New Email Subject: Alert: New symbol: VBIX was added to Ross_Pre_Market_Custom.
+2026-01-05T15:42:54.104671+0000 INFO New Email Subject: Alert: New symbol: MPJPY was added to Ross_Pre_Market_Custom.
+2026-01-05T15:42:54.104790+0000 INFO New Email Subject: Alert: New symbol: TENX was added to Ross_Pre_Market_Custom.
+2026-01-05T15:42:54.105194+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:42:54.105386+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:42:54.105684+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:42:54.105893+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:42:54.106113+0000 INFO New Email Subject: Alert: New symbol: ALCY was added to Ross_Pre_Market_Custom.
+2026-01-05T15:42:54.106406+0000 INFO New Email Subject: Alert: New symbol: AGIG was added to Ross_Pre_Market_Custom.
+2026-01-05T15:42:54.106645+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:42:54.106874+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:42:54.107080+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:42:54.107369+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:42:54.107598+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:42:54.107837+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:42:54.108035+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:42:54.108390+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:42:54.108672+0000 INFO New Email Subject: Alert: New symbol: VVPR was added to Ross_Pre_Market_Custom.
+2026-01-05T15:42:54.108973+0000 INFO New Email Subject: Alert: New symbol: DFSC was added to Ross_Pre_Market_Custom.
+2026-01-05T15:42:54.109284+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:42:54.109496+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:42:54.109732+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:42:54.109943+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:42:54.110148+0000 INFO New Email Subject: Alert: New symbol: INBS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:42:54.110411+0000 INFO New Email Subject: Alert: New symbol: BDRX was added to Ross_Pre_Market_Custom.
+2026-01-05T15:42:54.390082+0000 DEBUG gmail quotes shape: (11, 16)
+2026-01-05T15:42:55.404031+0000 INFO Ten_percent_gainers snapshot rows=19
+2026-01-05T15:42:55.404589+0000 DEBUG Putting updated ten_percent_gainers on queue.
+2026-01-05T15:42:55.404728+0000 DEBUG Scanning bot sleeping for ~3 min
+2026-01-05T15:43:06.291578+0000 INFO [MNTS] BUY trigger (boll/rVol) @ ~10.08 green_vol_ratio=1.7 rvol=1.75
+2026-01-05T15:43:06.292724+0000 DEBUG place_buy coid: MNTS-BUY-20260105T154306-0507
+2026-01-05T15:43:06.292997+0000 DEBUG {'price': None, 'session': 'NORMAL', 'duration': 'DAY', 'orderType': 'MARKET', 'complexOrderStrategyType': 'NONE', 'quantity': 1, 'taxLotMethod': 'FIFO', 'orderLegCollection': [{'orderLegType': 'EQUITY', 'legId': 1, 'instrument': {'symbol': 'MNTS', 'assetType': 'EQUITY'}, 'instruction': 'BUY', 'positionEffect': 'OPENING', 'quantity': 1}], 'orderStrategyType': 'SINGLE'}
+2026-01-05T15:43:06.666712+0000 INFO Order Placed Successfully
+2026-01-05T15:43:06.669664+0000 DEBUG create_order order_or_resp:
+{'price': None, 'session': 'NORMAL', 'duration': 'DAY', 'orderType': 'MARKET', 'complexOrderStrategyType': 'NONE', 'quantity': 1, 'taxLotMethod': 'FIFO', 'orderLegCollection': [{'orderLegType': 'EQUITY', 'legId': 1, 'instrument': {'symbol': 'MNTS', 'assetType': 'EQUITY'}, 'instruction': 'BUY', 'positionEffect': 'OPENING', 'quantity': 1}], 'orderStrategyType': 'SINGLE'}
+2026-01-05T15:43:06.670702+0000 DEBUG place_buy payload_dict:
+{'price': None, 'session': 'NORMAL', 'duration': 'DAY', 'orderType': 'MARKET', 'complexOrderStrategyType': 'NONE', 'quantity': 1, 'taxLotMethod': 'FIFO', 'orderLegCollection': [{'orderLegType': 'EQUITY', 'legId': 1, 'instrument': {'symbol': 'MNTS', 'assetType': 'EQUITY'}, 'instruction': 'BUY', 'positionEffect': 'OPENING', 'quantity': 1}], 'orderStrategyType': 'SINGLE', 'clientOrderId': 'MNTS-BUY-20260105T154306-0507'}
+2026-01-05T15:43:09.724811+0000 DEBUG Order filled: session                                                                NORMAL
+duration                                                                  DAY
+orderType                                                              MARKET
+complexOrderStrategyType                                                 NONE
+quantity                                                                  1.0
+filledQuantity                                                            1.0
+remainingQuantity                                                         0.0
+requestedDestination                                                     AUTO
+destinationLinkName                                                      NITE
+taxLotMethod                                                             FIFO
+orderLegCollection          [{'orderLegType': 'EQUITY', 'legId': 1, 'instr...
+orderStrategyType                                                      SINGLE
+orderId                                                         1005050572023
+cancelable                                                              False
+editable                                                                False
+status                                                                 FILLED
+enteredTime                                          2026-01-05T15:43:06+0000
+closeTime                                            2026-01-05T15:43:06+0000
+tag                                             TA_hartnc15gmailcom1741705857
+accountNumber                                                        80157725
+orderActivityCollection     [{'activityType': 'EXECUTION', 'activityId': 1...
+Name: 0, dtype: object
+2026-01-05T15:43:09.728821+0000 DEBUG fill: Fill(price=10.015, quantity=1, time=None), status: OrderStatus.FILLED, order_series: session                                                                NORMAL
+duration                                                                  DAY
+orderType                                                              MARKET
+complexOrderStrategyType                                                 NONE
+quantity                                                                  1.0
+filledQuantity                                                            1.0
+remainingQuantity                                                         0.0
+requestedDestination                                                     AUTO
+destinationLinkName                                                      NITE
+taxLotMethod                                                             FIFO
+orderLegCollection          [{'orderLegType': 'EQUITY', 'legId': 1, 'instr...
+orderStrategyType                                                      SINGLE
+orderId                                                         1005050572023
+cancelable                                                              False
+editable                                                                False
+status                                                                 FILLED
+enteredTime                                          2026-01-05T15:43:06+0000
+closeTime                                            2026-01-05T15:43:06+0000
+tag                                             TA_hartnc15gmailcom1741705857
+accountNumber                                                        80157725
+orderActivityCollection     [{'activityType': 'EXECUTION', 'activityId': 1...
+Name: 0, dtype: object
+2026-01-05T15:43:09.735176+0000 INFO [MNTS] placing LIMIT SELL @ 10.16 (+0.15)
+2026-01-05T15:43:09.735648+0000 DEBUG place_sell coid: MNTS-SELL-20260105T154309-0960
+2026-01-05T15:43:09.736534+0000 DEBUG {'price': 10.16, 'session': 'NORMAL', 'duration': 'DAY', 'orderType': 'MARKET', 'complexOrderStrategyType': 'NONE', 'quantity': 1, 'taxLotMethod': 'FIFO', 'orderLegCollection': [{'orderLegType': 'EQUITY', 'legId': 1, 'instrument': {'symbol': 'MNTS', 'assetType': 'EQUITY'}, 'instruction': 'SELL', 'positionEffect': 'OPENING', 'quantity': 1}], 'orderStrategyType': 'SINGLE'}
+2026-01-05T15:43:10.239481+0000 ERROR Error in response with message: {"message":"Limit price must be populated only for limit orders."}
+2026-01-05T15:43:10.239862+0000 ERROR Error code: 400
+2026-01-05T15:43:10.242059+0000 DEBUG create_order order_or_resp:
+{"message":"Limit price must be populated only for limit orders."}
+2026-01-05T15:43:10.242802+0000 ERROR create_stop_loss_order order_or_resp:
+{"message":"Limit price must be populated only for limit orders."}
+2026-01-05T15:43:10.243155+0000 ERROR create_stop_loss_order type(order_or_resp):
+<class 'str'>
+2026-01-05T15:43:10.243473+0000 DEBUG place_sell payload_dict:
+None
+2026-01-05T15:43:10.243706+0000 ERROR MNTS: broker returned error response for SELL.
+2026-01-05T15:43:10.243908+0000 ERROR [MNTS] limit sell placement failed; fallback SELL @ MKT
+2026-01-05T15:43:10.244068+0000 DEBUG place_sell coid: MNTS-SELL-20260105T154310-8099
+2026-01-05T15:43:10.244467+0000 DEBUG {'price': None, 'session': 'NORMAL', 'duration': 'DAY', 'orderType': 'MARKET', 'complexOrderStrategyType': 'NONE', 'quantity': 1, 'taxLotMethod': 'FIFO', 'orderLegCollection': [{'orderLegType': 'EQUITY', 'legId': 1, 'instrument': {'symbol': 'MNTS', 'assetType': 'EQUITY'}, 'instruction': 'SELL', 'positionEffect': 'OPENING', 'quantity': 1}], 'orderStrategyType': 'SINGLE'}
+2026-01-05T15:43:10.752365+0000 INFO Order Placed Successfully
+2026-01-05T15:43:10.755350+0000 DEBUG create_order order_or_resp:
+{'price': None, 'session': 'NORMAL', 'duration': 'DAY', 'orderType': 'MARKET', 'complexOrderStrategyType': 'NONE', 'quantity': 1, 'taxLotMethod': 'FIFO', 'orderLegCollection': [{'orderLegType': 'EQUITY', 'legId': 1, 'instrument': {'symbol': 'MNTS', 'assetType': 'EQUITY'}, 'instruction': 'SELL', 'positionEffect': 'OPENING', 'quantity': 1}], 'orderStrategyType': 'SINGLE'}
+2026-01-05T15:43:10.756287+0000 DEBUG place_sell payload_dict:
+{'price': None, 'session': 'NORMAL', 'duration': 'DAY', 'orderType': 'MARKET', 'complexOrderStrategyType': 'NONE', 'quantity': 1, 'taxLotMethod': 'FIFO', 'orderLegCollection': [{'orderLegType': 'EQUITY', 'legId': 1, 'instrument': {'symbol': 'MNTS', 'assetType': 'EQUITY'}, 'instruction': 'SELL', 'positionEffect': 'OPENING', 'quantity': 1}], 'orderStrategyType': 'SINGLE', 'clientOrderId': 'MNTS-SELL-20260105T154310-8099'}
+2026-01-05T15:43:13.742884+0000 DEBUG Order filled: session                                                                NORMAL
+duration                                                                  DAY
+orderType                                                              MARKET
+complexOrderStrategyType                                                 NONE
+quantity                                                                  1.0
+filledQuantity                                                            1.0
+remainingQuantity                                                         0.0
+requestedDestination                                                     AUTO
+destinationLinkName                                                      CDRG
+taxLotMethod                                                             FIFO
+orderLegCollection          [{'orderLegType': 'EQUITY', 'legId': 1, 'instr...
+orderStrategyType                                                      SINGLE
+orderId                                                         1005050572037
+cancelable                                                              False
+editable                                                                False
+status                                                                 FILLED
+enteredTime                                          2026-01-05T15:43:10+0000
+closeTime                                            2026-01-05T15:43:10+0000
+tag                                             TA_hartnc15gmailcom1741705857
+accountNumber                                                        80157725
+orderActivityCollection     [{'activityType': 'EXECUTION', 'activityId': 1...
+Name: 0, dtype: object
+2026-01-05T15:43:13.746080+0000 DEBUG SELL fill: Fill(price=9.94, quantity=1, time=None), status: OrderStatus.FILLED, order_series: session                                                                NORMAL
+duration                                                                  DAY
+orderType                                                              MARKET
+complexOrderStrategyType                                                 NONE
+quantity                                                                  1.0
+filledQuantity                                                            1.0
+remainingQuantity                                                         0.0
+requestedDestination                                                     AUTO
+destinationLinkName                                                      CDRG
+taxLotMethod                                                             FIFO
+orderLegCollection          [{'orderLegType': 'EQUITY', 'legId': 1, 'instr...
+orderStrategyType                                                      SINGLE
+orderId                                                         1005050572037
+cancelable                                                              False
+editable                                                                False
+status                                                                 FILLED
+enteredTime                                          2026-01-05T15:43:10+0000
+closeTime                                            2026-01-05T15:43:10+0000
+tag                                             TA_hartnc15gmailcom1741705857
+accountNumber                                                        80157725
+orderActivityCollection     [{'activityType': 'EXECUTION', 'activityId': 1...
+Name: 0, dtype: object
+2026-01-05T15:43:14.080725+0000 INFO [RBNE] BUY trigger (boll/rVol) @ ~3.56 green_vol_ratio=1.96 rvol=1.45
+2026-01-05T15:43:14.081807+0000 DEBUG place_buy coid: RBNE-BUY-20260105T154314-6856
+2026-01-05T15:43:14.082169+0000 DEBUG {'price': None, 'session': 'NORMAL', 'duration': 'DAY', 'orderType': 'MARKET', 'complexOrderStrategyType': 'NONE', 'quantity': 1, 'taxLotMethod': 'FIFO', 'orderLegCollection': [{'orderLegType': 'EQUITY', 'legId': 1, 'instrument': {'symbol': 'RBNE', 'assetType': 'EQUITY'}, 'instruction': 'BUY', 'positionEffect': 'OPENING', 'quantity': 1}], 'orderStrategyType': 'SINGLE'}
+2026-01-05T15:43:14.431254+0000 INFO Order Placed Successfully
+2026-01-05T15:43:14.433619+0000 DEBUG create_order order_or_resp:
+{'price': None, 'session': 'NORMAL', 'duration': 'DAY', 'orderType': 'MARKET', 'complexOrderStrategyType': 'NONE', 'quantity': 1, 'taxLotMethod': 'FIFO', 'orderLegCollection': [{'orderLegType': 'EQUITY', 'legId': 1, 'instrument': {'symbol': 'RBNE', 'assetType': 'EQUITY'}, 'instruction': 'BUY', 'positionEffect': 'OPENING', 'quantity': 1}], 'orderStrategyType': 'SINGLE'}
+2026-01-05T15:43:14.434752+0000 DEBUG place_buy payload_dict:
+{'price': None, 'session': 'NORMAL', 'duration': 'DAY', 'orderType': 'MARKET', 'complexOrderStrategyType': 'NONE', 'quantity': 1, 'taxLotMethod': 'FIFO', 'orderLegCollection': [{'orderLegType': 'EQUITY', 'legId': 1, 'instrument': {'symbol': 'RBNE', 'assetType': 'EQUITY'}, 'instruction': 'BUY', 'positionEffect': 'OPENING', 'quantity': 1}], 'orderStrategyType': 'SINGLE', 'clientOrderId': 'RBNE-BUY-20260105T154314-6856'}
+2026-01-05T15:43:17.586313+0000 WARNING RBNE: flagged as broker-assisted only; skipping future electronic orders. Details: Opening transactions for this security must be placed with a broker. Contact us
+2026-01-05T15:43:17.587330+0000 ERROR broker returned error response for order: Opening transactions for this security must be placed with a broker. Contact us
+2026-01-05T15:43:17.587516+0000 DEBUG fill: None, status: OrderStatus.REJECTED, order_series: Opening transactions for this security must be placed with a broker. Contact us
+2026-01-05T15:43:17.587663+0000 ERROR RBNE: BUY rejected: Opening transactions for this security must be placed with a broker. Contact us
+2026-01-05T15:43:17.587790+0000 ERROR [RBNE] buy failed
+2026-01-05T15:45:55.453474+0000 INFO Scanning for ten percent gainers
+2026-01-05T15:45:55.454055+0000 DEBUG now_et: 10:45:55.453414
+2026-01-05T15:45:55.454156+0000 DEBUG Fetching Equity movers (PERCENT_CHANGE_UP)
+2026-01-05T15:45:55.835439+0000 DEBUG Creating Ten Percent Gainers List
+2026-01-05T15:45:55.841151+0000 DEBUG ten_per_movers shape: (3, 9)
+2026-01-05T15:45:56.861969+0000 DEBUG ten_per_gainers:                     description     volume  ... symbol ticker_rating
+0              DATAVAULT AI INC  153301226  ...   DVLT           NaN
+1                  VERIFYME INC  120425471  ...   VRME           NaN
+2                  STRIVE INC A   60993024  ...   ASST           NaN
+3             HYPERION DEFI INC     199566  ...   HYPD           0.5
+4                MOMENTUS INC A   44843470  ...   MNTS           0.5
+5          SHUTTLE PHARMACEUTIC      64051  ...   SHPH           0.5
+6          TENAX THERAPEUTICS I     275338  ...   TENX           0.5
+7          UNIVERSAL SAFETY PRO     254967  ...    UUU           0.5
+8                    VELO3D INC    1065926  ...   VELO           0.5
+9   ASCENT SOLAR TECHNOL Equity    4078641  ...   ASTI           0.5
+10                  VIEWBIX INC     104393  ...   VBIX           0.5
+11           METAPLANET INC ADR     911924  ...  MPJPY           0.5
+12       ALCHEMY INVTS ACQUIS A     110785  ...   ALCY           0.5
+13         ABUNDIA GLOBAL IMPAC     216853  ...   AGIG           0.5
+14             ROBIN ENERGY LTD     242050  ...   RBNE           0.5
+15          DEFSEC TECHNOLOGIES      55526  ...   DFSC           0.5
+16         INTELLIGENT BIO SOLU    4562815  ...   INBS           0.5
+17     BIODEXA PHARMACEUTIC ADR      57870  ...   BDRX           0.5
+18           VIVOPOWER INTL PLC      84113  ...   VVPR           0.5
+
+[19 rows x 10 columns]
+2026-01-05T15:45:56.862847+0000 INFO Connecting to Gmail...
+2026-01-05T15:45:56.867249+0000 INFO Connected to Gmail.
+2026-01-05T15:45:56.867563+0000 DEBUG Scanning Gmail for tickers…
+2026-01-05T15:46:03.163912+0000 INFO New Email Subject: Alert: New symbols: HYPD, JOBY/WS, MNTS, SHPH, TENX, UUU, VELO were added to Ross_Pre_Market_Custom.
+2026-01-05T15:46:03.164603+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Momo_Custom.
+2026-01-05T15:46:03.164794+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Momo_Custom.
+2026-01-05T15:46:03.165128+0000 INFO New Email Subject: Alert: New symbol: ASTI was added to Ross_Pre_Market_Custom.
+2026-01-05T15:46:03.165264+0000 INFO New Email Subject: Alert: New symbol: VBIX was added to Ross_Pre_Market_Custom.
+2026-01-05T15:46:03.165580+0000 INFO New Email Subject: Alert: New symbol: MPJPY was added to Ross_Pre_Market_Custom.
+2026-01-05T15:46:03.165804+0000 INFO New Email Subject: Alert: New symbol: TENX was added to Ross_Pre_Market_Custom.
+2026-01-05T15:46:03.166021+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:46:03.166150+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:46:03.166498+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:46:03.166854+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:46:03.167196+0000 INFO New Email Subject: Alert: New symbol: ALCY was added to Ross_Pre_Market_Custom.
+2026-01-05T15:46:03.167485+0000 INFO New Email Subject: Alert: New symbol: AGIG was added to Ross_Pre_Market_Custom.
+2026-01-05T15:46:03.167690+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:46:03.167895+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:46:03.168084+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:46:03.168301+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:46:03.168587+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:46:03.168781+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:46:03.168983+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:46:03.169084+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:46:03.169378+0000 INFO New Email Subject: Alert: New symbol: VVPR was added to Ross_Pre_Market_Custom.
+2026-01-05T15:46:03.169594+0000 INFO New Email Subject: Alert: New symbol: DFSC was added to Ross_Pre_Market_Custom.
+2026-01-05T15:46:03.169783+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:46:03.169969+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:46:03.170164+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:46:03.170397+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:46:03.170587+0000 INFO New Email Subject: Alert: New symbol: INBS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:46:03.170920+0000 INFO New Email Subject: Alert: New symbol: BDRX was added to Ross_Pre_Market_Custom.
+2026-01-05T15:46:03.652706+0000 DEBUG gmail quotes shape: (11, 16)
+2026-01-05T15:46:09.790863+0000 INFO Ten_percent_gainers snapshot rows=19
+2026-01-05T15:46:09.791447+0000 DEBUG Putting updated ten_percent_gainers on queue.
+2026-01-05T15:46:09.791590+0000 DEBUG Scanning bot sleeping for ~3 min
+2026-01-05T15:48:06.152319+0000 INFO [HYPD] BUY trigger (boll/rVol) @ ~4.10 green_vol_ratio=11.91 rvol=6.16
+2026-01-05T15:48:06.153353+0000 DEBUG place_buy coid: HYPD-BUY-20260105T154806-1648
+2026-01-05T15:48:06.153711+0000 DEBUG {'price': None, 'session': 'NORMAL', 'duration': 'DAY', 'orderType': 'MARKET', 'complexOrderStrategyType': 'NONE', 'quantity': 1, 'taxLotMethod': 'FIFO', 'orderLegCollection': [{'orderLegType': 'EQUITY', 'legId': 1, 'instrument': {'symbol': 'HYPD', 'assetType': 'EQUITY'}, 'instruction': 'BUY', 'positionEffect': 'OPENING', 'quantity': 1}], 'orderStrategyType': 'SINGLE'}
+2026-01-05T15:48:06.493546+0000 INFO Order Placed Successfully
+2026-01-05T15:48:06.496133+0000 DEBUG create_order order_or_resp:
+{'price': None, 'session': 'NORMAL', 'duration': 'DAY', 'orderType': 'MARKET', 'complexOrderStrategyType': 'NONE', 'quantity': 1, 'taxLotMethod': 'FIFO', 'orderLegCollection': [{'orderLegType': 'EQUITY', 'legId': 1, 'instrument': {'symbol': 'HYPD', 'assetType': 'EQUITY'}, 'instruction': 'BUY', 'positionEffect': 'OPENING', 'quantity': 1}], 'orderStrategyType': 'SINGLE'}
+2026-01-05T15:48:06.497010+0000 DEBUG place_buy payload_dict:
+{'price': None, 'session': 'NORMAL', 'duration': 'DAY', 'orderType': 'MARKET', 'complexOrderStrategyType': 'NONE', 'quantity': 1, 'taxLotMethod': 'FIFO', 'orderLegCollection': [{'orderLegType': 'EQUITY', 'legId': 1, 'instrument': {'symbol': 'HYPD', 'assetType': 'EQUITY'}, 'instruction': 'BUY', 'positionEffect': 'OPENING', 'quantity': 1}], 'orderStrategyType': 'SINGLE', 'clientOrderId': 'HYPD-BUY-20260105T154806-1648'}
+2026-01-05T15:48:09.492256+0000 DEBUG Order filled: session                                                                NORMAL
+duration                                                                  DAY
+orderType                                                              MARKET
+complexOrderStrategyType                                                 NONE
+quantity                                                                  1.0
+filledQuantity                                                            1.0
+remainingQuantity                                                         0.0
+requestedDestination                                                     AUTO
+destinationLinkName                                                      CDRG
+taxLotMethod                                                             FIFO
+orderLegCollection          [{'orderLegType': 'EQUITY', 'legId': 1, 'instr...
+orderStrategyType                                                      SINGLE
+orderId                                                         1005050572892
+cancelable                                                              False
+editable                                                                False
+status                                                                 FILLED
+enteredTime                                          2026-01-05T15:48:06+0000
+closeTime                                            2026-01-05T15:48:06+0000
+tag                                             TA_hartnc15gmailcom1741705857
+accountNumber                                                        80157725
+orderActivityCollection     [{'activityType': 'EXECUTION', 'activityId': 1...
+statusDescription                                                         NaN
+Name: 0, dtype: object
+2026-01-05T15:48:09.495152+0000 DEBUG fill: Fill(price=4.05, quantity=1, time=None), status: OrderStatus.FILLED, order_series: session                                                                NORMAL
+duration                                                                  DAY
+orderType                                                              MARKET
+complexOrderStrategyType                                                 NONE
+quantity                                                                  1.0
+filledQuantity                                                            1.0
+remainingQuantity                                                         0.0
+requestedDestination                                                     AUTO
+destinationLinkName                                                      CDRG
+taxLotMethod                                                             FIFO
+orderLegCollection          [{'orderLegType': 'EQUITY', 'legId': 1, 'instr...
+orderStrategyType                                                      SINGLE
+orderId                                                         1005050572892
+cancelable                                                              False
+editable                                                                False
+status                                                                 FILLED
+enteredTime                                          2026-01-05T15:48:06+0000
+closeTime                                            2026-01-05T15:48:06+0000
+tag                                             TA_hartnc15gmailcom1741705857
+accountNumber                                                        80157725
+orderActivityCollection     [{'activityType': 'EXECUTION', 'activityId': 1...
+statusDescription                                                         NaN
+Name: 0, dtype: object
+2026-01-05T15:48:09.499215+0000 INFO [HYPD] placing LIMIT SELL @ 4.08 (+0.03)
+2026-01-05T15:48:09.499618+0000 DEBUG place_sell coid: HYPD-SELL-20260105T154809-1299
+2026-01-05T15:48:09.500015+0000 DEBUG {'price': 4.08, 'session': 'NORMAL', 'duration': 'DAY', 'orderType': 'MARKET', 'complexOrderStrategyType': 'NONE', 'quantity': 1, 'taxLotMethod': 'FIFO', 'orderLegCollection': [{'orderLegType': 'EQUITY', 'legId': 1, 'instrument': {'symbol': 'HYPD', 'assetType': 'EQUITY'}, 'instruction': 'SELL', 'positionEffect': 'OPENING', 'quantity': 1}], 'orderStrategyType': 'SINGLE'}
+2026-01-05T15:48:09.880785+0000 ERROR Error in response with message: {"message":"Limit price must be populated only for limit orders."}
+2026-01-05T15:48:09.881175+0000 ERROR Error code: 400
+2026-01-05T15:48:09.883584+0000 DEBUG create_order order_or_resp:
+{"message":"Limit price must be populated only for limit orders."}
+2026-01-05T15:48:09.884490+0000 ERROR create_stop_loss_order order_or_resp:
+{"message":"Limit price must be populated only for limit orders."}
+2026-01-05T15:48:09.884829+0000 ERROR create_stop_loss_order type(order_or_resp):
+<class 'str'>
+2026-01-05T15:48:09.885280+0000 DEBUG place_sell payload_dict:
+None
+2026-01-05T15:48:09.885747+0000 ERROR HYPD: broker returned error response for SELL.
+2026-01-05T15:48:09.886148+0000 ERROR [HYPD] limit sell placement failed; fallback SELL @ MKT
+2026-01-05T15:48:09.886514+0000 DEBUG place_sell coid: HYPD-SELL-20260105T154809-4360
+2026-01-05T15:48:09.886935+0000 DEBUG {'price': None, 'session': 'NORMAL', 'duration': 'DAY', 'orderType': 'MARKET', 'complexOrderStrategyType': 'NONE', 'quantity': 1, 'taxLotMethod': 'FIFO', 'orderLegCollection': [{'orderLegType': 'EQUITY', 'legId': 1, 'instrument': {'symbol': 'HYPD', 'assetType': 'EQUITY'}, 'instruction': 'SELL', 'positionEffect': 'OPENING', 'quantity': 1}], 'orderStrategyType': 'SINGLE'}
+2026-01-05T15:48:10.287558+0000 INFO Order Placed Successfully
+2026-01-05T15:48:10.290336+0000 DEBUG create_order order_or_resp:
+{'price': None, 'session': 'NORMAL', 'duration': 'DAY', 'orderType': 'MARKET', 'complexOrderStrategyType': 'NONE', 'quantity': 1, 'taxLotMethod': 'FIFO', 'orderLegCollection': [{'orderLegType': 'EQUITY', 'legId': 1, 'instrument': {'symbol': 'HYPD', 'assetType': 'EQUITY'}, 'instruction': 'SELL', 'positionEffect': 'OPENING', 'quantity': 1}], 'orderStrategyType': 'SINGLE'}
+2026-01-05T15:48:10.290960+0000 DEBUG place_sell payload_dict:
+{'price': None, 'session': 'NORMAL', 'duration': 'DAY', 'orderType': 'MARKET', 'complexOrderStrategyType': 'NONE', 'quantity': 1, 'taxLotMethod': 'FIFO', 'orderLegCollection': [{'orderLegType': 'EQUITY', 'legId': 1, 'instrument': {'symbol': 'HYPD', 'assetType': 'EQUITY'}, 'instruction': 'SELL', 'positionEffect': 'OPENING', 'quantity': 1}], 'orderStrategyType': 'SINGLE', 'clientOrderId': 'HYPD-SELL-20260105T154809-4360'}
+2026-01-05T15:48:13.169500+0000 DEBUG Order filled: session                                                                NORMAL
+duration                                                                  DAY
+orderType                                                              MARKET
+complexOrderStrategyType                                                 NONE
+quantity                                                                  1.0
+filledQuantity                                                            1.0
+remainingQuantity                                                         0.0
+requestedDestination                                                     AUTO
+destinationLinkName                                                      JNST
+taxLotMethod                                                             FIFO
+orderLegCollection          [{'orderLegType': 'EQUITY', 'legId': 1, 'instr...
+orderStrategyType                                                      SINGLE
+orderId                                                         1005050572904
+cancelable                                                              False
+editable                                                                False
+status                                                                 FILLED
+enteredTime                                          2026-01-05T15:48:10+0000
+closeTime                                            2026-01-05T15:48:10+0000
+tag                                             TA_hartnc15gmailcom1741705857
+accountNumber                                                        80157725
+orderActivityCollection     [{'activityType': 'EXECUTION', 'activityId': 1...
+statusDescription                                                         NaN
+Name: 0, dtype: object
+2026-01-05T15:48:13.172676+0000 DEBUG SELL fill: Fill(price=4.05, quantity=1, time=None), status: OrderStatus.FILLED, order_series: session                                                                NORMAL
+duration                                                                  DAY
+orderType                                                              MARKET
+complexOrderStrategyType                                                 NONE
+quantity                                                                  1.0
+filledQuantity                                                            1.0
+remainingQuantity                                                         0.0
+requestedDestination                                                     AUTO
+destinationLinkName                                                      JNST
+taxLotMethod                                                             FIFO
+orderLegCollection          [{'orderLegType': 'EQUITY', 'legId': 1, 'instr...
+orderStrategyType                                                      SINGLE
+orderId                                                         1005050572904
+cancelable                                                              False
+editable                                                                False
+status                                                                 FILLED
+enteredTime                                          2026-01-05T15:48:10+0000
+closeTime                                            2026-01-05T15:48:10+0000
+tag                                             TA_hartnc15gmailcom1741705857
+accountNumber                                                        80157725
+orderActivityCollection     [{'activityType': 'EXECUTION', 'activityId': 1...
+statusDescription                                                         NaN
+Name: 0, dtype: object
+2026-01-05T15:49:06.812443+0000 INFO [ASST] BUY trigger (boll/rVol) @ ~1.01 green_vol_ratio=1.2 rvol=1.61
+2026-01-05T15:49:06.813283+0000 DEBUG place_buy coid: ASST-BUY-20260105T154906-2169
+2026-01-05T15:49:06.814108+0000 DEBUG {'price': None, 'session': 'NORMAL', 'duration': 'DAY', 'orderType': 'MARKET', 'complexOrderStrategyType': 'NONE', 'quantity': 1, 'taxLotMethod': 'FIFO', 'orderLegCollection': [{'orderLegType': 'EQUITY', 'legId': 1, 'instrument': {'symbol': 'ASST', 'assetType': 'EQUITY'}, 'instruction': 'BUY', 'positionEffect': 'OPENING', 'quantity': 1}], 'orderStrategyType': 'SINGLE'}
+2026-01-05T15:49:07.150871+0000 INFO Order Placed Successfully
+2026-01-05T15:49:07.153180+0000 DEBUG create_order order_or_resp:
+{'price': None, 'session': 'NORMAL', 'duration': 'DAY', 'orderType': 'MARKET', 'complexOrderStrategyType': 'NONE', 'quantity': 1, 'taxLotMethod': 'FIFO', 'orderLegCollection': [{'orderLegType': 'EQUITY', 'legId': 1, 'instrument': {'symbol': 'ASST', 'assetType': 'EQUITY'}, 'instruction': 'BUY', 'positionEffect': 'OPENING', 'quantity': 1}], 'orderStrategyType': 'SINGLE'}
+2026-01-05T15:49:07.154053+0000 DEBUG place_buy payload_dict:
+{'price': None, 'session': 'NORMAL', 'duration': 'DAY', 'orderType': 'MARKET', 'complexOrderStrategyType': 'NONE', 'quantity': 1, 'taxLotMethod': 'FIFO', 'orderLegCollection': [{'orderLegType': 'EQUITY', 'legId': 1, 'instrument': {'symbol': 'ASST', 'assetType': 'EQUITY'}, 'instruction': 'BUY', 'positionEffect': 'OPENING', 'quantity': 1}], 'orderStrategyType': 'SINGLE', 'clientOrderId': 'ASST-BUY-20260105T154906-2169'}
+2026-01-05T15:49:10.110153+0000 DEBUG Order filled: session                                                                NORMAL
+duration                                                                  DAY
+orderType                                                              MARKET
+complexOrderStrategyType                                                 NONE
+quantity                                                                  1.0
+filledQuantity                                                            1.0
+remainingQuantity                                                         0.0
+requestedDestination                                                     AUTO
+destinationLinkName                                                      CDRG
+taxLotMethod                                                             FIFO
+orderLegCollection          [{'orderLegType': 'EQUITY', 'legId': 1, 'instr...
+orderStrategyType                                                      SINGLE
+orderId                                                         1005050573030
+cancelable                                                              False
+editable                                                                False
+status                                                                 FILLED
+enteredTime                                          2026-01-05T15:49:06+0000
+closeTime                                            2026-01-05T15:49:07+0000
+tag                                             TA_hartnc15gmailcom1741705857
+accountNumber                                                        80157725
+orderActivityCollection     [{'activityType': 'EXECUTION', 'activityId': 1...
+statusDescription                                                         NaN
+Name: 0, dtype: object
+2026-01-05T15:49:10.113403+0000 DEBUG fill: Fill(price=0.9979, quantity=1, time=None), status: OrderStatus.FILLED, order_series: session                                                                NORMAL
+duration                                                                  DAY
+orderType                                                              MARKET
+complexOrderStrategyType                                                 NONE
+quantity                                                                  1.0
+filledQuantity                                                            1.0
+remainingQuantity                                                         0.0
+requestedDestination                                                     AUTO
+destinationLinkName                                                      CDRG
+taxLotMethod                                                             FIFO
+orderLegCollection          [{'orderLegType': 'EQUITY', 'legId': 1, 'instr...
+orderStrategyType                                                      SINGLE
+orderId                                                         1005050573030
+cancelable                                                              False
+editable                                                                False
+status                                                                 FILLED
+enteredTime                                          2026-01-05T15:49:06+0000
+closeTime                                            2026-01-05T15:49:07+0000
+tag                                             TA_hartnc15gmailcom1741705857
+accountNumber                                                        80157725
+orderActivityCollection     [{'activityType': 'EXECUTION', 'activityId': 1...
+statusDescription                                                         NaN
+Name: 0, dtype: object
+2026-01-05T15:49:10.117591+0000 INFO [ASST] placing LIMIT SELL @ 1.03 (+0.03)
+2026-01-05T15:49:10.117899+0000 DEBUG place_sell coid: ASST-SELL-20260105T154910-5188
+2026-01-05T15:49:10.118401+0000 DEBUG {'price': 1.03, 'session': 'NORMAL', 'duration': 'DAY', 'orderType': 'MARKET', 'complexOrderStrategyType': 'NONE', 'quantity': 1, 'taxLotMethod': 'FIFO', 'orderLegCollection': [{'orderLegType': 'EQUITY', 'legId': 1, 'instrument': {'symbol': 'ASST', 'assetType': 'EQUITY'}, 'instruction': 'SELL', 'positionEffect': 'OPENING', 'quantity': 1}], 'orderStrategyType': 'SINGLE'}
+2026-01-05T15:49:10.388965+0000 ERROR Error in response with message: {"message":"Limit price must be populated only for limit orders."}
+2026-01-05T15:49:10.389611+0000 ERROR Error code: 400
+2026-01-05T15:49:10.391797+0000 DEBUG create_order order_or_resp:
+{"message":"Limit price must be populated only for limit orders."}
+2026-01-05T15:49:10.392551+0000 ERROR create_stop_loss_order order_or_resp:
+{"message":"Limit price must be populated only for limit orders."}
+2026-01-05T15:49:10.392910+0000 ERROR create_stop_loss_order type(order_or_resp):
+<class 'str'>
+2026-01-05T15:49:10.393209+0000 DEBUG place_sell payload_dict:
+None
+2026-01-05T15:49:10.393544+0000 ERROR ASST: broker returned error response for SELL.
+2026-01-05T15:49:10.393825+0000 ERROR [ASST] limit sell placement failed; fallback SELL @ MKT
+2026-01-05T15:49:10.394108+0000 DEBUG place_sell coid: ASST-SELL-20260105T154910-6835
+2026-01-05T15:49:10.394327+0000 DEBUG {'price': None, 'session': 'NORMAL', 'duration': 'DAY', 'orderType': 'MARKET', 'complexOrderStrategyType': 'NONE', 'quantity': 1, 'taxLotMethod': 'FIFO', 'orderLegCollection': [{'orderLegType': 'EQUITY', 'legId': 1, 'instrument': {'symbol': 'ASST', 'assetType': 'EQUITY'}, 'instruction': 'SELL', 'positionEffect': 'OPENING', 'quantity': 1}], 'orderStrategyType': 'SINGLE'}
+2026-01-05T15:49:10.738845+0000 INFO Order Placed Successfully
+2026-01-05T15:49:10.741694+0000 DEBUG create_order order_or_resp:
+{'price': None, 'session': 'NORMAL', 'duration': 'DAY', 'orderType': 'MARKET', 'complexOrderStrategyType': 'NONE', 'quantity': 1, 'taxLotMethod': 'FIFO', 'orderLegCollection': [{'orderLegType': 'EQUITY', 'legId': 1, 'instrument': {'symbol': 'ASST', 'assetType': 'EQUITY'}, 'instruction': 'SELL', 'positionEffect': 'OPENING', 'quantity': 1}], 'orderStrategyType': 'SINGLE'}
+2026-01-05T15:49:10.742326+0000 DEBUG place_sell payload_dict:
+{'price': None, 'session': 'NORMAL', 'duration': 'DAY', 'orderType': 'MARKET', 'complexOrderStrategyType': 'NONE', 'quantity': 1, 'taxLotMethod': 'FIFO', 'orderLegCollection': [{'orderLegType': 'EQUITY', 'legId': 1, 'instrument': {'symbol': 'ASST', 'assetType': 'EQUITY'}, 'instruction': 'SELL', 'positionEffect': 'OPENING', 'quantity': 1}], 'orderStrategyType': 'SINGLE', 'clientOrderId': 'ASST-SELL-20260105T154910-6835'}
+2026-01-05T15:49:10.742670+0000 INFO Scanning for ten percent gainers
+2026-01-05T15:49:10.743328+0000 DEBUG now_et: 10:49:10.742640
+2026-01-05T15:49:10.743466+0000 DEBUG Fetching Equity movers (PERCENT_CHANGE_UP)
+2026-01-05T15:49:11.104087+0000 DEBUG Creating Ten Percent Gainers List
+2026-01-05T15:49:11.108752+0000 DEBUG ten_per_movers shape: (3, 9)
+2026-01-05T15:49:12.130264+0000 DEBUG ten_per_gainers:                     description     volume  ... symbol ticker_rating
+0              DATAVAULT AI INC  154846677  ...   DVLT           NaN
+1                  VERIFYME INC  125114239  ...   VRME           NaN
+2                  STRIVE INC A   62505349  ...   ASST           NaN
+3             HYPERION DEFI INC     201798  ...   HYPD           0.5
+4                MOMENTUS INC A   45634419  ...   MNTS           0.5
+5          SHUTTLE PHARMACEUTIC      64161  ...   SHPH           0.5
+6          TENAX THERAPEUTICS I     275388  ...   TENX           0.5
+7          UNIVERSAL SAFETY PRO     258661  ...    UUU           0.5
+8                    VELO3D INC    1082789  ...   VELO           0.5
+9   ASCENT SOLAR TECHNOL Equity    4111824  ...   ASTI           0.5
+10                  VIEWBIX INC     104393  ...   VBIX           0.5
+11           METAPLANET INC ADR     923343  ...  MPJPY           0.5
+12         ABUNDIA GLOBAL IMPAC     229801  ...   AGIG           0.5
+13             ROBIN ENERGY LTD     251643  ...   RBNE           0.5
+14           VIVOPOWER INTL PLC      97637  ...   VVPR           0.5
+15          DEFSEC TECHNOLOGIES      55543  ...   DFSC           0.5
+16         INTELLIGENT BIO SOLU    4721268  ...   INBS           0.5
+17     BIODEXA PHARMACEUTIC ADR      64775  ...   BDRX           0.5
+18       ALCHEMY INVTS ACQUIS A     110785  ...   ALCY           0.5
+
+[19 rows x 10 columns]
+2026-01-05T15:49:12.130623+0000 INFO Connecting to Gmail...
+2026-01-05T15:49:12.135794+0000 INFO Connected to Gmail.
+2026-01-05T15:49:12.135993+0000 DEBUG Scanning Gmail for tickers…
+2026-01-05T15:49:18.350524+0000 INFO New Email Subject: Alert: New symbols: HYPD, JOBY/WS, MNTS, SHPH, TENX, UUU, VELO were added to Ross_Pre_Market_Custom.
+2026-01-05T15:49:18.351447+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Momo_Custom.
+2026-01-05T15:49:18.351757+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Momo_Custom.
+2026-01-05T15:49:18.352077+0000 INFO New Email Subject: Alert: New symbol: ASTI was added to Ross_Pre_Market_Custom.
+2026-01-05T15:49:18.352188+0000 INFO New Email Subject: Alert: New symbol: VBIX was added to Ross_Pre_Market_Custom.
+2026-01-05T15:49:18.352510+0000 INFO New Email Subject: Alert: New symbol: MPJPY was added to Ross_Pre_Market_Custom.
+2026-01-05T15:49:18.352723+0000 INFO New Email Subject: Alert: New symbol: TENX was added to Ross_Pre_Market_Custom.
+2026-01-05T15:49:18.352971+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:49:18.353274+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:49:18.353616+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:49:18.353829+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:49:18.354058+0000 INFO New Email Subject: Alert: New symbol: ALCY was added to Ross_Pre_Market_Custom.
+2026-01-05T15:49:18.354298+0000 INFO New Email Subject: Alert: New symbol: AGIG was added to Ross_Pre_Market_Custom.
+2026-01-05T15:49:18.354534+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:49:18.354724+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:49:18.354906+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:49:18.355084+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:49:18.355307+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:49:18.355422+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:49:18.355650+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:49:18.355892+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:49:18.356065+0000 INFO New Email Subject: Alert: New symbol: VVPR was added to Ross_Pre_Market_Custom.
+2026-01-05T15:49:18.356162+0000 INFO New Email Subject: Alert: New symbol: DFSC was added to Ross_Pre_Market_Custom.
+2026-01-05T15:49:18.356426+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:49:18.356614+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:49:18.356826+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:49:18.356924+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:49:18.357332+0000 INFO New Email Subject: Alert: New symbol: INBS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:49:18.357450+0000 INFO New Email Subject: Alert: New symbol: BDRX was added to Ross_Pre_Market_Custom.
+2026-01-05T15:49:18.667682+0000 DEBUG gmail quotes shape: (11, 16)
+2026-01-05T15:49:19.684320+0000 INFO Ten_percent_gainers snapshot rows=19
+2026-01-05T15:49:19.685600+0000 DEBUG Putting updated ten_percent_gainers on queue.
+2026-01-05T15:49:19.685988+0000 DEBUG Scanning bot sleeping for ~3 min
+2026-01-05T15:49:20.145493+0000 DEBUG Order filled: session                                                                NORMAL
+duration                                                                  DAY
+orderType                                                              MARKET
+complexOrderStrategyType                                                 NONE
+quantity                                                                  1.0
+filledQuantity                                                            1.0
+remainingQuantity                                                         0.0
+requestedDestination                                                     AUTO
+destinationLinkName                                                      SOHO
+taxLotMethod                                                             FIFO
+orderLegCollection          [{'orderLegType': 'EQUITY', 'legId': 1, 'instr...
+orderStrategyType                                                      SINGLE
+orderId                                                         1005050573039
+cancelable                                                              False
+editable                                                                False
+status                                                                 FILLED
+enteredTime                                          2026-01-05T15:49:10+0000
+closeTime                                            2026-01-05T15:49:10+0000
+tag                                             TA_hartnc15gmailcom1741705857
+accountNumber                                                        80157725
+orderActivityCollection     [{'activityType': 'EXECUTION', 'activityId': 1...
+statusDescription                                                         NaN
+Name: 0, dtype: object
+2026-01-05T15:49:20.148052+0000 DEBUG SELL fill: Fill(price=0.99561, quantity=1, time=None), status: OrderStatus.FILLED, order_series: session                                                                NORMAL
+duration                                                                  DAY
+orderType                                                              MARKET
+complexOrderStrategyType                                                 NONE
+quantity                                                                  1.0
+filledQuantity                                                            1.0
+remainingQuantity                                                         0.0
+requestedDestination                                                     AUTO
+destinationLinkName                                                      SOHO
+taxLotMethod                                                             FIFO
+orderLegCollection          [{'orderLegType': 'EQUITY', 'legId': 1, 'instr...
+orderStrategyType                                                      SINGLE
+orderId                                                         1005050573039
+cancelable                                                              False
+editable                                                                False
+status                                                                 FILLED
+enteredTime                                          2026-01-05T15:49:10+0000
+closeTime                                            2026-01-05T15:49:10+0000
+tag                                             TA_hartnc15gmailcom1741705857
+accountNumber                                                        80157725
+orderActivityCollection     [{'activityType': 'EXECUTION', 'activityId': 1...
+statusDescription                                                         NaN
+Name: 0, dtype: object
+2026-01-05T15:52:19.699752+0000 INFO Scanning for ten percent gainers
+2026-01-05T15:52:19.700321+0000 DEBUG now_et: 10:52:19.699648
+2026-01-05T15:52:19.700876+0000 DEBUG Fetching Equity movers (PERCENT_CHANGE_UP)
+2026-01-05T15:52:20.175566+0000 DEBUG Creating Ten Percent Gainers List
+2026-01-05T15:52:20.179091+0000 DEBUG ten_per_movers shape: (2, 9)
+2026-01-05T15:52:21.200216+0000 DEBUG ten_per_gainers:                     description     volume  ... symbol ticker_rating
+0              DATAVAULT AI INC  160859757  ...   DVLT           NaN
+1                  VERIFYME INC  130442788  ...   VRME           NaN
+2             HYPERION DEFI INC     211087  ...   HYPD           0.5
+3                MOMENTUS INC A   46172954  ...   MNTS           0.5
+4          SHUTTLE PHARMACEUTIC      64161  ...   SHPH           0.5
+5          TENAX THERAPEUTICS I     281907  ...   TENX           0.5
+6          UNIVERSAL SAFETY PRO     259879  ...    UUU           0.5
+7                    VELO3D INC    1128215  ...   VELO           0.5
+8   ASCENT SOLAR TECHNOL Equity    4203006  ...   ASTI           0.5
+9                   VIEWBIX INC     104893  ...   VBIX           0.5
+10           METAPLANET INC ADR     923437  ...  MPJPY           0.5
+11         ABUNDIA GLOBAL IMPAC     235340  ...   AGIG           0.5
+12             ROBIN ENERGY LTD     256511  ...   RBNE           0.5
+13          DEFSEC TECHNOLOGIES      55549  ...   DFSC           0.5
+14         INTELLIGENT BIO SOLU    4827050  ...   INBS           0.5
+15     BIODEXA PHARMACEUTIC ADR      64797  ...   BDRX           0.5
+16                 STRIVE INC A   62505349  ...   ASST           0.5
+17           VIVOPOWER INTL PLC      97637  ...   VVPR           0.5
+18       ALCHEMY INVTS ACQUIS A     110785  ...   ALCY           0.5
+
+[19 rows x 10 columns]
+2026-01-05T15:52:21.200548+0000 INFO Connecting to Gmail...
+2026-01-05T15:52:21.205347+0000 INFO Connected to Gmail.
+2026-01-05T15:52:21.205542+0000 DEBUG Scanning Gmail for tickers…
+2026-01-05T15:52:27.789027+0000 INFO New Email Subject: Alert: New symbol: ASTI was added to Ross_Momo_Custom.
+2026-01-05T15:52:27.789750+0000 INFO New Email Subject: Alert: New symbol: ASTI was added to Ross_Momo_Custom.
+2026-01-05T15:52:27.789884+0000 INFO New Email Subject: Alert: New symbols: HYPD, JOBY/WS, MNTS, SHPH, TENX, UUU, VELO were added to Ross_Pre_Market_Custom.
+2026-01-05T15:52:27.789996+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Momo_Custom.
+2026-01-05T15:52:27.790389+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Momo_Custom.
+2026-01-05T15:52:27.790520+0000 INFO New Email Subject: Alert: New symbol: ASTI was added to Ross_Pre_Market_Custom.
+2026-01-05T15:52:27.790806+0000 INFO New Email Subject: Alert: New symbol: VBIX was added to Ross_Pre_Market_Custom.
+2026-01-05T15:52:27.790928+0000 INFO New Email Subject: Alert: New symbol: MPJPY was added to Ross_Pre_Market_Custom.
+2026-01-05T15:52:27.791193+0000 INFO New Email Subject: Alert: New symbol: TENX was added to Ross_Pre_Market_Custom.
+2026-01-05T15:52:27.791498+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:52:27.791725+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:52:27.791942+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:52:27.792172+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:52:27.792438+0000 INFO New Email Subject: Alert: New symbol: ALCY was added to Ross_Pre_Market_Custom.
+2026-01-05T15:52:27.792644+0000 INFO New Email Subject: Alert: New symbol: AGIG was added to Ross_Pre_Market_Custom.
+2026-01-05T15:52:27.792855+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:52:27.793057+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:52:27.793260+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:52:27.793567+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:52:27.793774+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:52:27.793999+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:52:27.794216+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:52:27.794404+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:52:27.794623+0000 INFO New Email Subject: Alert: New symbol: VVPR was added to Ross_Pre_Market_Custom.
+2026-01-05T15:52:27.794799+0000 INFO New Email Subject: Alert: New symbol: DFSC was added to Ross_Pre_Market_Custom.
+2026-01-05T15:52:27.794990+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:52:27.795195+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:52:27.795425+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:52:27.795618+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:52:27.795942+0000 INFO New Email Subject: Alert: New symbol: INBS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:52:27.796153+0000 INFO New Email Subject: Alert: New symbol: BDRX was added to Ross_Pre_Market_Custom.
+2026-01-05T15:52:28.033521+0000 DEBUG gmail quotes shape: (11, 16)
+2026-01-05T15:52:29.047342+0000 INFO Ten_percent_gainers snapshot rows=19
+2026-01-05T15:52:29.047856+0000 DEBUG Putting updated ten_percent_gainers on queue.
+2026-01-05T15:52:29.047996+0000 DEBUG Scanning bot sleeping for ~3 min
+2026-01-05T15:54:51.221161+0000 INFO Starting token refresh...
+2026-01-05T15:54:51.221952+0000 DEBUG Loaded secrets from schwab_secrets.json
+2026-01-05T15:54:51.222258+0000 DEBUG Loaded secrets from schwab_auth_token.json
+2026-01-05T15:54:51.736931+0000 DEBUG Refresh token response status=200
+2026-01-05T15:54:51.738035+0000 DEBUG Updated schwab_auth_token.json successfully.
+2026-01-05T15:54:51.738282+0000 INFO Access/refresh tokens successfully refreshed and stored.
+2026-01-05T15:55:29.070851+0000 INFO Scanning for ten percent gainers
+2026-01-05T15:55:29.071449+0000 DEBUG now_et: 10:55:29.070772
+2026-01-05T15:55:29.071580+0000 DEBUG Fetching Equity movers (PERCENT_CHANGE_UP)
+2026-01-05T15:55:29.614124+0000 DEBUG Creating Ten Percent Gainers List
+2026-01-05T15:55:29.617775+0000 DEBUG ten_per_movers shape: (2, 9)
+2026-01-05T15:55:30.638549+0000 DEBUG ten_per_gainers:                     description     volume  ... symbol ticker_rating
+0              DATAVAULT AI INC  164431999  ...   DVLT           NaN
+1                  VERIFYME INC  132447650  ...   VRME           NaN
+2   ASCENT SOLAR TECHNOL Equity    4323202  ...   ASTI           0.5
+3             HYPERION DEFI INC     222355  ...   HYPD           0.5
+4                MOMENTUS INC A   46733258  ...   MNTS           0.5
+5          SHUTTLE PHARMACEUTIC      66176  ...   SHPH           0.5
+6          TENAX THERAPEUTICS I     285954  ...   TENX           0.5
+7          UNIVERSAL SAFETY PRO     261968  ...    UUU           0.5
+8                    VELO3D INC    1133383  ...   VELO           0.5
+9                   VIEWBIX INC     104993  ...   VBIX           0.5
+10           METAPLANET INC ADR     933224  ...  MPJPY           0.5
+11         ABUNDIA GLOBAL IMPAC     237585  ...   AGIG           0.5
+12             ROBIN ENERGY LTD     256529  ...   RBNE           0.5
+13          DEFSEC TECHNOLOGIES      63870  ...   DFSC           0.5
+14         INTELLIGENT BIO SOLU    4864285  ...   INBS           0.5
+15     BIODEXA PHARMACEUTIC ADR      65917  ...   BDRX           0.5
+16                 STRIVE INC A   62505349  ...   ASST           0.5
+17           VIVOPOWER INTL PLC      97637  ...   VVPR           0.5
+18       ALCHEMY INVTS ACQUIS A     110785  ...   ALCY           0.5
+
+[19 rows x 10 columns]
+2026-01-05T15:55:30.638894+0000 INFO Connecting to Gmail...
+2026-01-05T15:55:30.848712+0000 INFO Connected to Gmail.
+2026-01-05T15:55:30.849385+0000 DEBUG Scanning Gmail for tickers…
+2026-01-05T15:55:37.595531+0000 INFO New Email Subject: Alert: New symbol: ASTI was added to Ross_Momo_Custom.
+2026-01-05T15:55:37.595902+0000 INFO New Email Subject: Alert: New symbol: ASTI was added to Ross_Momo_Custom.
+2026-01-05T15:55:37.596080+0000 INFO New Email Subject: Alert: New symbols: HYPD, JOBY/WS, MNTS, SHPH, TENX, UUU, VELO were added to Ross_Pre_Market_Custom.
+2026-01-05T15:55:37.596331+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Momo_Custom.
+2026-01-05T15:55:37.597094+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Momo_Custom.
+2026-01-05T15:55:37.597243+0000 INFO New Email Subject: Alert: New symbol: ASTI was added to Ross_Pre_Market_Custom.
+2026-01-05T15:55:37.597350+0000 INFO New Email Subject: Alert: New symbol: VBIX was added to Ross_Pre_Market_Custom.
+2026-01-05T15:55:37.597472+0000 INFO New Email Subject: Alert: New symbol: MPJPY was added to Ross_Pre_Market_Custom.
+2026-01-05T15:55:37.597867+0000 INFO New Email Subject: Alert: New symbol: TENX was added to Ross_Pre_Market_Custom.
+2026-01-05T15:55:37.597973+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:55:37.598063+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:55:37.598452+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:55:37.598689+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:55:37.598886+0000 INFO New Email Subject: Alert: New symbol: ALCY was added to Ross_Pre_Market_Custom.
+2026-01-05T15:55:37.599152+0000 INFO New Email Subject: Alert: New symbol: AGIG was added to Ross_Pre_Market_Custom.
+2026-01-05T15:55:37.599287+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:55:37.599562+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:55:37.599755+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:55:37.599952+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:55:37.600145+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:55:37.600400+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:55:37.600668+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:55:37.600902+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:55:37.601103+0000 INFO New Email Subject: Alert: New symbol: VVPR was added to Ross_Pre_Market_Custom.
+2026-01-05T15:55:37.601203+0000 INFO New Email Subject: Alert: New symbol: DFSC was added to Ross_Pre_Market_Custom.
+2026-01-05T15:55:37.601592+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:55:37.601827+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:55:37.602077+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:55:37.602320+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:55:37.602700+0000 INFO New Email Subject: Alert: New symbol: INBS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:55:37.602855+0000 INFO New Email Subject: Alert: New symbol: BDRX was added to Ross_Pre_Market_Custom.
+2026-01-05T15:55:38.070616+0000 DEBUG gmail quotes shape: (11, 16)
+2026-01-05T15:55:39.084329+0000 INFO Ten_percent_gainers snapshot rows=19
+2026-01-05T15:55:39.084843+0000 DEBUG Putting updated ten_percent_gainers on queue.
+2026-01-05T15:55:39.084980+0000 DEBUG Scanning bot sleeping for ~3 min
+2026-01-05T15:56:00.420348+0000 ERROR Error in response with message: 
+            
+        
+2026-01-05T15:56:00.420642+0000 ERROR Error code: 401
+2026-01-05T15:56:00.424677+0000 DEBUG Loaded secrets from schwab_auth_token.json
+2026-01-05T15:56:00.425083+0000 DEBUG Loaded secrets from schwab_auth_token.json
+2026-01-05T15:56:00.425451+0000 DEBUG Retrying get_price_history after token refresh (1d)
+2026-01-05T15:58:39.117372+0000 INFO Scanning for ten percent gainers
+2026-01-05T15:58:39.117935+0000 DEBUG now_et: 10:58:39.117309
+2026-01-05T15:58:39.118043+0000 DEBUG Fetching Equity movers (PERCENT_CHANGE_UP)
+2026-01-05T15:58:39.307092+0000 ERROR Error in response with message: 
+            
+        
+2026-01-05T15:58:39.307729+0000 ERROR Error code: 401
+2026-01-05T15:58:39.310960+0000 DEBUG Loaded secrets from schwab_auth_token.json
+2026-01-05T15:58:39.311502+0000 DEBUG Loaded secrets from schwab_auth_token.json
+2026-01-05T15:58:39.311744+0000 DEBUG Retrying equity movers after token refresh
+2026-01-05T15:58:39.651855+0000 DEBUG Creating Ten Percent Gainers List
+2026-01-05T15:58:39.656220+0000 DEBUG ten_per_movers shape: (4, 9)
+2026-01-05T15:58:40.677626+0000 DEBUG ten_per_gainers:                     description     volume  ... symbol ticker_rating
+0              DATAVAULT AI INC  165168772  ...   DVLT           NaN
+1                  VERIFYME INC  135332280  ...   VRME           NaN
+2                  STRIVE INC A   66667711  ...   ASST           NaN
+3                TMD ENERGY LTD   63153885  ...   TMDE           NaN
+4   ASCENT SOLAR TECHNOL Equity    4406047  ...   ASTI           0.5
+5             HYPERION DEFI INC     224121  ...   HYPD           0.5
+6                MOMENTUS INC A   47369223  ...   MNTS           0.5
+7          SHUTTLE PHARMACEUTIC      66680  ...   SHPH           0.5
+8          TENAX THERAPEUTICS I     290607  ...   TENX           0.5
+9          UNIVERSAL SAFETY PRO     265716  ...    UUU           0.5
+10                   VELO3D INC    1146679  ...   VELO           0.5
+11                  VIEWBIX INC     104993  ...   VBIX           0.5
+12           METAPLANET INC ADR     933283  ...  MPJPY           0.5
+13         ABUNDIA GLOBAL IMPAC     242209  ...   AGIG           0.5
+14             ROBIN ENERGY LTD     257656  ...   RBNE           0.5
+15          DEFSEC TECHNOLOGIES      64447  ...   DFSC           0.5
+16         INTELLIGENT BIO SOLU    4893219  ...   INBS           0.5
+17     BIODEXA PHARMACEUTIC ADR      65948  ...   BDRX           0.5
+18           VIVOPOWER INTL PLC      97637  ...   VVPR           0.5
+19       ALCHEMY INVTS ACQUIS A     110785  ...   ALCY           0.5
+
+[20 rows x 10 columns]
+2026-01-05T15:58:40.678047+0000 INFO Connecting to Gmail...
+2026-01-05T15:58:40.683307+0000 INFO Connected to Gmail.
+2026-01-05T15:58:40.683620+0000 DEBUG Scanning Gmail for tickers…
+2026-01-05T15:58:47.163063+0000 INFO New Email Subject: Alert: New symbol: ASTI was added to Ross_Momo_Custom.
+2026-01-05T15:58:47.163475+0000 INFO New Email Subject: Alert: New symbol: ASTI was added to Ross_Momo_Custom.
+2026-01-05T15:58:47.163635+0000 INFO New Email Subject: Alert: New symbols: HYPD, JOBY/WS, MNTS, SHPH, TENX, UUU, VELO were added to Ross_Pre_Market_Custom.
+2026-01-05T15:58:47.163732+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Momo_Custom.
+2026-01-05T15:58:47.163814+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Momo_Custom.
+2026-01-05T15:58:47.163891+0000 INFO New Email Subject: Alert: New symbol: ASTI was added to Ross_Pre_Market_Custom.
+2026-01-05T15:58:47.163965+0000 INFO New Email Subject: Alert: New symbol: VBIX was added to Ross_Pre_Market_Custom.
+2026-01-05T15:58:47.164040+0000 INFO New Email Subject: Alert: New symbol: MPJPY was added to Ross_Pre_Market_Custom.
+2026-01-05T15:58:47.164137+0000 INFO New Email Subject: Alert: New symbol: TENX was added to Ross_Pre_Market_Custom.
+2026-01-05T15:58:47.164261+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:58:47.165324+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:58:47.165471+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:58:47.165572+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:58:47.165664+0000 INFO New Email Subject: Alert: New symbol: ALCY was added to Ross_Pre_Market_Custom.
+2026-01-05T15:58:47.165766+0000 INFO New Email Subject: Alert: New symbol: AGIG was added to Ross_Pre_Market_Custom.
+2026-01-05T15:58:47.165868+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:58:47.165954+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:58:47.166054+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:58:47.166136+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:58:47.166929+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:58:47.167042+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:58:47.167151+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:58:47.167258+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:58:47.167348+0000 INFO New Email Subject: Alert: New symbol: VVPR was added to Ross_Pre_Market_Custom.
+2026-01-05T15:58:47.167465+0000 INFO New Email Subject: Alert: New symbol: DFSC was added to Ross_Pre_Market_Custom.
+2026-01-05T15:58:47.167897+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:58:47.168002+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:58:47.168103+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:58:47.168419+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T15:58:47.168529+0000 INFO New Email Subject: Alert: New symbol: INBS was added to Ross_Pre_Market_Custom.
+2026-01-05T15:58:47.168753+0000 INFO New Email Subject: Alert: New symbol: BDRX was added to Ross_Pre_Market_Custom.
+2026-01-05T15:58:47.400718+0000 DEBUG gmail quotes shape: (11, 16)
+2026-01-05T15:58:48.413685+0000 INFO Ten_percent_gainers snapshot rows=20
+2026-01-05T15:58:48.414176+0000 DEBUG Putting updated ten_percent_gainers on queue.
+2026-01-05T15:58:48.414769+0000 DEBUG Scanning bot sleeping for ~3 min
+2026-01-05T16:01:48.421621+0000 INFO Scanning for ten percent gainers
+2026-01-05T16:01:48.422345+0000 DEBUG now_et: 11:01:48.421544
+2026-01-05T16:01:48.423106+0000 DEBUG Fetching Equity movers (PERCENT_CHANGE_UP)
+2026-01-05T16:01:48.831417+0000 DEBUG Creating Ten Percent Gainers List
+2026-01-05T16:01:48.835739+0000 DEBUG ten_per_movers shape: (4, 9)
+2026-01-05T16:01:49.858470+0000 DEBUG ten_per_gainers:                     description     volume  ... symbol ticker_rating
+0              DATAVAULT AI INC  167168053  ...   DVLT           NaN
+1                  VERIFYME INC  136396716  ...   VRME           NaN
+2                  STRIVE INC A   67302934  ...   ASST           NaN
+3                TMD ENERGY LTD   65087735  ...   TMDE           NaN
+4   ASCENT SOLAR TECHNOL Equity    4503464  ...   ASTI           0.5
+5             HYPERION DEFI INC     227366  ...   HYPD           0.5
+6                MOMENTUS INC A   47763643  ...   MNTS           0.5
+7          SHUTTLE PHARMACEUTIC      66691  ...   SHPH           0.5
+8          TENAX THERAPEUTICS I     298904  ...   TENX           0.5
+9          UNIVERSAL SAFETY PRO     267835  ...    UUU           0.5
+10                   VELO3D INC    1171138  ...   VELO           0.5
+11                  VIEWBIX INC     112536  ...   VBIX           0.5
+12           METAPLANET INC ADR     934593  ...  MPJPY           0.5
+13       ALCHEMY INVTS ACQUIS A     137509  ...   ALCY           0.5
+14         ABUNDIA GLOBAL IMPAC     244349  ...   AGIG           0.5
+15             ROBIN ENERGY LTD     258201  ...   RBNE           0.5
+16           VIVOPOWER INTL PLC     111924  ...   VVPR           0.5
+17          DEFSEC TECHNOLOGIES      65047  ...   DFSC           0.5
+18         INTELLIGENT BIO SOLU    4919229  ...   INBS           0.5
+19     BIODEXA PHARMACEUTIC ADR      66983  ...   BDRX           0.5
+
+[20 rows x 10 columns]
+2026-01-05T16:01:49.858824+0000 INFO Connecting to Gmail...
+2026-01-05T16:01:49.863510+0000 INFO Connected to Gmail.
+2026-01-05T16:01:49.863692+0000 DEBUG Scanning Gmail for tickers…
+2026-01-05T16:01:56.543613+0000 INFO New Email Subject: Alert: New symbol: ASTI was added to Ross_Momo_Custom.
+2026-01-05T16:01:56.543941+0000 INFO New Email Subject: Alert: New symbol: ASTI was added to Ross_Momo_Custom.
+2026-01-05T16:01:56.544048+0000 INFO New Email Subject: Alert: New symbols: HYPD, JOBY/WS, MNTS, SHPH, TENX, UUU, VELO were added to Ross_Pre_Market_Custom.
+2026-01-05T16:01:56.544174+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Momo_Custom.
+2026-01-05T16:01:56.544305+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Momo_Custom.
+2026-01-05T16:01:56.544383+0000 INFO New Email Subject: Alert: New symbol: ASTI was added to Ross_Pre_Market_Custom.
+2026-01-05T16:01:56.544482+0000 INFO New Email Subject: Alert: New symbol: VBIX was added to Ross_Pre_Market_Custom.
+2026-01-05T16:01:56.544556+0000 INFO New Email Subject: Alert: New symbol: MPJPY was added to Ross_Pre_Market_Custom.
+2026-01-05T16:01:56.544626+0000 INFO New Email Subject: Alert: New symbol: TENX was added to Ross_Pre_Market_Custom.
+2026-01-05T16:01:56.544692+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T16:01:56.544758+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T16:01:56.544823+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T16:01:56.544887+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T16:01:56.544951+0000 INFO New Email Subject: Alert: New symbol: ALCY was added to Ross_Pre_Market_Custom.
+2026-01-05T16:01:56.545015+0000 INFO New Email Subject: Alert: New symbol: AGIG was added to Ross_Pre_Market_Custom.
+2026-01-05T16:01:56.545083+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T16:01:56.545172+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T16:01:56.546814+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T16:01:56.546938+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T16:01:56.547179+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T16:01:56.547476+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T16:01:56.547685+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T16:01:56.547920+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T16:01:56.548113+0000 INFO New Email Subject: Alert: New symbol: VVPR was added to Ross_Pre_Market_Custom.
+2026-01-05T16:01:56.548397+0000 INFO New Email Subject: Alert: New symbol: DFSC was added to Ross_Pre_Market_Custom.
+2026-01-05T16:01:56.548686+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T16:01:56.548808+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T16:01:56.549060+0000 INFO New Email Subject: Alert: New symbol: MNTS was added to Ross_Pre_Market_Custom.
+2026-01-05T16:01:56.549653+0000 INFO New Email Subject: Alert: New symbol: RBNE was added to Ross_Pre_Market_Custom.
+2026-01-05T16:01:56.549824+0000 INFO New Email Subject: Alert: New symbol: INBS was added to Ross_Pre_Market_Custom.
+2026-01-05T16:01:56.550142+0000 INFO New Email Subject: Alert: New symbol: BDRX was added to Ross_Pre_Market_Custom.
+2026-01-05T16:01:56.899878+0000 DEBUG gmail quotes shape: (11, 16)
+2026-01-05T16:01:57.912781+0000 INFO Ten_percent_gainers snapshot rows=20
+2026-01-05T16:01:57.913696+0000 DEBUG Putting updated ten_percent_gainers on queue.
+2026-01-05T16:01:57.913990+0000 DEBUG Scanning bot sleeping for ~3 min
+2026-01-05T16:04:50.313288+0000 ERROR Token refresh task was cancelled
+2026-01-05T16:04:50.316139+0000 ERROR Scanning Bot Task was cancelled
+2026-01-05T16:04:50.319828+0000 INFO Task group was cancelled; shutting down.
+2026-01-05T16:04:50.320582+0000 INFO Stopping script

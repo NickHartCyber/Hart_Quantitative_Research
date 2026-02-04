@@ -1,0 +1,14 @@
+{
+  "options": [],
+  "meta": {
+    "horizon": "short_term",
+    "limit": 10,
+    "strike_count": 8,
+    "include_puts": true,
+    "range": "NTM",
+    "stock_list": "mass_combo",
+    "stock_list_label": "Mass combo (S&P 500 + NASDAQ-100 + Russell 2000)",
+    "suggestions_count": 0,
+    "generated_at": "2025-12-29T22:06:59.700261+00:00"
+  }
+}

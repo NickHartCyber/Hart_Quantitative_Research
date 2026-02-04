@@ -1,0 +1,9 @@
+ticker,action,horizon,thesis,entry,stop,qty,notional,risk_$,risk_%,score,close,vol_ratio20,prox_52w_high_pct,r20,sma50,sma200,adv20_dollar,r5,r60,atr14,atr_%
+STLD,Buy,1-2 day,Momentum + liquidity screen near highs,173.12,165.8,3,519.0,22.0,4.23,0.804,172.74,1.74,0.9,0.1173,157.67,136.48,201679268.0,0.0088,0.2637,4.215,2.44
+HLT,Buy,1-2 day,Momentum + liquidity screen near highs,294.99,285.01,2,590.0,20.0,3.38,0.796,293.0,2.17,0.58,0.0935,270.26,256.59,476720788.0,0.0803,0.1111,5.325,1.82
+TXT,Buy,1-2 day,Momentum + liquidity screen near highs,88.27,85.12,7,618.0,22.0,3.57,0.787,87.44,1.64,0.84,0.0951,82.41,78.25,119021063.0,0.0275,0.0534,1.549,1.77
+CB,Buy,1-2 day,Momentum + liquidity screen near highs,313.71,305.45,1,314.0,8.0,2.63,0.779,312.96,1.48,0.16,0.0553,289.56,284.58,586404808.0,0.0554,0.1343,5.006,1.6
+AIZ,Buy,1-2 day,Momentum + liquidity screen near highs,238.2,230.9,2,476.0,15.0,3.06,0.765,237.04,1.44,0.39,0.0491,220.71,206.28,69771536.0,0.0632,0.1155,4.095,1.73
+K,Buy,1-2 day,Momentum + liquidity screen near highs,83.56,83.19,7,585.0,3.0,0.45,0.729,83.44,9.0,0.25,0.0014,83.14,81.46,400438398.0,0.0036,0.0506,0.167,0.2
+HOLX,Buy,1-2 day,Momentum + liquidity screen near highs,75.27,74.52,8,602.0,6.0,1.0,0.725,74.93,1.72,0.54,0.0111,73.32,65.73,224481280.0,0.0013,0.1078,0.276,0.37
+STT,Buy,1-2 day,Momentum + liquidity screen near highs,129.2,123.24,4,517.0,24.0,4.61,0.725,127.36,1.36,3.05,0.1251,118.24,105.32,225456684.0,-0.0121,0.1276,2.746,2.16
