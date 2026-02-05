@@ -18,8 +18,7 @@ Outputs:
     - Console table with the key columns
 
 Dependencies:
-    pip install pandas numpy yfinance loguru
-    (Schwab provider requires your repo's MarketData and auth helpers)
+    pip install pandas numpy loguru
 """
 
 from __future__ import annotations
@@ -28,19 +27,16 @@ import argparse
 import asyncio
 import sys
 import math
+import re
 from dataclasses import dataclass, fields
-from datetime import date, datetime, timezone
-import pytz
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from typing import Iterable, List, Dict, Any, Optional, TYPE_CHECKING
 from loguru import logger
 from backend.core.suggester_cancel import CancelToken
 
-# Schwab integrations (present in your codebase)
-from backend.platform_apis.schwab_api.accounts_trading import AccountsTrading
-from backend.platform_apis.schwab_api.helpers import design_get_historical_price
-from backend.platform_apis.schwab_api.get_refresh_token import refresh_tokens
-from backend.platform_apis.schwab_api.market_data import MarketData
+# Tiingo price history
+from backend.platform_apis.tiingo_api.tiingo_api import get_daily_prices
 
 import numpy as np
 import pandas as pd
@@ -90,282 +86,96 @@ def _to_epoch_ms(dt_val: Optional[object]) -> Optional[int]:
         return int(dt_val.timestamp() * 1000)
     return None
 
-class SchwabMarketDataProvider(DataProvider):
-    """Adapter that pulls daily bars from your Schwab `MarketData` client.
+class TiingoMarketDataProvider(DataProvider):
+    """Tiingo-backed provider with the same MultiIndex OHLCV contract."""
 
-    Parameters
-    ----------
-    md : MarketData
-        Your authenticated Schwab MarketData client.
-    use_extended_hours : bool, optional
-        Whether to include pre/after-hours in daily candles (default: False).
-    years : int, optional
-        Number of years of daily history to request (default: 1).
+    def __init__(self, *, use_adjusted: bool = False):
+        self.use_adjusted = use_adjusted
 
-    Notes
-    -----
-    - Normalizes response into the common MultiIndex OHLCV shape expected
-      by the downstream feature/score pipeline.
-    """
-    def __init__(
+    def _period_to_days(self, period: str | None) -> int:
+        if not period:
+            return 365
+        text = str(period).strip().lower()
+        m = re.match(r"^(\d+)\s*(y|yr|year)s?$", text)
+        if m:
+            return max(int(m.group(1)), 1) * 365
+        m = re.match(r"^(\d+)\s*(mo|month)s?$", text)
+        if m:
+            return max(int(m.group(1)), 1) * 31
+        m = re.match(r"^(\d+)\s*(d|day)s?$", text)
+        if m:
+            return max(int(m.group(1)), 1)
+        return 365
+
+    def _resolve_dates(
         self,
-        md: MarketData,
-        accounts: AccountsTrading | None = None,
-        *,
-        use_extended_hours: bool = False,
-        years: int = 1,
-    ):
-        self.md = md
-        self.accounts_trading = accounts
-        self.use_extended_hours = use_extended_hours
-        self.years = years
-
-    # ------------------------------------------------------------------ #
-    # Auth helpers
-    # ------------------------------------------------------------------ #
-    def refresh_classes_access_tokens(self) -> None:
-        """
-        Refresh OAuth tokens for the composed API clients during runtime.
-        """
-        self.md.refresh_access_token()
-        try:
-            if self.accounts_trading is None:
-                self.accounts_trading = AccountsTrading()
-            self.accounts_trading.refresh_access_token()
-        except Exception as exc:
-            logger.warning(f"Could not refresh AccountsTrading token: {exc}")
+        period: str,
+        start_date: Optional[object] = None,
+        end_date: Optional[object] = None,
+    ) -> tuple[str | None, str | None]:
+        if start_date is not None or end_date is not None:
+            start = start_date
+            end = end_date
+        else:
+            days = self._period_to_days(period)
+            end = datetime.now(timezone.utc).date()
+            start = end - timedelta(days=days)
+        if isinstance(start, str):
+            start_text = start
+        else:
+            start_text = start.isoformat() if hasattr(start, "isoformat") else None
+        if isinstance(end, str):
+            end_text = end
+        else:
+            end_text = end.isoformat() if hasattr(end, "isoformat") else None
+        return start_text, end_text
 
     def _one_symbol_daily(
         self,
         symbol: str,
         *,
+        period: str,
         start_date: Optional[object] = None,
         end_date: Optional[object] = None,
         cancel_token: Optional[CancelToken] = None,
     ) -> pd.DataFrame:
-        """Fetch ~1y of *daily* OHLCV for a single symbol from Schwab.
-
-        Returns a DataFrame indexed by datetime with columns:
-        ['Open','High','Low','Close','Volume'].
-        """
         _maybe_cancel(cancel_token)
-        start_ms = _to_epoch_ms(start_date)
-        end_ms = _to_epoch_ms(end_date)
-        # Build the Schwab/TDA "price history" request payload
-        price_payload = design_get_historical_price(
-            symbol=symbol,
-            period_type="year",
-            period=self.years,
-            frequency_type="daily",
-            frequency=1,
-            start_date=start_ms,
-            end_date=end_ms,
-            need_extended_hours_data=self.use_extended_hours,
-            need_previous_close=False,
-        )
-
-        # Call your client (returns dict-like with 'candles')
-        resp = self.md.get_price_history(price_payload)
-        if resp is None:
-            refresh_tokens()
-            self.refresh_classes_access_tokens()
-            resp = self.md.get_price_history(price_payload)
-        _maybe_cancel(cancel_token)
-
-        if resp is None:
-            logger.error(f"No price history returned for {symbol} (Schwab may have rate-limited the request).")
-            return pd.DataFrame(columns=["Open","High","Low","Close","Volume"])
-
-        if isinstance(resp, pd.DataFrame):
-            # logger.debug(
-            #     "Schwab price history response for {}: type=DataFrame shape={} columns={}",
-            #     symbol,
-            #     resp.shape,
-            #     list(resp.columns),
-            # )
-            if "candles" in resp.columns and not resp["candles"].empty:
-                sample = resp["candles"].iloc[0]
-                sample_len = len(sample) if hasattr(sample, "__len__") else None
-                sample_keys = list(sample.keys()) if isinstance(sample, dict) else None
-                # logger.debug(
-                #     "Schwab price history candles column sample for {}: type={} len={} keys={}",
-                #     symbol,
-                #     type(sample).__name__,
-                #     sample_len,
-                #     sample_keys,
-                # )
-        elif isinstance(resp, dict):
-            # logger.debug(
-            #     "Schwab price history response for {}: type=dict keys={} has_candles={}",
-            #     symbol,
-            #     list(resp.keys()),
-            #     "candles" in resp,
-            # )
-            if "candles" in resp:
-                sample = resp.get("candles")
-                sample_len = len(sample) if hasattr(sample, "__len__") else None
-                first_keys = None
-                if isinstance(sample, list) and sample and isinstance(sample[0], dict):
-                    first_keys = list(sample[0].keys())
-                elif isinstance(sample, dict):
-                    first_keys = list(sample.keys())
-                # logger.debug(
-                #     "Schwab price history candles sample for {}: type={} len={} first_keys={}",
-                #     symbol,
-                #     type(sample).__name__,
-                #     sample_len,
-                #     first_keys,
-                # )
-        else:
-            logger.debug(
-                "Schwab price history response for {}: type={}",
-                symbol,
-                type(resp).__name__,
-            )
-
-        candles_raw = None
-        if isinstance(resp, pd.DataFrame):
-            try:
-                if "candles" in resp.columns and not resp["candles"].empty:
-                    col = resp["candles"]
-                    if len(resp) == 1:
-                        candles_raw = col.iloc[0]
-                    else:
-                        if col.apply(lambda x: isinstance(x, dict)).all():
-                            candles_raw = col.tolist()
-                        else:
-                            flattened = []
-                            for item in col:
-                                if isinstance(item, list):
-                                    flattened.extend(item)
-                                elif isinstance(item, dict):
-                                    flattened.append(item)
-                            candles_raw = flattened if flattened else col.iloc[0]
-                else:
-                    candles_raw = resp.to_dict("records")
-            except Exception:
-                candles_raw = None
-        elif isinstance(resp, dict):
-            candles_raw = resp.get("candles")
-        else:
-            getter = getattr(resp, "get", None)
-            candles_raw = getter("candles") if getter else None
-
-        # Handle nested payloads (e.g., DataFrame row holding a dict with 'candles')
-        if isinstance(candles_raw, list) and candles_raw:
-            first_entry = candles_raw[0]
-            if isinstance(first_entry, dict) and "candles" in first_entry:
-                candles_raw = first_entry.get("candles")
-        elif isinstance(candles_raw, dict):
-            if "candles" in candles_raw:
-                candles_raw = candles_raw.get("candles")
-        elif isinstance(candles_raw, pd.Series):
-            try:
-                first_val = candles_raw.iloc[0]
-                if isinstance(first_val, dict):
-                    if "candles" in first_val:
-                        candles_raw = first_val.get("candles")
-                    else:
-                        candles_raw = [first_val]
-            except Exception:
-                pass
-
-        if not candles_raw:
-            logger.error(f"No candles found in price history response for {symbol}.")
-            return pd.DataFrame(columns=["Open","High","Low","Close","Volume"])
-
-        sample_len = len(candles_raw) if hasattr(candles_raw, "__len__") else None
-        sample_keys = None
-        if isinstance(candles_raw, dict):
-            sample_keys = list(candles_raw.keys())
-        elif isinstance(candles_raw, list) and candles_raw and isinstance(candles_raw[0], dict):
-            sample_keys = list(candles_raw[0].keys())
-        # logger.debug(
-        #     "Schwab price history normalized candles for {}: type={} len={} sample_keys={}",
-        #     symbol,
-        #     type(candles_raw).__name__,
-        #     sample_len,
-        #     sample_keys,
-        # )
-
-        # Normalize to a DataFrame
+        start_text, end_text = self._resolve_dates(period, start_date=start_date, end_date=end_date)
         try:
-            if isinstance(candles_raw, dict):
-                candles_df = pd.DataFrame([candles_raw])
-            elif isinstance(candles_raw, list):
-                candles_df = pd.DataFrame(candles_raw)
-            else:
-                candles_df = pd.DataFrame(list(candles_raw))
+            payload = get_daily_prices(symbol, start_date=start_text, end_date=end_text)
         except Exception as exc:
-            logger.error(f"Failed to normalize candles for {symbol}: {exc}")
-            return pd.DataFrame(columns=["Open","High","Low","Close","Volume"])
+            logger.warning(f"Tiingo history failed for {symbol}: {exc}")
+            return pd.DataFrame(columns=["Open", "High", "Low", "Close", "Volume"])
 
-        if candles_df.empty:
-            logger.error(f"Empty candles DataFrame for {symbol}. Raw candles: {candles_raw}")
-            return pd.DataFrame(columns=["Open","High","Low","Close","Volume"])
+        frame = pd.DataFrame(payload if isinstance(payload, list) else [])
+        if frame.empty:
+            return pd.DataFrame(columns=["Open", "High", "Low", "Close", "Volume"])
 
-        def _normalize_columns(df: pd.DataFrame) -> pd.DataFrame:
-            col_lookup = {str(col).strip().lower(): col for col in df.columns}
-            rename_case: dict[str, str] = {}
-            for lower_name, actual_name in col_lookup.items():
-                if lower_name in ("open", "high", "low", "close", "volume"):
-                    rename_case[actual_name] = lower_name.capitalize()
-                elif lower_name in ("datetime", "datetimems", "date", "timestamp"):
-                    rename_case[actual_name] = "Datetime"
-            if rename_case:
-                df = df.rename(columns=rename_case)
+        date_col = "date" if "date" in frame.columns else None
+        if date_col is None:
+            return pd.DataFrame(columns=["Open", "High", "Low", "Close", "Volume"])
 
-            rename = {
-                "open": "Open", "high": "High", "low": "Low", "close": "Close", "volume": "Volume",
-                "datetime": "Datetime", "datetimeMs": "Datetime",
+        cols = {
+            "Open": "open",
+            "High": "high",
+            "Low": "low",
+            "Close": "close",
+            "Volume": "volume",
+        }
+        if self.use_adjusted and "adjClose" in frame.columns:
+            cols = {
+                "Open": "adjOpen" if "adjOpen" in frame.columns else "open",
+                "High": "adjHigh" if "adjHigh" in frame.columns else "high",
+                "Low": "adjLow" if "adjLow" in frame.columns else "low",
+                "Close": "adjClose",
+                "Volume": "adjVolume" if "adjVolume" in frame.columns else "volume",
             }
-            for k_old, k_new in rename.items():
-                if k_old in df.columns:
-                    df = df.rename(columns={k_old: k_new})
-            return df
 
-        candles_df = _normalize_columns(candles_df)
-
-        # Convert ms-epoch to timezone-aware datetime index (UTC)
-        if "Datetime" in candles_df.columns:
-            dt_series = pd.to_datetime(candles_df["Datetime"], unit="ms", utc=True)
-            candles_df.index = dt_series
-            candles_df.drop(columns=["Datetime"], inplace=True, errors="ignore")
-        elif "datetime" in candles_df.columns:
-            dt_series = pd.to_datetime(candles_df["datetime"], errors="coerce", utc=True)
-            candles_df.index = dt_series
-            candles_df.drop(columns=["datetime"], inplace=True, errors="ignore")
-        elif "date" in candles_df.columns:
-            dt_series = pd.to_datetime(candles_df["date"], errors="coerce", utc=True)
-            candles_df.index = dt_series
-            candles_df.drop(columns=["date"], inplace=True, errors="ignore")
-
-        required_cols = ["Open", "High", "Low", "Close", "Volume"]
-        missing = [c for c in required_cols if c not in candles_df.columns]
-
-        # If columns are still missing but the raw payload is a dict/list of dicts, rebuild and retry once.
-        if missing and candles_raw:
-            alt_df = None
-            if isinstance(candles_raw, dict):
-                alt_df = pd.DataFrame([candles_raw])
-            elif isinstance(candles_raw, list) and all(isinstance(item, dict) for item in candles_raw):
-                alt_df = pd.DataFrame(candles_raw)
-            if alt_df is not None:
-                candles_df = _normalize_columns(alt_df)
-                missing = [c for c in required_cols if c not in candles_df.columns]
-
-        # Keep only the OHLCV columns, as floats
-        if missing:
-            logger.error(
-                f"Missing OHLCV columns {missing} in price history for {symbol}. Columns={list(candles_df.columns)}",
-            )
-            logger.debug(
-                f"Raw candles sample for {symbol}: {candles_raw if isinstance(candles_raw, (list, dict)) else str(candles_raw)[:500]}"
-            )
-            return pd.DataFrame(columns=required_cols)
-        candles_df = candles_df[required_cols].astype(float)
-        candles_df.index.name = None
-        return candles_df
+        out = pd.DataFrame({k: frame.get(v) for k, v in cols.items()})
+        out.index = pd.to_datetime(frame[date_col], errors="coerce", utc=True)
+        out = out.dropna(subset=["Close"])
+        out.index.name = None
+        return out
 
     def history(
         self,
@@ -376,74 +186,27 @@ class SchwabMarketDataProvider(DataProvider):
         end_date: Optional[object] = None,
         cancel_token: Optional[CancelToken] = None,
     ) -> pd.DataFrame:
-        """Fetch and stack daily OHLCV for all `tickers` into a single MultiIndex DataFrame."""
         frames = []
         for t in tickers:
             _maybe_cancel(cancel_token)
             sub = self._one_symbol_daily(
                 t,
+                period=period,
                 start_date=start_date,
                 end_date=end_date,
                 cancel_token=cancel_token,
             )
             if sub.empty:
                 continue
-            # Promote per-ticker columns to level-0 (ticker), level-1 (field)
             sub.columns = pd.MultiIndex.from_product([[t], sub.columns])
             frames.append(sub)
 
         if not frames:
-            raise ValueError("Schwab provider: no data returned for any ticker.")
+            raise ValueError("Tiingo provider: no data returned for any ticker.")
 
         out = pd.concat(frames, axis=1).sort_index()
-        out = out.dropna(how="all", axis=0)  # remove completely empty rows
+        out = out.dropna(how="all", axis=0)
         return out
-
-
-class YFinanceProvider(DataProvider):
-    """`yfinance` fallback provider with the same MultiIndex OHLCV contract."""
-    def __init__(self, auto_adjust: bool = False):
-        self.auto_adjust = auto_adjust  # if True, OHLC are back-adjusted for dividends/splits
-
-    def history(
-        self,
-        tickers: List[str],
-        period: str = "1y",
-        *,
-        cancel_token: Optional[CancelToken] = None,
-    ) -> pd.DataFrame:
-        import yfinance as yf
-        _maybe_cancel(cancel_token)
-        data = yf.download(
-            tickers=" ".join(tickers),
-            period=period,
-            interval="1d",
-            auto_adjust=self.auto_adjust,
-            group_by="ticker",
-            threads=True,
-            progress=False,
-        )
-        _maybe_cancel(cancel_token)
-        if isinstance(data.columns, pd.MultiIndex):
-            # Multi-ticker shape already
-            frames = []
-            for t in tickers:
-                if t not in data.columns.levels[0]:
-                    continue
-                sub = data[t][["Open", "High", "Low", "Close", "Volume"]].copy()
-                sub.columns = pd.MultiIndex.from_product([[t], sub.columns])
-                frames.append(sub)
-            if not frames:
-                raise ValueError("No data returned for any ticker.")
-            out = pd.concat(frames, axis=1).sort_index()
-        else:
-            # Single-ticker: lift to MultiIndex
-            sub = data[["Open", "High", "Low", "Close", "Volume"]].copy()
-            sub.columns = pd.MultiIndex.from_product([[tickers[0]], sub.columns])
-            out = sub
-        return out.dropna(how="all", axis=0)
-
-
 # ============================================================================
 # Feature engineering helpers
 # ============================================================================
@@ -697,9 +460,6 @@ def generate_daily_buy_suggestions(
 
     _maybe_cancel(cancel_token)
 
-    # Ensure Schwab session is fresh
-    refresh_tokens()
-
     # Build universe
     if not tickers:
         tickers = _read_default_tickers()
@@ -720,8 +480,7 @@ def generate_daily_buy_suggestions(
         feats = feats_source.copy()
     else:
         if history is None:
-            md = MarketData()
-            provider = SchwabMarketDataProvider(md, use_extended_hours=False, years=1)
+            provider = TiingoMarketDataProvider()
             history = provider.history(tickers, period=period, cancel_token=cancel_token)
         feats = compute_features(history, high_lookback=lookback, cancel_token=cancel_token)
 
@@ -856,17 +615,13 @@ def main(argv: Optional[List[str]] = None) -> int:
         cap_by_equal_allocation=not args.no_equal_allocation_cap,
     )
 
-    # Ensure Schwab session is fresh (your helper rotates tokens/refreshes auth)
-    refresh_tokens()
-
     # Build universe and choose a provider
     # tickers = load_tickers_from_file(args.tickers_file)
     # sp_500_list = data_api.get_sp_500()
     tickers = _read_default_tickers()
 
-    # Example: use Schwab provider (recommended for your setup)
-    md = MarketData()
-    provider = SchwabMarketDataProvider(md, use_extended_hours=False, years=1)
+    # Use Tiingo provider
+    provider = TiingoMarketDataProvider()
 
     print(f"Loaded {len(tickers)} tickers. Fetching {args.period} daily history ...")
     df = provider.history(tickers, period=args.period)

@@ -12,7 +12,11 @@ from typing import Any, Iterable, Optional
 
 import pandas as pd
 
-from backend.core.yfinance_api import yf_service as yfs
+from backend.platform_apis.tiingo_api.tiingo_api import (
+    get_daily_prices,
+    get_latest_prices,
+    get_ticker_metadata,
+)
 
 
 @dataclass
@@ -32,6 +36,28 @@ def _to_float(val: Any) -> float:
 
 def _clean_ticker(raw: str) -> str:
     return (raw or "").strip().upper()
+
+
+def _period_to_days(period: str) -> int:
+    text = str(period or "").strip().lower()
+    if not text:
+        return 365
+    if text.endswith("y"):
+        try:
+            return max(int(text[:-1]), 1) * 365
+        except Exception:
+            return 365
+    if text.endswith("mo"):
+        try:
+            return max(int(text[:-2]), 1) * 31
+        except Exception:
+            return 365
+    if text.endswith("d"):
+        try:
+            return max(int(text[:-1]), 1)
+        except Exception:
+            return 365
+    return 365
 
 
 def _close_series(df: Any) -> pd.Series:
@@ -206,8 +232,40 @@ def analyze_holding(holding: Holding, *, price_period: str = "1y") -> dict[str, 
     if not ticker:
         raise ValueError("Ticker is required for each holding.")
 
-    info = yfs.get_company_info(ticker, full=False) or {}
-    history = yfs.get_historical_stock_price(ticker, period=price_period, interval="1d")
+    info: dict[str, Any] = {}
+    try:
+        meta = get_ticker_metadata(ticker)
+        if isinstance(meta, dict):
+            info.update(meta)
+    except Exception:
+        pass
+
+    latest_row = {}
+    try:
+        payload = get_latest_prices([ticker])
+        if isinstance(payload, dict) and isinstance(payload.get("data"), list) and payload["data"]:
+            latest_row = payload["data"][0]
+        elif isinstance(payload, list) and payload:
+            latest_row = payload[0]
+    except Exception:
+        latest_row = {}
+
+    if isinstance(latest_row, dict):
+        info.setdefault("previousClose", latest_row.get("prevClose") or latest_row.get("previousClose"))
+        info.setdefault("last_price", latest_row.get("last") or latest_row.get("close") or latest_row.get("adjClose"))
+        if latest_row.get("name"):
+            info.setdefault("shortName", latest_row.get("name"))
+
+    history_days = _period_to_days(price_period)
+    end_date = datetime.now(timezone.utc).date()
+    start_date = end_date - timedelta(days=history_days)
+    try:
+        history_payload = get_daily_prices(ticker, start_date=start_date, end_date=end_date)
+    except Exception:
+        history_payload = []
+    history = pd.DataFrame(history_payload if isinstance(history_payload, list) else [])
+    if not history.empty and "date" in history.columns:
+        history = history.set_index("date")
     closes = _close_series(history)
 
     price = _latest_price(info, closes)

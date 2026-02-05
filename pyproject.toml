@@ -19,7 +19,6 @@ classifiers = [
 ]
 dependencies = [
   "pandas>=2.2",
-  "yfinance",
   "lxml",
   "numpy",
   "scipy",

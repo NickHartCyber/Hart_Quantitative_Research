@@ -22,7 +22,7 @@ from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
 
 import requests
-from backend.api_prices_schwab import router as prices_router
+from backend.api_prices_tiingo import router as prices_router
 from backend.core.auth_refresh import periodic_token_refresh
 from backend.job_runner import build_default_manager
 from backend.core.check_actual_trading_results import (
@@ -51,9 +51,6 @@ from backend.platform_apis.schwab_api.retrieve_secrets_and_tokens import (
     get_auth_status,
     store_auth_token_value,
 )
-from backend.platform_apis.schwab_api.get_refresh_token import refresh_tokens
-from backend.platform_apis.schwab_api.helpers import design_get_options_chain_payload
-from backend.platform_apis.schwab_api.market_data import MarketData
 from backend.platform_apis.gmail_api.gmail import Gmail
 from backend.platform_apis.gmail_api.gmail_auth import HeadlessAuthRequired, finish_headless_auth
 from backend.core.passwords import hash_password, verify_password
@@ -1160,10 +1157,7 @@ def _build_option_suggestions(
     if cancel_token is not None:
         cancel_token.raise_if_cancelled()
 
-    refresh_tokens()
-    md = MarketData()
     results: list[dict[str, Any]] = []
-
     for row in suggestions[: int(limit)]:
         if cancel_token is not None:
             cancel_token.raise_if_cancelled()
@@ -1176,46 +1170,8 @@ def _build_option_suggestions(
             or _safe_float(row.get("price"))
             or _safe_float(row.get("entry"))
         )
-        chain_error: Optional[str] = None
-        warnings: list[str] = []
-        call_count = 0
-        put_count = 0
-
-        chain_payload = design_get_options_chain_payload(
-            ticker,
-            contract_type="ALL" if include_puts else "CALL",
-            strike_count=strike_count,
-            include_underlying_quote=True,
-            strategy="SINGLE",
-            strike_range=strike_range,
-        )
-        chain_data = md.get_options_chain(chain_payload)
-        if chain_data is None:
-            md.refresh_access_token()
-            chain_data = md.get_options_chain(chain_payload)
-
-        best_call: Optional[dict[str, Any]] = None
-        best_put: Optional[dict[str, Any]] = None
-
-        if chain_data is None:
-            chain_error = "Failed to fetch options chain from Schwab."
-        else:
-            underlying_price = underlying_price or _safe_float(chain_data.get("underlyingPrice"))
-            best_call, call_warnings, call_count = _select_best_option_from_chain(
-                chain_data,
-                "CALL",
-                underlying_price=underlying_price,
-                horizon=horizon,
-            )
-            warnings.extend(call_warnings)
-            if include_puts:
-                best_put, put_warnings, put_count = _select_best_option_from_chain(
-                    chain_data,
-                    "PUT",
-                    underlying_price=underlying_price,
-                    horizon=horizon,
-                )
-                warnings.extend(put_warnings)
+        chain_error = "Options chain unavailable (Schwab market data disabled)."
+        warnings = [chain_error]
 
         results.append(
             {
@@ -1225,18 +1181,16 @@ def _build_option_suggestions(
                 "thesis": row.get("thesis") or row.get("reason"),
                 "equity_entry": _safe_float(row.get("entry") or row.get("close") or row.get("price")),
                 "underlying_price": underlying_price,
-                "best_call": best_call,
-                "best_put": best_put if include_puts else None,
-                "call_candidates": call_count,
-                "put_candidates": put_count if include_puts else 0,
+                "best_call": None,
+                "best_put": None if include_puts else None,
+                "call_candidates": 0,
+                "put_candidates": 0 if include_puts else 0,
                 "warnings": warnings,
                 "chain_error": chain_error,
             }
         )
 
     return results
-
-
 def _load_strategy_config(path: Path) -> dict[str, Any]:
     if path.suffix not in _CONFIG_EXTS:
         raise ValueError(f"Unsupported config extension: {path.suffix}")
@@ -1408,7 +1362,7 @@ class HoldingsAnalyzeRequest(BaseModel):
     )
     price_period: str = Field(
         default="1y",
-        description="History window to evaluate (yfinance period string, e.g., '6mo', '1y').",
+        description="History window to evaluate (period string, e.g., '6mo', '1y').",
     )
 
 
@@ -2173,7 +2127,7 @@ async def api_trades(days: int = 30, refresh: bool = False):
             cached_df, cached_orders_path = _load_cached_orders(safe_days)
             if cached_df is None:
                 raise RuntimeError(
-                    "No cached trades available. Run `python -m backend.core.scripts.refresh_trades_cache`."
+                    "No cached trades available. Run `python -m backend.core.refresh_trades_cache`."
                 )
             payload = _build_trades_payload(
                 cached_df,

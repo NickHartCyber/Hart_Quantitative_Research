@@ -22,11 +22,10 @@ from typing import Any, Optional
 import numpy as np
 import pandas as pd
 
-from backend.core.daily_buy_suggester import _read_default_tickers, compute_features, generate_daily_buy_suggestions, SchwabMarketDataProvider
+from backend.core.daily_buy_suggester import _read_default_tickers, compute_features, generate_daily_buy_suggestions, TiingoMarketDataProvider
 from backend.core.suggester_cancel import CancelToken
-from backend.platform_apis.schwab_api.get_refresh_token import refresh_tokens
-from backend.platform_apis.schwab_api.market_data import MarketData
-from backend.core.yfinance_api import yf_service as yfs
+from backend.core.edgar_fundamentals import get_edgar_fundamentals
+from backend.platform_apis.rss_feed_api.rss_feed import get_company_news
 
 
 def _normalize_key_value(series: pd.Series, *, low: float, high: float, invert: bool = False) -> pd.Series:
@@ -46,15 +45,13 @@ def _load_history(
     cancel_token: Optional[CancelToken] = None,
 ) -> pd.DataFrame:
     """
-    Shared data loader for Schwab-backed OHLCV history.
+    Shared data loader for Tiingo-backed OHLCV history.
     """
-    refresh_tokens()
     universe = tickers or _read_default_tickers()
     if not universe:
         raise ValueError("No tickers provided or found in default list.")
 
-    md = MarketData()
-    provider = SchwabMarketDataProvider(md, use_extended_hours=False, years=years)
+    provider = TiingoMarketDataProvider()
     return provider.history(universe, period=f"{years}y", cancel_token=cancel_token)
 
 
@@ -182,90 +179,46 @@ def _short_term_catalyst_snapshot(
 ) -> dict[str, Any]:
     """
     Lightweight news + event pulse for short-term trades.
+    (RSS feed placeholder until wired.)
     """
     now = pd.Timestamp.now(tz="UTC")
     score = 0.0
     reasons: set[str] = set()
 
-    news_df = yfs.get_news(ticker, persist=False)
-    if news_df is not None and not news_df.empty:
-        for _, row in news_df.iterrows():
-            ts = _parse_timestamp(row.get("providerPublishTime") or row.get("time") or row.get("published_at") or row.get("created"))
-            if ts is None or (now - ts) > pd.Timedelta(days=news_lookback_days):
-                continue
-            text = " ".join(
-                str(row.get(k, "")) for k in ("title", "summary", "description", "content", "text")
-            ).lower()
-            if not text.strip():
-                continue
-            base = 0.15
-            if any(k in text for k in ("earnings", "surprise", "guidance")):
-                base += 0.25
-                reasons.add("Earnings surprise/headline")
-            if any(k in text for k in ("upgrade", "overweight", "initiated")):
-                base += 0.30
-                reasons.add("Upgrade/analyst move")
-            if any(k in text for k in ("downgrade", "underweight")):
-                base -= 0.20
-            if any(k in text for k in ("fda", "phase", "trial", "approval", "regulator")):
-                base += 0.30
-                reasons.add("FDA/regulatory")
-            if any(k in text for k in ("merger", "acquisition", "m&a", "buyout", "takeover", "rumor")):
-                base += 0.35
-                reasons.add("M&A rumor/headline")
-            score += max(base, 0.0)
+    news_items = get_company_news(ticker, limit=50)
+    for row in news_items:
+        if not isinstance(row, dict):
+            continue
+        ts = _parse_timestamp(row.get("published_at") or row.get("time") or row.get("created"))
+        if ts is None or (now - ts) > pd.Timedelta(days=news_lookback_days):
+            continue
+        text = " ".join(
+            str(row.get(k, "")) for k in ("title", "summary", "description", "content", "text")
+        ).lower()
+        if not text.strip():
+            continue
+        base = 0.15
+        if any(k in text for k in ("earnings", "surprise", "guidance")):
+            base += 0.25
+            reasons.add("Earnings surprise/headline")
+        if any(k in text for k in ("upgrade", "overweight", "initiated")):
+            base += 0.30
+            reasons.add("Upgrade/analyst move")
+        if any(k in text for k in ("downgrade", "underweight")):
+            base -= 0.20
+        if any(k in text for k in ("fda", "phase", "trial", "approval", "regulator")):
+            base += 0.30
+            reasons.add("FDA/regulatory")
+        if any(k in text for k in ("merger", "acquisition", "m&a", "buyout", "takeover", "rumor")):
+            base += 0.35
+            reasons.add("M&A rumor/headline")
+        score += max(base, 0.0)
 
-    upgrades_df = yfs.get_upgrades_downgrades(ticker, persist=False)
     upgrade_hits = 0
     downgrade_hits = 0
-    if upgrades_df is not None and not upgrades_df.empty:
-        try:
-            idx = pd.to_datetime(upgrades_df.index, utc=True, errors="coerce")
-            upgrades_df = upgrades_df.copy()
-            upgrades_df.index = idx
-        except Exception:
-            pass
-        recent = upgrades_df
-        if isinstance(upgrades_df.index, pd.DatetimeIndex):
-            recent = upgrades_df[upgrades_df.index >= now - pd.Timedelta(days=upgrade_lookback_days)]
-        for _, row in recent.iterrows():
-            text = " ".join(str(v).lower() for v in row.to_dict().values())
-            if any(k in text for k in ("upgrade", "raised", "overweight", "buy", "outperform")):
-                upgrade_hits += 1
-            if any(k in text for k in ("downgrade", "reduced", "underweight", "sell", "underperform")):
-                downgrade_hits += 1
-        score += 0.25 * upgrade_hits
-        score -= 0.20 * downgrade_hits
-        if upgrade_hits > 0:
-            reasons.add("Recent upgrade")
-
-    earnings_df = yfs.get_earnings_dates(ticker, persist=False)
     earnings_within = False
     next_earnings = None
     last_surprise = np.nan
-    if earnings_df is not None and not earnings_df.empty:
-        try:
-            earnings_df = earnings_df.copy()
-            earnings_df.index = pd.to_datetime(earnings_df.index, utc=True, errors="coerce")
-        except Exception:
-            pass
-        if isinstance(earnings_df.index, pd.DatetimeIndex):
-            upcoming = earnings_df[earnings_df.index >= now]
-            if not upcoming.empty:
-                next_earnings = upcoming.index.min()
-                earnings_within = (next_earnings - now) <= pd.Timedelta(days=earnings_lookahead_days)
-            reported = earnings_df[earnings_df.index < now]
-            if not reported.empty:
-                last = reported.iloc[-1]
-                for col in ("Surprise(%)", "SurprisePercent", "Surprise"):
-                    if col in last and pd.notna(last[col]):
-                        last_surprise = _to_float(last[col])
-                        break
-                if np.isfinite(last_surprise):
-                    surprise_score = max(min(last_surprise / 50.0, 0.6), -0.4)
-                    score += surprise_score
-                    if last_surprise > 0:
-                        reasons.add("Positive earnings surprise")
 
     return {
         "news_score": score,
@@ -283,72 +236,47 @@ def _fundamental_snapshot(ticker: str) -> dict[str, Any]:
     """
     Shared fundamentals snapshot used by swing and long-term screens.
     """
-    info = yfs.get_company_info(ticker, full=True, persist=False) or {}
-    income_q = yfs.get_qtrly_income_stmt(ticker, persist=False)
-    cash_q = yfs.get_qtrly_cashflow(ticker, persist=False)
-    balance_q = yfs.get_qtrly_balance_sheet(ticker, persist=False)
-    shares_full = yfs.get_shares_full(ticker, persist=False)
+    data, _ = get_edgar_fundamentals(ticker, price_hint=None, include_filings=False)
+    if not data:
+        return {
+            "sector": "",
+            "revenue_growth": np.nan,
+            "eps_growth": np.nan,
+            "revenue_ttm": np.nan,
+            "gross_margin": np.nan,
+            "gross_margin_trend": np.nan,
+            "fcf_ttm": np.nan,
+            "fcf_margin": np.nan,
+            "fcf_yield": np.nan,
+            "net_debt": np.nan,
+            "net_debt_to_ebitda": np.nan,
+            "ps_ratio": np.nan,
+            "ev_to_ebitda": np.nan,
+            "inst_percent": np.nan,
+            "inst_trending_up": np.nan,
+            "dilution_rate": np.nan,
+        }
 
-    revenue_series = _statement_series(income_q, ("Total Revenue", "TotalRevenue", "Revenues", "Revenue"))
-    eps_series = _statement_series(income_q, ("Diluted EPS", "Basic EPS", "EPS", "BasicEPS"))
-    gross_margins = _gross_margin_series(income_q)
-    fcf = _fcf_series(cash_q)
-    debt = _statement_series(balance_q, ("Total Debt", "Short Long Term Debt Total", "Long Term Debt"))
-    cash = _statement_series(balance_q, ("Cash And Cash Equivalents", "Cash"))
-
-    revenue_ttm = np.nansum(revenue_series.tail(4).values) if not revenue_series.empty else np.nan
-    fcf_ttm = np.nansum(fcf.tail(4).values) if not fcf.empty else np.nan
-    eps_growth = _yoy_change(eps_series, 4)
-    revenue_growth = _ttm_growth(revenue_series)
-    gross_margin_latest = gross_margins.iloc[-1] if not gross_margins.empty else np.nan
-    gross_margin_trend = (
-        gross_margins.iloc[-1] - gross_margins.iloc[-4:-1].mean()
-        if len(gross_margins) >= 4
-        else np.nan
-    )
-
-    net_debt = np.nan
-    if not debt.empty:
-        last_debt = debt.iloc[-1]
-        last_cash = cash.iloc[-1] if not cash.empty else 0.0
-        net_debt = last_debt - last_cash
-
-    market_cap = _to_float(info.get("marketCap") or info.get("regularMarketCap"))
-    ebitda = _to_float(info.get("ebitda"))
-    if np.isnan(ebitda) and income_q is not None and not income_q.empty and "EBITDA" in income_q.index:
-        ser = _statement_series(income_q, ("EBITDA", "Ebitda"))
-        ebitda = ser.iloc[-1] if not ser.empty else np.nan
-
-    ps_ratio = market_cap / revenue_ttm if revenue_ttm and revenue_ttm > 0 and market_cap else np.nan
-    net_debt_adj = net_debt if np.isfinite(net_debt) else 0.0
-    enterprise_value = market_cap + max(net_debt_adj, 0.0) if market_cap else np.nan
-    ev_to_ebitda = enterprise_value / ebitda if enterprise_value and ebitda and ebitda > 0 else np.nan
-    net_debt_to_ebitda = net_debt / ebitda if ebitda and ebitda > 0 and np.isfinite(net_debt) else np.nan
-    fcf_margin = fcf_ttm / revenue_ttm if revenue_ttm and revenue_ttm > 0 and np.isfinite(fcf_ttm) else np.nan
-    fcf_yield = fcf_ttm / market_cap if market_cap and market_cap > 0 and np.isfinite(fcf_ttm) else np.nan
-
-    inst_percent = _to_float(
-        info.get("heldPercentInstitutions") or info.get("institutionPercent") or info.get("institutionPercentSharesOut")
-    )
-    dilution_rate = _shares_dilution_rate(shares_full)
+    inst_percent = _to_float(data.get("inst_percent"))
+    dilution_rate = _to_float(data.get("dilution_rate"))
     inst_trending_up = np.nan
     if np.isfinite(inst_percent):
         inst_trending_up = inst_percent >= 0.2 and (np.isnan(dilution_rate) or dilution_rate <= 0.05)
 
     return {
-        "sector": info.get("sector") or "",
-        "revenue_growth": revenue_growth,
-        "eps_growth": eps_growth,
-        "revenue_ttm": revenue_ttm,
-        "gross_margin": gross_margin_latest,
-        "gross_margin_trend": gross_margin_trend,
-        "fcf_ttm": fcf_ttm,
-        "fcf_margin": fcf_margin,
-        "fcf_yield": fcf_yield,
-        "net_debt": net_debt,
-        "net_debt_to_ebitda": net_debt_to_ebitda,
-        "ps_ratio": ps_ratio,
-        "ev_to_ebitda": ev_to_ebitda,
+        "sector": data.get("sector") or "",
+        "revenue_growth": _to_float(data.get("revenue_growth")),
+        "eps_growth": _to_float(data.get("eps_growth")),
+        "revenue_ttm": _to_float(data.get("revenue_ttm")),
+        "gross_margin": _to_float(data.get("gross_margin")),
+        "gross_margin_trend": _to_float(data.get("gross_margin_trend")),
+        "fcf_ttm": _to_float(data.get("fcf_ttm")),
+        "fcf_margin": _to_float(data.get("fcf_margin")),
+        "fcf_yield": _to_float(data.get("fcf_yield")),
+        "net_debt": _to_float(data.get("net_debt")),
+        "net_debt_to_ebitda": _to_float(data.get("net_debt_to_ebitda")),
+        "ps_ratio": _to_float(data.get("ps_ratio")),
+        "ev_to_ebitda": _to_float(data.get("ev_to_ebitda")),
         "inst_percent": inst_percent,
         "inst_trending_up": inst_trending_up,
         "dilution_rate": dilution_rate,

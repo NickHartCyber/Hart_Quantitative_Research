@@ -11,9 +11,14 @@ import requests
 
 SEC_API_BASE = "https://data.sec.gov"
 SEC_SEARCH_BASE = "https://efts.sec.gov/LATEST"
+SEC_TICKER_CIK_URL = os.getenv(
+    "SEC_TICKER_CIK_URL",
+    "https://www.sec.gov/files/company_tickers.json",
+)
 
 DEFAULT_TIMEOUT = float(os.getenv("SEC_API_TIMEOUT", "30"))
 REQUEST_MIN_INTERVAL = float(os.getenv("SEC_API_MIN_INTERVAL", "0.12"))
+TICKER_CIK_CACHE_TTL = float(os.getenv("SEC_TICKER_CIK_TTL", "86400"))
 USER_AGENT = (
     os.getenv("SEC_USER_AGENT")
     or os.getenv("EDGAR_USER_AGENT")
@@ -26,6 +31,15 @@ REQUEST_HEADERS = {
     "Accept-Encoding": "gzip, deflate",
 }
 
+FUNDAMENTAL_FORM_BASES = (
+    "10-K",
+    "10-Q",
+    "8-K",
+    "20-F",
+    "40-F",
+    "6-K",
+)
+
 log = logging.getLogger("edgar_api")
 if not log.handlers:
     logging.basicConfig(
@@ -34,6 +48,8 @@ if not log.handlers:
     )
 
 _LAST_REQUEST_TS = 0.0
+_TICKER_CIK_CACHE: dict[str, str] = {}
+_TICKER_CIK_CACHE_TS = 0.0
 
 
 def _normalize_cik(cik: str | int) -> str:
@@ -127,6 +143,185 @@ def _to_list(values: Iterable[str | int] | None) -> list[str]:
     if not values:
         return []
     return [str(v).strip() for v in values if str(v).strip()]
+
+
+def get_ticker_cik_map(
+    *,
+    force_refresh: bool = False,
+    timeout: float | None = None,
+) -> dict[str, str]:
+    global _TICKER_CIK_CACHE_TS
+
+    now = time.monotonic()
+    if (
+        not force_refresh
+        and _TICKER_CIK_CACHE
+        and TICKER_CIK_CACHE_TTL > 0
+        and (now - _TICKER_CIK_CACHE_TS) < TICKER_CIK_CACHE_TTL
+    ):
+        return dict(_TICKER_CIK_CACHE)
+
+    payload = _request_json("GET", SEC_TICKER_CIK_URL, timeout=timeout)
+    mapping: dict[str, str] = {}
+    if isinstance(payload, dict):
+        for entry in payload.values():
+            if not isinstance(entry, dict):
+                continue
+            ticker = str(entry.get("ticker") or "").strip().upper()
+            cik_val = entry.get("cik_str")
+            if not ticker or cik_val is None:
+                continue
+            try:
+                cik_norm = _normalize_cik(cik_val)
+            except ValueError:
+                continue
+            mapping[ticker] = cik_norm
+
+    if mapping:
+        _TICKER_CIK_CACHE.clear()
+        _TICKER_CIK_CACHE.update(mapping)
+        _TICKER_CIK_CACHE_TS = now
+    return dict(mapping)
+
+
+def resolve_cik_from_ticker(
+    ticker: str,
+    *,
+    refresh: bool = False,
+    timeout: float | None = None,
+) -> str | None:
+    symbol = str(ticker or "").strip().upper()
+    if not symbol:
+        return None
+    mapping = get_ticker_cik_map(force_refresh=refresh, timeout=timeout)
+    if symbol in mapping:
+        return mapping[symbol]
+    if "." in symbol:
+        alt = symbol.replace(".", "-")
+        if alt in mapping:
+            return mapping[alt]
+    if "-" in symbol:
+        alt = symbol.replace("-", ".")
+        if alt in mapping:
+            return mapping[alt]
+    return None
+
+
+def _normalize_form(value: str | None) -> str:
+    if not value:
+        return ""
+    return str(value).strip().upper()
+
+
+def _normalize_forms(values: Iterable[str] | None) -> list[str]:
+    if not values:
+        return []
+    return [v for v in (_normalize_form(item) for item in values) if v]
+
+
+def is_form_variant(form: str | None, base_forms: Iterable[str]) -> bool:
+    form_norm = _normalize_form(form)
+    if not form_norm:
+        return False
+    for base in _normalize_forms(base_forms):
+        if form_norm == base or form_norm.startswith(base):
+            return True
+    return False
+
+
+def extract_company_filings(submissions: dict[str, Any]) -> list[dict[str, Any]]:
+    filings = submissions.get("filings")
+    recent: Any = None
+    if isinstance(filings, dict):
+        recent = filings.get("recent")
+    if isinstance(recent, list):
+        return [item for item in recent if isinstance(item, dict)]
+    if not isinstance(recent, dict):
+        return []
+
+    lengths = [len(values) for values in recent.values() if isinstance(values, list)]
+    if not lengths:
+        return []
+    count = max(lengths)
+
+    rows: list[dict[str, Any]] = []
+    for idx in range(count):
+        row: dict[str, Any] = {}
+        for key, values in recent.items():
+            if not isinstance(values, list):
+                continue
+            if idx < len(values):
+                row[key] = values[idx]
+        if row:
+            rows.append(row)
+    return rows
+
+
+def get_company_submissions_file(file_name: str, *, timeout: float | None = None) -> dict[str, Any]:
+    name = str(file_name).strip()
+    if not name:
+        raise ValueError("file_name is required.")
+    url = f"{SEC_API_BASE}/submissions/{name}"
+    return _request_json("GET", url, timeout=timeout)
+
+
+def get_company_filings(
+    cik: str | int,
+    *,
+    include_historical: bool = False,
+    max_historical_files: int | None = None,
+    timeout: float | None = None,
+) -> list[dict[str, Any]]:
+    submissions = get_company_submissions(cik, timeout=timeout)
+    filings = extract_company_filings(submissions)
+
+    if include_historical:
+        files = submissions.get("filings", {}).get("files")
+        if isinstance(files, list):
+            for idx, file_meta in enumerate(files):
+                if max_historical_files is not None and idx >= max_historical_files:
+                    break
+                if not isinstance(file_meta, dict):
+                    continue
+                name = file_meta.get("name")
+                if not name:
+                    continue
+                data = get_company_submissions_file(str(name), timeout=timeout)
+                filings.extend(extract_company_filings(data))
+
+    return filings
+
+
+def get_company_fundamental_filings(
+    cik: str | int,
+    *,
+    forms: Iterable[str] | None = None,
+    include_variants: bool = True,
+    include_historical: bool = False,
+    max_historical_files: int | None = None,
+    sort_by: str | None = "filingDate",
+    limit: int | None = None,
+    timeout: float | None = None,
+) -> list[dict[str, Any]]:
+    base_forms = _normalize_forms(forms) or list(FUNDAMENTAL_FORM_BASES)
+    filings = get_company_filings(
+        cik,
+        include_historical=include_historical,
+        max_historical_files=max_historical_files,
+        timeout=timeout,
+    )
+
+    if include_variants:
+        filtered = [item for item in filings if is_form_variant(item.get("form"), base_forms)]
+    else:
+        allowed = set(base_forms)
+        filtered = [item for item in filings if _normalize_form(item.get("form")) in allowed]
+
+    if sort_by:
+        filtered.sort(key=lambda row: str(row.get(sort_by) or ""), reverse=True)
+    if limit is not None:
+        filtered = filtered[: max(0, int(limit))]
+    return filtered
 
 
 def search_filings(

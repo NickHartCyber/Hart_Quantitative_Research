@@ -628,7 +628,7 @@ export default function TickerAnalysisPage() {
     return ranges;
   }, [data]);
   const newsItems = useMemo(() => (Array.isArray(data?.news) ? data.news : []), [data]);
-  const newsSource = data?.news_source || (newsItems.length ? "yfinance" : "");
+  const newsSource = data?.news_source || (newsItems.length ? "rss" : "");
   const displayedNews = useMemo(() => newsItems.slice(0, 20), [newsItems]);
 
   useEffect(() => {
@@ -766,7 +766,7 @@ export default function TickerAnalysisPage() {
         />
         <Stack spacing={2} sx={{ position: "relative" }}>
           <Stack direction="row" spacing={1} alignItems="center" flexWrap="wrap">
-            <Chip label="Schwab or yfinance" color="secondary" size="small" />
+            <Chip label="Tiingo / EDGAR" color="secondary" size="small" />
             <Chip label="AI analysis enabled" color="success" size="small" variant="outlined" />
             {data?.price_source && <Chip label={`Prices: ${data.price_source}`} size="small" />}
             {data?.fundamentals_source && (
@@ -778,7 +778,7 @@ export default function TickerAnalysisPage() {
           </Typography>
           <Typography variant="body2" sx={{ maxWidth: 800, color: "rgba(255,255,255,0.82)" }}>
             Search any symbol to blend price history, fundamentals, and a quick ChatGPT perspective on the trend and balance
-            sheet. Schwab data is used when available with yfinance as a fallback.
+            sheet. Prices from Tiingo and fundamentals from EDGAR; news via RSS feed.
           </Typography>
           <Box
             component="form"
@@ -1455,7 +1455,7 @@ export default function TickerAnalysisPage() {
         <Stack direction="row" spacing={1} alignItems="center" flexWrap="wrap">
           <Article fontSize="small" color="primary" />
           <Typography variant="subtitle1" fontWeight={700}>
-            Recent headlines (yfinance)
+            Recent headlines (RSS)
           </Typography>
           {newsSource ? <Chip size="small" label={`Source: ${newsSource}`} /> : null}
           {displayedNews.length ? (

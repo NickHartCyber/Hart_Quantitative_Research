@@ -6,7 +6,7 @@ services:
       dockerfile: ./backend/Dockerfile
     container_name: hart-quantitative-research-backend
     env_file:
-      - ../schwab_secrets/openai.env
+      - ../quant_secrets/openai.env
     environment:
       - HART_QUANTITATIVE_RESEARCH_DATABASE_URL=postgresql+psycopg://hart_quantitative_research:hart_quantitative_research@db:5432/hart_quantitative_research
     command: uvicorn backend.api:app --host 0.0.0.0 --port 8000
@@ -15,7 +15,7 @@ services:
     volumes:
       - ./backend:/app/backend
       - ./files:/app/files
-      - ../schwab_secrets:/schwab_secrets
+      - ../quant_secrets:/quant_secrets
     depends_on:
       - db
 

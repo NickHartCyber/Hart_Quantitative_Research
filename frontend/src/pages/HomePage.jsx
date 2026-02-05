@@ -311,10 +311,10 @@ export default function HomePage() {
             )}
           </Stack>
           <Typography variant="h4" fontWeight={700}>
-            General market trend analysis across the S&P 500, Dow, NASDAQ, and Russell 2000
+            General market trend analysis using ETF proxies (SPY, DIA, QQQ, IWM)
           </Typography>
           <Typography variant="body1" sx={{ maxWidth: 820, color: "rgba(255,255,255,0.82)" }}>
-            Cached direction, trend strength, and AI commentary on bull vs bear posture, with news for each benchmark.
+            Cached direction, trend strength, and AI commentary on bull vs bear posture, with news for each ETF proxy.
           </Typography>
           <Stack direction={{ xs: "column", sm: "row" }} spacing={2}>
             <Button variant="contained" color="secondary" onClick={() => navigate("/suggester")}>
@@ -369,7 +369,7 @@ export default function HomePage() {
           ) : (
             !loading && (
               <Typography variant="body2" sx={{ color: "rgba(255,255,255,0.85)", mt: 1 }}>
-                No cached index data available right now.
+                No cached ETF proxy data available right now.
               </Typography>
             )
           )}
@@ -378,9 +378,9 @@ export default function HomePage() {
 
       {/* Trend breakdown */}
       <Stack spacing={1}>
-        <Typography variant="h6">Trendboard for the majors</Typography>
+        <Typography variant="h6">Trendboard for the ETF proxies</Typography>
         <Typography variant="body2" color="text.secondary">
-          Levels, recent momentum, and an AI-annotated bias for each index.
+          Levels, recent momentum, and an AI-annotated bias for each ETF proxy.
         </Typography>
       </Stack>
       {hasData ? (
@@ -423,7 +423,7 @@ export default function HomePage() {
                   </Stack>
 
                   <Typography variant="body2" color="text.secondary">
-                    Source: {index.price_source || "yfinance"} · Headlines: {index.news_source || "yfinance"} {index.ai_error ? `· AI: ${index.ai_error}` : ""}
+                    Source: {index.price_source || "tiingo"} · Headlines: {index.news_source || "rss"} {index.ai_error ? `· AI: ${index.ai_error}` : ""}
                   </Typography>
 
                   <Divider />
@@ -471,9 +471,9 @@ export default function HomePage() {
       >
         <Stack direction={{ xs: "column", md: "row" }} justifyContent="space-between" alignItems={{ xs: "flex-start", md: "center" }}>
           <Box>
-            <Typography variant="h6">News by index</Typography>
+            <Typography variant="h6">News by ETF proxy</Typography>
             <Typography variant="body2" color="text.secondary">
-              Headlines tied to each of the four benchmarks to keep the context close.
+              Headlines tied to each of the four ETF proxies to keep the context close.
             </Typography>
           </Box>
           <Chip icon={<Article fontSize="small" />} label="Fresh tape headlines" variant="outlined" />
@@ -533,7 +533,7 @@ export default function HomePage() {
           </Grid>
         ) : (
           <Typography variant="body2" color="text.secondary">
-            {loading ? "Loading headlines…" : "No headlines available without cached index data."}
+            {loading ? "Loading headlines…" : "No headlines available without cached ETF proxy data."}
           </Typography>
         )}
       </Paper>
