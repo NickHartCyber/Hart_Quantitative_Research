@@ -62,6 +62,26 @@ const sentimentLabel = (sentiment) => {
   return sentiment || "Neutral";
 };
 
+const HEADLINE_TYPE_LABELS = {
+  upgrade: "Upgrade",
+  downgrade: "Downgrade",
+  initiation: "Initiation",
+  price_target: "Price Target",
+  rating_maintained: "Rating Maintained",
+};
+
+const resolveHeadlineBadge = (item) => {
+  if (!item) return null;
+  const direct = (item.headline_type || "").toLowerCase();
+  let key = direct;
+  if (!key && Array.isArray(item.tags)) {
+    key = item.tags.map((tag) => String(tag).toLowerCase()).find((tag) => HEADLINE_TYPE_LABELS[tag]) || "";
+  }
+  if (!key) return null;
+  return HEADLINE_TYPE_LABELS[key] || key;
+};
+
+
 const parseNumber = (val) => {
   if (val === null || val === undefined) return null;
   const num = typeof val === "number" ? val : Number(val);
@@ -500,6 +520,8 @@ export default function HomePage() {
                     )}
                     {topNews(index.news).map((item) => {
                       const link = item.link || item.url;
+                      const badge = resolveHeadlineBadge(item);
+                      const secondary = [item.publisher || item.source || item.published_at || "", badge].filter(Boolean).join(" · ");
                       const primary = (
                         <Typography
                           variant="body2"
@@ -521,7 +543,7 @@ export default function HomePage() {
                           <ListItemText
                             primary={primary}
                             secondaryTypographyProps={{ variant: "caption", color: "text.secondary" }}
-                            secondary={item.publisher || item.source || item.published_at || ""}
+                            secondary={secondary}
                           />
                         </ListItem>
                       );

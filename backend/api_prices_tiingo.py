@@ -620,6 +620,20 @@ def _normalize_news_items(raw_news, limit: int = 30) -> list[dict[str, Any]]:
         link = None if _is_missing(link_raw) else (str(link_raw).strip() or None)
         summary_raw = merged.get("summary") or merged.get("description")
         summary = None if _is_missing(summary_raw) else (str(summary_raw).strip() or None)
+        headline_type_raw = merged.get("headline_type") or merged.get("headlineType")
+        headline_type = (
+            None
+            if _is_missing(headline_type_raw)
+            else (str(headline_type_raw).strip().lower() or None)
+        )
+        tags_raw = merged.get("tags") or merged.get("labels")
+        tags = None
+        if isinstance(tags_raw, str):
+            tags = [t.strip() for t in tags_raw.split(",") if t.strip()]
+        elif isinstance(tags_raw, (list, tuple, set)):
+            tags = [str(t).strip() for t in tags_raw if str(t).strip()]
+        if tags:
+            tags = sorted(set(tags))
         related_raw = (
             merged.get("relatedTickers")
             or merged.get("related_tickers")
@@ -645,6 +659,8 @@ def _normalize_news_items(raw_news, limit: int = 30) -> list[dict[str, Any]]:
                 "publisher": publisher,
                 "published_at": published_at,
                 "summary": summary,
+                "headline_type": headline_type,
+                "tags": tags,
                 "related_tickers": related,
             }
         )
@@ -656,11 +672,14 @@ def _normalize_news_items(raw_news, limit: int = 30) -> list[dict[str, Any]]:
 def _get_news_with_fallback(ticker: str, limit: int = 30) -> tuple[list[dict[str, Any]], str]:
     try:
         raw = get_company_news(ticker, limit=limit)
+        news_source = "rss"
+        if isinstance(raw, tuple) and len(raw) == 2:
+            raw, news_source = raw
         items = _normalize_news_items(raw, limit=limit)
-        return items, "rss_pending"
+        return items, news_source or "rss"
     except Exception as exc:
         log.warning("RSS news fetch failed for %s: %s", ticker, exc)
-        return [], "rss_pending"
+        return [], "rss"
 
 
 class TickerAiAnalysisRequest(BaseModel):

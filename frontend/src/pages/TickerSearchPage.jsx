@@ -167,6 +167,37 @@ function formatNewsTimestamp(value) {
   });
 }
 
+const HEADLINE_TYPE_LABELS = {
+  upgrade: "Upgrade",
+  downgrade: "Downgrade",
+  initiation: "Initiation",
+  price_target: "Price Target",
+  rating_maintained: "Rating Maintained",
+};
+
+const HEADLINE_TYPE_COLORS = {
+  upgrade: "success",
+  downgrade: "error",
+  initiation: "info",
+  price_target: "warning",
+  rating_maintained: "default",
+};
+
+function resolveHeadlineBadge(item) {
+  if (!item) return null;
+  const direct = (item.headline_type || "").toLowerCase();
+  let key = direct;
+  if (!key && Array.isArray(item.tags)) {
+    key = item.tags.map((tag) => String(tag).toLowerCase()).find((tag) => HEADLINE_TYPE_LABELS[tag]) || "";
+  }
+  if (!key) return null;
+  return {
+    label: HEADLINE_TYPE_LABELS[key] || key,
+    color: HEADLINE_TYPE_COLORS[key] || "default",
+  };
+}
+
+
 function CandleTooltip({ active, payload, label, currency }) {
   if (!active || !payload?.length) return null;
   const row = payload[0]?.payload || {};
@@ -1546,7 +1577,9 @@ export default function TickerAnalysisPage() {
           </Box>
         ) : displayedNews.length ? (
           <Stack spacing={1.25}>
-            {displayedNews.map((item, idx) => (
+            {displayedNews.map((item, idx) => {
+              const badge = resolveHeadlineBadge(item);
+              return (
               <Box
                 key={item.id || item.link || `${item.title}-${idx}`}
                 sx={{ display: "grid", gap: 0.35 }}
@@ -1569,6 +1602,14 @@ export default function TickerAnalysisPage() {
                     </Typography>
                   )}
                   {item.publisher ? <Chip size="small" variant="outlined" label={item.publisher} /> : null}
+                  {badge ? (
+                    <Chip
+                      size="small"
+                      color={badge.color}
+                      variant={badge.color === "default" ? "outlined" : "filled"}
+                      label={badge.label}
+                    />
+                  ) : null}
                 </Stack>
                 <Typography variant="caption" color="text.secondary">
                   {formatNewsTimestamp(item.published_at) || "Time unknown"}
@@ -1580,7 +1621,8 @@ export default function TickerAnalysisPage() {
                 ) : null}
                 {idx < displayedNews.length - 1 && <Divider sx={{ mt: 1 }} />}
               </Box>
-            ))}
+              );
+            })}
           </Stack>
         ) : (
           <Alert severity="info">No headlines yet. Search a ticker to load its news.</Alert>

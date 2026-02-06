@@ -186,6 +186,8 @@ def _short_term_catalyst_snapshot(
     reasons: set[str] = set()
 
     news_items = get_company_news(ticker, limit=50)
+    if isinstance(news_items, tuple):
+        news_items = news_items[0]
     for row in news_items:
         if not isinstance(row, dict):
             continue
